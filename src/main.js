@@ -8,8 +8,8 @@ const FORUM_USERS = ['xX_TabGhoul_Xx', 'fretwizard77', 'DropD4Eva', 'mallgothdad
 const BADGES = ['BEST VIEWED WHILE SHREDDING', 'TABS NEVER DIE', 'MIDI IS PEOPLE TOO', 'UNDER CONSTRUCTION FOREVER', 'DROP D OR DROP DEAD', 'POWERED BY MOUNTAIN DEW CODE RED', 'NETSCAPE FRIENDLY', 'HAND-CODED IN DESPERATION', 'NO NU METAL HATE MAIL', 'PRINT THIS BEFORE AOL DELETES IT']
 const STAMPS = ['🕸️ haunted', '💿 cd-r verified', '📡 56k approved', '⚡ solo safe', '🦇 mallgoth tested', '🧃 surge compatible']
 const WEBRINGS = ['Pacific Northwest Bedroom Shred Ring', 'Dial-Up Doom Guitarists Alliance', 'Angsty Tabs for Sensitive Delinquents', 'Geocities Axe Altar Webring']
-const TUNINGS = ['E A D G B E', 'D A D G B E', 'D G C F A D', 'C G C F A D', 'D A D F# A D', 'Eb Ab Db Gb Bb Eb']
-const KEYS = ['E minor', 'A dorian', 'D mixolydian', 'G minor pentatonic', 'C# phrygian-ish', 'B natural minor', 'F lydian if you squint']
+const TUNINGS = ['E A D G B E', 'D A D G B E', 'D G C F A D', 'D A D F# A D', 'Eb Ab Db Gb Bb Eb']
+const KEYS = ['E minor', 'D minor', 'D mixolydian', 'G major', 'A dorian', 'B minor']
 const ERAS = ['Summer 1998', 'Fall 1999', 'Y2K eve', 'that one LAN party weekend', 'the week everyone got a wah pedal', 'the month before somebody\'s starter jacket got stolen']
 const RARE_EVENTS = ['cursed mirror verified', 'missing verse fragment recovered', 'disputed authorship thread', 'one-hit guestbook prophecy', 'prom-night bootleg provenance']
 
@@ -94,22 +94,199 @@ const BANDS = [
 const MOODS = {
   feral: {
     label: 'feral basement peak', descriptors: ['feral', 'amp-rattling', 'mosh-adjacent'],
-    lane: 'basement feral', tabs: ['PM--', 'x-', '/-', 'h', 'p'],
-    chordPool: ['E5', 'G5', 'A5', 'C5', 'D5'],
-    drumStyle: ['kick', 'hat', 'kick', 'snare', 'kick', 'hat', 'snare', 'kick'],
+    lane: 'basement feral', tabs: ['PM--', 'x', '/', '5', '7'],
+    chordPool: ['D5', 'F5', 'G5', 'Bb5', 'C5'],
+    drumStyle: ['kick', 'hat', 'kick', 'snare', 'kick', 'kick', 'snare', 'hat'],
+    vocab: 'drop-D power-chord battery, octave answers, and palm-muted choke/release motion',
   },
   shimmery: {
     label: 'shimmery food-court ache', descriptors: ['shimmery', 'chorused', 'heartbruised'],
     lane: 'shimmer heartbreak', tabs: ['12', '10', '7', '~', '/'],
-    chordPool: ['Em(add9)', 'Cmaj7', 'G', 'Dsus2', 'A7sus4'],
+    chordPool: ['Em(add9)', 'Cmaj7', 'G6', 'Dsus2', 'Am7'],
     drumStyle: ['hat', 'hat', 'snare', 'hat', 'kick', 'hat', 'snare', 'hat'],
+    vocab: 'open-string suspensions, chiming dyads, and top-string answer lines',
   },
   moody: {
     label: 'moody fluorescent yearning', descriptors: ['moody', 'slow-burn', 'rain-on-payphone'],
     lane: 'fluorescent yearning', tabs: ['0', '3', '5', '7', '~'],
-    chordPool: ['Em', 'C', 'G/B', 'Dsus4', 'Am'],
+    chordPool: ['Em', 'Cmaj7', 'G', 'Dsus2', 'Am7'],
     drumStyle: ['kick', 'hat', 'snare', 'hat', 'kick', 'hat', 'hat', 'snare'],
+    vocab: 'drone-string figures, suspended grips, and small octave ghosts',
   },
+}
+
+const SONGBOOK = {
+  feral: [
+    {
+      id: 'dropd-battery',
+      tuning: 'D A D G B E',
+      key: 'D minor',
+      progression: ['D5', 'Bb5', 'F5', 'C5'],
+      hero: 'A drop-D verse that slams low fifths, then answers itself with a higher octave stab.',
+      motifSummary: 'low-string chug → octave jab on D/G strings → one-bar dropout → full return',
+      hookShape: '0-0-3-5 / 7-7-5-3',
+      rhythmMap: ['1e+a / 3+ · palm-muted chug', '2+ / 4e · octave answer', '1--- / answer · dropout bar', '1e+a / 3+ · full-rig return'],
+      sections: [
+        { name: 'verse', chord: 'D5', feature: 'open low-D chug under a 0-3-5 climb' },
+        { name: 'answer', chord: 'Bb5', feature: 'octave stab on the D and G strings at 8/10' },
+        { name: 'dropout', chord: 'F5', feature: 'single-note low-string crawl with space left open' },
+        { name: 'turnaround', chord: 'C5', feature: 'slide back into the opening chug from 5/3' },
+      ],
+      tabLines: [
+        'e|----------------|----------------|----------------|----------------|',
+        'B|----------------|----------------|----------------|----------------|',
+        'G|----------------|--10--10-------|----------------|---------5/7----|',
+        'D|----------------|---8---8-------|------3-----5---|-----5-5--------|',
+        'A|----------------|----------------|----3---3-------|---5------------|',
+        'D|-0-0-0-3-5-3-0--|-0-0-0-0-0-0-0-|-0-0-----3-3----|-5-5---3---0----|',
+      ],
+      bassPattern: [0, 0, 8, 8, 3, 3, 10, 10],
+      chordRoots: [0, 8, 3, 10],
+      commentTemplates: [
+        'The tab actually matches the page now: bar 1 is the low-D 0-3-5 climb, and bar 2 answers with those 8/10 octaves.',
+        'Do not flatten the dropout bar — the empty space before the F5 crawl is the whole point of the turnaround.',
+        'You can hear the pick hand open up when the chug stops and the octave jab takes over.',
+        'Forum consensus: this riff only works if the return slide really lands on the visible 5/3 move.'
+      ],
+      guestbook: ['printed the drop-D shape and stole the turnaround for our bridge', 'the 8/10 octave answer is why the chorus finally makes sense', 'left the dropout bar untouched because the silence hits harder than another chord'],
+    },
+    {
+      id: 'octave-riot',
+      tuning: 'D A D G B E',
+      key: 'D mixolydian',
+      progression: ['D5', 'G5', 'Bb5', 'C5'],
+      hero: 'A parking-lot riff built from low-string grind and a recurring octave siren.',
+      motifSummary: 'open D pedal → 5/7 power move → octave siren at 7/9 → stomped ending',
+      hookShape: '0-0-5-7 / 7-9-7-5',
+      rhythmMap: ['1e+a / 3+ · open-string battery', '2+ / 4e · power-chord shove', '1--- / answer · octave siren', '1e+a / 3+ · stomp ending'],
+      sections: [
+        { name: 'verse', chord: 'D5', feature: 'open D pedal with short mutes' },
+        { name: 'pre-chorus', chord: 'G5', feature: '5/7 shove across the two lowest strings' },
+        { name: 'answer', chord: 'Bb5', feature: '7/9 octave siren on D/G strings' },
+        { name: 'turnaround', chord: 'C5', feature: 'descending stomp back to the root' },
+      ],
+      tabLines: [
+        'e|----------------|----------------|----------------|----------------|',
+        'B|----------------|----------------|----------------|----------------|',
+        'G|----------------|----------------|--9--9--9-7-----|----------------|',
+        'D|----------------|----------------|--7--7--7-5-----|--5---3---------|',
+        'A|----------------|-5-5-5-5-7-7---|----------------|--5---3---------|',
+        'D|-0-0-x-0-0-x-0--|-5-5-5-5-7-7---|-0-0-x-0-0-x-0--|--5---3---0-----|',
+      ],
+      bassPattern: [0, 0, 7, 7, 8, 8, 10, 10],
+      chordRoots: [0, 7, 8, 10],
+      commentTemplates: [
+        'The octave siren in bar 3 is literally the visible 7/9 shape on D and G — not a mystery lead overdub.',
+        'Bar 2 is just D5 shoved up to G5; stop rewriting it as separate chords.',
+        'This one inspires songs because the verse and answer are obviously related instead of random noodles.',
+        'The stomp ending works because the page keeps the root pedal alive underneath the move to C5.'
+      ],
+      guestbook: ['used this as a verse immediately', 'the 5/7 shove into the siren is embarrassingly catchy', 'yes the tab finally reads like something a band would actually rehearse'],
+    },
+  ],
+  shimmery: [
+    {
+      id: 'shimmer-dyads',
+      tuning: 'E A D G B E',
+      key: 'E minor',
+      progression: ['Em(add9)', 'Cmaj7', 'G6', 'Dsus2'],
+      hero: 'A chiming open-string progression with a high-answer figure that keeps quoting the verse.',
+      motifSummary: 'open E/B shimmer → upper-string answer at 7/8/10 → brief breath → full progression bloom',
+      hookShape: '0-0-7-8 / 10-8-7-0',
+      rhythmMap: ['2+ / 4e · open-string shimmer', '2+ / 4e · upper-register answer', '1--- / answer · breath bar', '2+ / 4e · progression bloom'],
+      sections: [
+        { name: 'verse', chord: 'Em(add9)', feature: 'open E and B ringing through a 0-7-8 figure' },
+        { name: 'answer', chord: 'Cmaj7', feature: 'high dyad at 8/8 resolving to 7/7' },
+        { name: 'breath', chord: 'G6', feature: 'single melodic thread while the open B keeps chiming' },
+        { name: 'turnaround', chord: 'Dsus2', feature: 'return slide into the original suspended voicing' },
+      ],
+      tabLines: [
+        'e|-0-----0---------|-8-----7-------|-7-----5-------|-0-----0---------|',
+        'B|-0-----0---------|-8-----8-------|-7-----7-------|-3-----3---------|',
+        'G|-0h2---0h2-------|-9-----9-------|-7-----7-------|-2-----2---------|',
+        'D|-2-----2---------|-10----9-------|-5-----4-------|-0-----0---------|',
+        'A|-2-----3---------|-10----10------|-5-----5-------|-----------------|',
+        'E|-0-----0---------|-8-----8-------|-3-----3-------|-----------------|',
+      ],
+      bassPattern: [0, 0, 8, 8, 3, 3, 10, 10],
+      chordRoots: [0, 8, 3, 10],
+      commentTemplates: [
+        'The comments keep calling it shimmer because you can literally see the open E and B strings ringing through every bar.',
+        'Bar 2 is the visible Cmaj7-ish answer at 8/8/9/10, not a separate solo part.',
+        'The little breath in bar 3 is why the last Dsus2 return lands like a chorus instead of filler.',
+        'This is one of the first outputs here that reads like a song fragment you could actually finish.'
+      ],
+      guestbook: ['the suspended top strings are doing exactly the emotional labor people say they are', 'stole the bar 2 answer for a bridge immediately', 'thank you for keeping the open B drone in the tab and in the comments'],
+    },
+    {
+      id: 'mall-glass',
+      tuning: 'E A D G B E',
+      key: 'G major',
+      progression: ['G6', 'Dsus2', 'Em7', 'Cmaj7'],
+      hero: 'A chorus-pedal postcard: airy dyads on top, open-string glue underneath.',
+      motifSummary: 'high dyad descent → open-string answer → held suspension → repeat with wider ending',
+      hookShape: '12-10-7-5 / 0-0-7-8',
+      rhythmMap: ['2+ / 4e · high dyad descent', '2+ / 4e · open-string answer', '1--- / answer · held suspension', '2+ / 4e · wider ending'],
+      sections: [
+        { name: 'intro', chord: 'G6', feature: '12-10-7 descent against open G/B strings' },
+        { name: 'answer', chord: 'Dsus2', feature: 'open-string reply with second-fret suspension' },
+        { name: 'hold', chord: 'Em7', feature: 'let-ring dyad on the middle strings' },
+        { name: 'turnaround', chord: 'Cmaj7', feature: 'resolve by widening the top interval' },
+      ],
+      tabLines: [
+        'e|-12---10---7----|-0-----0-------|-7~~~~---------|-8-----7---------|',
+        'B|-12---10---8----|-3-----3-------|-8~~~~---------|-8-----8---------|',
+        'G|-12---11---7----|-2-----2-------|-7~~~~---------|-9-----9---------|',
+        'D|----------------|-0-----0-------|-9~~~~---------|-10----9---------|',
+        'A|----------------|----------------|-7~~~~---------|-10----10--------|',
+        'E|-3--------------|----------------|---------------|-8-----8---------|',
+      ],
+      bassPattern: [7, 7, 2, 2, 4, 4, 9, 9],
+      chordRoots: [7, 2, 4, 9],
+      commentTemplates: [
+        'The first bar is that visible 12-10-7 glassy descent; the page should talk about it because it is the riff.',
+        'Notice how the Dsus2 reply really is just the open-string version of the same contour.',
+        'Holding the Em7 in bar 3 gives the comments an actual thing to call “let it ring.”',
+        'This finally reads like a chorus someone forgot to finish, which is exactly the good version of fake musicianship.'
+      ],
+      guestbook: ['this one sounds like fluorescent lights reflecting off wet asphalt', 'the top-string descent into the open reply is a real songwriting move', 'yes i printed it because the bar 3 hold is weirdly lovely'],
+    },
+  ],
+  moody: [
+    {
+      id: 'drone-figure',
+      tuning: 'D A D G B E',
+      key: 'A dorian',
+      progression: ['Am7', 'G', 'Dsus2', 'Am7'],
+      hero: 'A moody drone figure that keeps returning to the same open-string center while the melody shifts around it.',
+      motifSummary: 'open-A style drone implied over DADGBE → small upper answer → suspended hold → restated opening',
+      hookShape: '0-2-3-2 / 5-3-2-0',
+      rhythmMap: ['2+ / 4e · drone figure', '2+ / 4e · answering melody', '1--- / answer · suspended hold', '2+ / 4e · opening restated'],
+      sections: [
+        { name: 'verse', chord: 'Am7', feature: 'repeating drone against a 0-2-3-2 melody' },
+        { name: 'answer', chord: 'G', feature: 'the same contour shifted down to a darker landing' },
+        { name: 'hold', chord: 'Dsus2', feature: 'open-string suspension with one note moving inside it' },
+        { name: 'return', chord: 'Am7', feature: 'exact opening figure returns so the fragment feels authored' },
+      ],
+      tabLines: [
+        'e|-0-----0---------|-3-----2-------|-0~~~~---------|-0-----0---------|',
+        'B|-1-----1---------|-3-----3-------|-3~~~~---------|-1-----1---------|',
+        'G|-0-----2---------|-0-----0-------|-2~~~~---------|-0-----2---------|',
+        'D|-2-----2---------|-0-----0-------|-0~~~~---------|-2-----2---------|',
+        'A|-0-----0---------|-2-----2-------|----------------|-0-----0---------|',
+        'D|-----------------|----------------|----------------|-----------------|',
+      ],
+      bassPattern: [9, 9, 7, 7, 0, 0, 9, 9],
+      chordRoots: [9, 7, 0, 9],
+      commentTemplates: [
+        'This one finally earns the “yearning” copy because the opening 0-2-3-2 figure literally comes back in bar 4.',
+        'Bar 3 is not empty; it is the visible Dsus2 suspension with only one interior note changing.',
+        'You could build a whole verse from the way the answer shadows the first contour instead of abandoning it.',
+        'Forum note: the tab, progression, and mood text are all talking about the same drone now.'
+      ],
+      guestbook: ['the recurring opening figure is why this feels like a song fragment and not wallpaper', 'stole the Dsus2 hold for something slower', 'bless whoever kept the answer phrase related to the first bar'],
+    },
+  ],
 }
 
 const DEMOS = [
@@ -292,8 +469,9 @@ function sampleFeatures(audioBuffer) {
 }
 
 function classifyMood(meta) {
+  if (meta.duration > 3.7 && meta.sustain > 0.08) return 'shimmery'
   if (meta.rms > 0.22 || meta.peak > 0.72 || meta.attack > 0.7) return 'feral'
-  if (meta.zeroRate > 0.12 || meta.duration > 3.8 || meta.sustain > 0.03) return 'shimmery'
+  if (meta.zeroRate > 0.12 || meta.duration > 3.4 || (meta.sustain > 0.03 && meta.brightness > 0.015)) return 'shimmery'
   return 'moody'
 }
 
@@ -338,50 +516,29 @@ function tabToken(rand, pool, fretBase) {
   return `${Math.max(0, fretBase + Math.floor(rand() * 8) - 2)}`
 }
 
-function buildMotifs(rand, meta, moodKey) {
-  const base = Math.round(clamp(meta.rms * 26 + meta.duration * 1.8 + meta.attack * 5, 2, 13))
-  const lane = MOODS[moodKey]
-  const motifA = [0, 2, 3, 2].map((v, i) => `${Math.max(0, base + v - (i === 3 ? 1 : 0))}`)
-  const motifB = moodKey === 'shimmery'
-    ? [0, 3, 7, '7~']
-    : moodKey === 'feral'
-      ? [0, 0, 'x', 3]
-      : [0, 2, 5, 3]
-  const answer = shuffle(rand, motifA).slice(0, 4)
-  return { motifA, motifB, answer, lane }
+function chooseSongProfile(rand, moodKey, meta) {
+  const options = SONGBOOK[moodKey] || SONGBOOK.moody
+  const index = Math.abs((meta.baseSeed ?? meta.exactSeed ?? 0) + meta.reroll) % options.length
+  return options[index] || options[0]
 }
 
-function buildRhythmMap(meta, bars) {
-  const amp = meta.amplitudes
-  return Array.from({ length: bars }, (_, bar) => {
-    const slice = amp.slice(bar * 12, bar * 12 + 12)
-    const avg = slice.reduce((sum, n) => sum + n, 0) / Math.max(1, slice.length)
-    const note = avg > 0.18 ? 'choke-hit' : avg > 0.1 ? 'open ring' : 'dropout bar'
-    const accent = avg > 0.17 ? '1e+a / 3+' : avg > 0.1 ? '2+ / 4e' : '1--- / answer'
-    return `${accent} · ${note}`
-  })
+function buildMotifs(profile) {
+  const hook = profile.hookShape.split(' / ')
+  return {
+    motifA: hook[0].split('-'),
+    answer: (hook[1] || hook[0]).split('-'),
+    motifB: profile.sections.map((section) => section.chord),
+    lane: profile.hero,
+  }
 }
 
-function makeTabLines(rand, meta, moodKey) {
-  const mood = MOODS[moodKey]; const fretBase = Math.max(0, Math.min(12, Math.round(meta.rms * 28 + meta.duration * 1.4))); const bars = 4; const motifs = buildMotifs(rand, meta, moodKey); const rhythmMap = buildRhythmMap(meta, bars)
-  const phrases = [motifs.motifA, motifs.answer, motifs.motifB, meta.density < 0.46 ? ['--', '--', `${Math.max(0, fretBase - 2)}`, '--'] : motifs.motifA]
-  const lines = TAB_STRINGS.map((stringName, stringIndex) => {
-    let line = `${stringName}|`
-    for (let bar = 0; bar < bars; bar += 1) {
-      const phrase = phrases[bar]
-      for (let step = 0; step < 8; step += 1) {
-        const motifToken = phrase[step % 4]
-        let token = motifToken
-        if (stringIndex > 3 && moodKey === 'feral') token = step % 2 === 0 ? '0' : 'x'
-        else if (stringIndex < 2 && moodKey === 'shimmery' && step % 4 === 3) token = `${motifToken}`.replace(/\d+/, `${Math.max(0, fretBase + 7)}`)
-        else if (step % 4 === 1 && rand() > 0.55) token = tabToken(rand, mood.tabs, fretBase + ((bar + stringIndex) % 3))
-        line += `${String(token).padStart(4, '-')}`
-      }
-      line += '|'
-    }
-    return line
-  })
-  return { lines: lines.join('\n'), rhythmMap, motifs, bars }
+function makeTabLines(profile) {
+  return {
+    lines: profile.tabLines.join('\n'),
+    rhythmMap: profile.rhythmMap,
+    motifs: buildMotifs(profile),
+    bars: profile.tabLines[0].split('|').length - 2,
+  }
 }
 
 function buildTracklist(rand, title, band) { return [title, `${pick(rand, TITLE_PREFIXES)} ${pick(rand, TITLE_SUBJECTS)}`, `${band.albums[0].split(' (')[0]} (mirror rip)`, `${pick(rand, TITLE_PREFIXES)} ${pick(rand, TITLE_SUFFIXES)}`] }
@@ -405,37 +562,13 @@ function buildCanon(rand, meta, moodKey, title) {
   return { band, archetype, shrineKeeper, songHistory, recordingOrigin }
 }
 
-function buildForumComments(rand, canon, title, backing, moodKey) {
-  if (canon.archetype.id === 'gearhead') return Array.from({ length: 4 }, (_, i) => ({ user: FORUM_USERS[i], score: `${8 + i}/1${i}`, text: [
-    `This is not chorus; it is clearly doubled clean takes with ${backing.progression[1]} ringing over the root.`,
-    `Bar 2 reads like pickup-switch change plus palm angle shift, not a different riff.`,
-    `Mic placement rumor: one 57 on axis, one room mic beside a broken arcade machine.`,
-    `The answer phrase finally explains why the verse droops before the turnaround.`][i] }))
-  if (canon.archetype.id === 'foodcourt') return Array.from({ length: 4 }, (_, i) => ({ user: FORUM_USERS[i + 2], score: `${7 + i}/1${i}`, text: [
-    `${title} still feels like missing somebody in the mall parking lot after rain.`,
-    `Whoever archived this knew exactly which top strings had to smear together.`,
-    `I am not saying this was about one person, but it was definitely about one person.`,
-    `Printed this for my trapper keeper because the chorus hurts correctly.`][i] }))
-  if (canon.archetype.id === 'youthgroup') return Array.from({ length: 4 }, (_, i) => ({ user: FORUM_USERS[i + 4], score: `${7 + i}/1${i}`, text: [
-    `We do not endorse this riffing posture and yet the tab below is unusually complete.`,
-    `Please notice the caution box while also observing the bridge voicing on string 2.`,
-    `This page condemns obsession in theory and annotates it in practice.`,
-    `Testimony update: the dropout bar makes resistance difficult.`][i] }))
-  return Array.from({ length: 4 }, (_, i) => ({ user: FORUM_USERS[i + 1], score: `${7 + i}/1${i}`, text: [
-    `Archive correction: bar 3 is copied from the second mirror, not the vanished first host.`,
-    `The phrase answer looks wrong until you hear the sustain logic that caused it.`,
-    `Added 08/14/01: title disputed, emotional posture not disputed.`,
-    `Please preserve the marginal note about open strings or this whole page collapses.`][i] }))
+function buildForumComments(rand, canon, title, backing, moodKey, profile) {
+  const offset = canon.archetype.id === 'gearhead' ? 0 : canon.archetype.id === 'foodcourt' ? 2 : canon.archetype.id === 'youthgroup' ? 4 : 1
+  return profile.commentTemplates.map((text, i) => ({ user: FORUM_USERS[(offset + i) % FORUM_USERS.length], score: `${7 + i}/1${i}`, text }))
 }
 
-function buildGuestbook(rand, title, band, archetypeId) {
-  const sets = {
-    catacomb: ['mirror still alive as of tonight', 'signed because the correction log is basically poetry', 'please keep the provenance notes intact'],
-    foodcourt: [`${title} is making my lip gloss sad again`, 'this shrine absolutely knew the orange julius lighting', `i hope ${band.name} never learns what this page did to me`],
-    gearhead: ['pick scrape rumor remains unresolved', 'someone post the amp knob positions immediately', 'the dropout bar is where the room mic proves itself'],
-    youthgroup: ['respectfully requesting fewer warnings and more bridge tabs', 'this page says avoid temptation and then labels every phrase', 'i came to rebuke this and stayed for the turnaround'],
-  }
-  return sets[archetypeId].map((text, index) => ({ name: pick(rand, FORUM_USERS), place: pick(rand, ['Salem, OR', 'AOL keyword: guitar', 'inside a Geo Prism', 'Corvallis basement scene', 'food court booth']), text }))
+function buildGuestbook(rand, title, band, archetypeId, profile) {
+  return profile.guestbook.map((text) => ({ name: pick(rand, FORUM_USERS), place: pick(rand, ['Salem, OR', 'AOL keyword: guitar', 'inside a Geo Prism', 'Corvallis basement scene', 'food court booth']), text }))
 }
 
 function buildRarePull(rand, canon) {
@@ -462,23 +595,34 @@ function buildArchetypeModules(shrine) {
   return `<section class="content-grid top-content-grid"><div>${whyBlock}${commonTab}</div><div class="sidebar-stack">${comments}${gear}</div></section><section class="content-grid lower-grid"><div>${track}</div><div>${guestbook}<div class="chrome inset love-note"><div class="section-title">archive marginalia</div><p>${escapeHtml(shrine.heroLine)}</p><p>${escapeHtml(archetype.voices.hero)}</p></div></div></section>`
 }
 
+function progressionRoots(progression) {
+  const map = { C: 0, D: 2, E: 4, F: 5, G: 7, A: 9, B: 11 }
+  return progression.map((chord) => {
+    const normalized = chord.replace('Bb', 'A#').replace('Eb', 'D#')
+    const note = normalized[0]
+    const accidental = normalized[1] === '#' ? 1 : 0
+    return (map[note] + accidental + 12) % 12
+  })
+}
+
 function generateShrine(meta) {
   const seed = meta.exactSeed ?? hashString(JSON.stringify(meta)); const rand = mulberry32(seed); const moodKey = classifyMood(meta); const mood = MOODS[moodKey]
   const title = `${pick(rand, TITLE_PREFIXES)} ${pick(rand, TITLE_SUBJECTS)} ${pick(rand, TITLE_SUFFIXES)}`; const bpm = 76 + Math.floor(rand() * 72)
-  const canon = buildCanon(rand, meta, moodKey, title); const tuning = pick(rand, TUNINGS); const key = pick(rand, KEYS); const era = pick(rand, ERAS)
-  const badges = shuffle(rand, BADGES).slice(0, 4); const stamps = shuffle(rand, STAMPS).slice(0, 3); const tab = makeTabLines(rand, meta, moodKey); const chordHints = shuffle(rand, mood.chordPool).slice(0, 4)
-  const sections = ['reading', 'verse', 'chorus', 'turnaround'].map((section, index) => `${section} · ${chordHints[index % chordHints.length]} · ${tab.rhythmMap[index % tab.rhythmMap.length]}`)
-  const backing = { tempo: bpm, rootMidi: 40 + Math.floor(rand() * 8), progression: chordHints, bassPattern: [0, 0, 7, 0, 5, 0, 7, 0], drumPattern: mood.drumStyle, shimmer: moodKey === 'shimmery', form: ['intro', 'verse', 'chorus', 'turnaround'], hookShape: tab.motifs.motifA.join('-') }
-  const comments = buildForumComments(rand, canon, title, backing, moodKey); const gear = buildGear(rand, moodKey); const guestbook = buildGuestbook(rand, title, canon.band, canon.archetype.id); const rarePull = buildRarePull(rand, canon)
+  const canon = buildCanon(rand, meta, moodKey, title); const profile = chooseSongProfile(rand, moodKey, meta); const tuning = profile.tuning || pick(rand, TUNINGS); const key = profile.key || pick(rand, KEYS); const era = pick(rand, ERAS)
+  const badges = shuffle(rand, BADGES).slice(0, 4); const stamps = shuffle(rand, STAMPS).slice(0, 3); const tab = makeTabLines(profile); const chordHints = profile.progression
+  const sections = profile.sections.map((section, index) => `${section.name} · ${section.chord} · ${section.feature}`)
+  const roots = profile.chordRoots || progressionRoots(chordHints)
+  const backing = { tempo: bpm, rootMidi: 38 + roots[0], progression: chordHints, bassPattern: profile.bassPattern || roots.flatMap((root) => [root, root]), drumPattern: mood.drumStyle, shimmer: moodKey === 'shimmery', form: profile.sections.map((section) => section.name), hookShape: profile.hookShape, chordRoots: roots }
+  const comments = buildForumComments(rand, canon, title, backing, moodKey, profile); const gear = buildGear(rand, moodKey); const guestbook = buildGuestbook(rand, title, canon.band, canon.archetype.id, profile); const rarePull = buildRarePull(rand, canon)
   const heroLine = canon.archetype.id === 'foodcourt'
-    ? `Nobody can prove ${title} was about one person, which is why everyone knows it was.`
+    ? `${profile.hero} Nobody can prove ${title} was about one person, which is why everyone knows it was.`
     : canon.archetype.id === 'gearhead'
-      ? `${title} feels less transcribed than reconstructed from room tone, pick angle, and stubborn memory.`
+      ? `${profile.hero} ${title} feels reconstructed from the exact voicings shown below, not vague room-tone lore.`
       : canon.archetype.id === 'youthgroup'
-        ? `This page condemns the riff with one hand and preserves it with the other.`
-        : `${title} survives because enough people copied the feeling, even when they missed the notes.`
+        ? `${profile.hero} This page condemns the riff with one hand and preserves the visible chord shapes with the other.`
+        : `${profile.hero} ${title} survives because the recurrence is strong enough to feel authored.`
 
-  return { version: 7, seed, baseSeed: meta.baseSeed ?? seed, reroll: meta.reroll ?? 0, title, mood: mood.label, bpm, tuning, key, era, vibe: meta.vibe || 'mysterious mall-goth intention', tabs: tab.lines, rhythmMap: tab.rhythmMap, comments, badges, stamps, backdrop: pick(rand, ['radial-gradient(circle at top, rgba(255,0,255,0.22), transparent 30%), repeating-linear-gradient(0deg, #12051f 0 2px, #0b0312 2px 4px)', 'radial-gradient(circle at 20% 20%, rgba(0,255,255,0.16), transparent 25%), linear-gradient(180deg, #190019, #03030a)', 'linear-gradient(180deg, #1f0935, #07040b 60%), repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 8px)', 'radial-gradient(circle at 80% 0%, rgba(255,238,99,0.15), transparent 28%), linear-gradient(180deg, #250026, #080811 66%)']), backing, relicText: `Recovered from ${canon.recordingOrigin} during ${era}. Source offering: ${meta.sourceLabel}.`, waveform: meta.amplitudes, tracklist: buildTracklist(rand, title, canon.band), gear, webring: pick(rand, WEBRINGS), guestbook, chordHints, sections, sourceLabel: meta.sourceLabel, stats: { duration: `${meta.duration.toFixed(3)} sec`, rms: meta.rms.toFixed(6), zeroRate: meta.zeroRate.toFixed(6), peak: meta.peak.toFixed(6), attack: meta.attack.toFixed(6), sustain: meta.sustain.toFixed(6), brightness: meta.brightness.toFixed(6), density: meta.density.toFixed(6) }, counter: String(120000 + (seed % 700000)).padStart(6, '0'), canon, reading: meta.reading, rarePull, heroLine, motifSummary: `motif ${tab.motifs.motifA.join('-')} → answer ${tab.motifs.answer.join('-')} → ${meta.density < 0.46 ? 'dropout bar' : 'return phrase'}` }
+  return { version: 8, seed, baseSeed: meta.baseSeed ?? seed, reroll: meta.reroll ?? 0, title, mood: mood.label, bpm, tuning, key, era, vibe: meta.vibe || 'mysterious mall-goth intention', tabs: tab.lines, rhythmMap: tab.rhythmMap, comments, badges, stamps, backdrop: pick(rand, ['radial-gradient(circle at top, rgba(255,0,255,0.22), transparent 30%), repeating-linear-gradient(0deg, #12051f 0 2px, #0b0312 2px 4px)', 'radial-gradient(circle at 20% 20%, rgba(0,255,255,0.16), transparent 25%), linear-gradient(180deg, #190019, #03030a)', 'linear-gradient(180deg, #1f0935, #07040b 60%), repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 8px)', 'radial-gradient(circle at 80% 0%, rgba(255,238,99,0.15), transparent 28%), linear-gradient(180deg, #250026, #080811 66%)']), backing, relicText: `Recovered from ${canon.recordingOrigin} during ${era}. Source offering: ${meta.sourceLabel}.`, waveform: meta.amplitudes, tracklist: buildTracklist(rand, title, canon.band), gear, webring: pick(rand, WEBRINGS), guestbook, chordHints, sections, sourceLabel: meta.sourceLabel, stats: { duration: `${meta.duration.toFixed(3)} sec`, rms: meta.rms.toFixed(6), zeroRate: meta.zeroRate.toFixed(6), peak: meta.peak.toFixed(6), attack: meta.attack.toFixed(6), sustain: meta.sustain.toFixed(6), brightness: meta.brightness.toFixed(6), density: meta.density.toFixed(6) }, counter: String(120000 + (seed % 700000)).padStart(6, '0'), canon, reading: meta.reading, rarePull, heroLine, motifSummary: profile.motifSummary, songProfile: profile, vocabNote: mood.vocab }
 }
 
 function renderReading(recipe) {
@@ -571,12 +715,15 @@ function scheduleNoiseHit(context, destination, start, strength = 0.02, length =
 async function playBacking() {
   if (!state.generated) return setStatus('Generate a shrine first, then I can play the backing track.')
   const context = await getAudioContext(); const master = context.createGain(); master.gain.value = 0.8; master.connect(context.destination)
-  const now = context.currentTime + 0.05; const beat = 60 / state.generated.bpm; const { rootMidi, bassPattern, drumPattern, shimmer } = state.generated.backing; const intervals = [0, 7, 12, shimmer ? 14 : 10]
+  const now = context.currentTime + 0.05; const beat = 60 / state.generated.bpm
+  const { rootMidi, bassPattern, drumPattern, shimmer, chordRoots } = state.generated.backing
+  const chordFlavor = shimmer ? [0, 7, 11, 14] : [0, 7, 12, 15]
   bassPattern.forEach((offset, step) => {
     const sectionGain = step < 2 ? 0.028 : step < 4 ? 0.036 : step < 6 ? 0.048 : 0.03
     const start = now + step * beat
+    const chordRoot = chordRoots[step % chordRoots.length]
     scheduleNote(context, master, { type: shimmer ? 'triangle' : 'sawtooth', frequency: midiToFreq(rootMidi + offset), start, duration: beat * 0.9, gainValue: shimmer ? sectionGain : sectionGain + 0.01, filterFrequency: shimmer ? 1600 + step * 40 : 1100 + step * 30 })
-    intervals.forEach((interval, index) => scheduleNote(context, master, { type: index === 0 ? 'square' : 'triangle', frequency: midiToFreq(rootMidi + interval + (step % 2 === 0 ? 12 : 0)), start, duration: beat * (step === 6 ? 0.45 : 0.75), gainValue: 0.012 + index * 0.004, filterFrequency: shimmer ? 2400 : 1700 }))
+    chordFlavor.forEach((interval, index) => scheduleNote(context, master, { type: index === 0 ? 'square' : 'triangle', frequency: midiToFreq(45 + chordRoot + interval + (step % 2 === 0 ? 12 : 0)), start, duration: beat * (step === bassPattern.length - 2 ? 0.45 : 0.75), gainValue: 0.012 + index * 0.004, filterFrequency: shimmer ? 2400 : 1700 }))
     const hit = drumPattern[step % drumPattern.length]
     if (hit === 'kick') scheduleNoiseHit(context, master, start, 0.012, 0.09)
     if (hit === 'snare') scheduleNoiseHit(context, master, start, 0.02, 0.05)

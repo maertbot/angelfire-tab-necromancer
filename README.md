@@ -20,6 +20,7 @@ Wave 2 is aimed at the actual ceiling the Wave 1 build exposed: making the outpu
 - Generates deterministic shrine variants with:
   - stronger motif recurrence in the tab
   - phrase / answer / dropout behavior tied more directly to the sampled input
+  - curated song-fragment templates so the chord names, visible tab, section blurbs, and comments agree more often
   - more section contrast in the lo-fi backing track
 - Makes the four shrine archetypes feel more distinct:
   - catacomb archive
@@ -84,6 +85,7 @@ npm run preview -- --host 127.0.0.1 --port 4173
 
 ## Honest limitations
 - This is still **procedural shrine fiction**, not transcription or pitch detection.
+- The current pass uses a small curated library of archetype-aware song fragments so demo outputs stay musically legible; it is intentionally biased toward coherent fake songwriting over open-ended tab chaos.
 - The “riff reading” is based on lightweight sampled features, not ML audio understanding.
 - Backing playback keeps deterministic structure, but noise hits are still live-generated, so texture is not sample-for-sample identical across button presses.
 - Favorites are local browser storage only; there is no sync.
