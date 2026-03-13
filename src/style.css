@@ -67,6 +67,11 @@ h3 { font-size: clamp(1.7rem, 3vw, 3rem); color: white; margin-bottom: 8px; text
 .wave-wrap canvas { width: 100%; height: auto; display: block; border: 2px inset #ff8eea; image-rendering: pixelated; }
 .panel-head { display: flex; gap: 12px; justify-content: space-between; align-items: start; margin-bottom: 16px; }
 .shrine-empty { min-height: 540px; display: grid; place-items: center; text-align: center; background: radial-gradient(circle at top, rgba(255, 255, 255, 0.08), transparent 28%), rgba(0, 0, 0, 0.38); border: 2px dashed var(--border); }
+.archive-shell { border: 2px solid rgba(139, 248, 255, 0.32); padding: 10px; background: rgba(3, 0, 10, 0.28); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08); }
+.archive-viewport { margin: 0 0 12px; border-color: rgba(255, 238, 99, 0.45); background: rgba(0, 0, 0, 0.52); }
+.archive-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; color: #ffe894; font-family: 'Courier New', monospace; font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.archive-subhead { margin-top: 6px; opacity: 0.72; font-family: 'Courier New', monospace; font-size: 0.78rem; }
+.band-note-block p { margin-bottom: 6px; }
 .construction { color: var(--yellow); font-weight: bold; font-size: 1.2rem; animation: blink 1s steps(2, start) infinite; }
 .hero-banner, .content-grid, .stats-grid, .zine-grid, .sidebar-stack, .canon-grid, .history-spine { display: grid; gap: 14px; }
 .hero-banner { grid-template-columns: minmax(0, 1fr) 210px; align-items: center; padding: 18px; }

@@ -179,6 +179,29 @@ const DRAMA_COMMENTS = [
   'mods please delete the spam above'
 ]
 
+const MEMORY_COMMENTS = [
+  '{band} were better live at {venue} than this tab shows.',
+  'correction: that show was in {town}, not {rivalTown}.',
+  'second chord in bar 2 is {chord}, not whatever got posted here.',
+  'they opened for a heavier band at {venue} and still won the room.',
+  'this riff came out of {practiceSpace}; everyone from {town} knows that.',
+  'people keep blaming {promoter}, but the curfew on {road} killed the set.',
+  'if you were there, you remember the argument in the parking lot after {venue}.',
+  'the mirror on {deadSite} had a cleaner tab before links died.',
+  'quit saying they were from {rivalTown}. they practiced in {town} every week.',
+  'lineup note: {member} handled the octave part live, not a backing track.',
+  'this belongs to the {sceneLabel} scene politics thread, not random tab chat.',
+  'you had to see {band} at {venue}; page copies never capture the feedback swell.',
+]
+
+const GUESTBOOK_MEMORY_LINES = [
+  'printed this before heading down {road}; still the right chords.',
+  'my cousin taped this at {venue} and the crowd yelled for bar 3 to repeat.',
+  'defending {band} forever. this was our {town} anthem for one summer.',
+  'the {promoter} thread was ugly but this tab is basically right.',
+  'if anyone has the {mirror} mirror zip, email me.',
+]
+
 // Item 2: Lore fragment system (30+ fragments)
 const LORE_FRAGMENTS = [
   // Mundane
@@ -316,22 +339,29 @@ const NAME_PATTERNS = {
 
 const REGIONAL_SCENES = {
   pnw: {
-    id: 'pnw', label: 'Oregon / PNW rain-burn circuit', slug: 'pnw',
-    webrings: ['Pacific Northwest Bedroom Shred Ring','I-5 Ghost Chord Alliance','Willamette Valley All-Ages Tone Spiral','Cascadia Tape Hiss Preservation Ring'],
-    badges: ['RAIN-SOAKED FLYER VERIFIED','I-5 EXIT SHRED APPROVED','ALL-AGES HALL SURVIVOR','FERN-SCENTED PRACTICE SPACE'],
-    stamps: ['🌲 rainy','🚐 i-5 routed','🌫️ bridge-reverb certified'],
-    keeperHandles: ['kristin_from_gatewaypc','tabsaint77','stolenwahpedal','mallsaint','midnightfretprayer','willamettecopykid'],
-    venues: ['WOW Hall in Eugene','the all-ages room behind the Salem skate shop','a VFW in Springfield','the Corvallis grange hall','the back room of a Portland coffeehouse with bad monitors'],
-    smallTowns: ['Springfield','Cottage Grove','Albany','Dallas','Silverton','McMinnville','Bandon','Monmouth','Roseburg','Grants Pass','Ashland','Bend','Hood River','The Dalles','Sweet Home','Lebanon','Newberg','Woodburn','Sandy','Canby','Stayton','Junction City','Florence','Coos Bay','Philomath'],
-    memoryTags: ['bridge condensation on a set list','copy shop staple rust','Black Butte road-trip tape flip','borrowed hoodie smelling like rain and cigarettes'],
-    flyerLanguage: ['ALL AGES / DON\'T BLOW IT','bring five bucks and your own sadness','flyer says 7 but nobody starts before 8:40','ask the kid by the merch Rubbermaid for directions'],
-    gearTalk: ['Peavey Bandit with one scratchy knob','Small Clone somebody swore was always on','crate combo on a milk crate','pawn-shop Jazzmaster copy through a dying cable'],
-    forumDrama: ['whether the pedal bridge was actually tracked under the Ferry Street bridge','the eternal argument about who stole the Small Clone','a 19-post fight over whether this was emo or just Oregon weather'],
-    recordingOrigins: ['a fourth-generation practice space dub from Eugene','an mp3 rescued from a Salem fan webring mirror','a tab emailed from a UO library terminal','a cassette rip labelled only SIDE B / WET BASEMENT'],
-    rareEvents: ['cursed mirror verified','missing verse fragment recovered','disputed authorship thread','pedalboard polaroid surfaced'],
+    id: 'pnw', label: 'Pacific Northwest lockout / rain-burn circuit', slug: 'pnw',
+    webrings: ['Pacific Northwest Bedroom Shred Ring','I-5 Ghost Chord Alliance','Willamette Valley All-Ages Tone Spiral','Cascadia Tape Hiss Preservation Ring','Dead Lane County Venue Ring'],
+    badges: ['RAIN-SOAKED FLYER VERIFIED','I-5 EXIT SHRED APPROVED','ALL-AGES HALL SURVIVOR','FERN-SCENTED PRACTICE SPACE','LOCKOUT KEY RING CERTIFIED'],
+    stamps: ['🌲 rainy','🚐 i-5 routed','🌫️ bridge-reverb certified','📼 minidv witness copy'],
+    keeperHandles: ['kristin_from_gatewaypc','tabsaint77','stolenwahpedal','mallsaint','midnightfretprayer','willamettecopykid','ferryst_bridge_lurker'],
+    venues: ['WOW Hall in Eugene','the all-ages room behind the Salem skate shop','a VFW in Springfield','the Corvallis grange hall','the back room of a Portland coffeehouse with bad monitors','a county-fair side stage outside Albany','a damp church basement in Vancouver, WA'],
+    smallTowns: ['Eugene','Springfield','Salem','Albany','Corvallis','McMinnville','Bandon','Monmouth','Roseburg','Grants Pass','Ashland','Bend','Hood River','The Dalles','Sweet Home','Lebanon','Newberg','Woodburn','Sandy','Canby','Stayton','Junction City','Florence','Coos Bay','Philomath','Veneta','Creswell','Dallas','Forest Grove'],
+    roads: ['I-5 between Eugene and Salem','Beltline at Delta Hwy','Ferry Street Bridge','Highway 99W through Monmouth','OR-126 toward Springfield','the wet overpass by Gateway Mall','Pacific Blvd in Albany','West 11th at midnight'],
+    practiceSpaces: ['a lockout behind the industrial strip off Garfield','the old skateshop stock room in Salem','a damp garage near River Road','storage units behind Coburg Rd','a rehearsal room over a vape shop in Springfield','a borrowed church room in Junction City'],
+    scenePolitics: ['Eugene kids said Salem bands played too clean','Corvallis bookers only trusted bands that loaded out fast','Portland spillover bills kept bumping locals to first slot','Springfield crews insisted the real scene stayed south of Beltline'],
+    promoterGrudges: ['Rook at Rainline Booking kept putting them first after they questioned guarantees','somebody blamed Valley Youth Presents for a missing $60 gas split','every board thread about Cedar House ended with accusations about pay-to-play'],
+    rivalScenes: ['the Corvallis house-show cluster','the Salem skate-park all-ages crews','Portland outskirts coffeehouse circuit','Vancouver, WA matinee scene'],
+    mirrors: ['an mp3 mirrored from rainburn.org before the host bill lapsed','a deadjournal paste copied into an Angelfire guestbook','a miniDV rip relisted on nwshowvault.net','a ZIP called FINAL_TABS_REAL.zip from an old UO server'],
+    deadSites: ['cascadetabhorde.8m.com','wetgaragefidelity.tripod.com','i5sadkids.geocities.com','laneallagesmirror.cjb.net'],
+    memoryTags: ['bridge condensation on a set list','copy shop staple rust','Black Butte road-trip tape flip','borrowed hoodie smelling like rain and cigarettes','Dutch Bros cup rings on a lyric sheet'],
+    flyerLanguage: ['ALL AGES / DON\'T BLOW IT','bring five bucks and your own sadness','flyer says 7 but nobody starts before 8:40','ask the kid by the merch Rubbermaid for directions','if the cops roll up, everyone become very polite'],
+    gearTalk: ['Peavey Bandit with one scratchy knob','Small Clone somebody swore was always on','crate combo on a milk crate','pawn-shop Jazzmaster copy through a dying cable','JCM900 only for headliner songs because the fuse kept blowing'],
+    forumDrama: ['whether the pedal bridge was actually tracked under the Ferry Street bridge','the eternal argument about who stole the Small Clone','a 19-post fight over whether this was emo or just Oregon weather','the lockout key dispute after the Bandon no-show weekend'],
+    recordingOrigins: ['a fourth-generation practice space dub from Eugene','an mp3 rescued from a Salem fan webring mirror','a tab emailed from a UO library terminal','a cassette rip labelled only SIDE B / WET BASEMENT','a minidisc transfer from a county-fair side stage set'],
+    rareEvents: ['cursed mirror verified','missing verse fragment recovered','disputed authorship thread','pedalboard polaroid surfaced','Wayback snapshot loaded once in 2011 then died'],
     rooms: {
-      shimmery: ['food court after closing','upstairs bedroom with christmas lights','church youth room during setup','pedestrian bridge under sodium lights'],
-      heavy: ['unfinished basement with concrete bloom','garage beside hockey pads','practice space behind the roller rink','storage unit by the bike path'],
+      shimmery: ['food court after closing','upstairs bedroom with christmas lights','church youth room during setup','pedestrian bridge under sodium lights','rental duplex living room with foggy windows'],
+      heavy: ['unfinished basement with concrete bloom','garage beside hockey pads','practice space behind the roller rink','storage unit by the bike path','freight-facing lockout off West 7th'],
     },
     guitars: ['Squier Strat with stickers','sunburst Yamaha Pacifica','pawn shop SG copy','black Epiphone Les Paul','mystery offset from a church rummage sale'],
     amps: ['Peavey Bandit','Crate half-stack','Fender Frontman 25R','borrowed Marshall combo','amp of unknown origin with one angry speaker'],
@@ -341,22 +371,29 @@ const REGIONAL_SCENES = {
     },
   },
   nc: {
-    id: 'nc', label: 'North Carolina triangle / piedmont circuit', slug: 'nc',
-    webrings: ['Triangle Feedback Preservation Ring','Piedmont Basement Signal Co-Op','Dogwood Distortion Webring','Carolina Late Show Tablature Circle'],
-    badges: ['DOGWOOD NIGHT APPROVED','TRIANGLE BOARD DRAMA ARCHIVED','PIEDMONT HOUSE SHOW VOUCHED','QUEEN CITY LOAD-IN SAFE'],
-    stamps: ['🌙 dogwood night approved','📍 triangle routed','🚬 parking-lot argument saved'],
-    keeperHandles: ['catscradleburner','durhamdialup','mergeboardlurker','queencitytapeop','chapelhillghost','dogwoodfeedback'],
-    venues: ['Cat\'s Cradle back room in Carrboro','a Durham warehouse off Geer Street','a VFW outside Raleigh','a Charlotte practice spot by the freight tracks','the Winston-Salem coffeehouse matinee'],
-    smallTowns: ['Carrboro','Hillsborough','Saxapahaw','Mebane','Kannapolis','Boone','Pittsboro','Burlington','Sanford','Gastonia','Asheville','Hickory','Morganton','Shelby','Kings Mountain','Lexington','Thomasville','Graham','Siler City','Asheboro','Erwin','Lumberton','Hendersonville','Brevard','Waynesville'],
-    memoryTags: ['dogwood petals mashed into a set list','Waffle House receipt with tunings on the back','I-40 overnight tape dub','parking-lot humidity curling the flyer corners'],
-    flyerLanguage: ['ALL AGES / BRING CASH / DON\'T CALL THE COPS','matinee if the hardcore bill clears out in time','someone\'s cousin is running sound, be cool','if you miss the Carrboro exit you missed the whole summer'],
-    gearTalk: ['JC-120 borrowed from somebody\'s older brother','rat pedal with the paint rubbed off','solid-state combo that somehow loved open chords','Mustang bass through an SVT nobody could afford to break'],
-    forumDrama: ['whether the clean tone was a Jazzmaster or just the JC-120','a 30-reply argument over flyer etiquette','who was subtweeting who before subtweets existed'],
-    recordingOrigins: ['a four-track dub from a Carrboro duplex','an mp3 mirrored off a Chapel Hill student server','a CD-R passed around after a Raleigh matinee','a board-post attachment salvaged from a Charlotte scene forum backup'],
-    rareEvents: ['Cat\'s Cradle flyer scan attached','guestbook beef reignited','Waffle House receipt tab corroborated','board-admin lock after page 4'],
+    id: 'nc', label: 'North Carolina triangle / piedmont parking-lot circuit', slug: 'nc',
+    webrings: ['Triangle Feedback Preservation Ring','Piedmont Basement Signal Co-Op','Dogwood Distortion Webring','Carolina Late Show Tablature Circle','Cat\'s Cradle Orbit Link Ring'],
+    badges: ['DOGWOOD NIGHT APPROVED','TRIANGLE BOARD DRAMA ARCHIVED','PIEDMONT HOUSE SHOW VOUCHED','QUEEN CITY LOAD-IN SAFE','HUMIDITY-CURLED FLYER SCANNED'],
+    stamps: ['🌙 dogwood night approved','📍 triangle routed','🚬 parking-lot argument saved','📠 copy-shop mirror confirmed'],
+    keeperHandles: ['catscradleburner','durhamdialup','mergeboardlurker','queencitytapeop','chapelhillghost','dogwoodfeedback','saxapahaw_aftershow'],
+    venues: ['Cat\'s Cradle back room in Carrboro','a Durham warehouse off Geer Street','a VFW outside Raleigh','a Charlotte practice spot by the freight tracks','the Winston-Salem coffeehouse matinee','an all-ages room above a Greensboro skate shop','a Hillsborough church hall next to the thrift store'],
+    smallTowns: ['Carrboro','Chapel Hill','Durham','Raleigh','Greensboro','Charlotte','Hillsborough','Roxboro','Saxapahaw','Mebane','Kannapolis','Boone','Pittsboro','Burlington','Sanford','Gastonia','Asheville','Hickory','Morganton','Shelby','Kings Mountain','Lexington','Thomasville','Graham','Siler City','Asheboro','Erwin','Lumberton','Hendersonville','Brevard','Waynesville'],
+    roads: ['I-40 by the Durham exits','NC-54 between Carrboro and Chapel Hill','US-70 toward Hillsborough','Roxboro Rd after midnight','I-85 through Greensboro','South Boulevard in Charlotte','Franklin Street after load-out'],
+    practiceSpaces: ['a lockout behind Geer Street near the tracks','church basement in Hillsborough with bad fluorescent lights','storage room behind a Carrboro coffeeshop','Raleigh practice units off Capital Blvd','a Saxapahaw mill room that flooded every August'],
+    scenePolitics: ['Carrboro kids said Raleigh bills ran too late for all-ages crowds','Durham forums argued Charlotte bands got paid first','Greensboro crews thought Triangle promoters ignored them','Roxboro bookings always turned into town-credit disputes'],
+    promoterGrudges: ['Carolina Basement Booking allegedly kept their guarantee after curfew cut the headliner','a board war with Tonia at Night Sun Presents lasted four archived pages','someone blamed Cradle Overflow for double-booking the same Friday lineup'],
+    rivalScenes: ['Cat\'s Cradle orbit','Durham warehouse corridor','Charlotte freight-track rooms','Greensboro all-ages lofts'],
+    mirrors: ['an mp3 mirrored off a Chapel Hill student server','a tab dump copied from a dead Geocities frame page','a PDF flyer scan from mergeboard.org backup','a repost from triangleallages.net before the domain lapsed'],
+    deadSites: ['catscradlesidebar.8m.com','dogwoodfeedback.tripod.com','roxboroexit.geocities.com','trianglebasementarchive.cjb.net'],
+    memoryTags: ['dogwood petals mashed into a set list','Waffle House receipt with tunings on the back','I-40 overnight tape dub','parking-lot humidity curling the flyer corners','copy-toner dust on a Cat\'s Cradle handbill'],
+    flyerLanguage: ['ALL AGES / BRING CASH / DON\'T CALL THE COPS','matinee if the hardcore bill clears out in time','someone\'s cousin is running sound, be cool','if you miss the Carrboro exit you missed the whole summer','ask for the side door if the front gets shut down'],
+    gearTalk: ['JC-120 borrowed from somebody\'s older brother','rat pedal with the paint rubbed off','solid-state combo that somehow loved open chords','Mustang bass through an SVT nobody could afford to break','Peavey 5150 only when the breaker cooperated'],
+    forumDrama: ['whether the clean tone was a Jazzmaster or just the JC-120','a 30-reply argument over flyer etiquette','who was subtweeting who before subtweets existed','which promoter blacklisted them after the Raleigh rainout'],
+    recordingOrigins: ['a four-track dub from a Carrboro duplex','an mp3 mirrored off a Chapel Hill student server','a CD-R passed around after a Raleigh matinee','a board-post attachment salvaged from a Charlotte scene forum backup','a minidisc rip from the VFW outside Roxboro'],
+    rareEvents: ['Cat\'s Cradle flyer scan attached','guestbook beef reignited','Waffle House receipt tab corroborated','board-admin lock after page 4','dead mirror briefly returned for one weekend in 2009'],
     rooms: {
-      shimmery: ['attic room over a Carrboro duplex porch','apartment living room with two box fans','back hallway at the arts center','warehouse office with Christmas lights and humidity'],
-      heavy: ['Charlotte warehouse beside the loading dock','Durham rehearsal lockout with old posters on cinderblock','garage outside Hillsborough with two PA cabs','boiler-room basement near campus'],
+      shimmery: ['attic room over a Carrboro duplex porch','apartment living room with two box fans','back hallway at the arts center','warehouse office with Christmas lights and humidity','student house den off Franklin with cheap lamps'],
+      heavy: ['Charlotte warehouse beside the loading dock','Durham rehearsal lockout with old posters on cinderblock','garage outside Hillsborough with two PA cabs','boiler-room basement near campus','Raleigh unit behind an auto shop'],
     },
     guitars: ['Japanese Jazzmaster with cigarette burns','black Mustang with mismatched knobs','Tele Deluxe copy with one dead switch','Epiphone Sheraton borrowed for exactly one chorus','partscaster offset with a Dogfish sticker'],
     amps: ['Roland JC-120','Peavey Classic 30','Ampeg combo with a torn grille','old Sunn head somebody\'s uncle found','Fender Hot Rod Deluxe from the practice lockout'],
@@ -423,59 +460,59 @@ const DEMOS = [
 // These are the genuinely different page structures
 const SHRINE_ARCHETYPES = {
   tabdump: {
-    id: 'tabdump', label: 'tab dump', weight: 25,
-    // Tab first, minimal framing, short
+    id: 'tabdump', label: 'tab dump', weight: 15,
     buildSections(shrine) {
       const parts = []
+      parts.push(shrine._bandQuickNote)
       parts.push(shrine._tabBlock)
-      if (maybe(shrine.rand, 0.6)) parts.push(shrine._oneOrTwoComments)
-      if (maybe(shrine.rand, 0.3)) parts.push(shrine._oneLoreFragment)
+      parts.push(shrine._oneOrTwoComments)
+      if (maybe(shrine.rand, 0.75)) parts.push(shrine._oneLoreFragment)
       return parts.filter(Boolean).join('\n')
     }
   },
   obsessive: {
     id: 'obsessive', label: 'obsessive shrine', weight: 25,
-    // Everything and more: lore, gear, tab, long comment threads, guestbook
     buildSections(shrine) {
       const parts = []
+      parts.push(shrine._bandQuickNote)
       parts.push(shrine._loreBlock)
       parts.push(shrine._gearBlock)
       parts.push(shrine._tabBlock)
       parts.push(shrine._commentsBlock)
       parts.push(shrine._guestbookBlock)
-      if (maybe(shrine.rand, 0.5)) parts.push(shrine._tracklistBlock)
+      if (maybe(shrine.rand, 0.6)) parts.push(shrine._tracklistBlock)
       return parts.filter(Boolean).join('\n')
     }
   },
   fanpage: {
-    id: 'fanpage', label: 'fan page', weight: 20,
-    // Band info first, tab secondary or incomplete
+    id: 'fanpage', label: 'fan page', weight: 45,
     buildSections(shrine) {
       const parts = []
       parts.push(shrine._bandInfoBlock)
       parts.push(shrine._loreBlock)
-      if (maybe(shrine.rand, 0.7)) parts.push(shrine._gearBlock)
-      parts.push(shrine._tabBlock) // might be incomplete
-      if (maybe(shrine.rand, 0.5)) parts.push(shrine._guestbookBlock)
+      if (maybe(shrine.rand, 0.8)) parts.push(shrine._gearBlock)
+      parts.push(shrine._tabBlock)
+      if (maybe(shrine.rand, 0.7)) parts.push(shrine._commentsBlock)
+      if (maybe(shrine.rand, 0.55)) parts.push(shrine._guestbookBlock)
       return parts.filter(Boolean).join('\n')
     }
   },
   forumrip: {
-    id: 'forumrip', label: 'forum rip', weight: 15,
-    // Forum thread format, tab appears mid-thread
+    id: 'forumrip', label: 'forum rip', weight: 10,
     buildSections(shrine) {
       const parts = []
+      parts.push(shrine._bandQuickNote)
       parts.push(shrine._forumThreadBlock)
       return parts.filter(Boolean).join('\n')
     }
   },
   stub: {
-    id: 'stub', label: 'dead page / stub', weight: 15,
-    // Very short: title, maybe broken tab, one comment
+    id: 'stub', label: 'dead page / stub', weight: 5,
     buildSections(shrine) {
       const parts = []
-      if (maybe(shrine.rand, 0.5)) parts.push(shrine._stubTabBlock)
-      if (maybe(shrine.rand, 0.4)) parts.push(shrine._oneOrTwoComments)
+      parts.push(shrine._bandQuickNote)
+      parts.push(shrine._stubTabBlock)
+      if (maybe(shrine.rand, 0.8)) parts.push(shrine._oneOrTwoComments)
       parts.push(shrine._stubFooter)
       return parts.filter(Boolean).join('\n')
     }
@@ -484,28 +521,29 @@ const SHRINE_ARCHETYPES = {
 
 function pickArchetype(rand) {
   return weightedPick(rand, [
-    [25, SHRINE_ARCHETYPES.tabdump],
-    [25, SHRINE_ARCHETYPES.obsessive],
-    [20, SHRINE_ARCHETYPES.fanpage],
-    [15, SHRINE_ARCHETYPES.forumrip],
-    [15, SHRINE_ARCHETYPES.stub],
+    [SHRINE_ARCHETYPES.fanpage.weight, SHRINE_ARCHETYPES.fanpage],
+    [SHRINE_ARCHETYPES.obsessive.weight, SHRINE_ARCHETYPES.obsessive],
+    [SHRINE_ARCHETYPES.tabdump.weight, SHRINE_ARCHETYPES.tabdump],
+    [SHRINE_ARCHETYPES.forumrip.weight, SHRINE_ARCHETYPES.forumrip],
+    [SHRINE_ARCHETYPES.stub.weight, SHRINE_ARCHETYPES.stub],
   ])
 }
 
 function pickArchetypeForMeta(rand, meta) {
-  // Ensure reroll sequences have visible structural variety:
-  // cycle through all 5 archetypes in a seeded order before repeating.
-  const cycle = shuffle(mulberry32((meta.baseSeed ?? meta.exactSeed ?? 1) ^ 0x51f15e), [
-    SHRINE_ARCHETYPES.tabdump,
-    SHRINE_ARCHETYPES.obsessive,
-    SHRINE_ARCHETYPES.fanpage,
-    SHRINE_ARCHETYPES.forumrip,
-    SHRINE_ARCHETYPES.stub,
-  ])
   const rerollIndex = Number(meta.reroll || 0)
-  // For first render and rerolls, use cycle; fallback to weighted for non-reroll contexts
-  if (Number.isFinite(rerollIndex)) return cycle[rerollIndex % cycle.length]
-  return pickArchetype(rand)
+  const base = meta.baseSeed ?? meta.exactSeed ?? 1
+  const localRand = mulberry32(base ^ ((rerollIndex + 1) * 0x9e3779b1))
+  let archetype = pickArchetype(localRand)
+
+  if (rerollIndex > 0) {
+    const previousRand = mulberry32(base ^ (rerollIndex * 0x9e3779b1))
+    const previous = pickArchetype(previousRand)
+    if (archetype.id === previous.id && maybe(localRand, 0.75)) {
+      const rerolled = pickArchetype(mulberry32(base ^ ((rerollIndex + 17) * 0x85ebca6b)))
+      if (rerolled.id !== previous.id) archetype = rerolled
+    }
+  }
+  return archetype
 }
 
 // ─── AUDIO ENGINE (unchanged) ──────────────────────────────
@@ -606,22 +644,21 @@ function chooseSongProfile(rand, moodKey, meta) {
 // ─── VARIABLE TAB LENGTH (Item 6) ──────────────────────────
 function makeTabLines(rand, profile, archetype) {
   const fullLines = profile.tabLines
-  // Determine how many bars to show
   let barCount
   if (archetype.id === 'stub') {
-    barCount = maybe(rand, 0.5) ? 1 : 0 // stubs might have no tab or just 1 bar
+    barCount = weightedPick(rand, [[72, 1], [18, 2], [10, 0]])
   } else {
     barCount = weightedPick(rand, [
-      [10, 1],  // just the main lick
-      [20, 2],  // riff fragment
-      [40, 4],  // standard
-      [20, 8],  // longer passage
-      [10, 0],  // "tab incomplete"
+      [12, 1],
+      [24, 2],
+      [44, 4],
+      [15, 8],
+      [5, 0],
     ])
   }
 
   if (barCount === 0) {
-    return { lines: null, incomplete: true, rhythmMap: [], bars: 0 }
+    return { lines: null, incomplete: true, rhythmMap: profile.rhythmMap.slice(0, 1), bars: 0 }
   }
 
   if (barCount <= 4) {
@@ -649,30 +686,67 @@ function makeTabLines(rand, profile, archetype) {
 }
 
 // ─── LORE FRAGMENT SYSTEM (Item 2) ─────────────────────────
-function buildLoreFragments(rand, scene, band) {
-  // Select 1-5 fragments, weighted toward 2-3
+function buildSceneContinuity(rand, scene, band, profile) {
+  return {
+    town: pick(rand, scene.smallTowns),
+    venue: pick(rand, scene.venues),
+    road: pick(rand, scene.roads),
+    practiceSpace: pick(rand, scene.practiceSpaces),
+    promoter: pick(rand, scene.promoterGrudges),
+    politics: pick(rand, scene.scenePolitics),
+    rivalTown: pick(rand, scene.rivalScenes),
+    mirror: pick(rand, scene.mirrors),
+    deadSite: pick(rand, scene.deadSites),
+    member: pick(rand, band.members || ['unknown member']),
+    chord: pick(rand, profile.progression || ['Em']),
+    sceneLabel: scene.label,
+  }
+}
+
+function formatContinuity(template, continuity, band) {
+  return template
+    .replaceAll('{band}', band.name)
+    .replaceAll('{town}', continuity.town)
+    .replaceAll('{venue}', continuity.venue)
+    .replaceAll('{road}', continuity.road)
+    .replaceAll('{practiceSpace}', continuity.practiceSpace)
+    .replaceAll('{promoter}', continuity.promoter)
+    .replaceAll('{politics}', continuity.politics)
+    .replaceAll('{rivalTown}', continuity.rivalTown)
+    .replaceAll('{mirror}', continuity.mirror)
+    .replaceAll('{deadSite}', continuity.deadSite)
+    .replaceAll('{member}', continuity.member)
+    .replaceAll('{chord}', continuity.chord)
+    .replaceAll('{sceneLabel}', continuity.sceneLabel)
+}
+
+function buildLoreFragments(rand, scene, band, continuity) {
   const count = weightedPick(rand, [
-    [15, 1], [35, 2], [30, 3], [15, 4], [5, 5]
+    [8, 2], [30, 3], [32, 4], [20, 5], [10, 6]
   ])
   const selected = pickMany(rand, LORE_FRAGMENTS, count)
   const fragments = selected.map(f => {
     if (typeof f.text === 'function') return f.text(rand, scene)
     return f.text
   })
-  // Maybe add band-specific lore
-  if (band.lore && maybe(rand, 0.6)) fragments.push(band.lore)
-  return fragments
+  const continuityFragments = [
+    `${band.name} rehearsed in ${continuity.practiceSpace} and tested this tab at ${continuity.venue}.`,
+    `Road-memory note: the ${continuity.road} drive home is where people kept rewriting bar 2.`,
+    `Scene politics residue: ${continuity.politics}.`,
+    `Promoter grudge archive: ${continuity.promoter}.`,
+    `Mirror provenance: recovered from ${continuity.mirror}, cross-checked against ${continuity.deadSite}.`,
+  ]
+  const merged = [band.lore, ...pickMany(rand, continuityFragments, 3), ...fragments]
+  return Array.from(new Set(merged)).slice(0, 7)
 }
 
 // ─── VISUAL CHAOS (Item 19) ────────────────────────────────
 function buildShrineStyle(rand) {
   const bgColors = [
-    '#000033','#330033','#003333','#1a001a','#000000','#0d0d2b','#1c0a00',
-    '#ffffff','#eeeeee','#003300','#330000','#000066','#1a0033',
-    '#2b0040','#002244','#0a0a0a','#111111',
+    '#000033','#1a001a','#000000','#0d0d2b','#1c0a00','#0a0a0a','#111111','#1a0033',
     'linear-gradient(180deg, #000033, #000000)',
     'linear-gradient(180deg, #1a001a, #000000)',
-    'linear-gradient(180deg, #330033, #0a0a0a)'
+    'linear-gradient(180deg, #1b1030, #05020a)'
   ]
   const bg = pick(rand, bgColors)
   const textColor = (bg === '#ffffff' || bg === '#eeeeee') ? '#000000' : '#f8dcff'
@@ -680,48 +754,47 @@ function buildShrineStyle(rand) {
 
   // Build inline style
   let style = `background: ${bg}; color: ${textColor};`
-  if (maybe(rand, 0.2)) style += ' text-align: center;'
-  if (maybe(rand, 0.15)) style += ' font-family: "Times New Roman", serif;'
-  if (maybe(rand, 0.1)) style += ' font-size: 0.9em;'
+  if (maybe(rand, 0.08)) style += ' text-align: center;'
+  if (maybe(rand, 0.08)) style += ' font-family: "Times New Roman", serif;'
+  if (maybe(rand, 0.05)) style += ' font-size: 0.92em;'
 
   return { style, textColor, linkColor, isLight: bg === '#ffffff' || bg === '#eeeeee' }
 }
 
 // ─── COMMENT GENERATION ────────────────────────────────────
-function buildForumComments(rand, count, profile) {
+function buildForumComments(rand, count, profile, continuity, band) {
   const out = []
   for (let i = 0; i < count; i++) {
     let text
     const roll = rand()
-    if (roll < 0.50) {
-      // Item 12: 50% simple/dumb comments
-      text = pick(rand, DUMB_COMMENTS)
-    } else if (roll < 0.70 && profile.commentTemplates) {
+    if (roll < 0.7) {
+      text = formatContinuity(pick(rand, MEMORY_COMMENTS), continuity, band)
+    } else if (roll < 0.84 && profile.commentTemplates) {
       text = pick(rand, profile.commentTemplates)
-    } else if (roll < 0.85) {
-      text = pick(rand, POETIC_COMMENTS)
+    } else if (roll < 0.94) {
+      text = pick(rand, DUMB_COMMENTS)
     } else {
       text = pick(rand, DRAMA_COMMENTS)
     }
     out.push({
       user: pick(rand, FORUM_USERS),
       text,
-      timestamp: maybe(rand, 0.4) ? `${pick(rand, ['01','02','03','04','05','06','07','08','09','10','11','12'])}/${pick(rand, ['01','05','12','14','19','22','28'])}/${pick(rand, ['99','00','01','02'])}` : null
+      timestamp: maybe(rand, 0.55) ? `${pick(rand, ['01','02','03','04','05','06','07','08','09','10','11','12'])}/${pick(rand, ['01','05','12','14','19','22','28'])}/${pick(rand, ['99','00','01','02'])}` : null
     })
   }
   return out
 }
 
-function buildGuestbook(rand, profile, scene) {
-  const total = 1 + Math.floor(rand() * 5)
+function buildGuestbook(rand, profile, scene, continuity, band) {
+  const total = 2 + Math.floor(rand() * 4)
   const out = []
   for (let i = 0; i < total; i++) {
     let text
     const roll = rand()
-    if (roll < 0.3 && profile.guestbook) text = pick(rand, profile.guestbook)
-    else if (roll < 0.5) text = pick(rand, REGISTER_POOLS.guestbook.mundane)
-    else if (roll < 0.7) text = pick(rand, REGISTER_POOLS.guestbook.dumb)
-    else if (roll < 0.85) text = pick(rand, REGISTER_POOLS.guestbook.hostile)
+    if (roll < 0.42) text = formatContinuity(pick(rand, GUESTBOOK_MEMORY_LINES), continuity, band)
+    else if (roll < 0.68 && profile.guestbook) text = pick(rand, profile.guestbook)
+    else if (roll < 0.86) text = pick(rand, REGISTER_POOLS.guestbook.mundane)
+    else if (roll < 0.95) text = pick(rand, REGISTER_POOLS.guestbook.hostile)
     else text = pick(rand, REGISTER_POOLS.guestbook.poetic)
     out.push({
       name: pick(rand, FORUM_USERS),
@@ -776,25 +849,22 @@ function generateShrine(meta) {
   const profile = chooseSongProfile(rand, moodKey, meta)
   const tuning = profile.tuning || pick(rand, TUNINGS)
   const key = profile.key || pick(rand, KEYS)
-  const era = pickEra(rand) // Item 16
+  const era = pickEra(rand)
+  const continuity = buildSceneContinuity(rand, scene, band, profile)
 
-  // Item 6: Variable tab length
   const tab = makeTabLines(rand, profile, archetype)
-
-  // Item 2: Lore fragments
-  const loreFragments = buildLoreFragments(rand, scene, band)
+  const loreFragments = buildLoreFragments(rand, scene, band, continuity)
 
   // Item 19: Visual chaos
   const shrineStyle = buildShrineStyle(rand)
 
-  // Comments (variable count by archetype)
-  const commentCount = archetype.id === 'stub' ? (maybe(rand, 0.5) ? 1 : 0) :
-    archetype.id === 'tabdump' ? (maybe(rand, 0.6) ? 1 + Math.floor(rand() * 2) : 0) :
-    archetype.id === 'obsessive' ? 4 + Math.floor(rand() * 6) :
-    archetype.id === 'forumrip' ? 5 + Math.floor(rand() * 8) :
-    2 + Math.floor(rand() * 4)
-  const comments = buildForumComments(rand, commentCount, profile)
-  const guestbook = buildGuestbook(rand, profile, scene)
+  const commentCount = archetype.id === 'stub' ? 1 + Math.floor(rand() * 2) :
+    archetype.id === 'tabdump' ? 2 + Math.floor(rand() * 3) :
+    archetype.id === 'obsessive' ? 6 + Math.floor(rand() * 6) :
+    archetype.id === 'forumrip' ? 6 + Math.floor(rand() * 8) :
+    4 + Math.floor(rand() * 4)
+  const comments = buildForumComments(rand, commentCount, profile, continuity, band)
+  const guestbook = buildGuestbook(rand, profile, scene, continuity, band)
   const gear = buildGear(rand, moodKey, scene)
 
   // Item 3: Pooled keeper line (sometimes omitted)
@@ -804,22 +874,16 @@ function generateShrine(meta) {
   const shrineKeeper = pick(rand, scene.keeperHandles)
   const webring = pickWebring(rand, scene)
 
-  // Item 13: Riff potency — make it dumb/inconsistent or omit
   const riffPotency = weightedPick(rand, [
-    [30, null], // no rating
-    [20, `${7 + Math.floor(rand() * 4)}/10`],
-    [15, '11/10'],
-    [10, '??/10'],
-    [10, `${1 + Math.floor(rand() * 4)}/10 but it\'s a grower`],
-    [10, '—'],
-    [5, `${Math.floor(rand() * 3)}/10 honestly`],
+    [85, null],
+    [10, `${7 + Math.floor(rand() * 3)}/10`],
+    [5, 'archivist note: playable but disputed'],
   ])
 
   const badges = shuffle(rand, [...BADGES, ...scene.badges]).slice(0, 2 + Math.floor(rand() * 3))
   const stamps = shuffle(rand, [...STAMPS, ...scene.stamps]).slice(0, 1 + Math.floor(rand() * 3))
 
-  // Item 20: Random unexplained elements
-  const unexplainedElements = maybe(rand, 0.4) ? pickMany(rand, UNEXPLAINED_ELEMENTS, 1 + Math.floor(rand() * 2)) : []
+  const unexplainedElements = maybe(rand, 0.1) ? pickMany(rand, UNEXPLAINED_ELEMENTS, 1) : []
 
   // Item 4: "Why this shrine happened" — collapsed or absent
   const showWhySection = archetype.id === 'obsessive' ? maybe(rand, 0.8) :
@@ -870,6 +934,8 @@ function generateShrine(meta) {
           'transcription in progress',
           'sorry, only got the intro done so far',
         ])}</p>
+        <p style="opacity:0.74;font-family:'Courier New',monospace;">chords still remembered: ${escapeHtml(chordHints.join(' → '))}</p>
+        <p style="opacity:0.66;font-size:0.82em;">hook contour: ${escapeHtml(profile.hookShape || 'fragmentary')}</p>
       </div>`
     }
     return `<div class="tab-block chrome inset readable-tab">
@@ -882,7 +948,7 @@ function generateShrine(meta) {
 
   // Stub tab block — even more minimal
   const _stubTabBlock = (() => {
-    if (maybe(rand, 0.4)) {
+    if (maybe(rand, 0.3)) {
       return `<div style="padding:8px;border:1px dashed rgba(255,255,255,0.3);margin:8px 0;">
         <p style="opacity:0.6;font-family:'Courier New',monospace;">${pick(rand, [
           'tab section unavailable',
@@ -891,6 +957,7 @@ function generateShrine(meta) {
           '[broken]',
           'tab goes here eventually',
         ])}</p>
+        <p style="opacity:0.72;font-family:'Courier New',monospace;">remembered chords: ${escapeHtml(chordHints.slice(0, 3).join(' / '))}</p>
       </div>`
     }
     // Show just 1 bar
@@ -931,11 +998,10 @@ function generateShrine(meta) {
   // Band info block (for fan pages)
   const _bandInfoBlock = (() => {
     let html = `<div class="chrome inset" style="padding:12px;margin:10px 0;">`
-    html += `<div class="section-title" ${maybe(rand, 0.3) ? 'style="text-transform:uppercase;letter-spacing:0.2em;"' : ''}>${escapeHtml(band.name)}</div>`
+    html += `<div class="section-title" ${maybe(rand, 0.2) ? 'style="text-transform:uppercase;letter-spacing:0.2em;"' : ''}>${escapeHtml(band.name)}</div>`
     html += `<p><strong>${escapeHtml(band.hometown)}</strong> · ${escapeHtml(band.years)}</p>`
     if (band.members.length) {
-      if (maybe(rand, 0.3)) {
-        // ALL CAPS members section
+      if (maybe(rand, 0.2)) {
         html += `<p style="text-transform:uppercase;letter-spacing:0.1em;font-size:0.85em;">${band.members.map(m => escapeHtml(m)).join(' / ')}</p>`
       } else {
         html += `<ul style="margin:8px 0;padding-left:18px;">${band.members.map(m => `<li>${escapeHtml(m)}</li>`).join('')}</ul>`
@@ -943,9 +1009,17 @@ function generateShrine(meta) {
     }
     if (band.albums.length) html += `<p style="opacity:0.8;">Records: ${band.albums.map(a => escapeHtml(a)).join(' / ')}</p>`
     if (band.influences?.length) html += `<p style="opacity:0.7;font-size:0.85em;">sounds like: ${band.influences.join(', ')}</p>`
+    html += `<p style="opacity:0.78;">Band note: ${escapeHtml(band.lore)}</p>`
     html += '</div>'
     return html
   })()
+
+  const _bandQuickNote = (() => `<div class="chrome inset band-note-block" style="padding:10px;margin:10px 0;">
+      <div class="section-title">Recovered band note</div>
+      <p><strong>${escapeHtml(band.name)}</strong> · ${escapeHtml(band.hometown)} · ${escapeHtml(band.years)}</p>
+      <p style="opacity:0.82;">${escapeHtml(band.lore)}</p>
+      <p style="opacity:0.72;font-size:0.84em;">Scene thread: ${escapeHtml(continuity.town)} / ${escapeHtml(continuity.venue)} / ${escapeHtml(continuity.road)}</p>
+    </div>` )()
 
   // Gear block
   const _gearBlock = (() => {
@@ -1009,11 +1083,11 @@ function generateShrine(meta) {
       <strong>${escapeHtml(pick(rand, FORUM_USERS))}</strong>
       <span style="opacity:0.5;font-size:0.75em;margin-left:8px;">${pick(rand, ['01','02','03','04','05','06','07','08','09','10','11','12'])}/${pick(rand, ['01','05','12','14','19','22','28'])}/${pick(rand, ['99','00','01','02'])}</span>
       <p>${pick(rand, [
-        'does anyone have the tab for this? heard it at ' + escapeHtml(pick(rand, scene.venues)) + ' and cant figure out the chords',
-        'here\'s my attempt at tabbing this. corrections welcome',
-        'found this tab on a dead geocities page, reposting here',
-        'transcribed this from the demo tape. pretty sure it\'s right',
-        escapeHtml(band.name) + ' — ' + escapeHtml(title) + '. tab below.',
+        'does anyone have the tab for this? heard it at ' + escapeHtml(continuity.venue) + ' and cant figure out the chords',
+        'here\'s my attempt at tabbing this from the ' + escapeHtml(continuity.town) + ' practice room tape. corrections welcome',
+        'found this tab on ' + escapeHtml(continuity.deadSite) + ', reposting before the mirror dies again',
+        'transcribed this after the ' + escapeHtml(continuity.road) + ' drive home. pretty sure it\'s right',
+        escapeHtml(band.name) + ' — ' + escapeHtml(title) + '. tab below. this is the ' + escapeHtml(continuity.venue) + ' version.',
       ])}</p>
     </div>`
 
@@ -1061,6 +1135,7 @@ function generateShrine(meta) {
     return `<details class="chrome inset inspect-block" style="padding:12px;margin:10px 0;">
       <summary>${pick(rand, ['why this shrine happened','how this page survived','archive notes','why this exists'])}</summary>
       <p style="margin-top:8px;">${escapeHtml(pick(rand, whyLines))}</p>
+      <p style="opacity:0.72;">Recovery trail: ${escapeHtml(continuity.mirror)} → ${escapeHtml(continuity.deadSite)} → ${escapeHtml(continuity.venue)} notes.</p>
       ${meta.reading ? `<ul>${meta.reading.why.slice(0, 2).map(w => `<li style="opacity:0.7;">${escapeHtml(w)}</li>`).join('')}</ul>` : ''}
     </details>`
   })()
@@ -1069,7 +1144,7 @@ function generateShrine(meta) {
   // Attach all blocks to a shrine object for the archetype builder
   const shrineObj = {
     rand, _tabBlock, _stubTabBlock, _oneOrTwoComments, _oneLoreFragment,
-    _loreBlock, _bandInfoBlock, _gearBlock, _commentsBlock, _guestbookBlock,
+    _loreBlock, _bandInfoBlock, _bandQuickNote, _gearBlock, _commentsBlock, _guestbookBlock,
     _tracklistBlock, _forumThreadBlock, _stubFooter, _whyBlock,
   }
 
@@ -1100,17 +1175,19 @@ function generateShrine(meta) {
   const stubTitleHtml = archetype.id === 'stub' ? `
     <div style="padding:12px;${shrineStyle.style}">
       <h3 style="margin-bottom:4px;">${escapeHtml(title)}</h3>
-      ${maybe(rand, 0.5) ? `<p style="opacity:0.5;font-size:0.8em;">${escapeHtml(band.name)} · ${escapeHtml(era)}</p>` : ''}
+      <p style="opacity:0.66;font-size:0.82em;">${escapeHtml(band.name)} · ${escapeHtml(band.hometown)} · ${escapeHtml(era)}</p>
+      <p style="opacity:0.7;font-size:0.82em;">${escapeHtml(band.lore)}</p>
     </div>` : ''
 
   const tabdumpTitleHtml = archetype.id === 'tabdump' ? `
     <div style="padding:8px 12px;${shrineStyle.style}">
       <h3 style="margin-bottom:2px;font-size:1.2em;">${escapeHtml(title)}</h3>
-      <p style="opacity:0.6;font-size:0.8em;margin:0;">${escapeHtml(tuning)} · ${escapeHtml(key)}</p>
+      <p style="opacity:0.6;font-size:0.8em;margin:0;">${escapeHtml(tuning)} · ${escapeHtml(key)} · ${escapeHtml(band.name)}</p>
+      <p style="opacity:0.68;font-size:0.8em;margin:4px 0 0;">${escapeHtml(continuity.town)} scene note: ${escapeHtml(band.lore)}</p>
     </div>` : ''
 
   // Item 19: frames disclaimer
-  const framesDisclaimer = maybe(rand, 0.1) ? '<p style="text-align:center;font-size:0.75em;opacity:0.5;margin:4px 0;">NO FRAMES VERSION — click here for frames</p>' : ''
+  const framesDisclaimer = maybe(rand, 0.03) ? '<p style="text-align:center;font-size:0.75em;opacity:0.5;margin:4px 0;">NO FRAMES VERSION — click here for frames</p>' : ''
 
   const statsGrid = (archetype.id !== 'stub' && archetype.id !== 'tabdump') ? `
     <section class="stats-grid">
@@ -1121,26 +1198,39 @@ function generateShrine(meta) {
     </section>` : ''
 
   const badgeWall = archetype.id !== 'stub' ? `
-    <footer class="badge-wall chrome inset">${badges.map(b => `<span class="badge ${maybe(rand, 0.3) ? 'blink' : ''}">${escapeHtml(b)}</span>`).join('')}</footer>` : ''
+    <footer class="badge-wall chrome inset">${badges.map(b => `<span class="badge ${maybe(rand, 0.2) ? 'blink' : ''}">${escapeHtml(b)}</span>`).join('')}</footer>` : ''
+
+  const archiveContextHtml = `
+    <section class="archive-viewport chrome inset">
+      <div class="archive-head">
+        <span>Recovered node: ${escapeHtml(scene.slug)}-${String(seed).slice(-6)}</span>
+        <span>Mirror confidence: partial / cross-checked</span>
+      </div>
+      <div class="archive-subhead">Cluster residue: ${escapeHtml(scene.deadSites.join(' · '))}</div>
+      <div class="archive-subhead">Provenance: ${escapeHtml(continuity.mirror)}</div>
+    </section>`
 
   const fullHtml = `
-    ${framesDisclaimer}
-    ${stubTitleHtml}
-    ${tabdumpTitleHtml}
-    ${heroHtml}
-    ${statsGrid}
-    ${hrDividers ? '<hr style="border-color:rgba(255,255,255,0.15);margin:8px 0;">' : ''}
-    ${_whyBlock}
-    ${allCapsSection ? `<div style="text-transform:uppercase;letter-spacing:0.08em;">${contentHtml}</div>` : contentHtml}
-    ${unexplainedHtml}
-    ${hrDividers ? '<hr style="border-color:rgba(255,255,255,0.15);margin:8px 0;">' : ''}
-    ${badgeWall}
+    <section class="archive-shell">
+      ${archiveContextHtml}
+      ${framesDisclaimer}
+      ${stubTitleHtml}
+      ${tabdumpTitleHtml}
+      ${heroHtml}
+      ${statsGrid}
+      ${hrDividers ? '<hr style="border-color:rgba(255,255,255,0.15);margin:8px 0;">' : ''}
+      ${_whyBlock}
+      ${allCapsSection ? `<div style="text-transform:uppercase;letter-spacing:0.08em;">${contentHtml}</div>` : contentHtml}
+      ${unexplainedHtml}
+      ${hrDividers ? '<hr style="border-color:rgba(255,255,255,0.15);margin:8px 0;">' : ''}
+      ${badgeWall}
+    </section>
   `
 
   return {
     version: 10, seed, baseSeed: meta.baseSeed ?? seed, reroll: meta.reroll ?? 0,
     title, mood: mood.label, bpm, tuning, key, era, tabs: tab.lines, tabBars: tab.bars,
-    archetype, shrineKeeper, band, scene, profile, moodKey,
+    archetype, shrineKeeper, band, scene, profile, moodKey, continuity,
     comments, guestbook, gear, loreFragments, keeperLine, closingLine,
     riffPotency, badges, stamps, webring, shrineStyle,
     showWhySection, backing, reading: meta.reading,
@@ -1148,7 +1238,7 @@ function generateShrine(meta) {
     sourceLabel: meta.sourceLabel, vibe: meta.vibe || '',
     waveform: meta.amplitudes,
     counter: String(120000 + (seed % 700000)).padStart(6, '0'),
-    relicText: `Recovered from ${pick(rand, scene.recordingOrigins)} during ${era}. Source offering: ${meta.sourceLabel}.`,
+    relicText: `Recovered from ${continuity.mirror} and ${pick(rand, scene.recordingOrigins)} during ${era}. Cross-reference: ${continuity.deadSite}. Source offering: ${meta.sourceLabel}.`,
     motifSummary: profile.motifSummary, hookShape: profile.hookShape,
   }
 }
@@ -1216,7 +1306,7 @@ app.innerHTML = `
 
     <section class="window chrome shrine-panel">
       <div class="panel-head">
-        <h2>2. Resurrected Shrine</h2>
+        <h2>2. Resurrected Shrine Viewport</h2>
         <div class="panel-actions">
           <button id="playBtn" class="retro-button small">▶ play backing track</button>
           <button id="pinBtn" class="retro-button small">📌 pin current</button>
@@ -1226,7 +1316,7 @@ app.innerHTML = `
           <button id="rerollBtn" class="retro-button small alt">🎲 reroll same riff</button>
         </div>
       </div>
-      <div id="lineagePanel" class="lineage-panel chrome inset"><div class="section-title">Sibling realities</div><div class="lineage-strip"><span class="placeholder-copy">Reveal a shrine to compare variants from the same offering.</span></div></div>
+      <div id="lineagePanel" class="lineage-panel chrome inset"><div class="section-title">Sibling realities / nearby mirrors</div><div class="lineage-strip"><span class="placeholder-copy">Reveal a shrine to compare variants from the same offering and dead-site cluster.</span></div></div>
       <article id="shrine" class="shrine shrine-empty"><div><div class="construction">NO SHRINE SUMMONED YET</div><p>Start with <strong>⚡ Use surprise demo</strong> for the fastest resurrection.</p></div></article>
     </section>
   </main>
@@ -1270,7 +1360,7 @@ function renderReading(recipe) {
 function renderLineage() {
   if (!state.recipe) return
   const variants = [0, 1, 2].map((reroll) => generateShrine(buildVariantMeta(state.recipe, reroll)))
-  el.lineagePanel.innerHTML = `<div class="section-title">Sibling realities</div><div class="lineage-strip">${variants.map((variant) => `<button class="lineage-card ${variant.reroll === state.rerollCount ? 'active' : ''} ${state.pinned?.seed === variant.seed ? 'pinned' : ''}" data-reroll="${variant.reroll}"><strong>v${variant.reroll + 1}</strong><span>${escapeHtml(variant.title)}</span><em>${escapeHtml(variant.archetype.label)}</em></button>`).join('')}</div>`
+  el.lineagePanel.innerHTML = `<div class="section-title">Sibling realities / nearby mirrors</div><div class="lineage-strip">${variants.map((variant) => `<button class="lineage-card ${variant.reroll === state.rerollCount ? 'active' : ''} ${state.pinned?.seed === variant.seed ? 'pinned' : ''}" data-reroll="${variant.reroll}"><strong>v${variant.reroll + 1}</strong><span>${escapeHtml(variant.title)}</span><em>${escapeHtml(variant.archetype.label)} · ${escapeHtml(variant.scene.slug)}</em></button>`).join('')}</div>`
   el.lineagePanel.querySelectorAll('[data-reroll]').forEach((button) => button.addEventListener('click', () => {
     state.rerollCount = Number(button.dataset.reroll)
     state.generated = generateShrine(buildVariantMeta(state.recipe, state.rerollCount))
