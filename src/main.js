@@ -127,8 +127,18 @@ app.innerHTML = `
       <div>
         <p class="eyebrow">HUM A RIFF. SUMMON A SHRINE.</p>
         <h1>Angelfire Tab Necromancer</h1>
-        <p class="lede">Wave 2 turns the machine into a more legible riff-to-myth ritual: it reads your offering, explains why the shrine happened, makes archetypes feel like different species of lost web object, and gives you reasons to linger instead of just rerolling and leaving.</p>
-        <div class="masthead-marquee"><marquee scrollamount="4">wave 2: riff reading • why-this-happened logic • lineage compare • local favorites • rarer keeper pulls • stronger archetype voices • mobile pacing pass</marquee></div>
+        <p class="lede">Feed it a hummed riff, a rough recording, or one of the cursed demos. It listens for the shape of the phrase, then resurrects a lost late-90s guitar shrine: tab, fake band lore, forum testimony, keeper notes, and sibling realities from the same offering.</p>
+        <div class="hero-intro-grid">
+          <div class="quickstart-box chrome inset">
+            <div class="section-title">First move if you just got here</div>
+            <p><strong>Hit <span class="inline-highlight">Use surprise demo</span>.</strong> You will get the full ritual in about two seconds, then you can reroll the same riff into alternate shrine histories.</p>
+          </div>
+          <div class="quickstart-box chrome inset alt">
+            <div class="section-title">What comes back from the dead</div>
+            <p>A playable backing track, readable tab, an invented scene-history, and the exact clues that pushed your riff toward this specific weird little corner of the internet.</p>
+          </div>
+        </div>
+        <div class="masthead-marquee"><marquee scrollamount="4">best first click: ⚡ use surprise demo • then reroll sibling realities • pin one • save a relic • print the mini-zine before the mirror disappears</marquee></div>
       </div>
       <aside class="visitor-box">
         <div>visitor count</div>
@@ -147,9 +157,9 @@ app.innerHTML = `
         <label class="retro-button file-button">📼 Upload riff<input id="fileInput" type="file" accept="audio/*" hidden /></label>
         <button id="demoBtn" class="retro-button alt">⚡ Use surprise demo</button>
       </div>
-      <div class="status-box" id="statusBox">Waiting for tribute. Mic capture lasts 6 seconds.</div>
+      <div class="status-box" id="statusBox">Waiting for a riff. Fastest way in: hit surprise demo. Mic capture lasts 6 seconds.</div>
       <div class="ritual-box chrome inset">
-        <div class="section-title">Necromancy ritual</div>
+        <div class="section-title">How the ritual works</div>
         <ol id="ritualSteps" class="ritual-steps">
           <li data-step="1" class="active">Offer a riff to the archive.</li>
           <li data-step="2">Read the static for contour, density, and scene of origin.</li>
@@ -159,14 +169,14 @@ app.innerHTML = `
       </div>
       <div class="tiny-form two-up">
         <label>Band / vibe clue <input id="vibeInput" maxlength="64" placeholder="e.g. 'Smashing Pumpkins at the county fair'" /></label>
-        <label>Demo ritual
+        <label>Starter demo
           <select id="demoSelect">${DEMOS.map((demo) => `<option value="${demo.id}">${demo.label}</option>`).join('')}</select>
         </label>
       </div>
       <div class="demo-note" id="demoNote"></div>
       <div class="wave-wrap"><canvas id="waveCanvas" width="640" height="120" aria-label="audio preview waveform"></canvas></div>
       <div class="reading-panel chrome inset" id="readingPanel"><div class="section-title">Riff reading</div><p class="placeholder-copy">Your riff reading appears here after the offering is examined.</p></div>
-      <div class="tips-box"><div class="section-title">Wave 2 path</div><ol><li>Use a demo or upload a riff.</li><li>Read the causal panel and reveal strip.</li><li>Pin a favorite, compare a sibling reality, then save one locally.</li></ol></div>
+      <div class="tips-box"><div class="section-title">Best first run</div><ol><li>Start with <strong>Use surprise demo</strong> if you want the fantasy instantly.</li><li>Read the riff reading to see what the machine heard in your phrase.</li><li>Reroll sibling realities, pin a favorite, then save or print the keeper card.</li></ol></div>
       <div class="favorites-panel chrome inset"><div class="section-title">Saved relics</div><div id="favoritesList" class="favorites-list"><p class="placeholder-copy">No saved relics yet.</p></div></div>
     </section>
 
@@ -183,7 +193,7 @@ app.innerHTML = `
         </div>
       </div>
       <div id="lineagePanel" class="lineage-panel chrome inset"><div class="section-title">Sibling realities</div><div class="lineage-strip"><span class="placeholder-copy">Reveal a shrine to compare variants from the same offering.</span></div></div>
-      <article id="shrine" class="shrine shrine-empty"><div><div class="construction">THIS SHRINE IS STILL HAUNTED BY POTENTIAL</div><p>Record, upload, or hit surprise demo to generate a tab mausoleum worthy of 1999.</p></div></article>
+      <article id="shrine" class="shrine shrine-empty"><div><div class="construction">NO SHRINE SUMMONED YET</div><p>Start with <strong>⚡ Use surprise demo</strong> for the fastest resurrection, or feed the machine your own riff to see what kind of tab-forum myth it insists on preserving.</p></div></article>
     </section>
   </main>
 </div>`
@@ -527,17 +537,17 @@ function hydrateFromHash() {
   if (!window.location.hash.slice(1)) return false
   try {
     const restored = decodeState(window.location.hash.slice(1)); state.recipe = { version: restored.version, features: restored.features, sourceLabel: restored.sourceLabel, vibe: restored.vibe, baseSeed: restored.baseSeed, reading: createReading(restored.features, restored.vibe) }
-    el.vibeInput.value = restored.vibe || ''; state.rerollCount = restored.reroll || 0; state.generated = generateShrine(buildVariantMeta(state.recipe, state.rerollCount)); renderReading(state.recipe); renderShrine(state.generated); setRitualStep(4); setStatus('Permalink shrine restored from the netherweb.'); return true
-  } catch (error) { console.warn('Failed to restore shrine from hash', error); setStatus('That hash looked cursed in the boring way. Offer a new riff or use a demo.'); return false }
+    el.vibeInput.value = restored.vibe || ''; state.rerollCount = restored.reroll || 0; state.generated = generateShrine(buildVariantMeta(state.recipe, state.rerollCount)); renderReading(state.recipe); renderShrine(state.generated); setRitualStep(4); setStatus('Shrine restored from its permalink. Reroll it, pin it, or print the zine.'); return true
+  } catch (error) { console.warn('Failed to restore shrine from hash', error); setStatus('That permalink is busted. Offer a new riff or use a demo to raise a fresh shrine.'); return false }
 }
 
 async function analyzeBuffer(audioBuffer, sourceLabel = 'unknown offering') {
   setRitualStep(2); const features = sampleFeatures(audioBuffer)
   state.recipe = buildGenerationRecipe({ ...features, sourceLabel, vibe: el.vibeInput.value.trim() }); state.audioBuffer = audioBuffer; state.rerollCount = 0; renderReading(state.recipe)
-  setRitualStep(3); state.generated = generateShrine(buildVariantMeta(state.recipe, state.rerollCount)); setRitualStep(4); renderShrine(state.generated); persistToHash(); setStatus(`Necromancy complete from ${sourceLabel}. Shrine permalink updated.`)
+  setRitualStep(3); state.generated = generateShrine(buildVariantMeta(state.recipe, state.rerollCount)); setRitualStep(4); renderShrine(state.generated); persistToHash(); setStatus(`Shrine raised from ${sourceLabel}. Permalink updated.`)
 }
 
-function rerollShrine() { if (!state.recipe) return setStatus('No riff loaded yet. Summon a shrine first.'); state.rerollCount += 1; state.generated = generateShrine(buildVariantMeta(state.recipe, state.rerollCount)); renderShrine(state.generated); persistToHash(); setStatus(`Rerolled shrine variant #${state.rerollCount + 1} using the same offering.`) }
+function rerollShrine() { if (!state.recipe) return setStatus('No riff loaded yet. Raise a shrine first.'); state.rerollCount += 1; state.generated = generateShrine(buildVariantMeta(state.recipe, state.rerollCount)); renderShrine(state.generated); persistToHash(); setStatus(`Sibling reality #${state.rerollCount + 1} revealed from the same offering.`) }
 async function decodeFile(file) { const context = await getAudioContext(); const bytes = await file.arrayBuffer(); return context.decodeAudioData(bytes.slice(0)) }
 async function handleUpload(event) { const [file] = event.target.files || []; if (!file) return; setStatus(`Decoding ${file.name}...`); try { const buffer = await decodeFile(file); await analyzeBuffer(buffer, file.name) } catch (error) { console.error(error); setStatus('The necromancer choked on that file. Try mp3, wav, or m4a, or use the demo path.') } }
 
@@ -584,7 +594,7 @@ function loadFavorites() { try { return JSON.parse(localStorage.getItem('angelfi
 
 el.fileInput.addEventListener('change', handleUpload)
 el.recordBtn.addEventListener('click', async () => { try { await recordMic() } catch (error) { console.error(error); setStatus('Microphone permission denied or unavailable. Surprise demo still works.') } })
-el.demoBtn.addEventListener('click', async () => { const demo = getSelectedDemo(); setStatus(`Summoning ${demo.label.replace(/^.+?\s/, '')}...`); setRitualStep(1); await analyzeBuffer(demo.build(), demo.label) })
+el.demoBtn.addEventListener('click', async () => { const demo = getSelectedDemo(); setStatus(`Raising ${demo.label.replace(/^.+?\s/, '')}...`); setRitualStep(1); await analyzeBuffer(demo.build(), demo.label) })
 el.demoSelect.addEventListener('change', refreshDemoNote)
 el.playBtn.addEventListener('click', playBacking)
 el.shareBtn.addEventListener('click', copyPermalink)
