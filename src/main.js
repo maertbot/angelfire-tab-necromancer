@@ -2,32 +2,63 @@ import './style.css'
 
 const TAB_STRINGS = ['e', 'B', 'G', 'D', 'A', 'E']
 const TITLE_PREFIXES = ['Velvet', 'Chrome', 'Basement', 'Candlelit', 'Laser', 'Ashtray', 'Midnight', 'Tape-Hiss', 'Blacklight', 'Mall', 'Sorcerer\'s', 'Dial-Up', 'Velour', 'Moonburn', 'Static', 'Dreamfax', 'Neon', 'Prayer Circle', 'Wet Cement', 'VHS', 'Pollen', 'Dogwood', 'Cascade', 'Exit Sign', 'Bus-Depot', 'Hydrangea', 'Screenburn']
-const TITLE_SUBJECTS = ['Cathedral', 'Promenade', 'Telecaster', 'Funeral', 'Skatepark', 'Afterparty', 'Hex', 'Lifeguard Chair', 'Summer', 'Prophecy', 'Bus Ticket', 'Kiss-Off', 'Cigarette Halo', 'Parking Lot', 'Girlfriend', 'Stairwell', 'Data Ghost', 'Food Court', 'Practice Space', 'Slowdance', 'Dogwood', 'Overpass', 'Pine Barrens', 'Phone Pole', 'County Line', 'Ferry Slip', 'Rehearsal Hall']
+const TITLE_SUBJECTS = ['Cathedral', 'Promenade', 'Telecaster', 'Funeral', 'Skatepark', 'Afterparty', 'Hex', 'Lifeguard Chair', 'Summer', 'Bus Ticket', 'Parking Lot', 'Girlfriend', 'Stairwell', 'Food Court', 'Practice Space', 'Slowdance', 'Dogwood', 'Overpass', 'Phone Pole', 'County Line', 'Ferry Slip', 'Rehearsal Hall', 'VFW', 'Practice Key', 'Load Out', 'Receipt', 'Snack Machine']
 const TITLE_SUFFIXES = ['Riff', 'Lament', 'Theme', 'Directive', 'Signal', 'Prayer', 'Demo', 'Memorial', 'Tab', 'Overture', 'Weather Report', 'Complaint', 'Flyer', 'Translation']
 const FORUM_USERS = ['xX_TabGhoul_Xx', 'fretwizard77', 'DropD4Eva', 'mallgothdad', 'amphexed', 'shredmancer', 'modemtears', 'bossmetalzone', 'fenderbender99', 'cassetteoracle', 'webringwidow', 'd00m_capo', 'dogwoodfeedback', 'durhamdialup', 'i5ghostnote', 'trianglefloorpunch']
-const BADGES = ['BEST VIEWED WHILE SHREDDING', 'TABS NEVER DIE', 'MIDI IS PEOPLE TOO', 'UNDER CONSTRUCTION FOREVER', 'DROP D OR DROP DEAD', 'POWERED BY MOUNTAIN DEW CODE RED', 'NETSCAPE FRIENDLY', 'HAND-CODED IN DESPERATION', 'NO NU METAL HATE MAIL', 'PRINT THIS BEFORE AOL DELETES IT', 'SCENE VERIFIED BY FLYER LAMINATE', 'ASK ABOUT THE MATINEE BILL']
-const STAMPS = ['🕸️ haunted', '💿 cd-r verified', '📡 56k approved', '⚡ solo safe', '🦇 mallgoth tested', '🧃 surge compatible', '🌲 rain-soaked', '🌙 dogwood-night approved']
+const BADGES = ['BUILT WITH NOTEPAD', 'UPDATED WEEKLY (MAYBE)', 'EMAIL ME IF LINKS ARE BROKEN', 'MADE ON A SCHOOL COMPUTER', 'BEST VIEWED AT 800x600', 'FRAMES VERSION AVAILABLE', 'MIDI ON = YOUR PROBLEM', 'TABS NEVER DIE', 'UNDER CONSTRUCTION FOREVER', 'DROP D OR DROP DEAD', 'POWERED BY MOUNTAIN DEW CODE RED', 'NETSCAPE FRIENDLY', 'PRINT THIS BEFORE AOL DELETES IT', 'SCENE VERIFIED BY FLYER LAMINATE', 'ASK ABOUT THE MATINEE BILL']
+const STAMPS = ['💿 cd-r verified', '📡 56k approved', '⚡ solo safe', '🧃 surge compatible', '🌲 rainy practice room', '🌙 dogwood night', '📠 built on dial-up', '🖱️ school lab approved']
 const TUNINGS = ['E A D G B E', 'D A D G B E', 'D G C F A D', 'D A D F# A D', 'Eb Ab Db Gb Bb Eb']
 const KEYS = ['E minor', 'D minor', 'D mixolydian', 'G major', 'A dorian', 'B minor', 'C major', 'F# minor']
 const ERAS = ['Summer 1998', 'Fall 1999', 'Y2K eve', 'that one LAN party weekend', 'the week everyone got a wah pedal', 'the month before somebody\'s starter jacket got stolen', 'late spring 2000 when the flyer toner ran blue', 'the semester everybody suddenly owned a four-track']
+
+
+
+const REGISTER_POOLS = {
+  guestbook: {
+    mundane: ['cool tabs', 'hey', 'nice site', 'first!!', 'cool', '.', 'i printed this at school', 'thanks for putting the chords up'],
+    poetic: ['this sounded better in my room than it did at the show', 'the quiet part in bar 3 feels like missing your ride home', 'that suspended chord made my whole dumb week better'],
+    dumb: ['do u have the blink tab', 'my band is better but this is ok', 'this page loads slow lol'],
+    hostile: ['this tab is wrong lol', 'fix your links', 'why is the midi so loud'],
+    broken: ['<b>rock on</i>', 'AIM: xXsadfretsXx', 'FREE RINGTONES AT ringtone-heaven-2000.biz', 'is this the dragonball z page?', '&lt;marquee&gt;yo&lt;/marquee&gt;']
+  },
+  comments: {
+    mundane: ['this rules', 'nice', 'bump', 're-up the mp3 please', 'anyone got the guitar pro file', 'link is dead'],
+    poetic: ['the first four bars actually feel like a real song somebody forgot to finish', 'the return lands harder because the page finally leaves space for it'],
+    dumb: ['FIRST POST', 'lol okay', 'sounds like every band at the mall', 'does anyone have the POWER TAB???'],
+    hostile: ['this tab is wrong', 'you all hear what you want to hear', 'wrong thread but whatever', 'stop saying this is emo'],
+    broken: ['can someone re-upload the mp3 link is dead', 'my browser froze when the midi started', '[quote]where is the solo[/quote]', 'i think you posted the bass tab by accident']
+  },
+  filler: ['[IMG]', 'CLICK HERE TO SIGN MY GUESTBOOK', 'best viewed at 800x600', 'this page optimized for Netscape Navigator 4.0', 'link removed — geocities mirror expired 2002', 'AIM away: at taco bell brb', 'UNDER CONSTRUCTION', 'frames version coming soon', 'email me if links are broken'],
+  mundaneMemories: ["mike's mom drove the van but only if they were back by 11", 'the practice space key was hidden in the gutter', 'somebody left a half-eaten sub in the amp case', 'they owed the VFW $40 for the broken mic stand', 'the singer worked at the copy shop on Franklin', "the van wouldn't start in the Food Lion parking lot", "sean's blue hoodie never got given back", 'the door guy kept $20 and acted confused'],
+  gearBoring: ['what gauge strings does he use', 'my cable crackles when I move', 'the input jack is loose again', 'does anyone know where to get straps cheap', 'who has a tuner I can borrow', 'the 9V died during the set'],
+  pettyDrama: ['who owes who $15 for the practice space', 'the promoter put them on at 11pm on a Tuesday again', 'why does that other band always get the opening slot', 'someone stole their set time slot', 'the door guy kept $20', 'nobody helped load out', 'they got 4 minutes of soundcheck'],
+}
+
+const NAME_PATTERNS = {
+  single: ['Trestle', 'Casket', 'Landlord', 'Anthem', 'Buttermilk', '454', 'HWY 99', 'Room 114'],
+  thePlural: ['The Receipts', 'The Jeffs', 'The Goodnight Janes', 'The Guys', 'The Halogens'],
+  insideJoke: ["Aunt Bethany's Jello Mold", "Kevin's Other Band", 'Youth Rally Fight Club', 'Stacy Owed Us $5'],
+  placeThing: ['Durham Floor Punch', 'Salem Exit Ramp', 'Franklin Copy Room', 'Geer Street Soda Machine', 'Burlington Parking Deck'],
+  adjectiveNoun: ['Velour Static', 'Dogwood Static', 'Cinder Psalm', 'Queen City Veil']
+}
 
 const REGIONAL_SCENES = {
   pnw: {
     id: 'pnw',
     label: 'Oregon / PNW rain-burn circuit',
     slug: 'pnw',
-    descriptor: 'wet basements, all-ages halls, pedestrian-bridge acoustics, and copy-shop flyers from Eugene to Salem to Portland orbit',
+    descriptor: 'wet basements, all-ages halls, pedestrian-bridge acoustics, and copy shop flyers from Eugene to Salem to Portland orbit',
     webrings: ['Pacific Northwest Bedroom Shred Ring', 'I-5 Ghost Chord Alliance', 'Willamette Valley All-Ages Tone Spiral', 'Cascadia Tape Hiss Preservation Ring'],
     badges: ['RAIN-SOAKED FLYER VERIFIED', 'I-5 EXIT SHRED APPROVED', 'ALL-AGES HALL SURVIVOR', 'FERN-SCENTED PRACTICE SPACE'],
-    stamps: ['🌲 rain-soaked', '🚐 i-5 routed', '🌫️ bridge-reverb certified'],
+    stamps: ['🌲 rainy', '🚐 i-5 routed', '🌫️ bridge-reverb certified'],
     keeperHandles: ['kristin_from_gatewaypc', 'tabsaint77', 'stolenwahpedal', 'mallsaint', 'midnightfretprayer', 'willamettecopykid'],
     venues: ['WOW Hall in Eugene', 'the all-ages room behind the Salem skate shop', 'a VFW in Springfield', 'the Corvallis grange hall bill nobody archived correctly', 'the back room of a Portland coffeehouse with bad monitors'],
     smallTowns: ['Springfield', 'Cottage Grove', 'Albany', 'Dallas', 'Silverton', 'McMinnville', 'Bandon', 'Monmouth'],
-    memoryTags: ['bridge condensation on a set list', 'copy-shop staple rust', 'Black Butte road-trip tape flip', 'borrowed hoodie smelling like rain and cigarettes'],
+    memoryTags: ['bridge condensation on a set list', 'copy shop staple rust', 'Black Butte road-trip tape flip', 'borrowed hoodie smelling like rain and cigarettes'],
     flyerLanguage: ['ALL AGES / DON\'T BLOW IT', 'bring five bucks and your own sadness', 'flyer says 7 but nobody starts before 8:40', 'ask the kid by the merch Rubbermaid for directions'],
     gearTalk: ['Peavey Bandit with one scratchy knob', 'Small Clone somebody swore was always on', 'crate combo on a milk crate', 'pawn-shop Jazzmaster copy through a dying cable'],
     forumDrama: ['whether the pedal bridge was actually tracked under the Ferry Street bridge', 'the eternal argument about who stole the opener\'s holy Small Clone', 'a 19-post fight over whether this was emo or just Oregon weather'],
-    recordingOrigins: ['a fourth-generation practice-space dub from Eugene', 'an mp3 rescued from a Salem fan webring mirror', 'a tab emailed from a UO library terminal and rehosted without permission', 'a cassette rip labelled only SIDE B / WET BASEMENT'],
+    recordingOrigins: ['a fourth-generation practice space dub from Eugene', 'an mp3 rescued from a Salem fan webring mirror', 'a tab emailed from a UO library terminal and rehosted without permission', 'a cassette rip labelled only SIDE B / WET BASEMENT'],
     rareEvents: ['cursed mirror verified', 'missing verse fragment recovered', 'disputed authorship thread', 'one-hit guestbook prophecy', 'pedalboard polaroid surfaced'],
     rooms: {
       shimmery: ['food court after closing', 'upstairs bedroom with christmas lights', 'church youth room during setup', 'pedestrian bridge under sodium lights'],
@@ -44,10 +75,10 @@ const REGIONAL_SCENES = {
     id: 'nc',
     label: 'North Carolina triangle / piedmont circuit',
     slug: 'nc',
-    descriptor: 'dogwood-night house shows, Triangle message-board fights, Charlotte warehouse bills, and Chapel Hill/Carrboro melodic weirdness',
+    descriptor: 'dogwood night house shows, Triangle message-board fights, Charlotte warehouse bills, and Chapel Hill/Carrboro melodic weirdness',
     webrings: ['Triangle Feedback Preservation Ring', 'Piedmont Basement Signal Co-Op', 'Dogwood Distortion Webring', 'Carolina Late Show Tablature Circle'],
     badges: ['DOGWOOD NIGHT APPROVED', 'TRIANGLE BOARD DRAMA ARCHIVED', 'PIEDMONT HOUSE SHOW VOUCHED', 'QUEEN CITY LOAD-IN SAFE'],
-    stamps: ['🌙 dogwood-night approved', '📍 triangle routed', '🚬 parking-lot argument saved'],
+    stamps: ['🌙 dogwood night approved', '📍 triangle routed', '🚬 parking-lot argument saved'],
     keeperHandles: ['catscradleburner', 'durhamdialup', 'mergeboardlurker', 'queencitytapeop', 'chapelhillghost', 'dogwoodfeedback'],
     venues: ['Cat\'s Cradle back room in Carrboro', 'a Durham warehouse off Geer Street', 'a VFW outside Raleigh', 'a Charlotte practice spot by the freight tracks', 'the Winston-Salem coffeehouse matinee everybody misremembered'],
     smallTowns: ['Carrboro', 'Hillsborough', 'Saxapahaw', 'Mebane', 'Kannapolis', 'Boone', 'Pittsboro', 'Burlington'],
@@ -78,8 +109,8 @@ const SHRINE_ARCHETYPES = [
     layoutLabel: 'archive ledger + marginalia rail',
     tagline: 'maintained by one obsessive transcriber after school on a family iMac',
     voices: {
-      hero: 'Catalogued as if the page itself feared deletion.',
-      inspect: 'Archivist logic insists the shrine happened for reasons, not vibes.',
+      hero: 'Catalogued like somebody expected the whole thing to vanish after dinner.',
+      inspect: 'Every little detail got written down like it might settle an argument later.',
     },
   },
   {
@@ -90,7 +121,7 @@ const SHRINE_ARCHETYPES = [
     tagline: 'looks like it was updated between Orange Julius shifts',
     voices: {
       hero: 'Every section acts like this riff definitely meant one person.',
-      inspect: 'The machine heard shimmer and wrote a diary around it.',
+      inspect: 'Whoever kept this page took the clean guitar way too personally.',
     },
   },
   {
@@ -112,7 +143,7 @@ const SHRINE_ARCHETYPES = [
     tagline: 'half warning page, half impossible fan devotion',
     voices: {
       hero: 'Moral panic copy keeps accidentally becoming fandom.',
-      inspect: 'The engine hears menace, then disguises obsession as concern.',
+      inspect: 'Whoever made this page was worried about this band and could not stop tracking them.',
     },
   },
 ]
@@ -167,7 +198,7 @@ const BANDS = {
       name: 'Dogwood Static', hometown: 'Carrboro, NC', years: '1997–2002',
       members: ['Mira Ashe — guitar/voice', 'Cal Vick — bass', 'Theo March — drums'],
       albums: ['Porchlight Receiver (1998)', 'Humidity for Choirs (2001)'],
-      influences: ['Polvo after midnight', 'shimmer pedals through box fans', 'mall-emo chord honesty'],
+      influences: ['Polvo after midnight', 'shimmer pedals through box fans', 'mall emo chord honesty'],
       lore: 'They became local folklore because every tape dub seemed to add a different clean guitar that nobody remembered recording.',
     },
     {
@@ -432,7 +463,7 @@ app.innerHTML = `
       <div>
         <p class="eyebrow">HUM A RIFF. SUMMON A SHRINE.</p>
         <h1>Angelfire Tab Necromancer</h1>
-        <p class="lede">Feed it a hummed riff, a rough recording, or one of the cursed demos. It listens for the shape of the phrase, then resurrects a lost late-90s guitar shrine: tab, fake band lore, forum testimony, keeper notes, and sibling realities from the same offering.</p>
+        <p class="lede">Feed it a hummed riff, a rough recording, or one of the cursed demos. It listens for the shape of the phrase, then resurrects a lost late-90s guitar shrine: tab, band lore, forum testimony, keeper notes, and sibling realities from the same offering.</p>
         <div class="hero-intro-grid">
           <div class="quickstart-box chrome inset">
             <div class="section-title">First move if you just got here</div>
@@ -481,7 +512,7 @@ app.innerHTML = `
       <div class="demo-note" id="demoNote"></div>
       <div class="wave-wrap"><canvas id="waveCanvas" width="640" height="120" aria-label="audio preview waveform"></canvas></div>
       <div class="reading-panel chrome inset" id="readingPanel"><div class="section-title">Riff reading</div><p class="placeholder-copy">Your riff reading appears here after the offering is examined.</p></div>
-      <div class="tips-box"><div class="section-title">Best first run</div><ol><li>Start with <strong>Use surprise demo</strong> if you want the fantasy instantly.</li><li>Read the riff reading to see what the machine heard in your phrase.</li><li>Reroll sibling realities, pin a favorite, then save or print the keeper card.</li></ol></div>
+      <div class="tips-box"><div class="section-title">Best first run</div><ol><li>Start with <strong>Use surprise demo</strong> if you want the fantasy instantly.</li><li>Read the riff reading to see how your phrase got interpreted.</li><li>Reroll sibling realities, pin a favorite, then save or print the keeper card.</li></ol></div>
       <div class="favorites-panel chrome inset"><div class="section-title">Saved relics</div><div id="favoritesList" class="favorites-list"><p class="placeholder-copy">No saved relics yet.</p></div></div>
     </section>
 
@@ -498,7 +529,7 @@ app.innerHTML = `
         </div>
       </div>
       <div id="lineagePanel" class="lineage-panel chrome inset"><div class="section-title">Sibling realities</div><div class="lineage-strip"><span class="placeholder-copy">Reveal a shrine to compare variants from the same offering.</span></div></div>
-      <article id="shrine" class="shrine shrine-empty"><div><div class="construction">NO SHRINE SUMMONED YET</div><p>Start with <strong>⚡ Use surprise demo</strong> for the fastest resurrection, or feed the machine your own riff to see what kind of tab-forum myth it insists on preserving.</p></div></article>
+      <article id="shrine" class="shrine shrine-empty"><div><div class="construction">NO SHRINE SUMMONED YET</div><p>Start with <strong>⚡ Use surprise demo</strong> for the fastest resurrection, or feed it your own riff to see what kind of tab-forum myth it preserves.</p></div></article>
     </section>
   </main>
 </div>`
@@ -617,7 +648,7 @@ function createReading(features, vibe = '') {
   if (features.density < 0.4) why.push('more air between phrases opened room for dropout bars and answer phrases')
   if (features.brightness > 0.018) why.push('extra top-end static favored shimmer, gloss, and more nervous forum testimony')
   if (features.zeroRate < 0.1) why.push('lower zero-crossing kept the myth heavier and more monolithic')
-  if (why.length < 3) why.push('the offering landed in a middle lane, so the machine preserved ambiguity instead of over-solving it')
+  if (why.length < 3) why.push('the offering landed in a middle lane, so the page kept some ambiguity instead of forcing a big statement')
   return {
     moodKey,
     descriptors: [attackShape, sustainShape, densityLabel, brightnessLabel, emotion],
@@ -682,6 +713,61 @@ function inferScene(rand, meta, moodKey) {
   return rand() > 0.5 ? REGIONAL_SCENES.pnw : REGIONAL_SCENES.nc
 }
 
+
+function maybe(rand, chance) { return rand() < chance }
+function pickMany(rand, items, count) { return shuffle(rand, items).slice(0, count) }
+function weightedRegister(rand, type) {
+  const roll = rand()
+  if (type === 'guestbook') {
+    if (roll < 0.4) return 'mundane'
+    if (roll < 0.7) return 'poetic'
+    if (roll < 0.9) return rand() < 0.5 ? 'dumb' : 'broken'
+    return 'hostile'
+  }
+  if (roll < 0.4) return 'mundane'
+  if (roll < 0.65) return 'poetic'
+  if (roll < 0.8) return 'dumb'
+  if (roll < 0.9) return 'hostile'
+  return 'broken'
+}
+function pickRegisterLine(rand, type) {
+  const register = weightedRegister(rand, type)
+  return { register, text: pick(rand, REGISTER_POOLS[type][register]) }
+}
+function maybeHeader(rand, title) { return maybe(rand, 0.3) ? '' : `<div class="section-title">${escapeHtml(title)}</div>` }
+function pickBandName(rand) {
+  const roll = rand()
+  if (roll < 0.2) return pick(rand, NAME_PATTERNS.single)
+  if (roll < 0.4) return pick(rand, NAME_PATTERNS.thePlural)
+  if (roll < 0.6) return pick(rand, NAME_PATTERNS.insideJoke)
+  if (roll < 0.8) return pick(rand, NAME_PATTERNS.placeThing)
+  return pick(rand, NAME_PATTERNS.adjectiveNoun)
+}
+function buildDamageState(rand) {
+  if (!maybe(rand, 0.15)) return null
+  return pick(rand, [
+    { type: 'tab404', note: "tab section unavailable (geocities mirror 404'd)" },
+    { type: 'tabPartial', note: 'only the first 4 bars survived' },
+    { type: 'guestbookLost', note: 'guestbook entries lost in server migration' },
+    { type: 'photoBroken', note: 'band photo: [broken image]' },
+    { type: 'gearUnknown', note: 'signal chain unknown — practice space burned down 2001' },
+  ])
+}
+function buildGarbage(rand) {
+  if (!maybe(rand, 0.42)) return []
+  return pickMany(rand, REGISTER_POOLS.filler, 1 + Math.floor(rand() * 3))
+}
+function buildUnevenBand(rand, band) {
+  const clone = JSON.parse(JSON.stringify(band))
+  clone.name = maybe(rand, 0.5) ? pickBandName(rand) : clone.name
+  if (maybe(rand, 0.22)) { clone.membersUnknown = true; clone.members = [] }
+  if (maybe(rand, 0.22)) clone.albums = clone.albums.slice(0, 1)
+  if (maybe(rand, 0.1)) clone.albums = []
+  if (maybe(rand, 0.2)) clone.loreExtra = [pick(rand, REGISTER_POOLS.mundaneMemories), pick(rand, REGISTER_POOLS.pettyDrama)]
+  if (maybe(rand, 0.12)) clone.lore = ''
+  return clone
+}
+
 function buildTracklist(rand, title, band, scene) {
   return [title, `${pick(rand, TITLE_PREFIXES)} ${pick(rand, TITLE_SUBJECTS)}`, `${band.albums[0].split(' (')[0]} (mirror rip)`, `${pick(rand, scene.smallTowns)} rehearsal dub`, `${pick(rand, TITLE_PREFIXES)} ${pick(rand, TITLE_SUFFIXES)}`]
 }
@@ -691,36 +777,64 @@ function buildGear(rand, moodKey, scene) {
     amp: pick(rand, scene.amps),
     pedal: pick(rand, moodKey === 'shimmery' ? scene.pedals.shimmery : scene.pedals.heavy),
     room: pick(rand, moodKey === 'shimmery' ? scene.rooms.shimmery : scene.rooms.heavy),
-    talk: pick(rand, scene.gearTalk),
+    talk: maybe(rand, 0.4) ? pick(rand, REGISTER_POOLS.gearBoring) : pick(rand, scene.gearTalk),
   }
 }
 
 function buildCanon(rand, meta, moodKey, title) {
   const scene = inferScene(rand, meta, moodKey)
-  const band = pick(rand, BANDS[scene.id]); const archetypeIndex = meta.reading ? (Math.floor((meta.reading.descriptors.join('').length + meta.reroll) % SHRINE_ARCHETYPES.length)) : Math.floor(rand() * SHRINE_ARCHETYPES.length); const archetype = SHRINE_ARCHETYPES[archetypeIndex]
+  const band = buildUnevenBand(rand, pick(rand, BANDS[scene.id])); const archetypeIndex = meta.reading ? (Math.floor((meta.reading.descriptors.join('').length + meta.reroll) % SHRINE_ARCHETYPES.length)) : Math.floor(rand() * SHRINE_ARCHETYPES.length); const archetype = SHRINE_ARCHETYPES[archetypeIndex]
   const songSlot = 1 + Math.floor(rand() * 4); const recordingOrigin = pick(rand, scene.recordingOrigins)
   const shrineKeeper = pick(rand, scene.keeperHandles)
   const venue = pick(rand, scene.venues)
   const flyer = pick(rand, scene.flyerLanguage)
-  const memoryTag = pick(rand, scene.memoryTags)
-  const drama = pick(rand, scene.forumDrama)
+  const memoryTag = maybe(rand, 0.4) ? pick(rand, REGISTER_POOLS.mundaneMemories) : pick(rand, scene.memoryTags)
+  const drama = maybe(rand, 0.5) ? pick(rand, REGISTER_POOLS.pettyDrama) : pick(rand, scene.forumDrama)
+  const albumRef = band.albums[0] || 'an untitled demo nobody can fully verify'
   const songHistory = [
-    `${band.name} formed in ${band.hometown} and spent ${band.years} haunting ${venue} and nearby all-ages rooms with amps louder than their flyers suggested.`,
-    `${title} is generally listed by fans as track ${songSlot} from ${pick(rand, band.albums)}, though arguments continue because at least one tape rip reversed the order and one flyer promised a different title.`,
-    `The surviving source appears to be ${recordingOrigin}; this shrine was canonized by ${shrineKeeper} after two prior mirrors vanished. Flyer residue still reads: “${flyer}.”`,
-    `${band.lore} Local memory tag: ${memoryTag}. Ongoing forum drama: ${drama}. The consensus is that the tab is not exact, but emotionally binding.`,
+    `${band.name} formed in ${band.hometown} and spent ${band.years} around ${venue} and nearby all-ages rooms.`,
+    `${title} is usually listed as track ${songSlot} from ${albumRef}, though one tape rip reversed the order and somebody's flyer used another title.`,
+    `The surviving source appears to be ${recordingOrigin}; this shrine got mirrored by ${shrineKeeper} after two earlier pages died. Flyer residue still reads: “${flyer}.”`,
+    `${band.lore ? band.lore + ' ' : ''}Local memory tag: ${memoryTag}. Ongoing forum drama: ${drama}.`,
+    ...(band.loreExtra || []).map((line) => String(line)),
   ]
   return { band, archetype, shrineKeeper, songHistory, recordingOrigin, scene, venue, flyer, memoryTag, drama }
 }
 
 function buildForumComments(rand, canon, title, backing, moodKey, profile) {
   const offset = canon.archetype.id === 'gearhead' ? 0 : canon.archetype.id === 'foodcourt' ? 2 : canon.archetype.id === 'youthgroup' ? 4 : 1
-  return profile.commentTemplates.map((text, i) => ({ user: FORUM_USERS[(offset + i) % FORUM_USERS.length], score: `${7 + i}/1${i}`, text: `${text} ${i === profile.commentTemplates.length - 1 ? `Also: ${canon.drama}.` : ''}`.trim() }))
+  const total = 1 + Math.floor(rand() * 7)
+  const out = []
+  const uselessFloor = Math.max(1, Math.ceil(total * 0.3))
+  for (let i = 0; i < total; i += 1) {
+    let text
+    if (i < uselessFloor) {
+      text = pickRegisterLine(rand, 'comments').text
+    } else if (maybe(rand, 0.45)) {
+      text = pick(rand, profile.commentTemplates)
+    } else {
+      text = pickRegisterLine(rand, 'comments').text
+    }
+    if (i === total - 1 && maybe(rand, 0.5)) text = `${text}. Also: ${canon.drama}`
+    out.push({ user: FORUM_USERS[(offset + i + Math.floor(rand() * FORUM_USERS.length)) % FORUM_USERS.length], score: `${1 + Math.floor(rand() * 9)}/${10 + Math.floor(rand() * 10)}`, text })
+  }
+  return out
 }
 
 function buildGuestbook(rand, title, band, archetypeId, profile, scene) {
-  const places = [band.hometown, `${pick(rand, scene.smallTowns)}, ${scene.id === 'pnw' ? 'OR' : 'NC'}`, 'AOL keyword: guitar', 'inside a Geo Prism', `${pick(rand, scene.venues)}`]
-  return profile.guestbook.map((text) => ({ name: pick(rand, FORUM_USERS), place: pick(rand, places), text: `${text} (${pick(rand, scene.memoryTags)})` }))
+  const places = [band.hometown, `${pick(rand, scene.smallTowns)}, ${scene.id === 'pnw' ? 'OR' : 'NC'}`, 'AOL keyword: guitar', 'inside a Geo Prism', `${pick(rand, scene.venues)}`, 'school library', "my aunt's house"]
+  const total = 2 + Math.floor(rand() * 5)
+  const out = []
+  for (let i = 0; i < total; i += 1) {
+    let text
+    const roll = rand()
+    if (roll < 0.4) text = maybe(rand, 0.4) ? `${pick(rand, profile.guestbook)} (${pick(rand, REGISTER_POOLS.mundaneMemories)})` : `${pick(rand, profile.guestbook)} (${pick(rand, scene.memoryTags)})`
+    else if (roll < 0.7) text = pick(rand, REGISTER_POOLS.guestbook.mundane)
+    else if (roll < 0.9) text = pick(rand, [...REGISTER_POOLS.guestbook.dumb, ...REGISTER_POOLS.guestbook.broken, ...REGISTER_POOLS.guestbook.hostile])
+    else text = pick(rand, REGISTER_POOLS.guestbook.poetic)
+    out.push({ name: maybe(rand, 0.18) ? 'AIM:' : pick(rand, FORUM_USERS), place: pick(rand, places), text })
+  }
+  return out
 }
 
 function buildRarePull(rand, canon) {
@@ -735,16 +849,25 @@ function buildRarePull(rand, canon) {
 
 function buildArchetypeModules(shrine) {
   const { archetype } = shrine.canon
-  const commonTab = `<div class="tab-block chrome inset readable-tab"><div class="section-title">Recovered tablature</div><div class="tab-toolbar"><span>Tuning: ${escapeHtml(shrine.tuning)}</span><span>Progression: ${escapeHtml(shrine.chordHints.join(' → '))}</span><span>Seed: ${shrine.seed}</span></div><pre>${escapeHtml(shrine.tabs)}</pre><div class="tab-legend">Legend: h = hammer-on · p = pull-off · / = slide · b = bend · x = mute · PM = palm mute-ish</div><div class="rhythm-strip">${shrine.rhythmMap.map((map) => `<span>${escapeHtml(map)}</span>`).join('')}</div></div>`
+  const tabHeader = maybeHeader(shrine.rand, 'Recovered tablature')
+  const commentsHeader = maybeHeader(shrine.rand, archetype.id === 'gearhead' ? 'take-comparison wall' : archetype.id === 'foodcourt' ? 'reply chain' : archetype.id === 'youthgroup' ? 'testimony cards' : 'annotation rail')
+  const guestHeader = maybeHeader(shrine.rand, archetype.id === 'foodcourt' ? 'diary residue' : archetype.id === 'gearhead' ? 'scene rumor log' : archetype.id === 'youthgroup' ? 'warning / witness notes' : 'guestbook / corrections')
+  const gearHeader = maybeHeader(shrine.rand, archetype.id === 'gearhead' ? 'signal chain dossier' : archetype.id === 'foodcourt' ? 'mall weather' : archetype.id === 'youthgroup' ? 'caution inventory' : 'archive hardware')
+  const trackHeader = maybeHeader(shrine.rand, archetype.id === 'foodcourt' ? 'memory stack' : archetype.id === 'gearhead' ? 'take sheet' : archetype.id === 'youthgroup' ? 'sanitized order of play' : 'page lore / tracklist')
+  const tabBody = shrine.damage?.type === 'tab404' ? `<p class="placeholder-copy">${escapeHtml(shrine.damage.note)}</p>` : shrine.damage?.type === 'tabPartial' ? `<p class="placeholder-copy">${escapeHtml(shrine.damage.note)}</p><pre>${escapeHtml(shrine.tabs.split('\\n').slice(0, 4).join('\\n'))}</pre>` : `<div class="tab-toolbar"><span>Tuning: ${escapeHtml(shrine.tuning)}</span><span>Progression: ${escapeHtml(shrine.chordHints.join(' → '))}</span><span>Seed: ${shrine.seed}</span></div><pre>${escapeHtml(shrine.tabs)}</pre><div class="tab-legend">Legend: h = hammer-on · p = pull-off · / = slide · b = bend · x = mute · PM = palm mute-ish</div><div class="rhythm-strip">${shrine.rhythmMap.map((map) => `<span>${escapeHtml(map)}</span>`).join('')}</div>`
+  const commonTab = `<div class="tab-block chrome inset readable-tab">${tabHeader}${tabBody}</div>`
   const whyBlock = `<details class="chrome inset inspect-block" ${shrine.reroll === 0 ? 'open' : ''}><summary>why this shrine happened</summary><ul>${shrine.reading.why.map((line) => `<li>${escapeHtml(line)}</li>`).join('')}</ul><p>${escapeHtml(shrine.reading.vibeEcho)}</p><p>${escapeHtml(archetype.voices.inspect)}</p></details>`
-  const comments = `<div class="forum-block chrome inset"><div class="section-title">${escapeHtml(archetype.id === 'gearhead' ? 'take-comparison wall' : archetype.id === 'foodcourt' ? 'reply chain' : archetype.id === 'youthgroup' ? 'testimony cards' : 'annotation rail')}</div>${shrine.comments.map((comment) => `<div class="comment"><strong>${escapeHtml(comment.user)}</strong><span class="comment-score">cred score: ${escapeHtml(comment.score)}</span><p>${escapeHtml(comment.text)}</p></div>`).join('')}</div>`
-  const guestbook = `<div class="chrome inset guestbook-block"><div class="section-title">${escapeHtml(archetype.id === 'foodcourt' ? 'diary residue' : archetype.id === 'gearhead' ? 'scene rumor log' : archetype.id === 'youthgroup' ? 'warning / witness notes' : 'guestbook / corrections')}</div>${shrine.guestbook.map((entry) => `<div class="guest-entry"><strong>${escapeHtml(entry.name)}</strong><span>${escapeHtml(entry.place)}</span><p>${escapeHtml(entry.text)}</p></div>`).join('')}</div>`
-  const gear = `<div class="chrome inset gear-block"><div class="section-title">${escapeHtml(archetype.id === 'gearhead' ? 'signal chain dossier' : archetype.id === 'foodcourt' ? 'mall weather' : archetype.id === 'youthgroup' ? 'caution inventory' : 'archive hardware')}</div><ul><li><strong>guitar:</strong> ${escapeHtml(shrine.gear.guitar)}</li><li><strong>amp:</strong> ${escapeHtml(shrine.gear.amp)}</li><li><strong>pedal:</strong> ${escapeHtml(shrine.gear.pedal)}</li><li><strong>room tone:</strong> ${escapeHtml(shrine.gear.room)}</li><li><strong>scene talk:</strong> ${escapeHtml(shrine.gear.talk)}</li><li><strong>motif transform:</strong> ${escapeHtml(shrine.motifSummary)}</li><li><strong>flyer line:</strong> ${escapeHtml(shrine.flyerLine)}</li></ul></div>`
-  const track = `<div class="chrome inset"><div class="section-title">${escapeHtml(archetype.id === 'foodcourt' ? 'memory stack' : archetype.id === 'gearhead' ? 'take sheet' : archetype.id === 'youthgroup' ? 'sanitized order of play' : 'page lore / tracklist')}</div><div class="tracklist">${shrine.tracklist.map((track, index) => `<div><span>${index + 1}.</span><span>${escapeHtml(track)}</span></div>`).join('')}</div><div class="setlist-box">${shrine.sections.map((section) => `<span>${escapeHtml(section)}</span>`).join('')}</div></div>`
-  if (archetype.id === 'foodcourt') return `<section class="content-grid top-content-grid"><div class="sidebar-stack">${whyBlock}${guestbook}${gear}</div><div>${commonTab}${comments}</div></section><section class="content-grid lower-grid"><div>${track}</div><div class="chrome inset love-note"><div class="section-title">one-person evidence</div><p>${escapeHtml(shrine.heroLine)}</p><p>${escapeHtml(archetype.voices.hero)}</p></div></section>`
-  if (archetype.id === 'gearhead') return `<section class="content-grid top-content-grid"><div>${gear}${commonTab}</div><div class="sidebar-stack">${whyBlock}${comments}${guestbook}</div></section><section class="content-grid lower-grid"><div>${track}</div><div class="chrome inset love-note"><div class="section-title">forensic summary</div><p>${escapeHtml(shrine.heroLine)}</p><p>${escapeHtml(archetype.voices.hero)}</p></div></section>`
-  if (archetype.id === 'youthgroup') return `<section class="content-grid top-content-grid"><div class="chrome inset warning-sheet"><div class="section-title">warning tract</div><p>${escapeHtml(shrine.heroLine)}</p><p>${escapeHtml(archetype.voices.hero)}</p></div><div class="sidebar-stack">${whyBlock}${comments}</div></section><section class="content-grid lower-grid"><div>${commonTab}</div><div>${gear}${guestbook}${track}</div></section>`
-  return `<section class="content-grid top-content-grid"><div>${whyBlock}${commonTab}</div><div class="sidebar-stack">${comments}${gear}</div></section><section class="content-grid lower-grid"><div>${track}</div><div>${guestbook}<div class="chrome inset love-note"><div class="section-title">archive marginalia</div><p>${escapeHtml(shrine.heroLine)}</p><p>${escapeHtml(archetype.voices.hero)}</p></div></div></section>`
+  const commentState = shrine.commentState ? `<p class="placeholder-copy">${escapeHtml(shrine.commentState)}</p>` : shrine.comments.map((comment) => `<div class="comment"><strong>${escapeHtml(comment.user)}</strong><span class="comment-score">cred score: ${escapeHtml(comment.score)}</span><p>${escapeHtml(comment.text)}</p></div>`).join('')
+  const comments = `<div class="forum-block chrome inset">${commentsHeader}${commentState}</div>`
+  const guestState = shrine.damage?.type === 'guestbookLost' ? `<p class="placeholder-copy">${escapeHtml(shrine.damage.note)}</p>` : shrine.guestbook.map((entry) => `<div class="guest-entry"><strong>${escapeHtml(entry.name)}</strong><span>${escapeHtml(entry.place)}</span><p>${escapeHtml(entry.text)}</p></div>`).join('')
+  const guestbook = `<div class="chrome inset guestbook-block">${guestHeader}${guestState}</div>`
+  const gearTalk = shrine.damage?.type === 'gearUnknown' ? `<li><strong>notes:</strong> ${escapeHtml(shrine.damage.note)}</li>` : `<li><strong>scene talk:</strong> ${escapeHtml(shrine.gear.talk)}</li>`
+  const gear = `<div class="chrome inset gear-block">${gearHeader}<ul><li><strong>guitar:</strong> ${escapeHtml(shrine.gear.guitar)}</li><li><strong>amp:</strong> ${escapeHtml(shrine.gear.amp)}</li><li><strong>pedal:</strong> ${escapeHtml(shrine.gear.pedal)}</li><li><strong>room tone:</strong> ${escapeHtml(shrine.gear.room)}</li>${gearTalk}<li><strong>motif transform:</strong> ${escapeHtml(shrine.motifSummary)}</li><li><strong>flyer line:</strong> ${escapeHtml(shrine.flyerLine)}</li></ul></div>`
+  const track = `<div class="chrome inset">${trackHeader}<div class="tracklist">${shrine.tracklist.map((track, index) => `<div><span>${index + 1}.</span><span>${escapeHtml(track)}</span></div>`).join('')}</div><div class="setlist-box">${shrine.sections.map((section) => `<span>${escapeHtml(section)}</span>`).join('')}</div>${shrine.looseNote ? `<p>${escapeHtml(shrine.looseNote)}</p>` : ''}</div>`
+  if (archetype.id === 'foodcourt') return `<section class="content-grid top-content-grid"><div class="sidebar-stack">${whyBlock}${guestbook}${gear}</div><div>${commonTab}${comments}</div></section><section class="content-grid lower-grid"><div>${track}</div><div class="chrome inset love-note">${maybeHeader(shrine.rand, 'one-person evidence')}<p>${escapeHtml(shrine.heroLine)}</p><p>${escapeHtml(archetype.voices.hero)}</p></div></section>`
+  if (archetype.id === 'gearhead') return `<section class="content-grid top-content-grid"><div>${gear}${commonTab}</div><div class="sidebar-stack">${whyBlock}${comments}${guestbook}</div></section><section class="content-grid lower-grid"><div>${track}</div><div class="chrome inset love-note">${maybeHeader(shrine.rand, 'forensic summary')}<p>${escapeHtml(shrine.heroLine)}</p><p>${escapeHtml(archetype.voices.hero)}</p></div></section>`
+  if (archetype.id === 'youthgroup') return `<section class="content-grid top-content-grid"><div class="chrome inset warning-sheet">${maybeHeader(shrine.rand, 'warning tract')}<p>${escapeHtml(shrine.heroLine)}</p><p>${escapeHtml(archetype.voices.hero)}</p></div><div class="sidebar-stack">${whyBlock}${comments}</div></section><section class="content-grid lower-grid"><div>${commonTab}</div><div>${gear}${guestbook}${track}</div></section>`
+  return `<section class="content-grid top-content-grid"><div>${whyBlock}${commonTab}</div><div class="sidebar-stack">${comments}${gear}</div></section><section class="content-grid lower-grid"><div>${track}</div><div>${guestbook}<div class="chrome inset love-note">${maybeHeader(shrine.rand, 'archive marginalia')}<p>${escapeHtml(shrine.heroLine)}</p><p>${escapeHtml(archetype.voices.hero)}</p></div></div></section>`
 }
 
 function progressionRoots(progression) {
@@ -760,21 +883,21 @@ function progressionRoots(progression) {
 function generateShrine(meta) {
   const seed = meta.exactSeed ?? hashString(JSON.stringify(meta)); const rand = mulberry32(seed); const moodKey = classifyMood(meta); const mood = MOODS[moodKey]
   const title = `${pick(rand, TITLE_PREFIXES)} ${pick(rand, TITLE_SUBJECTS)} ${pick(rand, TITLE_SUFFIXES)}`; const bpm = 76 + Math.floor(rand() * 72)
-  const canon = buildCanon(rand, meta, moodKey, title); const profile = chooseSongProfile(rand, moodKey, meta); const tuning = profile.tuning || pick(rand, TUNINGS); const key = profile.key || pick(rand, KEYS); const era = pick(rand, ERAS)
+  const canon = buildCanon(rand, meta, moodKey, title); const profile = chooseSongProfile(rand, moodKey, meta); const tuning = profile.tuning || pick(rand, TUNINGS); const key = profile.key || pick(rand, KEYS); const era = pick(rand, ERAS); const damage = buildDamageState(rand); const garbage = buildGarbage(rand)
   const badges = shuffle(rand, [...BADGES, ...canon.scene.badges]).slice(0, 4); const stamps = shuffle(rand, [...STAMPS, ...canon.scene.stamps]).slice(0, 3); const tab = makeTabLines(profile); const chordHints = profile.progression
   const sections = profile.sections.map((section, index) => `${section.name} · ${section.chord} · ${section.feature}`)
   const roots = profile.chordRoots || progressionRoots(chordHints)
   const backing = { tempo: bpm, rootMidi: 38 + roots[0], progression: chordHints, bassPattern: profile.bassPattern || roots.flatMap((root) => [root, root]), drumPattern: mood.drumStyle, shimmer: moodKey === 'shimmery', form: profile.sections.map((section) => section.name), hookShape: profile.hookShape, chordRoots: roots }
-  const comments = buildForumComments(rand, canon, title, backing, moodKey, profile); const gear = buildGear(rand, moodKey, canon.scene); const guestbook = buildGuestbook(rand, title, canon.band, canon.archetype.id, profile, canon.scene); const rarePull = buildRarePull(rand, canon)
+  const comments = buildForumComments(rand, canon, title, backing, moodKey, profile); const gear = buildGear(rand, moodKey, canon.scene); const guestbook = buildGuestbook(rand, title, canon.band, canon.archetype.id, profile, canon.scene); const rarePull = buildRarePull(rand, canon); const commentState = maybe(rand, 0.08) ? pick(rand, ['comments disabled after spam attack 11/2001', 'forum thread locked by admin']) : null; const looseNote = maybe(rand, 0.22) ? pick(rand, ['do not play this at the memorial show', '04/19/00', 'Nate / Leah / benji / sara', 'ask drew about the van title']) : ''
   const heroLine = canon.archetype.id === 'foodcourt'
-    ? `${profile.hero} Nobody can prove ${title} was about one person, which is why everyone knows it was.`
+    ? `${profile.hero} Nobody can prove ${title} was about one person, which is why half the guestbook insists it was.`
     : canon.archetype.id === 'gearhead'
-      ? `${profile.hero} ${title} feels reconstructed from the exact voicings shown below, not vague room-tone lore.`
+      ? `${profile.hero} ${title} feels reconstructed from the exact voicings shown below, not vague room tone lore.`
       : canon.archetype.id === 'youthgroup'
         ? `${profile.hero} This page condemns the riff with one hand and preserves the visible chord shapes with the other.`
-        : `${profile.hero} ${title} survives because the recurrence is strong enough to feel authored.`
+        : `${profile.hero} ${title} survived because somebody bothered to save the part everyone else forgot.`
 
-  return { version: 8, seed, baseSeed: meta.baseSeed ?? seed, reroll: meta.reroll ?? 0, title, mood: mood.label, bpm, tuning, key, era, vibe: meta.vibe || 'mysterious mall-goth intention', tabs: tab.lines, rhythmMap: tab.rhythmMap, comments, badges, stamps, backdrop: pick(rand, ['radial-gradient(circle at top, rgba(255,0,255,0.22), transparent 30%), repeating-linear-gradient(0deg, #12051f 0 2px, #0b0312 2px 4px)', 'radial-gradient(circle at 20% 20%, rgba(0,255,255,0.16), transparent 25%), linear-gradient(180deg, #190019, #03030a)', 'linear-gradient(180deg, #1f0935, #07040b 60%), repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 8px)', 'radial-gradient(circle at 80% 0%, rgba(255,238,99,0.15), transparent 28%), linear-gradient(180deg, #250026, #080811 66%)']), backing, relicText: `Recovered from ${canon.recordingOrigin} during ${era}. Source offering: ${meta.sourceLabel}.`, waveform: meta.amplitudes, tracklist: buildTracklist(rand, title, canon.band, canon.scene), gear, webring: pick(rand, canon.scene.webrings), guestbook, chordHints, sections, sourceLabel: meta.sourceLabel, stats: { duration: `${meta.duration.toFixed(3)} sec`, rms: meta.rms.toFixed(6), zeroRate: meta.zeroRate.toFixed(6), peak: meta.peak.toFixed(6), attack: meta.attack.toFixed(6), sustain: meta.sustain.toFixed(6), brightness: meta.brightness.toFixed(6), density: meta.density.toFixed(6) }, counter: String(120000 + (seed % 700000)).padStart(6, '0'), canon, reading: meta.reading, rarePull, heroLine, motifSummary: profile.motifSummary, songProfile: profile, vocabNote: mood.vocab, sceneLabel: canon.scene.label, flyerLine: canon.flyer, memoryTag: canon.memoryTag }
+  return { version: 9, seed, baseSeed: meta.baseSeed ?? seed, reroll: meta.reroll ?? 0, title, mood: mood.label, bpm, tuning, key, era, vibe: meta.vibe || 'mysterious mall intention', tabs: tab.lines, rhythmMap: tab.rhythmMap, comments, badges, stamps, damage, garbage, commentState, looseNote, rand, backdrop: pick(rand, ['radial-gradient(circle at top, rgba(255,0,255,0.22), transparent 30%), repeating-linear-gradient(0deg, #12051f 0 2px, #0b0312 2px 4px)', 'radial-gradient(circle at 20% 20%, rgba(0,255,255,0.16), transparent 25%), linear-gradient(180deg, #190019, #03030a)', 'linear-gradient(180deg, #1f0935, #07040b 60%), repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 8px)', 'radial-gradient(circle at 80% 0%, rgba(255,238,99,0.15), transparent 28%), linear-gradient(180deg, #250026, #080811 66%)']), backing, relicText: `Recovered from ${canon.recordingOrigin} during ${era}. Source offering: ${meta.sourceLabel}.`, waveform: meta.amplitudes, tracklist: buildTracklist(rand, title, canon.band, canon.scene), gear, webring: pick(rand, canon.scene.webrings), guestbook, chordHints, sections, sourceLabel: meta.sourceLabel, stats: { duration: `${meta.duration.toFixed(3)} sec`, rms: meta.rms.toFixed(6), zeroRate: meta.zeroRate.toFixed(6), peak: meta.peak.toFixed(6), attack: meta.attack.toFixed(6), sustain: meta.sustain.toFixed(6), brightness: meta.brightness.toFixed(6), density: meta.density.toFixed(6) }, counter: String(120000 + (seed % 700000)).padStart(6, '0'), canon, reading: meta.reading, rarePull, heroLine, motifSummary: profile.motifSummary, songProfile: profile, vocabNote: mood.vocab, sceneLabel: canon.scene.label, flyerLine: canon.flyer, memoryTag: canon.memoryTag }
 }
 
 function renderReading(recipe) {
@@ -807,7 +930,7 @@ function renderFavorites() {
 function renderShrine(shrine) {
   document.body.style.background = shrine.backdrop; el.visitorCount.textContent = shrine.counter; el.shrine.className = `shrine ${shrine.canon.archetype.className}`
   el.shrine.innerHTML = `
-  <section class="hero-banner chrome inset hero-gradient">
+  <section class="hero-banner chrome inset hero-gradient">${shrine.garbage.length ? `<div class="construction">${shrine.garbage.map((item) => escapeHtml(item)).join(' • ')}</div>` : ''}
     <div>
       <div class="gif-row"><span class="gif-pill blink">NEW!!</span><span class="gif-pill">${escapeHtml(shrine.canon.archetype.label)}</span><span class="gif-pill blink">RIFF → MYTH</span>${shrine.stamps.map((stamp) => `<span class="gif-pill alt">${escapeHtml(stamp)}</span>`).join('')}</div>
       <h3>${escapeHtml(shrine.title)}</h3>
@@ -818,7 +941,7 @@ function renderShrine(shrine) {
     <div class="cd-box"><div class="cd-disc"></div><div class="rating-box"><strong>riff potency</strong><span>${7 + (shrine.seed % 4)} / 10 skull picks</span>${shrine.rarePull ? `<span class="rare-pull">rare pull: ${escapeHtml(shrine.rarePull)}</span>` : ''}</div></div>
   </section>
   <section class="stats-grid"><div class="mini-window"><strong>Tuning</strong><span>${escapeHtml(shrine.tuning)}</span></div><div class="mini-window"><strong>Era recovered</strong><span>${escapeHtml(shrine.era)}</span></div><div class="mini-window"><strong>Scene cluster</strong><span>${escapeHtml(shrine.sceneLabel)}</span></div><div class="mini-window"><strong>Band canon</strong><span>${escapeHtml(shrine.canon.band.name)} · ${escapeHtml(shrine.canon.band.hometown)}</span></div><div class="mini-window"><strong>Archive note</strong><span>${escapeHtml(shrine.relicText)}</span></div></section>
-  <section class="canon-strip chrome inset"><div class="section-title">CANON SHRINE HISTORY</div><div class="canon-grid"><div><strong>keeper of record</strong><p>${escapeHtml(shrine.canon.shrineKeeper)} — ${escapeHtml(shrine.canon.archetype.tagline)}</p></div><div><strong>scene cluster</strong><p>${escapeHtml(shrine.sceneLabel)}</p></div><div><strong>members</strong><p>${escapeHtml(shrine.canon.band.members.join(' · '))}</p></div><div><strong>records</strong><p>${escapeHtml(shrine.canon.band.albums.join(' / '))}</p></div><div><strong>motif logic</strong><p>${escapeHtml(shrine.motifSummary)}</p></div><div><strong>memory tag</strong><p>${escapeHtml(shrine.memoryTag)}</p></div></div><div class="history-spine">${shrine.canon.songHistory.map((line) => `<p>${escapeHtml(line)}</p>`).join('')}</div></section>
+  <section class="canon-strip chrome inset"><div class="section-title">CANON SHRINE HISTORY</div><div class="canon-grid"><div><strong>keeper of record</strong><p>${escapeHtml(shrine.canon.shrineKeeper)} — ${escapeHtml(shrine.canon.archetype.tagline)}</p></div><div><strong>scene cluster</strong><p>${escapeHtml(shrine.sceneLabel)}</p></div><div><strong>members</strong><p>${escapeHtml(shrine.canon.band.membersUnknown ? 'not documented / disputed' : (shrine.canon.band.members.length ? shrine.canon.band.members.join(' · ') : 'not documented'))}</p></div><div><strong>records</strong><p>${escapeHtml(shrine.canon.band.albums.length ? shrine.canon.band.albums.join(' / ') : 'no recorded output confirmed')}</p></div><div><strong>motif logic</strong><p>${escapeHtml(shrine.motifSummary)}</p></div><div><strong>memory tag</strong><p>${escapeHtml(shrine.memoryTag)}</p></div></div>${shrine.damage?.type === 'photoBroken' ? `<p class="placeholder-copy">${escapeHtml(shrine.damage.note)}</p>` : ''}<div class="history-spine">${shrine.canon.songHistory.map((line) => `<p>${escapeHtml(line)}</p>`).join('')}</div></section>
   ${buildArchetypeModules(shrine)}
   <section class="zine-sheet chrome inset"><div class="section-title">KEEPER CARD / FOLD-OUT MINI ZINE</div><div class="zine-grid"><div><h4>cover</h4><p>${escapeHtml(shrine.title)}</p></div><div><h4>band canon</h4><p>${escapeHtml(shrine.canon.band.name)} / ${escapeHtml(shrine.canon.band.hometown)}</p></div><div><h4>riff reading</h4><p>${escapeHtml(shrine.reading.descriptors.join(' · '))}</p></div><div><h4>rare pull</h4><p>${escapeHtml(shrine.rarePull || 'none this time')}</p></div><div><h4>hero line</h4><p>${escapeHtml(shrine.heroLine)}</p></div><div><h4>hook shape</h4><p>${escapeHtml(shrine.backing.hookShape)}</p></div></div></section>
   <footer class="badge-wall chrome inset">${shrine.badges.map((badge) => `<span class="badge blink">${escapeHtml(badge)}</span>`).join('')}</footer>`
