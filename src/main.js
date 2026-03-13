@@ -1,17 +1,74 @@
 import './style.css'
 
 const TAB_STRINGS = ['e', 'B', 'G', 'D', 'A', 'E']
-const TITLE_PREFIXES = ['Velvet', 'Chrome', 'Basement', 'Candlelit', 'Laser', 'Ashtray', 'Midnight', 'Tape-Hiss', 'Blacklight', 'Mall', 'Sorcerer\'s', 'Dial-Up', 'Velour', 'Moonburn', 'Static', 'Dreamfax', 'Neon', 'Prayer Circle', 'Wet Cement', 'VHS']
-const TITLE_SUBJECTS = ['Cathedral', 'Promenade', 'Telecaster', 'Funeral', 'Skatepark', 'Afterparty', 'Hex', 'Lifeguard Chair', 'Summer', 'Prophecy', 'Bus Ticket', 'Kiss-Off', 'Cigarette Halo', 'Parking Lot', 'Girlfriend', 'Stairwell', 'Data Ghost', 'Food Court', 'Practice Space', 'Slowdance']
-const TITLE_SUFFIXES = ['Riff', 'Lament', 'Theme', 'Directive', 'Signal', 'Prayer', 'Demo', 'Memorial', 'Tab', 'Overture']
-const FORUM_USERS = ['xX_TabGhoul_Xx', 'fretwizard77', 'DropD4Eva', 'mallgothdad', 'amphexed', 'shredmancer', 'modemtears', 'bossmetalzone', 'fenderbender99', 'cassetteoracle', 'webringwidow', 'd00m_capo']
-const BADGES = ['BEST VIEWED WHILE SHREDDING', 'TABS NEVER DIE', 'MIDI IS PEOPLE TOO', 'UNDER CONSTRUCTION FOREVER', 'DROP D OR DROP DEAD', 'POWERED BY MOUNTAIN DEW CODE RED', 'NETSCAPE FRIENDLY', 'HAND-CODED IN DESPERATION', 'NO NU METAL HATE MAIL', 'PRINT THIS BEFORE AOL DELETES IT']
-const STAMPS = ['🕸️ haunted', '💿 cd-r verified', '📡 56k approved', '⚡ solo safe', '🦇 mallgoth tested', '🧃 surge compatible']
-const WEBRINGS = ['Pacific Northwest Bedroom Shred Ring', 'Dial-Up Doom Guitarists Alliance', 'Angsty Tabs for Sensitive Delinquents', 'Geocities Axe Altar Webring']
+const TITLE_PREFIXES = ['Velvet', 'Chrome', 'Basement', 'Candlelit', 'Laser', 'Ashtray', 'Midnight', 'Tape-Hiss', 'Blacklight', 'Mall', 'Sorcerer\'s', 'Dial-Up', 'Velour', 'Moonburn', 'Static', 'Dreamfax', 'Neon', 'Prayer Circle', 'Wet Cement', 'VHS', 'Pollen', 'Dogwood', 'Cascade', 'Exit Sign', 'Bus-Depot', 'Hydrangea', 'Screenburn']
+const TITLE_SUBJECTS = ['Cathedral', 'Promenade', 'Telecaster', 'Funeral', 'Skatepark', 'Afterparty', 'Hex', 'Lifeguard Chair', 'Summer', 'Prophecy', 'Bus Ticket', 'Kiss-Off', 'Cigarette Halo', 'Parking Lot', 'Girlfriend', 'Stairwell', 'Data Ghost', 'Food Court', 'Practice Space', 'Slowdance', 'Dogwood', 'Overpass', 'Pine Barrens', 'Phone Pole', 'County Line', 'Ferry Slip', 'Rehearsal Hall']
+const TITLE_SUFFIXES = ['Riff', 'Lament', 'Theme', 'Directive', 'Signal', 'Prayer', 'Demo', 'Memorial', 'Tab', 'Overture', 'Weather Report', 'Complaint', 'Flyer', 'Translation']
+const FORUM_USERS = ['xX_TabGhoul_Xx', 'fretwizard77', 'DropD4Eva', 'mallgothdad', 'amphexed', 'shredmancer', 'modemtears', 'bossmetalzone', 'fenderbender99', 'cassetteoracle', 'webringwidow', 'd00m_capo', 'dogwoodfeedback', 'durhamdialup', 'i5ghostnote', 'trianglefloorpunch']
+const BADGES = ['BEST VIEWED WHILE SHREDDING', 'TABS NEVER DIE', 'MIDI IS PEOPLE TOO', 'UNDER CONSTRUCTION FOREVER', 'DROP D OR DROP DEAD', 'POWERED BY MOUNTAIN DEW CODE RED', 'NETSCAPE FRIENDLY', 'HAND-CODED IN DESPERATION', 'NO NU METAL HATE MAIL', 'PRINT THIS BEFORE AOL DELETES IT', 'SCENE VERIFIED BY FLYER LAMINATE', 'ASK ABOUT THE MATINEE BILL']
+const STAMPS = ['🕸️ haunted', '💿 cd-r verified', '📡 56k approved', '⚡ solo safe', '🦇 mallgoth tested', '🧃 surge compatible', '🌲 rain-soaked', '🌙 dogwood-night approved']
 const TUNINGS = ['E A D G B E', 'D A D G B E', 'D G C F A D', 'D A D F# A D', 'Eb Ab Db Gb Bb Eb']
-const KEYS = ['E minor', 'D minor', 'D mixolydian', 'G major', 'A dorian', 'B minor']
-const ERAS = ['Summer 1998', 'Fall 1999', 'Y2K eve', 'that one LAN party weekend', 'the week everyone got a wah pedal', 'the month before somebody\'s starter jacket got stolen']
-const RARE_EVENTS = ['cursed mirror verified', 'missing verse fragment recovered', 'disputed authorship thread', 'one-hit guestbook prophecy', 'prom-night bootleg provenance']
+const KEYS = ['E minor', 'D minor', 'D mixolydian', 'G major', 'A dorian', 'B minor', 'C major', 'F# minor']
+const ERAS = ['Summer 1998', 'Fall 1999', 'Y2K eve', 'that one LAN party weekend', 'the week everyone got a wah pedal', 'the month before somebody\'s starter jacket got stolen', 'late spring 2000 when the flyer toner ran blue', 'the semester everybody suddenly owned a four-track']
+
+const REGIONAL_SCENES = {
+  pnw: {
+    id: 'pnw',
+    label: 'Oregon / PNW rain-burn circuit',
+    slug: 'pnw',
+    descriptor: 'wet basements, all-ages halls, pedestrian-bridge acoustics, and copy-shop flyers from Eugene to Salem to Portland orbit',
+    webrings: ['Pacific Northwest Bedroom Shred Ring', 'I-5 Ghost Chord Alliance', 'Willamette Valley All-Ages Tone Spiral', 'Cascadia Tape Hiss Preservation Ring'],
+    badges: ['RAIN-SOAKED FLYER VERIFIED', 'I-5 EXIT SHRED APPROVED', 'ALL-AGES HALL SURVIVOR', 'FERN-SCENTED PRACTICE SPACE'],
+    stamps: ['🌲 rain-soaked', '🚐 i-5 routed', '🌫️ bridge-reverb certified'],
+    keeperHandles: ['kristin_from_gatewaypc', 'tabsaint77', 'stolenwahpedal', 'mallsaint', 'midnightfretprayer', 'willamettecopykid'],
+    venues: ['WOW Hall in Eugene', 'the all-ages room behind the Salem skate shop', 'a VFW in Springfield', 'the Corvallis grange hall bill nobody archived correctly', 'the back room of a Portland coffeehouse with bad monitors'],
+    smallTowns: ['Springfield', 'Cottage Grove', 'Albany', 'Dallas', 'Silverton', 'McMinnville', 'Bandon', 'Monmouth'],
+    memoryTags: ['bridge condensation on a set list', 'copy-shop staple rust', 'Black Butte road-trip tape flip', 'borrowed hoodie smelling like rain and cigarettes'],
+    flyerLanguage: ['ALL AGES / DON\'T BLOW IT', 'bring five bucks and your own sadness', 'flyer says 7 but nobody starts before 8:40', 'ask the kid by the merch Rubbermaid for directions'],
+    gearTalk: ['Peavey Bandit with one scratchy knob', 'Small Clone somebody swore was always on', 'crate combo on a milk crate', 'pawn-shop Jazzmaster copy through a dying cable'],
+    forumDrama: ['whether the pedal bridge was actually tracked under the Ferry Street bridge', 'the eternal argument about who stole the opener\'s holy Small Clone', 'a 19-post fight over whether this was emo or just Oregon weather'],
+    recordingOrigins: ['a fourth-generation practice-space dub from Eugene', 'an mp3 rescued from a Salem fan webring mirror', 'a tab emailed from a UO library terminal and rehosted without permission', 'a cassette rip labelled only SIDE B / WET BASEMENT'],
+    rareEvents: ['cursed mirror verified', 'missing verse fragment recovered', 'disputed authorship thread', 'one-hit guestbook prophecy', 'pedalboard polaroid surfaced'],
+    rooms: {
+      shimmery: ['food court after closing', 'upstairs bedroom with christmas lights', 'church youth room during setup', 'pedestrian bridge under sodium lights'],
+      heavy: ['unfinished basement with concrete bloom', 'garage beside hockey pads', 'practice space behind the roller rink', 'storage unit by the bike path'],
+    },
+    guitars: ['Squier Strat with stickers', 'sunburst Yamaha Pacifica', 'pawn shop SG copy', 'black Epiphone Les Paul', 'mystery offset from a church rummage sale'],
+    amps: ['Peavey Bandit', 'Crate half-stack', 'Fender Frontman 25R', 'borrowed Marshall combo', 'amp of unknown origin with one angry speaker'],
+    pedals: {
+      shimmery: ['Danelectro FAB Chorus', 'Big Muff clone', 'cheap digital delay', 'Small Clone rumor only'],
+      heavy: ['Boss Metal Zone', 'DOD grunge pedal', 'Big Muff clone', 'one tuner and a dream'],
+    },
+  },
+  nc: {
+    id: 'nc',
+    label: 'North Carolina triangle / piedmont circuit',
+    slug: 'nc',
+    descriptor: 'dogwood-night house shows, Triangle message-board fights, Charlotte warehouse bills, and Chapel Hill/Carrboro melodic weirdness',
+    webrings: ['Triangle Feedback Preservation Ring', 'Piedmont Basement Signal Co-Op', 'Dogwood Distortion Webring', 'Carolina Late Show Tablature Circle'],
+    badges: ['DOGWOOD NIGHT APPROVED', 'TRIANGLE BOARD DRAMA ARCHIVED', 'PIEDMONT HOUSE SHOW VOUCHED', 'QUEEN CITY LOAD-IN SAFE'],
+    stamps: ['🌙 dogwood-night approved', '📍 triangle routed', '🚬 parking-lot argument saved'],
+    keeperHandles: ['catscradleburner', 'durhamdialup', 'mergeboardlurker', 'queencitytapeop', 'chapelhillghost', 'dogwoodfeedback'],
+    venues: ['Cat\'s Cradle back room in Carrboro', 'a Durham warehouse off Geer Street', 'a VFW outside Raleigh', 'a Charlotte practice spot by the freight tracks', 'the Winston-Salem coffeehouse matinee everybody misremembered'],
+    smallTowns: ['Carrboro', 'Hillsborough', 'Saxapahaw', 'Mebane', 'Kannapolis', 'Boone', 'Pittsboro', 'Burlington'],
+    memoryTags: ['dogwood petals mashed into a set list', 'Waffle House receipt with tunings on the back', 'I-40 overnight tape dub', 'parking-lot humidity curling the flyer corners'],
+    flyerLanguage: ['ALL AGES / BRING CASH / DON\'T CALL THE COPS', 'matinee if the hardcore bill clears out in time', 'someone\'s cousin is running sound, be cool', 'if you miss the Carrboro exit you missed the whole summer'],
+    gearTalk: ['JC-120 borrowed from somebody\'s older brother', 'rat pedal with the paint rubbed off', 'solid-state combo that somehow loved open chords', 'Mustang bass through an SVT nobody could afford to break'],
+    forumDrama: ['whether the Carrboro clean tone was a Jazzmaster or just the JC-120 doing all the work', 'a 30-reply argument over Raleigh versus Durham flyer etiquette', 'who was subtweeting who before subtweets existed on the local board'],
+    recordingOrigins: ['a four-track dub from a Carrboro duplex', 'an mp3 mirrored off a Chapel Hill student server', 'a CD-R passed around after a Raleigh matinee', 'a board-post attachment salvaged from a Charlotte scene forum backup'],
+    rareEvents: ['Cat\'s Cradle flyer scan attached', 'guestbook beef reignited', 'Waffle House receipt tab corroborated', 'board-admin lock after page 4'],
+    rooms: {
+      shimmery: ['attic room over a Carrboro duplex porch', 'apartment living room with two box fans', 'back hallway at the arts center', 'warehouse office with Christmas lights and humidity'],
+      heavy: ['Charlotte warehouse beside the loading dock', 'Durham rehearsal lockout with old posters on cinderblock', 'garage outside Hillsborough with two PA cabs and no insulation', 'boiler-room basement near campus'],
+    },
+    guitars: ['Japanese Jazzmaster with cigarette burns', 'black Mustang with mismatched knobs', 'Tele Deluxe copy with one dead switch', 'Epiphone Sheraton borrowed for exactly one chorus', 'partscaster offset with a Dogfish sticker'],
+    amps: ['Roland JC-120', 'Peavey Classic 30', 'Ampeg combo with a torn grille', 'old Sunn head somebody\'s uncle found', 'Fender Hot Rod Deluxe from the practice lockout'],
+    pedals: {
+      shimmery: ['Boss CE-5', 'Memory Man rumor only', 'DD-3 with dying battery', 'Rat set weirdly low'],
+      heavy: ['ProCo Rat', 'Big Muff Pi', 'Boss DS-1 from the glovebox', 'MXR Distortion+ with tape on the knob'],
+    },
+  },
+}
 
 const SHRINE_ARCHETYPES = [
   {
@@ -60,36 +117,96 @@ const SHRINE_ARCHETYPES = [
   },
 ]
 
-const BANDS = [
-  {
-    name: 'The Votive District', hometown: 'Springfield, OR', years: '1997–2001',
-    members: ['Nate “Latchkey” Corbin — guitar/voice', 'Mara Quince — bass', 'Dylan Stedd — drums'],
-    albums: ['Prayer Xerox (1998)', 'Exit Through Food Court (2000)'],
-    influences: ['Hum', 'Failure', 'that one local band with two choruses and no merch'],
-    lore: 'They were locally famous for starting songs before the tuner pedal had finished muting.',
-  },
-  {
-    name: 'Halo Arcade', hometown: 'Salem, OR', years: '1998–2002',
-    members: ['Rin Vale — guitar', 'Jory Hask — bass', 'Ben Fitch — drums', 'Leah Pell — occasional glockenspiel'],
-    albums: ['Parking Lot Glossary (1999)', 'Permanent Closing Time (2001)'],
-    influences: ['Smashing Pumpkins B-sides', 'shoes squeaking on tile', 'goth kids borrowing emo chord voicings'],
-    lore: 'People swore the clean parts were tracked in the mall after security stopped caring.',
-  },
-  {
-    name: 'Cinder Psalm', hometown: 'Corvallis, OR', years: '1996–2000',
-    members: ['Micah Sorrell — guitar/voice', 'Evan Wirth — bass', 'Paz Yarrow — drums'],
-    albums: ['Basement Glossolalia (1997)', 'The Concrete Is Listening (1999)'],
-    influences: ['Quicksand', 'Sunny Day Real Estate', 'one terrifying Peavey combo'],
-    lore: 'Their drummer counted off every song like it was either a prayer or a threat.',
-  },
-  {
-    name: 'Velour Static', hometown: 'Eugene, OR', years: '1998–2003',
-    members: ['Tess Merrow — guitar/voice', 'Cole Aven — bass', 'Iris Holt — drums/sampler'],
-    albums: ['Gloss Damage (1999)', 'Neon Wake Service (2002)'],
-    influences: ['starry-eyed alt rock', 'cheap chorus pedals', 'the acoustics under pedestrian bridges'],
-    lore: 'Half the scene thought the tabs were simple until they tried to make the voicings ring correctly.',
-  },
-]
+const BANDS = {
+  pnw: [
+    {
+      name: 'The Votive District', hometown: 'Springfield, OR', years: '1997–2001',
+      members: ['Nate “Latchkey” Corbin — guitar/voice', 'Mara Quince — bass', 'Dylan Stedd — drums'],
+      albums: ['Prayer Xerox (1998)', 'Exit Through Food Court (2000)'],
+      influences: ['Hum', 'Failure', 'that one local band with two choruses and no merch'],
+      lore: 'They were locally famous for starting songs before the tuner pedal had finished muting.',
+    },
+    {
+      name: 'Halo Arcade', hometown: 'Salem, OR', years: '1998–2002',
+      members: ['Rin Vale — guitar', 'Jory Hask — bass', 'Ben Fitch — drums', 'Leah Pell — occasional glockenspiel'],
+      albums: ['Parking Lot Glossary (1999)', 'Permanent Closing Time (2001)'],
+      influences: ['Smashing Pumpkins B-sides', 'shoes squeaking on tile', 'goth kids borrowing emo chord voicings'],
+      lore: 'People swore the clean parts were tracked in the mall after security stopped caring.',
+    },
+    {
+      name: 'Cinder Psalm', hometown: 'Corvallis, OR', years: '1996–2000',
+      members: ['Micah Sorrell — guitar/voice', 'Evan Wirth — bass', 'Paz Yarrow — drums'],
+      albums: ['Basement Glossolalia (1997)', 'The Concrete Is Listening (1999)'],
+      influences: ['Quicksand', 'Sunny Day Real Estate', 'one terrifying Peavey combo'],
+      lore: 'Their drummer counted off every song like it was either a prayer or a threat.',
+    },
+    {
+      name: 'Velour Static', hometown: 'Eugene, OR', years: '1998–2003',
+      members: ['Tess Merrow — guitar/voice', 'Cole Aven — bass', 'Iris Holt — drums/sampler'],
+      albums: ['Gloss Damage (1999)', 'Neon Wake Service (2002)'],
+      influences: ['starry-eyed alt rock', 'cheap chorus pedals', 'the acoustics under pedestrian bridges'],
+      lore: 'Half the scene thought the tabs were simple until they tried to make the voicings ring correctly.',
+    },
+    {
+      name: 'June Choir Motel', hometown: 'Portland, OR', years: '1998–2002',
+      members: ['Elis Vane — voice/guitar', 'Milo Creel — bass', 'Sera Dunn — drums'],
+      albums: ['Bridge Condensation (1999)', 'Blue Copier Summer (2001)'],
+      influences: ['The Promise Ring played slower', 'Pacific Northwest drizzle', 'overdriven clean channels'],
+      lore: 'Their singer kept writing set times on the back of grocery receipts and losing them in guitar cases.',
+    },
+    {
+      name: 'Trestle Youth', hometown: 'Albany, OR', years: '1997–2000',
+      members: ['Wes Morrow — guitar', 'Lenna Pike — bass/voice', 'Olin Cates — drums'],
+      albums: ['County Fair Elegies (1998)', 'Late Bus to Corvallis (2000)'],
+      influences: ['Jawbox', 'ponded parking lots', 'one half-working distortion pedal'],
+      lore: 'They allegedly broke up because no one would admit who kept detuning the borrowed SG between sets.',
+    },
+  ],
+  nc: [
+    {
+      name: 'Dogwood Static', hometown: 'Carrboro, NC', years: '1997–2002',
+      members: ['Mira Ashe — guitar/voice', 'Cal Vick — bass', 'Theo March — drums'],
+      albums: ['Porchlight Receiver (1998)', 'Humidity for Choirs (2001)'],
+      influences: ['Polvo after midnight', 'shimmer pedals through box fans', 'mall-emo chord honesty'],
+      lore: 'They became local folklore because every tape dub seemed to add a different clean guitar that nobody remembered recording.',
+    },
+    {
+      name: 'Geer Street Saints', hometown: 'Durham, NC', years: '1998–2003',
+      members: ['Rafe Tilden — guitar', 'Nina Kade — bass/voice', 'Jules Mercer — drums'],
+      albums: ['Warehouse Fluorescent (1999)', 'Matinee Complaint Dept. (2002)'],
+      influences: ['Jawbox', 'Drive Like Jehu played by nicer people', 'warehouse slapback'],
+      lore: 'They kept printing “be cool to the neighbors” on flyers because one bill nearly ended the whole warehouse run.',
+    },
+    {
+      name: 'Queen City Veil', hometown: 'Charlotte, NC', years: '1997–2001',
+      members: ['Avery Kell — guitar/voice', 'Jon Pruett — guitar', 'Mags Lenoir — bass', 'Pip Sloan — drums'],
+      albums: ['Freight Track Psalms (1998)', 'No Parking After Soundcheck (2000)'],
+      influences: ['Failure', 'Sunday warehouse echo', 'JC-120 clean panic'],
+      lore: 'People argued for years about whether their second guitarist was real or just doubled live by excessive delay.',
+    },
+    {
+      name: 'Roxboro Exit', hometown: 'Raleigh, NC', years: '1998–2002',
+      members: ['Ian Vale — guitar/voice', 'Cori Dunn — bass', 'Miles Boone — drums'],
+      albums: ['Board Admin Locked It (1999)', 'Interstate Lull (2001)'],
+      influences: ['Braid', 'hot parking-lot air', 'cheap Rats and expensive feelings'],
+      lore: 'Their board feud with a Durham promoter produced more surviving text than their first EP did.',
+    },
+    {
+      name: 'Blue Room Gospel', hometown: 'Chapel Hill, NC', years: '1996–2000',
+      members: ['Liza Rowan — voice/guitar', 'Derek Poe — bass', 'Sam Yates — drums', 'Em Fitch — organ when needed'],
+      albums: ['Student Server Eulogies (1997)', 'Second Floor Feedback (1999)'],
+      influences: ['Superchunk played wounded', 'open-string Appalachian ghosts', 'tiny room reverb'],
+      lore: 'Half their mythology comes from a campus-hosted fan page that disappeared every finals week.',
+    },
+    {
+      name: 'Hillsborough Thread', hometown: 'Hillsborough, NC', years: '1999–2003',
+      members: ['Noah Baird — guitar', 'Elsie Trent — bass', 'Rook Latham — drums/voice'],
+      albums: ['Dogwood Dial Tone (2000)', 'Receipt on the Dashboard (2002)'],
+      influences: ['Codeine with better coffee', 'humid two-lane highways', 'Mustang bass through borrowed Ampeg'],
+      lore: 'They got adopted by the Triangle scene after three opening slots and one impossibly good slow song.',
+    },
+  ],
+}
 
 const MOODS = {
   feral: {
@@ -118,13 +235,9 @@ const MOODS = {
 const SONGBOOK = {
   feral: [
     {
-      id: 'dropd-battery',
-      tuning: 'D A D G B E',
-      key: 'D minor',
-      progression: ['D5', 'Bb5', 'F5', 'C5'],
+      id: 'dropd-battery', tuning: 'D A D G B E', key: 'D minor', progression: ['D5', 'Bb5', 'F5', 'C5'],
       hero: 'A drop-D verse that slams low fifths, then answers itself with a higher octave stab.',
-      motifSummary: 'low-string chug → octave jab on D/G strings → one-bar dropout → full return',
-      hookShape: '0-0-3-5 / 7-7-5-3',
+      motifSummary: 'low-string chug → octave jab on D/G strings → one-bar dropout → full return', hookShape: '0-0-3-5 / 7-7-5-3',
       rhythmMap: ['1e+a / 3+ · palm-muted chug', '2+ / 4e · octave answer', '1--- / answer · dropout bar', '1e+a / 3+ · full-rig return'],
       sections: [
         { name: 'verse', chord: 'D5', feature: 'open low-D chug under a 0-3-5 climb' },
@@ -132,32 +245,15 @@ const SONGBOOK = {
         { name: 'dropout', chord: 'F5', feature: 'single-note low-string crawl with space left open' },
         { name: 'turnaround', chord: 'C5', feature: 'slide back into the opening chug from 5/3' },
       ],
-      tabLines: [
-        'e|----------------|----------------|----------------|----------------|',
-        'B|----------------|----------------|----------------|----------------|',
-        'G|----------------|--10--10-------|----------------|---------5/7----|',
-        'D|----------------|---8---8-------|------3-----5---|-----5-5--------|',
-        'A|----------------|----------------|----3---3-------|---5------------|',
-        'D|-0-0-0-3-5-3-0--|-0-0-0-0-0-0-0-|-0-0-----3-3----|-5-5---3---0----|',
-      ],
-      bassPattern: [0, 0, 8, 8, 3, 3, 10, 10],
-      chordRoots: [0, 8, 3, 10],
-      commentTemplates: [
-        'The tab actually matches the page now: bar 1 is the low-D 0-3-5 climb, and bar 2 answers with those 8/10 octaves.',
-        'Do not flatten the dropout bar — the empty space before the F5 crawl is the whole point of the turnaround.',
-        'You can hear the pick hand open up when the chug stops and the octave jab takes over.',
-        'Forum consensus: this riff only works if the return slide really lands on the visible 5/3 move.'
-      ],
+      tabLines: ['e|----------------|----------------|----------------|----------------|', 'B|----------------|----------------|----------------|----------------|', 'G|----------------|--10--10-------|----------------|---------5/7----|', 'D|----------------|---8---8-------|------3-----5---|-----5-5--------|', 'A|----------------|----------------|----3---3-------|---5------------|', 'D|-0-0-0-3-5-3-0--|-0-0-0-0-0-0-0-|-0-0-----3-3----|-5-5---3---0----|'],
+      bassPattern: [0, 0, 8, 8, 3, 3, 10, 10], chordRoots: [0, 8, 3, 10],
+      commentTemplates: ['The tab actually matches the page now: bar 1 is the low-D 0-3-5 climb, and bar 2 answers with those 8/10 octaves.', 'Do not flatten the dropout bar — the empty space before the F5 crawl is the whole point of the turnaround.', 'You can hear the pick hand open up when the chug stops and the octave jab takes over.', 'Forum consensus: this riff only works if the return slide really lands on the visible 5/3 move.'],
       guestbook: ['printed the drop-D shape and stole the turnaround for our bridge', 'the 8/10 octave answer is why the chorus finally makes sense', 'left the dropout bar untouched because the silence hits harder than another chord'],
     },
     {
-      id: 'octave-riot',
-      tuning: 'D A D G B E',
-      key: 'D mixolydian',
-      progression: ['D5', 'G5', 'Bb5', 'C5'],
+      id: 'octave-riot', tuning: 'D A D G B E', key: 'D mixolydian', progression: ['D5', 'G5', 'Bb5', 'C5'],
       hero: 'A parking-lot riff built from low-string grind and a recurring octave siren.',
-      motifSummary: 'open D pedal → 5/7 power move → octave siren at 7/9 → stomped ending',
-      hookShape: '0-0-5-7 / 7-9-7-5',
+      motifSummary: 'open D pedal → 5/7 power move → octave siren at 7/9 → stomped ending', hookShape: '0-0-5-7 / 7-9-7-5',
       rhythmMap: ['1e+a / 3+ · open-string battery', '2+ / 4e · power-chord shove', '1--- / answer · octave siren', '1e+a / 3+ · stomp ending'],
       sections: [
         { name: 'verse', chord: 'D5', feature: 'open D pedal with short mutes' },
@@ -165,34 +261,49 @@ const SONGBOOK = {
         { name: 'answer', chord: 'Bb5', feature: '7/9 octave siren on D/G strings' },
         { name: 'turnaround', chord: 'C5', feature: 'descending stomp back to the root' },
       ],
-      tabLines: [
-        'e|----------------|----------------|----------------|----------------|',
-        'B|----------------|----------------|----------------|----------------|',
-        'G|----------------|----------------|--9--9--9-7-----|----------------|',
-        'D|----------------|----------------|--7--7--7-5-----|--5---3---------|',
-        'A|----------------|-5-5-5-5-7-7---|----------------|--5---3---------|',
-        'D|-0-0-x-0-0-x-0--|-5-5-5-5-7-7---|-0-0-x-0-0-x-0--|--5---3---0-----|',
-      ],
-      bassPattern: [0, 0, 7, 7, 8, 8, 10, 10],
-      chordRoots: [0, 7, 8, 10],
-      commentTemplates: [
-        'The octave siren in bar 3 is literally the visible 7/9 shape on D and G — not a mystery lead overdub.',
-        'Bar 2 is just D5 shoved up to G5; stop rewriting it as separate chords.',
-        'This one inspires songs because the verse and answer are obviously related instead of random noodles.',
-        'The stomp ending works because the page keeps the root pedal alive underneath the move to C5.'
-      ],
+      tabLines: ['e|----------------|----------------|----------------|----------------|', 'B|----------------|----------------|----------------|----------------|', 'G|----------------|----------------|--9--9--9-7-----|----------------|', 'D|----------------|----------------|--7--7--7-5-----|--5---3---------|', 'A|----------------|-5-5-5-5-7-7---|----------------|--5---3---------|', 'D|-0-0-x-0-0-x-0--|-5-5-5-5-7-7---|-0-0-x-0-0-x-0--|--5---3---0-----|'],
+      bassPattern: [0, 0, 7, 7, 8, 8, 10, 10], chordRoots: [0, 7, 8, 10],
+      commentTemplates: ['The octave siren in bar 3 is literally the visible 7/9 shape on D and G — not a mystery lead overdub.', 'Bar 2 is just D5 shoved up to G5; stop rewriting it as separate chords.', 'This one inspires songs because the verse and answer are obviously related instead of random noodles.', 'The stomp ending works because the page keeps the root pedal alive underneath the move to C5.'],
       guestbook: ['used this as a verse immediately', 'the 5/7 shove into the siren is embarrassingly catchy', 'yes the tab finally reads like something a band would actually rehearse'],
+    },
+    {
+      id: 'freight-yard-lurch', tuning: 'D A D G B E', key: 'F# minor', progression: ['F#5', 'A5', 'E5', 'B5'],
+      hero: 'A tense stop-start builder that sounds like a chorus trying not to become a breakdown.',
+      motifSummary: 'muted low-string scrape → two-note climb → octave flare → hard brake', hookShape: '4-4-7-9 / 9-11-7-4',
+      rhythmMap: ['1e+a / 2e · scrape battery', '3+ / 4e · two-note climb', '1--- / answer · octave flare', '3+ / 4+ · hard brake'],
+      sections: [
+        { name: 'verse', chord: 'F#5', feature: 'low-string mutes with a 4-7 shove' },
+        { name: 'lift', chord: 'A5', feature: 'openened-up power chord that widens the bar' },
+        { name: 'answer', chord: 'E5', feature: '9/11 octave flare on the middle strings' },
+        { name: 'turn', chord: 'B5', feature: 'descending brake that snaps back to the root' },
+      ],
+      tabLines: ['e|----------------|----------------|----------------|----------------|', 'B|----------------|----------------|----------------|----------------|', 'G|----------------|----------------|--11--11--9-----|----------------|', 'D|----------------|--7-----7-------|---9---9--7-----|--9---7---------|', 'A|----------------|--7-----7-------|----------------|--9---7---------|', 'D|-4-x-4-x-4-7-4--|-4-x-4-4-4-7-4--|-0-0-x-0-0-x-0--|--9---7---4-----|'],
+      bassPattern: [6, 6, 9, 9, 4, 4, 11, 11], chordRoots: [6, 9, 4, 11],
+      commentTemplates: ['Bar 1 is a scrape-and-release riff, not random chugging; the visible 4-7 shove is the whole contour.', 'The lift into A5 matters because it widens the verse instead of just getting louder.', 'That 9/11 flare in bar 3 is why the turnaround sounds authored.', 'Every rehearsal-room band in this fake universe would argue about where the brake actually lands.'],
+      guestbook: ['this is exactly the kind of verse our drummer would overplay', 'the bar-3 flare makes the whole fake song believable', 'finally a heavy fragment that leaves room for a singer'],
+    },
+    {
+      id: 'dogwood-battery', tuning: 'D A D G B E', key: 'E minor', progression: ['E5', 'C5', 'G5', 'D5'],
+      hero: 'A Piedmont basement mover: open low string pulse, then a chorus-sized climb that still feels house-show mean.',
+      motifSummary: 'open E grind → C/G shove → octave rally → D5 reset', hookShape: '2-2-5-7 / 7-9-5-2',
+      rhythmMap: ['1e+a / 3+ · open-string grind', '2+ / 4e · chord shove', '1--- / answer · octave rally', '1e+a / 4+ · reset'],
+      sections: [
+        { name: 'verse', chord: 'E5', feature: 'open low-string pulse around the second fret' },
+        { name: 'push', chord: 'C5', feature: 'compact power move that sets up the bigger G5' },
+        { name: 'answer', chord: 'G5', feature: '7/9 octave rally with the pedal tone still implied' },
+        { name: 'return', chord: 'D5', feature: 'snapped ending that tees the root back up' },
+      ],
+      tabLines: ['e|----------------|----------------|----------------|----------------|', 'B|----------------|----------------|----------------|----------------|', 'G|----------------|----------------|--9--9--7-------|----------------|', 'D|----------------|--5-----5-------|--7--7--5-------|--7---5---------|', 'A|----------------|--3-----5-------|----------------|--5---5---------|', 'D|-2-2-x-2-2-x-2--|-2-2---5-5-5----|-2-2-x-2-2-x-2--|--0---5---2-----|'],
+      bassPattern: [2, 2, 0, 0, 7, 7, 2, 2], chordRoots: [4, 0, 7, 2],
+      commentTemplates: ['You can feel the North Carolina version of this immediately: less bludgeon, more push-pull around the octave answer.', 'Bar 2 is the whole writing trick — the C5 only matters because it opens into the G5 shove.', 'The return to D5 gives the singer somewhere to fall back in.', 'This is the kind of tab somebody would print after a Raleigh matinee and start a new band over.'],
+      guestbook: ['used the return for a chorus before the page finished loading', 'the answer bar sounds like a crowded Durham room', 'yes this feels way more Carolina than generic heavy'],
     },
   ],
   shimmery: [
     {
-      id: 'shimmer-dyads',
-      tuning: 'E A D G B E',
-      key: 'E minor',
-      progression: ['Em(add9)', 'Cmaj7', 'G6', 'Dsus2'],
+      id: 'shimmer-dyads', tuning: 'E A D G B E', key: 'E minor', progression: ['Em(add9)', 'Cmaj7', 'G6', 'Dsus2'],
       hero: 'A chiming open-string progression with a high-answer figure that keeps quoting the verse.',
-      motifSummary: 'open E/B shimmer → upper-string answer at 7/8/10 → brief breath → full progression bloom',
-      hookShape: '0-0-7-8 / 10-8-7-0',
+      motifSummary: 'open E/B shimmer → upper-string answer at 7/8/10 → brief breath → full progression bloom', hookShape: '0-0-7-8 / 10-8-7-0',
       rhythmMap: ['2+ / 4e · open-string shimmer', '2+ / 4e · upper-register answer', '1--- / answer · breath bar', '2+ / 4e · progression bloom'],
       sections: [
         { name: 'verse', chord: 'Em(add9)', feature: 'open E and B ringing through a 0-7-8 figure' },
@@ -200,32 +311,15 @@ const SONGBOOK = {
         { name: 'breath', chord: 'G6', feature: 'single melodic thread while the open B keeps chiming' },
         { name: 'turnaround', chord: 'Dsus2', feature: 'return slide into the original suspended voicing' },
       ],
-      tabLines: [
-        'e|-0-----0---------|-8-----7-------|-7-----5-------|-0-----0---------|',
-        'B|-0-----0---------|-8-----8-------|-7-----7-------|-3-----3---------|',
-        'G|-0h2---0h2-------|-9-----9-------|-7-----7-------|-2-----2---------|',
-        'D|-2-----2---------|-10----9-------|-5-----4-------|-0-----0---------|',
-        'A|-2-----3---------|-10----10------|-5-----5-------|-----------------|',
-        'E|-0-----0---------|-8-----8-------|-3-----3-------|-----------------|',
-      ],
-      bassPattern: [0, 0, 8, 8, 3, 3, 10, 10],
-      chordRoots: [0, 8, 3, 10],
-      commentTemplates: [
-        'The comments keep calling it shimmer because you can literally see the open E and B strings ringing through every bar.',
-        'Bar 2 is the visible Cmaj7-ish answer at 8/8/9/10, not a separate solo part.',
-        'The little breath in bar 3 is why the last Dsus2 return lands like a chorus instead of filler.',
-        'This is one of the first outputs here that reads like a song fragment you could actually finish.'
-      ],
+      tabLines: ['e|-0-----0---------|-8-----7-------|-7-----5-------|-0-----0---------|', 'B|-0-----0---------|-8-----8-------|-7-----7-------|-3-----3---------|', 'G|-0h2---0h2-------|-9-----9-------|-7-----7-------|-2-----2---------|', 'D|-2-----2---------|-10----9-------|-5-----4-------|-0-----0---------|', 'A|-2-----3---------|-10----10------|-5-----5-------|-----------------|', 'E|-0-----0---------|-8-----8-------|-3-----3-------|-----------------|'],
+      bassPattern: [0, 0, 8, 8, 3, 3, 10, 10], chordRoots: [0, 8, 3, 10],
+      commentTemplates: ['The comments keep calling it shimmer because you can literally see the open E and B strings ringing through every bar.', 'Bar 2 is the visible Cmaj7-ish answer at 8/8/9/10, not a separate solo part.', 'The little breath in bar 3 is why the last Dsus2 return lands like a chorus instead of filler.', 'This is one of the first outputs here that reads like a song fragment you could actually finish.'],
       guestbook: ['the suspended top strings are doing exactly the emotional labor people say they are', 'stole the bar 2 answer for a bridge immediately', 'thank you for keeping the open B drone in the tab and in the comments'],
     },
     {
-      id: 'mall-glass',
-      tuning: 'E A D G B E',
-      key: 'G major',
-      progression: ['G6', 'Dsus2', 'Em7', 'Cmaj7'],
+      id: 'mall-glass', tuning: 'E A D G B E', key: 'G major', progression: ['G6', 'Dsus2', 'Em7', 'Cmaj7'],
       hero: 'A chorus-pedal postcard: airy dyads on top, open-string glue underneath.',
-      motifSummary: 'high dyad descent → open-string answer → held suspension → repeat with wider ending',
-      hookShape: '12-10-7-5 / 0-0-7-8',
+      motifSummary: 'high dyad descent → open-string answer → held suspension → repeat with wider ending', hookShape: '12-10-7-5 / 0-0-7-8',
       rhythmMap: ['2+ / 4e · high dyad descent', '2+ / 4e · open-string answer', '1--- / answer · held suspension', '2+ / 4e · wider ending'],
       sections: [
         { name: 'intro', chord: 'G6', feature: '12-10-7 descent against open G/B strings' },
@@ -233,34 +327,49 @@ const SONGBOOK = {
         { name: 'hold', chord: 'Em7', feature: 'let-ring dyad on the middle strings' },
         { name: 'turnaround', chord: 'Cmaj7', feature: 'resolve by widening the top interval' },
       ],
-      tabLines: [
-        'e|-12---10---7----|-0-----0-------|-7~~~~---------|-8-----7---------|',
-        'B|-12---10---8----|-3-----3-------|-8~~~~---------|-8-----8---------|',
-        'G|-12---11---7----|-2-----2-------|-7~~~~---------|-9-----9---------|',
-        'D|----------------|-0-----0-------|-9~~~~---------|-10----9---------|',
-        'A|----------------|----------------|-7~~~~---------|-10----10--------|',
-        'E|-3--------------|----------------|---------------|-8-----8---------|',
-      ],
-      bassPattern: [7, 7, 2, 2, 4, 4, 9, 9],
-      chordRoots: [7, 2, 4, 9],
-      commentTemplates: [
-        'The first bar is that visible 12-10-7 glassy descent; the page should talk about it because it is the riff.',
-        'Notice how the Dsus2 reply really is just the open-string version of the same contour.',
-        'Holding the Em7 in bar 3 gives the comments an actual thing to call “let it ring.”',
-        'This finally reads like a chorus someone forgot to finish, which is exactly the good version of fake musicianship.'
-      ],
+      tabLines: ['e|-12---10---7----|-0-----0-------|-7~~~~---------|-8-----7---------|', 'B|-12---10---8----|-3-----3-------|-8~~~~---------|-8-----8---------|', 'G|-12---11---7----|-2-----2-------|-7~~~~---------|-9-----9---------|', 'D|----------------|-0-----0-------|-9~~~~---------|-10----9---------|', 'A|----------------|----------------|-7~~~~---------|-10----10--------|', 'E|-3--------------|----------------|---------------|-8-----8---------|'],
+      bassPattern: [7, 7, 2, 2, 4, 4, 9, 9], chordRoots: [7, 2, 4, 9],
+      commentTemplates: ['The first bar is that visible 12-10-7 glassy descent; the page should talk about it because it is the riff.', 'Notice how the Dsus2 reply really is just the open-string version of the same contour.', 'Holding the Em7 in bar 3 gives the comments an actual thing to call “let it ring.”', 'This finally reads like a chorus someone forgot to finish, which is exactly the good version of fake musicianship.'],
       guestbook: ['this one sounds like fluorescent lights reflecting off wet asphalt', 'the top-string descent into the open reply is a real songwriting move', 'yes i printed it because the bar 3 hold is weirdly lovely'],
+    },
+    {
+      id: 'carolina-porch-glow', tuning: 'E A D G B E', key: 'C major', progression: ['Cmaj7', 'Am7', 'Fmaj7', 'Gsus2'],
+      hero: 'A humid porch-light progression where the top strings keep shining harder than the room deserves.',
+      motifSummary: 'high common-tone shimmer → inner-motion answer → open-string hold → suspended lift', hookShape: '7-8-7-5 / 5-3-0-3',
+      rhythmMap: ['2+ / 4e · common-tone shimmer', '2+ / 4e · inner-motion answer', '1--- / answer · open hold', '2+ / 4e · suspended lift'],
+      sections: [
+        { name: 'verse', chord: 'Cmaj7', feature: 'high common tones over a rooted major-7 shape' },
+        { name: 'answer', chord: 'Am7', feature: 'same top contour with the bass turned inward' },
+        { name: 'hold', chord: 'Fmaj7', feature: 'open e string floating over the grip' },
+        { name: 'turnaround', chord: 'Gsus2', feature: 'suspended climb that begs for a vocal pickup' },
+      ],
+      tabLines: ['e|-7-----7---------|-5-----5-------|-0~~~~---------|-3-----3---------|', 'B|-8-----8---------|-5-----5-------|-1~~~~---------|-3-----3---------|', 'G|-9-----9---------|-5-----5-------|-2~~~~---------|-0-----0---------|', 'D|-10----9---------|-5-----5-------|-3~~~~---------|-0-----0---------|', 'A|-10----10--------|-0-----0-------|----------------|-2-----2---------|', 'E|-8-----8---------|----------------|-1~~~~---------|-3-----3---------|'],
+      bassPattern: [0, 0, 9, 9, 5, 5, 7, 7], chordRoots: [0, 9, 5, 7],
+      commentTemplates: ['The whole fragment hangs on those common top notes; that is why it feels like Chapel Hill and not anonymous indie wallpaper.', 'Bar 2 works because the Am7 inherits the shimmer instead of resetting it.', 'You can literally see the open string making the Fmaj7 bar glow.', 'This is exactly the kind of chorus that would cause three bands in Carrboro to get weirder on purpose.'],
+      guestbook: ['this sounds like humidity on a porch rail in the best way', 'printed it for the suspended turnaround alone', 'the top-note logic is finally doing real songwriting work'],
+    },
+    {
+      id: 'pedestrian-bridge-choir', tuning: 'E A D G B E', key: 'B minor', progression: ['Bm7', 'Gmaj7', 'D(add9)', 'A(add9)'],
+      hero: 'A high-open-string progression that feels like somebody wrote it while waiting for rain to stop and it never did.',
+      motifSummary: 'top-string glow → descending answer → sustained middle spread → open-voiced release', hookShape: '7-7-10-9 / 7-5-2-0',
+      rhythmMap: ['2+ / 4e · top-string glow', '2+ / 4e · descending answer', '1--- / answer · held spread', '2+ / 4e · release'],
+      sections: [
+        { name: 'verse', chord: 'Bm7', feature: 'voicing built around two shared top strings' },
+        { name: 'answer', chord: 'Gmaj7', feature: 'descending upper motion without losing the drone' },
+        { name: 'hold', chord: 'D(add9)', feature: 'spread voicing that hangs in the middle register' },
+        { name: 'return', chord: 'A(add9)', feature: 'open release setting up the loop again' },
+      ],
+      tabLines: ['e|-7-----7---------|-7-----5-------|-5~~~~---------|-0-----0---------|', 'B|-7-----7---------|-7-----7-------|-5~~~~---------|-0-----0---------|', 'G|-7-----7---------|-7-----6-------|-7~~~~---------|-6-----6---------|', 'D|-7-----9---------|-5-----5-------|-7~~~~---------|-7-----7---------|', 'A|-9-----9---------|-5-----5-------|-5~~~~---------|-0-----0---------|', 'E|----------------|-3-----3-------|----------------|-----------------|'],
+      bassPattern: [11, 11, 7, 7, 2, 2, 9, 9], chordRoots: [11, 7, 2, 9],
+      commentTemplates: ['The tab is honest about the drone: those top strings barely move, which is why the whole thing feels haunted.', 'Bar 2 does just enough to darken the verse without abandoning it.', 'Holding the D(add9) is not indulgent — it is the point.', 'This reads like a Eugene river-path band accidentally writing a perfect bridge.'],
+      guestbook: ['the held third bar is all i needed', 'finally a shimmer fragment with a believable bass story', 'this is way too printable'],
     },
   ],
   moody: [
     {
-      id: 'drone-figure',
-      tuning: 'D A D G B E',
-      key: 'A dorian',
-      progression: ['Am7', 'G', 'Dsus2', 'Am7'],
+      id: 'drone-figure', tuning: 'D A D G B E', key: 'A dorian', progression: ['Am7', 'G', 'Dsus2', 'Am7'],
       hero: 'A moody drone figure that keeps returning to the same open-string center while the melody shifts around it.',
-      motifSummary: 'open-A style drone implied over DADGBE → small upper answer → suspended hold → restated opening',
-      hookShape: '0-2-3-2 / 5-3-2-0',
+      motifSummary: 'open-A style drone implied over DADGBE → small upper answer → suspended hold → restated opening', hookShape: '0-2-3-2 / 5-3-2-0',
       rhythmMap: ['2+ / 4e · drone figure', '2+ / 4e · answering melody', '1--- / answer · suspended hold', '2+ / 4e · opening restated'],
       sections: [
         { name: 'verse', chord: 'Am7', feature: 'repeating drone against a 0-2-3-2 melody' },
@@ -268,23 +377,42 @@ const SONGBOOK = {
         { name: 'hold', chord: 'Dsus2', feature: 'open-string suspension with one note moving inside it' },
         { name: 'return', chord: 'Am7', feature: 'exact opening figure returns so the fragment feels authored' },
       ],
-      tabLines: [
-        'e|-0-----0---------|-3-----2-------|-0~~~~---------|-0-----0---------|',
-        'B|-1-----1---------|-3-----3-------|-3~~~~---------|-1-----1---------|',
-        'G|-0-----2---------|-0-----0-------|-2~~~~---------|-0-----2---------|',
-        'D|-2-----2---------|-0-----0-------|-0~~~~---------|-2-----2---------|',
-        'A|-0-----0---------|-2-----2-------|----------------|-0-----0---------|',
-        'D|-----------------|----------------|----------------|-----------------|',
-      ],
-      bassPattern: [9, 9, 7, 7, 0, 0, 9, 9],
-      chordRoots: [9, 7, 0, 9],
-      commentTemplates: [
-        'This one finally earns the “yearning” copy because the opening 0-2-3-2 figure literally comes back in bar 4.',
-        'Bar 3 is not empty; it is the visible Dsus2 suspension with only one interior note changing.',
-        'You could build a whole verse from the way the answer shadows the first contour instead of abandoning it.',
-        'Forum note: the tab, progression, and mood text are all talking about the same drone now.'
-      ],
+      tabLines: ['e|-0-----0---------|-3-----2-------|-0~~~~---------|-0-----0---------|', 'B|-1-----1---------|-3-----3-------|-3~~~~---------|-1-----1---------|', 'G|-0-----2---------|-0-----0-------|-2~~~~---------|-0-----2---------|', 'D|-2-----2---------|-0-----0-------|-0~~~~---------|-2-----2---------|', 'A|-0-----0---------|-2-----2-------|----------------|-0-----0---------|', 'D|-----------------|----------------|----------------|-----------------|'],
+      bassPattern: [9, 9, 7, 7, 0, 0, 9, 9], chordRoots: [9, 7, 0, 9],
+      commentTemplates: ['This one finally earns the “yearning” copy because the opening 0-2-3-2 figure literally comes back in bar 4.', 'Bar 3 is not empty; it is the visible Dsus2 suspension with only one interior note changing.', 'You could build a whole verse from the way the answer shadows the first contour instead of abandoning it.', 'Forum note: the tab, progression, and mood text are all talking about the same drone now.'],
       guestbook: ['the recurring opening figure is why this feels like a song fragment and not wallpaper', 'stole the Dsus2 hold for something slower', 'bless whoever kept the answer phrase related to the first bar'],
+    },
+    {
+      id: 'overpass-lantern', tuning: 'E A D G B E', key: 'B minor', progression: ['Bm7', 'Aadd9', 'Gmaj7', 'D/F#'],
+      hero: 'A slow-burn figure where the top note barely moves but the harmony keeps changing under it.',
+      motifSummary: 'anchored top-string note → darkened answer → middle-register bloom → walking-bass return', hookShape: '7-7-5-7 / 9-7-5-2',
+      rhythmMap: ['2+ / 4e · anchored top note', '2+ / 4e · darkened answer', '1--- / answer · middle bloom', '2+ / 4e · walking return'],
+      sections: [
+        { name: 'verse', chord: 'Bm7', feature: 'anchored top note over a roomy minor voicing' },
+        { name: 'answer', chord: 'Aadd9', feature: 'same upper note with the bass stepping down' },
+        { name: 'hold', chord: 'Gmaj7', feature: 'soft bloom in the middle strings' },
+        { name: 'return', chord: 'D/F#', feature: 'bass-led return that feels like a withheld chorus' },
+      ],
+      tabLines: ['e|-7-----7---------|-7-----7-------|-7~~~~---------|-5-----2---------|', 'B|-7-----7---------|-0-----0-------|-7~~~~---------|-3-----3---------|', 'G|-7-----7---------|-6-----6-------|-4~~~~---------|-2-----2---------|', 'D|-9-----9---------|-7-----7-------|-5~~~~---------|-0-----0---------|', 'A|-9-----9---------|----------------|-5~~~~---------|-----------------|', 'E|----------------|-5-----5-------|-3~~~~---------|-2-----2---------|'],
+      bassPattern: [11, 11, 9, 9, 7, 7, 6, 6], chordRoots: [11, 9, 7, 2],
+      commentTemplates: ['The page can finally say “yearning” and point to an actual held top note.', 'Bar 2 is a bass move, not a new riff; that restraint is why it works.', 'The Gmaj7 hold is where the fake scene starts writing real songs.', 'This is exactly the fragment a Portland or Durham band would refuse to overplay.'],
+      guestbook: ['the walking return is absurdly usable', 'every bar sounds related without getting boring', 'printed for the bar-3 hold and stayed for the whole thing'],
+    },
+    {
+      id: 'dogwood-afterglow', tuning: 'E A D G B E', key: 'D major', progression: ['Dadd9', 'Bm7', 'Gmaj7', 'A6'],
+      hero: 'A Carolina after-midnight progression that keeps one bright string alive while the rest of the room exhales.',
+      motifSummary: 'open-string glow → inward minor turn → held major-7 breath → unresolved lift', hookShape: '0-2-5-4 / 2-0-2-0',
+      rhythmMap: ['2+ / 4e · glow figure', '2+ / 4e · inward turn', '1--- / answer · held breath', '2+ / 4e · unresolved lift'],
+      sections: [
+        { name: 'verse', chord: 'Dadd9', feature: 'open top strings against a low D frame' },
+        { name: 'answer', chord: 'Bm7', feature: 'same brightness with the bass pulled inward' },
+        { name: 'hold', chord: 'Gmaj7', feature: 'let-ring shape that feels larger than the room' },
+        { name: 'lift', chord: 'A6', feature: 'gentle lift that refuses full closure' },
+      ],
+      tabLines: ['e|-0-----0---------|-2-----2-------|-2~~~~---------|-0-----0---------|', 'B|-3-----3---------|-3-----3-------|-3~~~~---------|-2-----2---------|', 'G|-2-----2---------|-2-----2-------|-4~~~~---------|-2-----2---------|', 'D|-0-----0---------|-4-----4-------|-5~~~~---------|-2-----2---------|', 'A|----------------|-2-----2-------|-5~~~~---------|-0-----0---------|', 'E|----------------|----------------|-3~~~~---------|-----------------|'],
+      bassPattern: [2, 2, 11, 11, 7, 7, 9, 9], chordRoots: [2, 11, 7, 9],
+      commentTemplates: ['This feels Carolina because the bright string never stops doing emotional work.', 'Bar 2 is almost the same picture as bar 1, which is why it sounds like a song and not four chord names.', 'The Gmaj7 breath should stay spacious; do not crowd it with fake lead guitar.', 'If somebody posted this after a Chapel Hill show, three replies would just say “that third bar though.”'],
+      guestbook: ['the Gmaj7 bar alone justified opening this site', 'used the A6 lift immediately', 'finally a slow fragment that knows what it is'],
     },
   ],
 }
@@ -541,41 +669,65 @@ function makeTabLines(profile) {
   }
 }
 
-function buildTracklist(rand, title, band) { return [title, `${pick(rand, TITLE_PREFIXES)} ${pick(rand, TITLE_SUBJECTS)}`, `${band.albums[0].split(' (')[0]} (mirror rip)`, `${pick(rand, TITLE_PREFIXES)} ${pick(rand, TITLE_SUFFIXES)}`] }
-function buildGear(rand, moodKey) {
-  const guitars = ['Squier Strat with stickers', 'sunburst Yamaha Pacifica', 'pawn shop SG copy', 'black Epiphone Les Paul', 'mystery offset from a church rummage sale']
-  const amps = ['Peavey Bandit', 'Crate half-stack', 'Fender Frontman 25R', 'borrowed Marshall combo', 'amp of unknown origin with one angry speaker']
-  const pedals = moodKey === 'shimmery' ? ['Danelectro FAB Chorus', 'Big Muff clone', 'cheap digital delay', 'Small Clone rumor only'] : ['Boss Metal Zone', 'DOD grunge pedal', 'Big Muff clone', 'one tuner and a dream']
-  return { guitar: pick(rand, guitars), amp: pick(rand, amps), pedal: pick(rand, pedals), room: pick(rand, moodKey === 'shimmery' ? ['food court after closing', 'upstairs bedroom with christmas lights', 'church youth room during setup'] : ['unfinished basement with concrete bloom', 'garage beside hockey pads', 'practice space behind the roller rink']) }
+function inferScene(rand, meta, moodKey) {
+  const vibe = (meta.vibe || '').toLowerCase()
+  const source = (meta.sourceLabel || '').toLowerCase()
+  const southeastHints = ['raleigh', 'durham', 'chapel hill', 'carrboro', 'charlotte', 'greensboro', 'winston', 'wilmington', 'north carolina', 'triangle', 'piedmont']
+  const pnwHints = ['eugene', 'salem', 'corvallis', 'portland', 'springfield', 'oregon', 'pnw', 'willamette', 'cascadia']
+  const haystack = `${vibe} ${source}`
+  if (southeastHints.some((hint) => haystack.includes(hint))) return REGIONAL_SCENES.nc
+  if (pnwHints.some((hint) => haystack.includes(hint))) return REGIONAL_SCENES.pnw
+  if (moodKey === 'shimmery' && meta.duration > 3.85 && meta.brightness > 0.017) return rand() > 0.42 ? REGIONAL_SCENES.nc : REGIONAL_SCENES.pnw
+  if (moodKey === 'feral' && meta.attack > 0.66 && meta.density > 0.5) return rand() > 0.48 ? REGIONAL_SCENES.pnw : REGIONAL_SCENES.nc
+  return rand() > 0.5 ? REGIONAL_SCENES.pnw : REGIONAL_SCENES.nc
+}
+
+function buildTracklist(rand, title, band, scene) {
+  return [title, `${pick(rand, TITLE_PREFIXES)} ${pick(rand, TITLE_SUBJECTS)}`, `${band.albums[0].split(' (')[0]} (mirror rip)`, `${pick(rand, scene.smallTowns)} rehearsal dub`, `${pick(rand, TITLE_PREFIXES)} ${pick(rand, TITLE_SUFFIXES)}`]
+}
+function buildGear(rand, moodKey, scene) {
+  return {
+    guitar: pick(rand, scene.guitars),
+    amp: pick(rand, scene.amps),
+    pedal: pick(rand, moodKey === 'shimmery' ? scene.pedals.shimmery : scene.pedals.heavy),
+    room: pick(rand, moodKey === 'shimmery' ? scene.rooms.shimmery : scene.rooms.heavy),
+    talk: pick(rand, scene.gearTalk),
+  }
 }
 
 function buildCanon(rand, meta, moodKey, title) {
-  const band = pick(rand, BANDS); const archetypeIndex = meta.reading ? (Math.floor((meta.reading.descriptors.join('').length + meta.reroll) % SHRINE_ARCHETYPES.length)) : Math.floor(rand() * SHRINE_ARCHETYPES.length); const archetype = SHRINE_ARCHETYPES[archetypeIndex]
-  const songSlot = 1 + Math.floor(rand() * 4); const recordingOrigin = pick(rand, ['a fourth-generation practice-space dub', 'an mp3 rescued from a fan webring mirror', 'a tab emailed as plain text and rehosted without permission', 'a cassette rip labelled only SIDE B / LATE'])
-  const shrineKeeper = pick(rand, ['kristin_from_gatewaypc', 'tabsaint77', 'stolenwahpedal', 'mallsaint', 'midnightfretprayer'])
+  const scene = inferScene(rand, meta, moodKey)
+  const band = pick(rand, BANDS[scene.id]); const archetypeIndex = meta.reading ? (Math.floor((meta.reading.descriptors.join('').length + meta.reroll) % SHRINE_ARCHETYPES.length)) : Math.floor(rand() * SHRINE_ARCHETYPES.length); const archetype = SHRINE_ARCHETYPES[archetypeIndex]
+  const songSlot = 1 + Math.floor(rand() * 4); const recordingOrigin = pick(rand, scene.recordingOrigins)
+  const shrineKeeper = pick(rand, scene.keeperHandles)
+  const venue = pick(rand, scene.venues)
+  const flyer = pick(rand, scene.flyerLanguage)
+  const memoryTag = pick(rand, scene.memoryTags)
+  const drama = pick(rand, scene.forumDrama)
   const songHistory = [
-    `${band.name} formed in ${band.hometown} and spent ${band.years} haunting all-ages rooms with amps louder than their flyers suggested.`,
-    `${title} is generally listed by fans as track ${songSlot} from ${pick(rand, band.albums)}, though arguments continue because at least one tape rip reversed the order.`,
-    `The surviving source appears to be ${recordingOrigin}; this shrine was canonized by ${shrineKeeper} after two prior mirrors vanished.`,
-    `${band.lore} The consensus is that the tab is not exact, but emotionally binding.`,
+    `${band.name} formed in ${band.hometown} and spent ${band.years} haunting ${venue} and nearby all-ages rooms with amps louder than their flyers suggested.`,
+    `${title} is generally listed by fans as track ${songSlot} from ${pick(rand, band.albums)}, though arguments continue because at least one tape rip reversed the order and one flyer promised a different title.`,
+    `The surviving source appears to be ${recordingOrigin}; this shrine was canonized by ${shrineKeeper} after two prior mirrors vanished. Flyer residue still reads: “${flyer}.”`,
+    `${band.lore} Local memory tag: ${memoryTag}. Ongoing forum drama: ${drama}. The consensus is that the tab is not exact, but emotionally binding.`,
   ]
-  return { band, archetype, shrineKeeper, songHistory, recordingOrigin }
+  return { band, archetype, shrineKeeper, songHistory, recordingOrigin, scene, venue, flyer, memoryTag, drama }
 }
 
 function buildForumComments(rand, canon, title, backing, moodKey, profile) {
   const offset = canon.archetype.id === 'gearhead' ? 0 : canon.archetype.id === 'foodcourt' ? 2 : canon.archetype.id === 'youthgroup' ? 4 : 1
-  return profile.commentTemplates.map((text, i) => ({ user: FORUM_USERS[(offset + i) % FORUM_USERS.length], score: `${7 + i}/1${i}`, text }))
+  return profile.commentTemplates.map((text, i) => ({ user: FORUM_USERS[(offset + i) % FORUM_USERS.length], score: `${7 + i}/1${i}`, text: `${text} ${i === profile.commentTemplates.length - 1 ? `Also: ${canon.drama}.` : ''}`.trim() }))
 }
 
-function buildGuestbook(rand, title, band, archetypeId, profile) {
-  return profile.guestbook.map((text) => ({ name: pick(rand, FORUM_USERS), place: pick(rand, ['Salem, OR', 'AOL keyword: guitar', 'inside a Geo Prism', 'Corvallis basement scene', 'food court booth']), text }))
+function buildGuestbook(rand, title, band, archetypeId, profile, scene) {
+  const places = [band.hometown, `${pick(rand, scene.smallTowns)}, ${scene.id === 'pnw' ? 'OR' : 'NC'}`, 'AOL keyword: guitar', 'inside a Geo Prism', `${pick(rand, scene.venues)}`]
+  return profile.guestbook.map((text) => ({ name: pick(rand, FORUM_USERS), place: pick(rand, places), text: `${text} (${pick(rand, scene.memoryTags)})` }))
 }
 
 function buildRarePull(rand, canon) {
   const roll = rand()
-  if (roll < 0.18) return pick(rand, RARE_EVENTS)
+  if (roll < 0.18) return pick(rand, canon.scene.rareEvents)
   if (canon.archetype.id === 'catacomb' && roll < 0.36) return 'correction added 08/14/01'
-  if (canon.archetype.id === 'foodcourt' && roll < 0.36) return 'photo-booth caption attached'
+  if (canon.archetype.id === 'foodcourt' && roll < 0.36) return canon.scene.id === 'nc' ? 'parking-lot polaroid attached' : 'photo-booth caption attached'
   if (canon.archetype.id === 'gearhead' && roll < 0.36) return 'amp-setting dispute unlocked'
   if (canon.archetype.id === 'youthgroup' && roll < 0.36) return 'testimony card went unreasonably hard'
   return null
@@ -587,7 +739,7 @@ function buildArchetypeModules(shrine) {
   const whyBlock = `<details class="chrome inset inspect-block" ${shrine.reroll === 0 ? 'open' : ''}><summary>why this shrine happened</summary><ul>${shrine.reading.why.map((line) => `<li>${escapeHtml(line)}</li>`).join('')}</ul><p>${escapeHtml(shrine.reading.vibeEcho)}</p><p>${escapeHtml(archetype.voices.inspect)}</p></details>`
   const comments = `<div class="forum-block chrome inset"><div class="section-title">${escapeHtml(archetype.id === 'gearhead' ? 'take-comparison wall' : archetype.id === 'foodcourt' ? 'reply chain' : archetype.id === 'youthgroup' ? 'testimony cards' : 'annotation rail')}</div>${shrine.comments.map((comment) => `<div class="comment"><strong>${escapeHtml(comment.user)}</strong><span class="comment-score">cred score: ${escapeHtml(comment.score)}</span><p>${escapeHtml(comment.text)}</p></div>`).join('')}</div>`
   const guestbook = `<div class="chrome inset guestbook-block"><div class="section-title">${escapeHtml(archetype.id === 'foodcourt' ? 'diary residue' : archetype.id === 'gearhead' ? 'scene rumor log' : archetype.id === 'youthgroup' ? 'warning / witness notes' : 'guestbook / corrections')}</div>${shrine.guestbook.map((entry) => `<div class="guest-entry"><strong>${escapeHtml(entry.name)}</strong><span>${escapeHtml(entry.place)}</span><p>${escapeHtml(entry.text)}</p></div>`).join('')}</div>`
-  const gear = `<div class="chrome inset gear-block"><div class="section-title">${escapeHtml(archetype.id === 'gearhead' ? 'signal chain dossier' : archetype.id === 'foodcourt' ? 'mall weather' : archetype.id === 'youthgroup' ? 'caution inventory' : 'archive hardware')}</div><ul><li><strong>guitar:</strong> ${escapeHtml(shrine.gear.guitar)}</li><li><strong>amp:</strong> ${escapeHtml(shrine.gear.amp)}</li><li><strong>pedal:</strong> ${escapeHtml(shrine.gear.pedal)}</li><li><strong>room tone:</strong> ${escapeHtml(shrine.gear.room)}</li><li><strong>motif transform:</strong> ${escapeHtml(shrine.motifSummary)}</li></ul></div>`
+  const gear = `<div class="chrome inset gear-block"><div class="section-title">${escapeHtml(archetype.id === 'gearhead' ? 'signal chain dossier' : archetype.id === 'foodcourt' ? 'mall weather' : archetype.id === 'youthgroup' ? 'caution inventory' : 'archive hardware')}</div><ul><li><strong>guitar:</strong> ${escapeHtml(shrine.gear.guitar)}</li><li><strong>amp:</strong> ${escapeHtml(shrine.gear.amp)}</li><li><strong>pedal:</strong> ${escapeHtml(shrine.gear.pedal)}</li><li><strong>room tone:</strong> ${escapeHtml(shrine.gear.room)}</li><li><strong>scene talk:</strong> ${escapeHtml(shrine.gear.talk)}</li><li><strong>motif transform:</strong> ${escapeHtml(shrine.motifSummary)}</li><li><strong>flyer line:</strong> ${escapeHtml(shrine.flyerLine)}</li></ul></div>`
   const track = `<div class="chrome inset"><div class="section-title">${escapeHtml(archetype.id === 'foodcourt' ? 'memory stack' : archetype.id === 'gearhead' ? 'take sheet' : archetype.id === 'youthgroup' ? 'sanitized order of play' : 'page lore / tracklist')}</div><div class="tracklist">${shrine.tracklist.map((track, index) => `<div><span>${index + 1}.</span><span>${escapeHtml(track)}</span></div>`).join('')}</div><div class="setlist-box">${shrine.sections.map((section) => `<span>${escapeHtml(section)}</span>`).join('')}</div></div>`
   if (archetype.id === 'foodcourt') return `<section class="content-grid top-content-grid"><div class="sidebar-stack">${whyBlock}${guestbook}${gear}</div><div>${commonTab}${comments}</div></section><section class="content-grid lower-grid"><div>${track}</div><div class="chrome inset love-note"><div class="section-title">one-person evidence</div><p>${escapeHtml(shrine.heroLine)}</p><p>${escapeHtml(archetype.voices.hero)}</p></div></section>`
   if (archetype.id === 'gearhead') return `<section class="content-grid top-content-grid"><div>${gear}${commonTab}</div><div class="sidebar-stack">${whyBlock}${comments}${guestbook}</div></section><section class="content-grid lower-grid"><div>${track}</div><div class="chrome inset love-note"><div class="section-title">forensic summary</div><p>${escapeHtml(shrine.heroLine)}</p><p>${escapeHtml(archetype.voices.hero)}</p></div></section>`
@@ -609,11 +761,11 @@ function generateShrine(meta) {
   const seed = meta.exactSeed ?? hashString(JSON.stringify(meta)); const rand = mulberry32(seed); const moodKey = classifyMood(meta); const mood = MOODS[moodKey]
   const title = `${pick(rand, TITLE_PREFIXES)} ${pick(rand, TITLE_SUBJECTS)} ${pick(rand, TITLE_SUFFIXES)}`; const bpm = 76 + Math.floor(rand() * 72)
   const canon = buildCanon(rand, meta, moodKey, title); const profile = chooseSongProfile(rand, moodKey, meta); const tuning = profile.tuning || pick(rand, TUNINGS); const key = profile.key || pick(rand, KEYS); const era = pick(rand, ERAS)
-  const badges = shuffle(rand, BADGES).slice(0, 4); const stamps = shuffle(rand, STAMPS).slice(0, 3); const tab = makeTabLines(profile); const chordHints = profile.progression
+  const badges = shuffle(rand, [...BADGES, ...canon.scene.badges]).slice(0, 4); const stamps = shuffle(rand, [...STAMPS, ...canon.scene.stamps]).slice(0, 3); const tab = makeTabLines(profile); const chordHints = profile.progression
   const sections = profile.sections.map((section, index) => `${section.name} · ${section.chord} · ${section.feature}`)
   const roots = profile.chordRoots || progressionRoots(chordHints)
   const backing = { tempo: bpm, rootMidi: 38 + roots[0], progression: chordHints, bassPattern: profile.bassPattern || roots.flatMap((root) => [root, root]), drumPattern: mood.drumStyle, shimmer: moodKey === 'shimmery', form: profile.sections.map((section) => section.name), hookShape: profile.hookShape, chordRoots: roots }
-  const comments = buildForumComments(rand, canon, title, backing, moodKey, profile); const gear = buildGear(rand, moodKey); const guestbook = buildGuestbook(rand, title, canon.band, canon.archetype.id, profile); const rarePull = buildRarePull(rand, canon)
+  const comments = buildForumComments(rand, canon, title, backing, moodKey, profile); const gear = buildGear(rand, moodKey, canon.scene); const guestbook = buildGuestbook(rand, title, canon.band, canon.archetype.id, profile, canon.scene); const rarePull = buildRarePull(rand, canon)
   const heroLine = canon.archetype.id === 'foodcourt'
     ? `${profile.hero} Nobody can prove ${title} was about one person, which is why everyone knows it was.`
     : canon.archetype.id === 'gearhead'
@@ -622,7 +774,7 @@ function generateShrine(meta) {
         ? `${profile.hero} This page condemns the riff with one hand and preserves the visible chord shapes with the other.`
         : `${profile.hero} ${title} survives because the recurrence is strong enough to feel authored.`
 
-  return { version: 8, seed, baseSeed: meta.baseSeed ?? seed, reroll: meta.reroll ?? 0, title, mood: mood.label, bpm, tuning, key, era, vibe: meta.vibe || 'mysterious mall-goth intention', tabs: tab.lines, rhythmMap: tab.rhythmMap, comments, badges, stamps, backdrop: pick(rand, ['radial-gradient(circle at top, rgba(255,0,255,0.22), transparent 30%), repeating-linear-gradient(0deg, #12051f 0 2px, #0b0312 2px 4px)', 'radial-gradient(circle at 20% 20%, rgba(0,255,255,0.16), transparent 25%), linear-gradient(180deg, #190019, #03030a)', 'linear-gradient(180deg, #1f0935, #07040b 60%), repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 8px)', 'radial-gradient(circle at 80% 0%, rgba(255,238,99,0.15), transparent 28%), linear-gradient(180deg, #250026, #080811 66%)']), backing, relicText: `Recovered from ${canon.recordingOrigin} during ${era}. Source offering: ${meta.sourceLabel}.`, waveform: meta.amplitudes, tracklist: buildTracklist(rand, title, canon.band), gear, webring: pick(rand, WEBRINGS), guestbook, chordHints, sections, sourceLabel: meta.sourceLabel, stats: { duration: `${meta.duration.toFixed(3)} sec`, rms: meta.rms.toFixed(6), zeroRate: meta.zeroRate.toFixed(6), peak: meta.peak.toFixed(6), attack: meta.attack.toFixed(6), sustain: meta.sustain.toFixed(6), brightness: meta.brightness.toFixed(6), density: meta.density.toFixed(6) }, counter: String(120000 + (seed % 700000)).padStart(6, '0'), canon, reading: meta.reading, rarePull, heroLine, motifSummary: profile.motifSummary, songProfile: profile, vocabNote: mood.vocab }
+  return { version: 8, seed, baseSeed: meta.baseSeed ?? seed, reroll: meta.reroll ?? 0, title, mood: mood.label, bpm, tuning, key, era, vibe: meta.vibe || 'mysterious mall-goth intention', tabs: tab.lines, rhythmMap: tab.rhythmMap, comments, badges, stamps, backdrop: pick(rand, ['radial-gradient(circle at top, rgba(255,0,255,0.22), transparent 30%), repeating-linear-gradient(0deg, #12051f 0 2px, #0b0312 2px 4px)', 'radial-gradient(circle at 20% 20%, rgba(0,255,255,0.16), transparent 25%), linear-gradient(180deg, #190019, #03030a)', 'linear-gradient(180deg, #1f0935, #07040b 60%), repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 8px)', 'radial-gradient(circle at 80% 0%, rgba(255,238,99,0.15), transparent 28%), linear-gradient(180deg, #250026, #080811 66%)']), backing, relicText: `Recovered from ${canon.recordingOrigin} during ${era}. Source offering: ${meta.sourceLabel}.`, waveform: meta.amplitudes, tracklist: buildTracklist(rand, title, canon.band, canon.scene), gear, webring: pick(rand, canon.scene.webrings), guestbook, chordHints, sections, sourceLabel: meta.sourceLabel, stats: { duration: `${meta.duration.toFixed(3)} sec`, rms: meta.rms.toFixed(6), zeroRate: meta.zeroRate.toFixed(6), peak: meta.peak.toFixed(6), attack: meta.attack.toFixed(6), sustain: meta.sustain.toFixed(6), brightness: meta.brightness.toFixed(6), density: meta.density.toFixed(6) }, counter: String(120000 + (seed % 700000)).padStart(6, '0'), canon, reading: meta.reading, rarePull, heroLine, motifSummary: profile.motifSummary, songProfile: profile, vocabNote: mood.vocab, sceneLabel: canon.scene.label, flyerLine: canon.flyer, memoryTag: canon.memoryTag }
 }
 
 function renderReading(recipe) {
@@ -665,8 +817,8 @@ function renderShrine(shrine) {
     </div>
     <div class="cd-box"><div class="cd-disc"></div><div class="rating-box"><strong>riff potency</strong><span>${7 + (shrine.seed % 4)} / 10 skull picks</span>${shrine.rarePull ? `<span class="rare-pull">rare pull: ${escapeHtml(shrine.rarePull)}</span>` : ''}</div></div>
   </section>
-  <section class="stats-grid"><div class="mini-window"><strong>Tuning</strong><span>${escapeHtml(shrine.tuning)}</span></div><div class="mini-window"><strong>Era recovered</strong><span>${escapeHtml(shrine.era)}</span></div><div class="mini-window"><strong>Band canon</strong><span>${escapeHtml(shrine.canon.band.name)} · ${escapeHtml(shrine.canon.band.hometown)}</span></div><div class="mini-window"><strong>Archive note</strong><span>${escapeHtml(shrine.relicText)}</span></div></section>
-  <section class="canon-strip chrome inset"><div class="section-title">CANON SHRINE HISTORY</div><div class="canon-grid"><div><strong>keeper of record</strong><p>${escapeHtml(shrine.canon.shrineKeeper)} — ${escapeHtml(shrine.canon.archetype.tagline)}</p></div><div><strong>members</strong><p>${escapeHtml(shrine.canon.band.members.join(' · '))}</p></div><div><strong>records</strong><p>${escapeHtml(shrine.canon.band.albums.join(' / '))}</p></div><div><strong>motif logic</strong><p>${escapeHtml(shrine.motifSummary)}</p></div></div><div class="history-spine">${shrine.canon.songHistory.map((line) => `<p>${escapeHtml(line)}</p>`).join('')}</div></section>
+  <section class="stats-grid"><div class="mini-window"><strong>Tuning</strong><span>${escapeHtml(shrine.tuning)}</span></div><div class="mini-window"><strong>Era recovered</strong><span>${escapeHtml(shrine.era)}</span></div><div class="mini-window"><strong>Scene cluster</strong><span>${escapeHtml(shrine.sceneLabel)}</span></div><div class="mini-window"><strong>Band canon</strong><span>${escapeHtml(shrine.canon.band.name)} · ${escapeHtml(shrine.canon.band.hometown)}</span></div><div class="mini-window"><strong>Archive note</strong><span>${escapeHtml(shrine.relicText)}</span></div></section>
+  <section class="canon-strip chrome inset"><div class="section-title">CANON SHRINE HISTORY</div><div class="canon-grid"><div><strong>keeper of record</strong><p>${escapeHtml(shrine.canon.shrineKeeper)} — ${escapeHtml(shrine.canon.archetype.tagline)}</p></div><div><strong>scene cluster</strong><p>${escapeHtml(shrine.sceneLabel)}</p></div><div><strong>members</strong><p>${escapeHtml(shrine.canon.band.members.join(' · '))}</p></div><div><strong>records</strong><p>${escapeHtml(shrine.canon.band.albums.join(' / '))}</p></div><div><strong>motif logic</strong><p>${escapeHtml(shrine.motifSummary)}</p></div><div><strong>memory tag</strong><p>${escapeHtml(shrine.memoryTag)}</p></div></div><div class="history-spine">${shrine.canon.songHistory.map((line) => `<p>${escapeHtml(line)}</p>`).join('')}</div></section>
   ${buildArchetypeModules(shrine)}
   <section class="zine-sheet chrome inset"><div class="section-title">KEEPER CARD / FOLD-OUT MINI ZINE</div><div class="zine-grid"><div><h4>cover</h4><p>${escapeHtml(shrine.title)}</p></div><div><h4>band canon</h4><p>${escapeHtml(shrine.canon.band.name)} / ${escapeHtml(shrine.canon.band.hometown)}</p></div><div><h4>riff reading</h4><p>${escapeHtml(shrine.reading.descriptors.join(' · '))}</p></div><div><h4>rare pull</h4><p>${escapeHtml(shrine.rarePull || 'none this time')}</p></div><div><h4>hero line</h4><p>${escapeHtml(shrine.heroLine)}</p></div><div><h4>hook shape</h4><p>${escapeHtml(shrine.backing.hookShape)}</p></div></div></section>
   <footer class="badge-wall chrome inset">${shrine.badges.map((badge) => `<span class="badge blink">${escapeHtml(badge)}</span>`).join('')}</footer>`

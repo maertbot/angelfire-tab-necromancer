@@ -7,6 +7,9 @@ Wave 2 is aimed at the actual ceiling the Wave 1 build exposed: making the outpu
 ## What it does now
 - Record a 6-second mic riff or upload an audio file
 - Includes **3 instant demo riffs** for out-of-the-box exploration
+- Generates shrines across **two distinct fictional regional scenes**:
+  - Oregon / PNW rain-burn circuit
+  - North Carolina triangle / piedmont circuit (Raleigh, Durham, Chapel Hill, Carrboro, Charlotte, and surrounding small-town orbit)
 - Samples simple audio traits and turns them into a stable recipe using:
   - duration
   - RMS / peak
@@ -20,7 +23,8 @@ Wave 2 is aimed at the actual ceiling the Wave 1 build exposed: making the outpu
 - Generates deterministic shrine variants with:
   - stronger motif recurrence in the tab
   - phrase / answer / dropout behavior tied more directly to the sampled input
-  - curated song-fragment templates so the chord names, visible tab, section blurbs, and comments agree more often
+  - a materially expanded curated song-fragment library, so the chord names, visible tab, section blurbs, and comments agree more often
+  - scene-aware band canons, venues, flyer language, gear talk, forum drama, memory-tags, and rehearsal-town references
   - more section contrast in the lo-fi backing track
 - Makes the four shrine archetypes feel more distinct:
   - catacomb archive
@@ -85,7 +89,7 @@ npm run preview -- --host 127.0.0.1 --port 4173
 
 ## Honest limitations
 - This is still **procedural shrine fiction**, not transcription or pitch detection.
-- The current pass uses a small curated library of archetype-aware song fragments so demo outputs stay musically legible; it is intentionally biased toward coherent fake songwriting over open-ended tab chaos.
+- The current pass uses a curated but still finite library of archetype-aware song fragments; it is materially larger than before and scene-aware, but still intentionally biased toward coherent fake songwriting over open-ended tab chaos.
 - The “riff reading” is based on lightweight sampled features, not ML audio understanding.
 - Backing playback keeps deterministic structure, but noise hits are still live-generated, so texture is not sample-for-sample identical across button presses.
 - Favorites are local browser storage only; there is no sync.
