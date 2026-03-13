@@ -54,33 +54,51 @@ function sampleFeatures(audioBuffer) {
     peak = Math.max(peak, Math.abs(data[i]))
   }
   const rms = Math.sqrt(rmsSum / data.length)
-  // Simple classification: use rms to pick an entry
   return { rms, peak, duration: audioBuffer.duration }
 }
 
 function pickEntryFromAudio(features) {
-  // Sort catalog entries by how well they match the audio character
-  // High rms / peak → heavier entries; low → softer
   if (features.rms > 0.22 || features.peak > 0.72) {
-    // Heavy → Buttermilk or Screenburn
     return catalog.find(e => e.id === 'buttermilk-practice-space-key') || catalog[0]
   }
   if (features.duration > 3.7) {
-    // Long/shimmery → Gravel Sermons
     return catalog.find(e => e.id === 'gravel-sermons-waffle-house') || catalog[0]
   }
-  // Default → Landlord
   return catalog.find(e => e.id === 'landlord-duplex-hymn') || catalog[0]
+}
+
+// ─── PSEUDO-RANDOM FROM STRING (for per-entry variation) ─
+function hashCode(str) {
+  let hash = 0
+  for (let i = 0; i < str.length; i++) {
+    hash = ((hash << 5) - hash) + str.charCodeAt(i)
+    hash |= 0
+  }
+  return Math.abs(hash)
 }
 
 // ─── FRAGMENT RENDERERS ────────────────────────
 
-function renderTabPage(fragment) {
+const tabColorSchemes = [
+  { text: '#33ff33', bg: 'linear-gradient(180deg, #050510 0%, #0a0a1a 100%)', shadow: 'rgba(51, 255, 51, 0.3)' },
+  { text: '#ffff00', bg: 'linear-gradient(180deg, #000028 0%, #000040 100%)', shadow: 'rgba(255, 255, 0, 0.25)' },
+  { text: '#00ffff', bg: 'linear-gradient(180deg, #0a0a0a 0%, #0f0f18 100%)', shadow: 'rgba(0, 255, 255, 0.2)' },
+  { text: '#ff8844', bg: 'linear-gradient(180deg, #0a0505 0%, #120808 100%)', shadow: 'rgba(255, 136, 68, 0.2)' },
+]
+
+function renderTabPage(fragment, entryId) {
+  const scheme = tabColorSchemes[hashCode(entryId || '') % tabColorSchemes.length]
+  const visitorNum = String(hashCode(fragment.source || '') % 999).padStart(5, '0')
+
   const content = escapeHtml(fragment.content)
     .replace(/\[DEAD\]/g, '<span class="dead-link">[DEAD]</span>')
-  return `<div class="fragment frag-tab-page">
-    <div class="fragment-source">[RECOVERED: ${escapeHtml(fragment.source)} — last cached ${escapeHtml(fragment.cached)}]</div>
+    .replace(/\[EMAIL REMOVED\]/g, '<span class="tab-email">[EMAIL REMOVED]</span>')
+    .replace(/-----+/g, '<span class="tab-hr">════════════════════════════════════════════</span>')
+
+  return `<div class="fragment frag-tab-page" style="color: ${scheme.text}; background: ${scheme.bg}; text-shadow: 0 0 6px ${scheme.shadow};">
+    <div class="fragment-source" style="color: ${scheme.text}88;">[RECOVERED: ${escapeHtml(fragment.source)} — last cached ${escapeHtml(fragment.cached)}]</div>
     <div class="tab-content">${content}</div>
+    <div class="visitor-counter">⊞ you are visitor ${visitorNum} to this page ⊞</div>
   </div>`
 }
 
@@ -88,59 +106,104 @@ function renderGuestbook(fragment) {
   const entries = fragment.entries || []
   return `<div class="fragment frag-guestbook">
     <div class="fragment-source">[RECOVERED: ${escapeHtml(fragment.source)} — cached ${escapeHtml(fragment.cached)}]</div>
-    <div class="gb-header">GUESTBOOK — sign it!!! (no spam pls)</div>
+    <div class="gb-header">✧ Sign My Guestbook!!! ✧</div>
+    <div class="gb-header-hr">·411·✿·.·´¯\`·.·✿·411·✿·.·´¯\`·.·✿·411·</div>
     ${entries.map(e => `<div class="gb-entry">
       <div class="gb-meta">${escapeHtml(e.name)} <span class="gb-date">— ${escapeHtml(e.date)}</span></div>
       <div class="gb-text">${escapeHtml(e.text)}</div>
     </div>`).join('')}
+    <div class="gb-footer">guestbook powered by FreeGuestbooks.net™ — © 2001</div>
   </div>`
 }
 
 function renderForumThread(fragment) {
   const posts = fragment.posts || []
+  const rand = mulberry32(hashCode(fragment.thread || ''))
+
   return `<div class="fragment frag-forum-thread">
-    <div class="forum-header">${escapeHtml(fragment.source)} &gt;&gt; ${escapeHtml(fragment.board || 'general')} &gt;&gt; ${escapeHtml(fragment.thread)}</div>
+    <div class="fragment-source">[RECOVERED: cached ${escapeHtml(fragment.cached)}]</div>
+    <div class="forum-header">${escapeHtml(fragment.source)} &raquo; ${escapeHtml(fragment.board || 'general')} &raquo; ${escapeHtml(fragment.thread)}</div>
     ${posts.map(p => {
       const textClass = p.isAdmin ? 'post-text admin-text' : p.isSystem ? 'post-text system-text' : 'post-text'
+      const postCount = Math.floor(rand() * 500) + 3
+      const rank = postCount > 200 ? 'Senior Member' : postCount > 50 ? 'Member' : 'Newbie'
+
       return `<div class="forum-post">
-        <div class="post-user-col">${escapeHtml(p.user || 'anonymous')}<span class="post-date">${escapeHtml(p.date)}</span></div>
+        <div class="post-user-col">
+          ${escapeHtml(p.user || 'anonymous')}
+          ${!p.isSystem ? `<span class="post-rank">${rank}</span><span class="post-count">Posts: ${postCount}</span>` : ''}
+          <span class="post-date">${escapeHtml(p.date)}</span>
+        </div>
         <div class="${textClass}">${escapeHtml(p.text)}</div>
       </div>`
     }).join('')}
+    <div class="thread-footer">Powered by vBulletin® · All times are GMT-5</div>
   </div>`
 }
 
 function renderFlyer(fragment) {
   return `<div class="fragment frag-flyer">
     <div class="fragment-source">[RECOVERED: ${escapeHtml(fragment.source || 'flyer scan')} — cached ${escapeHtml(fragment.cached || 'unknown')}]</div>
-    <div class="flyer-content">${escapeHtml(fragment.content)}</div>
+    <div class="flyer-inner">
+      <div class="flyer-content">${escapeHtml(fragment.content)}</div>
+    </div>
   </div>`
 }
 
 function renderEmail(fragment) {
+  // Try to parse the email content for header fields
+  const raw = fragment.content || ''
+  const lines = raw.split('\n')
+  let headerLines = []
+  let bodyLines = []
+  let inHeader = true
+
+  for (const line of lines) {
+    if (inHeader && /^(From|To|Date|Subject|CC|BCC):/i.test(line.trim())) {
+      headerLines.push(line.trim())
+    } else if (inHeader && line.trim() === '') {
+      inHeader = false
+    } else {
+      inHeader = false
+      bodyLines.push(line)
+    }
+  }
+
+  const headerHtml = headerLines.length > 0
+    ? `<div class="email-header">${headerLines.map(h => {
+        const [label, ...rest] = h.split(':')
+        return `<div><strong>${escapeHtml(label)}:</strong> ${escapeHtml(rest.join(':').trim())}</div>`
+      }).join('')}</div>`
+    : ''
+
+  const bodyContent = bodyLines.length > 0 ? bodyLines.join('\n') : raw
+
   return `<div class="fragment frag-email">
     <div class="fragment-source">[RECOVERED: cached email fragment — ${escapeHtml(fragment.source || 'source unknown')}]</div>
-    <div class="email-content">${escapeHtml(fragment.content)}</div>
+    ${headerHtml}
+    <div class="email-body">${escapeHtml(bodyContent)}</div>
   </div>`
 }
 
 function renderClassifiedAd(fragment) {
   return `<div class="fragment frag-classified-ad">
     <div class="fragment-source">[RECOVERED: ${escapeHtml(fragment.source)} — cached ${escapeHtml(fragment.cached)}]</div>
+    <div class="ad-section-header">Music / Musicians</div>
     <div class="ad-content">${escapeHtml(fragment.content)}</div>
   </div>`
 }
 
 function renderDeadLink(fragment) {
+  const content = escapeHtml(fragment.content)
   return `<div class="fragment frag-dead-link">
     <div class="fragment-source">[RECOVERED: ${escapeHtml(fragment.source || 'partial chord chart')} — cached ${escapeHtml(fragment.cached || 'unknown')}]</div>
-    <div class="dead-content">${escapeHtml(fragment.content)}</div>
+    <div class="dead-content">${content}</div>
   </div>`
 }
 
-function renderFragment(fragment) {
+function renderFragment(fragment, entryId) {
   switch (fragment.type) {
-    case 'tab-page': return renderTabPage(fragment)
+    case 'tab-page': return renderTabPage(fragment, entryId)
     case 'guestbook': return renderGuestbook(fragment)
     case 'forum-thread': return renderForumThread(fragment)
     case 'flyer': return renderFlyer(fragment)
@@ -157,7 +220,7 @@ function renderEntry(entry) {
       <span>LOCAL TAB ARCHIVE — recovered artifacts for: ${escapeHtml(entry.band)} — "${escapeHtml(entry.song)}"</span>
       <span>${entry.fragments.length} fragment${entry.fragments.length !== 1 ? 's' : ''} recovered · scene: ${escapeHtml(entry.sceneLabel)}</span>
     </div>
-    ${entry.fragments.map(renderFragment).join('')}
+    ${entry.fragments.map(f => renderFragment(f, entry.id)).join('')}
   </div>`
 }
 
@@ -198,14 +261,14 @@ app.innerHTML = `
   </section>
 
   <section class="portal-wrapper">
-    <div class="portal-label">recovered artifact viewport</div>
+    <div class="portal-label">⬡ recovered artifact viewport</div>
     <div class="portal" id="portal">
       <div class="portal-empty">Select an entry from the catalog or hum a riff to begin.</div>
     </div>
   </section>
 
   <footer class="site-footer">
-    <p>Local Tab Archive · A preservation project · ${catalog.length} entries recovered so far</p>
+    <p>Local Tab Archive · A preservation project · ${catalog.length} entries recovered so far · ∞ still missing</p>
   </footer>
 </div>
 `
@@ -230,6 +293,18 @@ const el = {
 }
 
 // ─── CATALOG RENDERING ─────────────────────────
+
+// Fragment type icons for visual hints
+const fragTypeIcons = {
+  'tab-page': '⌨',
+  'guestbook': '📝',
+  'forum-thread': '💬',
+  'flyer': '📋',
+  'email': '✉',
+  'classified-ad': '📰',
+  'dead-link': '💀',
+}
+
 function renderCatalog() {
   const filtered = currentFilter === 'all'
     ? catalog
@@ -237,18 +312,19 @@ function renderCatalog() {
 
   el.entryCount.textContent = `${filtered.length} recovered entr${filtered.length === 1 ? 'y' : 'ies'}`
 
-  el.catalogList.innerHTML = filtered.map(entry => `
+  el.catalogList.innerHTML = filtered.map(entry => {
+    const typeHints = [...new Set(entry.fragments.map(f => fragTypeIcons[f.type] || '?'))].join(' ')
+    return `
     <button class="catalog-entry ${currentEntry?.id === entry.id ? 'active' : ''}" data-id="${entry.id}">
       <div class="band-song">
         <span class="band-name">${escapeHtml(entry.band)}</span>
         <span class="song-name">"${escapeHtml(entry.song)}"</span>
       </div>
       <span class="scene-tag">${escapeHtml(entry.sceneLabel)}</span>
-      <span class="frag-count">${entry.fragments.length} fragments</span>
+      <span class="frag-count">${typeHints} ${entry.fragments.length}f</span>
     </button>
-  `).join('')
+  `}).join('')
 
-  // Attach click listeners
   el.catalogList.querySelectorAll('[data-id]').forEach(btn => {
     btn.addEventListener('click', () => {
       const entry = catalog.find(e => e.id === btn.dataset.id)
@@ -261,9 +337,7 @@ function loadEntry(entry) {
   currentEntry = entry
   el.portal.innerHTML = renderEntry(entry)
   el.portal.scrollIntoView({ behavior: 'smooth', block: 'nearest' })
-  // Update hash
   window.location.hash = entry.id
-  // Re-render catalog to show active state
   renderCatalog()
 }
 
@@ -301,7 +375,6 @@ async function handleDemoClick(demoId) {
   const preset = demoPresets.find(d => d.id === demoId)
   if (!preset) return
 
-  // If there's a direct entry mapping, use it
   const entry = catalog.find(e => e.id === preset.entryId)
   if (entry) {
     el.riffStatus.textContent = `Demo matched: ${entry.band} — "${entry.song}"`
@@ -309,7 +382,6 @@ async function handleDemoClick(demoId) {
     return
   }
 
-  // Fallback: build audio and analyze
   const config = demoBuildConfigs[demoId]
   if (config) {
     const buffer = createSyntheticBuffer(config)
@@ -369,7 +441,6 @@ async function handleFileUpload(e) {
 el.browseBtn.addEventListener('click', showBrowse)
 el.riffBtn.addEventListener('click', showRiff)
 
-// Filter buttons
 document.querySelectorAll('.filter-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'))
@@ -379,12 +450,10 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
   })
 })
 
-// Demo preset buttons
 el.demoRow.querySelectorAll('[data-demo]').forEach(btn => {
   btn.addEventListener('click', () => handleDemoClick(btn.dataset.demo))
 })
 
-// Mic and file
 el.micBtn.addEventListener('click', handleMicCapture)
 el.fileInput.addEventListener('change', handleFileUpload)
 
