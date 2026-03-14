@@ -1,6 +1,6 @@
 // Local Tab Archive — Catalog of recovered entries
 // Hand-crafted collages of old-web fragments
-// 5 original + 50 authored by parallel subagents
+// 5 original + 50 authored by parallel subagents, QA-deduped
 
 export const catalog = [
   {
@@ -1049,8 +1049,8 @@ export const catalog = [
     ]
   },
   {
-    "id": "copier-jam-salisbury-bypass",
-    "band": "Copier Jam",
+    "id": "breakroom-salisbury-bypass",
+    "band": "Breakroom",
     "song": "Salisbury Bypass",
     "scene": "nc",
     "sceneLabel": "NC Charlotte",
@@ -1064,7 +1064,7 @@ export const catalog = [
         "type": "tab-page",
         "source": "clutchfan98's Geocities page",
         "cached": "2001-07-03",
-        "content": "** PIEDMONT PUNK TABS **\nmaintained by clutchfan98\n\"tabs for bands your friends haven't heard of\"\n\nvisitor count: 00187\n\n---------------------------------------------\nCOPIER JAM — salisbury bypass\n---------------------------------------------\ntuning: drop D (D A D G B E)\n\nok so this is the main riff. dustin plays it\nreally sloppy live but i think this is what\nhe's going for. i saw them at the milestone\nin may and stood right next to his amp.\n\ne|-------------------|--------------------|\nB|-------------------|--------------------|\nG|-------------------|--------------------|\nD|--5-5-x-5-7-5-----|--3-3-x-3-5-3------|\nA|--5-5-x-5-7-5-----|--3-3-x-3-5-3------|\nD|--5-5-x-5-7-5-----|--3-3-x-3-5-3------|\n\nthen the verse is just:\n\nD|--0-0-0-0-0--5-5-5--|--0-0-0-0-0--3-3-3--|\nA|--0-0-0-0-0--5-5-5--|--0-0-0-0-0--3-3-3--|\nD|--0-0-0-0-0--5-5-5--|--0-0-0-0-0--3-3-3--|\n\npalm mute the open D parts. when the chorus\nhits just play the main riff louder. the\nwhole song is like 90 seconds. it rules.\n\ni have NO idea what happens in the breakdown\nat the end. it sounds like he's just hitting\nrandom harmonics?? if you know email me.\n\nLINKS:\n- copier jam on mp3.com [DEAD]\n- salisbury shows page [DEAD]\n- milestone club listings [DEAD]"
+        "content": "** PIEDMONT PUNK TABS **\nmaintained by clutchfan98\n\"tabs for bands your friends haven't heard of\"\n\nvisitor count: 00187\n\n---------------------------------------------\nBreakroom — salisbury bypass\n---------------------------------------------\ntuning: drop D (D A D G B E)\n\nok so this is the main riff. dustin plays it\nreally sloppy live but i think this is what\nhe's going for. i saw them at the milestone\nin may and stood right next to his amp.\n\ne|-------------------|--------------------|\nB|-------------------|--------------------|\nG|-------------------|--------------------|\nD|--5-5-x-5-7-5-----|--3-3-x-3-5-3------|\nA|--5-5-x-5-7-5-----|--3-3-x-3-5-3------|\nD|--5-5-x-5-7-5-----|--3-3-x-3-5-3------|\n\nthen the verse is just:\n\nD|--0-0-0-0-0--5-5-5--|--0-0-0-0-0--3-3-3--|\nA|--0-0-0-0-0--5-5-5--|--0-0-0-0-0--3-3-3--|\nD|--0-0-0-0-0--5-5-5--|--0-0-0-0-0--3-3-3--|\n\npalm mute the open D parts. when the chorus\nhits just play the main riff louder. the\nwhole song is like 90 seconds. it rules.\n\ni have NO idea what happens in the breakdown\nat the end. it sounds like he's just hitting\nrandom harmonics?? if you know email me.\n\nLINKS:\n- Breakroom on mp3.com [DEAD]\n- salisbury shows page [DEAD]\n- milestone club listings [DEAD]"
       },
       {
         "type": "forum-thread",
@@ -1076,7 +1076,7 @@ export const catalog = [
           {
             "user": "truckbed_phil",
             "date": "09/04/01 07:18 PM",
-            "text": "copier jam. they drive down to charlotte all the time. saw them at the milestone like 3 times this year. salisbury bypass is the one."
+            "text": "Breakroom. they drive down to charlotte all the time. saw them at the milestone like 3 times this year. salisbury bypass is the one."
           },
           {
             "user": "buzzclipper",
@@ -1109,7 +1109,7 @@ export const catalog = [
         "type": "flyer",
         "source": "Milestone Club door photo",
         "cached": "~2001",
-        "content": "╔═══════════════════════════════════════════╗\n║  SAT MAY 19 2001 — MILESTONE CLUB        ║\n║  1313 CEDAR ST                            ║\n║                                           ║\n║  COPIER JAM (salisbury)                   ║\n║  THERMAL LANCE                            ║\n║  PARKING LOT SAINT                        ║\n║                                           ║\n║  $4 / 18+ / DOORS 9 PM                   ║\n║  \"loud. bring earplugs or don't.\"         ║\n╚═══════════════════════════════════════════╝"
+        "content": "╔═══════════════════════════════════════════╗\n║  SAT MAY 19 2001 — MILESTONE CLUB        ║\n║  1313 CEDAR ST                            ║\n║                                           ║\n║  Breakroom (salisbury)                   ║\n║  Soldering Iron                            ║\n║  PARKING LOT SAINT                        ║\n║                                           ║\n║  $4 / 18+ / DOORS 9 PM                   ║\n║  \"loud. bring earplugs or don't.\"         ║\n╚═══════════════════════════════════════════╝"
       },
       {
         "type": "guestbook",
@@ -1202,8 +1202,8 @@ export const catalog = [
     ]
   },
   {
-    "id": "parking-deck-sunrise-gastonia-mile",
-    "band": "Parking Deck Sunrise",
+    "id": "rooftop-sunrise-gastonia-mile",
+    "band": "Rooftop Sunrise",
     "song": "Gastonia Mile",
     "scene": "nc",
     "sceneLabel": "NC Charlotte",
@@ -1217,7 +1217,7 @@ export const catalog = [
         "type": "tab-page",
         "source": "vfwhardcore's Angelfire page",
         "cached": "2000-11-28",
-        "content": "*** VFW HARDCORE / PUNK / WHATEVER ***\ntabs for bands that play gaston county\n\nupdated 11/28/00\n\nPARKING DECK SUNRISE — gastonia mile\ntuning: drop D\n\nthis is the clean intro. played fingerpicked\ni think. jimmy uses his thumb and first two\nfingers.\n\ne|--0------0---------|---3------3---------|\nB|----3------3-------|-----3------3-------|\nG|------2------2-----|-------0------0-----|\nD|--0------0---------|---0------0---------|\nA|-------------------|---2------2---------|\nD|--0------0---------|---x------x---------|\n\nthen the distortion kicks in and it goes:\n\ne|-------------------|-------------------|\nB|-------------------|-------------------|\nG|-------------------|--7---7-----------|\nD|--5---5---7---7----|--7---7---5---5----|\nA|--5---5---7---7----|--5---5---5---5----|\nD|--5---5---7---7----|--0---0---5---5----|\n\nit gets LOUD here. like jimmy's amp is too\nbig for whatever room they're in. which is\nalways the case.\n\ni don't have the rest. the song is like 5\nminutes and the middle section is some kind\nof build that i can't work out. there's a\npart where the bass does something by itself\nand i think the guitar just plays feedback??\n\n[last updated 11/28/00 — counter: 00058]"
+        "content": "*** VFW HARDCORE / PUNK / WHATEVER ***\ntabs for bands that play gaston county\n\nupdated 11/28/00\n\nRooftop Sunrise — gastonia mile\ntuning: drop D\n\nthis is the clean intro. played fingerpicked\ni think. jimmy uses his thumb and first two\nfingers.\n\ne|--0------0---------|---3------3---------|\nB|----3------3-------|-----3------3-------|\nG|------2------2-----|-------0------0-----|\nD|--0------0---------|---0------0---------|\nA|-------------------|---2------2---------|\nD|--0------0---------|---x------x---------|\n\nthen the distortion kicks in and it goes:\n\ne|-------------------|-------------------|\nB|-------------------|-------------------|\nG|-------------------|--7---7-----------|\nD|--5---5---7---7----|--7---7---5---5----|\nA|--5---5---7---7----|--5---5---5---5----|\nD|--5---5---7---7----|--0---0---5---5----|\n\nit gets LOUD here. like jimmy's amp is too\nbig for whatever room they're in. which is\nalways the case.\n\ni don't have the rest. the song is like 5\nminutes and the middle section is some kind\nof build that i can't work out. there's a\npart where the bass does something by itself\nand i think the guitar just plays feedback??\n\n[last updated 11/28/00 — counter: 00058]"
       },
       {
         "type": "guestbook",
@@ -1260,7 +1260,7 @@ export const catalog = [
         "type": "flyer",
         "source": "Gastonia VFW hall bulletin board photo",
         "cached": "~2000",
-        "content": "╔════════════════════════════════════════╗\n║  FRI OCT 13 2000                      ║\n║  VFW POST 3108 — GASTONIA             ║\n║                                        ║\n║  PARKING DECK SUNRISE                  ║\n║  WINDOW UNIT                           ║\n║  STATIC PROPHET                        ║\n║                                        ║\n║  $3 / ALL AGES                         ║\n║  DOORS 7 PM                            ║\n║  \"the fish fry is SATURDAY not FRIDAY  ║\n║   we checked this time\"                ║\n╚════════════════════════════════════════╝"
+        "content": "╔════════════════════════════════════════╗\n║  FRI OCT 13 2000                      ║\n║  VFW POST 3108 — GASTONIA             ║\n║                                        ║\n║  Rooftop Sunrise                  ║\n║  WINDOW UNIT                           ║\n║  Signal Prophet                        ║\n║                                        ║\n║  $3 / ALL AGES                         ║\n║  DOORS 7 PM                            ║\n║  \"the fish fry is SATURDAY not FRIDAY  ║\n║   we checked this time\"                ║\n╚════════════════════════════════════════╝"
       },
       {
         "type": "email",
@@ -1385,8 +1385,8 @@ export const catalog = [
     ]
   },
   {
-    "id": "static-prophet-i85-at-night",
-    "band": "Static Prophet",
+    "id": "signal-prophet-i85-at-night",
+    "band": "Signal Prophet",
     "song": "I-85 at Night",
     "scene": "nc",
     "sceneLabel": "NC Charlotte",
@@ -1401,19 +1401,19 @@ export const catalog = [
         "type": "tab-page",
         "source": "ampjunkie_nc's Angelfire page",
         "cached": "2001-10-14",
-        "content": "~*~ AMPJUNKIE'S NC TAB PAGE ~*~\n\"tabs from the I-85 corridor\"\n\nhit counter: 00441\n\n---------------------------------------------\nSTATIC PROPHET — i-85 at night\n---------------------------------------------\ntuning: drop D\ntranscribed by ampjunkie from the 7\" (yes\nthey pressed a 7\". 200 copies. good luck\nfinding one.)\n\nintro (clean, slight reverb):\n\ne|--0----------0---------|--0----------0---------|\nB|--0----------0---------|--3----------3---------|\nG|--0----------0---------|--2----------2---------|\nD|--0----------0---------|--0----------0---------|\nA|--x----------x---------|--0----------0---------|\nD|--0----------0---------|--x----------x---------|\n\n     D5 (open)              Dsus4 thing?\n\nverse (distortion, palm muted):\n\ne|--x---x---x---x--------|--x---x---x---x--------|\nB|--x---x---x---x--------|--x---x---x---x--------|\nG|--x---x---x---x--------|--7---7---7---7---------|\nD|--0---0---0---5---------|--7---7---7---7---------|\nA|--0---0---0---5---------|--5---5---5---5---------|\nD|--0---0---0---5---------|--0---0---0---0---------|\n\nwhen the verse kicks in keep the low D open\nunder everything. the bass player does the\nsame thing. it creates this drone thing that\nsounds huge in a small room.\n\nchorus:\n\nD|--0--5--7--5--|\nA|--0--5--7--5--|\nD|--0--5--7--5--|\n\nthat's it. just the bottom three strings.\nplay it LOUD.\n\ni still can't figure out the bridge.\nthere's some kind of clean arpeggio thing\nthat caitlin plays and the bass drops out.\nevery time i think i've got it i listen\nto the 7\" again and it's wrong. if anyone\nhas it please for the love of god email me.\n\n-- ampjunkie\n[EMAIL REMOVED]"
+        "content": "~*~ AMPJUNKIE'S NC TAB PAGE ~*~\n\"tabs from the I-85 corridor\"\n\nhit counter: 00441\n\n---------------------------------------------\nSignal Prophet — i-85 at night\n---------------------------------------------\ntuning: drop D\ntranscribed by ampjunkie from the 7\" (yes\nthey pressed a 7\". 200 copies. good luck\nfinding one.)\n\nintro (clean, slight reverb):\n\ne|--0----------0---------|--0----------0---------|\nB|--0----------0---------|--3----------3---------|\nG|--0----------0---------|--2----------2---------|\nD|--0----------0---------|--0----------0---------|\nA|--x----------x---------|--0----------0---------|\nD|--0----------0---------|--x----------x---------|\n\n     D5 (open)              Dsus4 thing?\n\nverse (distortion, palm muted):\n\ne|--x---x---x---x--------|--x---x---x---x--------|\nB|--x---x---x---x--------|--x---x---x---x--------|\nG|--x---x---x---x--------|--7---7---7---7---------|\nD|--0---0---0---5---------|--7---7---7---7---------|\nA|--0---0---0---5---------|--5---5---5---5---------|\nD|--0---0---0---5---------|--0---0---0---0---------|\n\nwhen the verse kicks in keep the low D open\nunder everything. the bass player does the\nsame thing. it creates this drone thing that\nsounds huge in a small room.\n\nchorus:\n\nD|--0--5--7--5--|\nA|--0--5--7--5--|\nD|--0--5--7--5--|\n\nthat's it. just the bottom three strings.\nplay it LOUD.\n\ni still can't figure out the bridge.\nthere's some kind of clean arpeggio thing\nthat caitlin plays and the bass drops out.\nevery time i think i've got it i listen\nto the 7\" again and it's wrong. if anyone\nhas it please for the love of god email me.\n\n-- ampjunkie\n[EMAIL REMOVED]"
       },
       {
         "type": "forum-thread",
         "source": "CLT Underground Board",
-        "thread": "static prophet 7 inch — who has it",
+        "thread": "Signal Prophet 7 inch — who has it",
         "cached": "2002-04",
         "board": "wanted / trade",
         "posts": [
           {
             "user": "ampjunkie_nc",
             "date": "04/02/02 09:12 PM",
-            "text": "looking for a copy of the static prophet 7\". i-85 at night / cold open. 200 pressed. white sleeve with a sharpie drawing of a highway. i'll pay whatever. mine got warped because i left it in my car like an idiot."
+            "text": "looking for a copy of the Signal Prophet 7\". i-85 at night / cold open. 200 pressed. white sleeve with a sharpie drawing of a highway. i'll pay whatever. mine got warped because i left it in my car like an idiot."
           },
           {
             "user": "pete_gso",
@@ -1446,14 +1446,14 @@ export const catalog = [
         "type": "flyer",
         "source": "Camel City Café bulletin board photo",
         "cached": "~2002",
-        "content": "╔════════════════════════════════════════════╗\n║  FRI APR 12 2002                          ║\n║  CAMEL CITY CAFÉ — WINSTON-SALEM          ║\n║                                            ║\n║  STATIC PROPHET (greensboro)               ║\n║  BOTTLECAP SERMON                          ║\n║  DEAD LAWNS (w-s)                          ║\n║                                            ║\n║  $5 / ALL AGES / 8 PM                      ║\n║  static prophet has 7\"s for FREE           ║\n║  (please take them — caitlin)              ║\n╚════════════════════════════════════════════╝"
+        "content": "╔════════════════════════════════════════════╗\n║  FRI APR 12 2002                          ║\n║  CAMEL CITY CAFÉ — WINSTON-SALEM          ║\n║                                            ║\n║  Signal Prophet (greensboro)               ║\n║  BOTTLECAP SERMON                          ║\n║  DEAD LAWNS (w-s)                          ║\n║                                            ║\n║  $5 / ALL AGES / 8 PM                      ║\n║  Signal Prophet has 7\"s for FREE           ║\n║  (please take them — caitlin)              ║\n╚════════════════════════════════════════════╝"
       }
     ]
   },
   {
-    "id": "ditch-flowers-parking-lot-hymn",
+    "id": "ditch-flowers-lot-hymn",
     "band": "Ditch Flowers",
-    "song": "Parking Lot Hymn",
+    "song": "Lot Hymn",
     "scene": "nc",
     "sceneLabel": "NC Charlotte",
     "tags": [
@@ -1466,13 +1466,13 @@ export const catalog = [
         "type": "tab-page",
         "source": "lake_norman_music.homestead.com",
         "cached": "2001-03-15",
-        "content": "LAKE NORMAN AREA MUSIC PAGE\n\"yes there are bands north of charlotte\"\n\nDITCH FLOWERS — parking lot hymn\ntabbed by me (brian). from memory.\ni've seen them play this like 8 times so\ni'm pretty confident.\n\ntuning: standard\ncapo 4th fret\n\n(all shapes relative to capo)\n\nintro/verse:\ne|--3-------0----------|--0-------3----------|\nB|--3-------1----------|--1-------3----------|\nG|--0-------0----------|--0-------0----------|\nD|--0-------2----------|--2-------0----------|\nA|--2-------3----------|--3-------2----------|\nE|--3-------0----------|--0-------3----------|\n\n     G       C            C       G\n\nplay the G like folk style. not a rock strum.\nashley picks each string individually and lets\neverything ring. the capo makes it shimmer.\n\nthe chorus adds an Em and D:\n\nEm - C - G - D\nEm - C - G - G\n\nthe last G she holds for like 8 beats.\nthe song breathes really slow.\n\nthis is one of those songs that sounds like\nnothing on paper and everything in a room."
+        "content": "LAKE NORMAN AREA MUSIC PAGE\n\"yes there are bands north of charlotte\"\n\nDITCH FLOWERS — Lot Hymn\ntabbed by me (brian). from memory.\ni've seen them play this like 8 times so\ni'm pretty confident.\n\ntuning: standard\ncapo 4th fret\n\n(all shapes relative to capo)\n\nintro/verse:\ne|--3-------0----------|--0-------3----------|\nB|--3-------1----------|--1-------3----------|\nG|--0-------0----------|--0-------0----------|\nD|--0-------2----------|--2-------0----------|\nA|--2-------3----------|--3-------2----------|\nE|--3-------0----------|--0-------3----------|\n\n     G       C            C       G\n\nplay the G like folk style. not a rock strum.\nashley picks each string individually and lets\neverything ring. the capo makes it shimmer.\n\nthe chorus adds an Em and D:\n\nEm - C - G - D\nEm - C - G - G\n\nthe last G she holds for like 8 beats.\nthe song breathes really slow.\n\nthis is one of those songs that sounds like\nnothing on paper and everything in a room."
       },
       {
         "type": "dead-link",
         "source": "lake_norman_music mirror attempt",
         "cached": "unknown",
-        "content": "DITCH FLOWERS — parking lot hymn\n\npage by brian. original URL dead.\ncached chord chart only:\n\nG - C - C - G (x4)\nEm - C - G - D\nEm - C - G (hold)\n\nnotes from original page mentioned capo 4.\nashley from mooresville. band played mostly\nhouse shows and coffee shops around lake norman.\nsomebody on the board said they played tremont\nonce and nobody came because it was a tuesday."
+        "content": "DITCH FLOWERS — Lot Hymn\n\npage by brian. original URL dead.\ncached chord chart only:\n\nG - C - C - G (x4)\nEm - C - G - D\nEm - C - G (hold)\n\nnotes from original page mentioned capo 4.\nashley from mooresville. band played mostly\nhouse shows and coffee shops around lake norman.\nsomebody on the board said they played tremont\nonce and nobody came because it was a tuesday."
       }
     ]
   },
@@ -1537,8 +1537,8 @@ export const catalog = [
     ]
   },
   {
-    "id": "thermal-lance-hickory-smoke",
-    "band": "Thermal Lance",
+    "id": "soldering-iron-hickory-smoke",
+    "band": "Soldering Iron",
     "song": "Hickory Smoke",
     "scene": "nc",
     "sceneLabel": "NC Charlotte",
@@ -1552,13 +1552,13 @@ export const catalog = [
         "type": "tab-page",
         "source": "foothills_tabs.angelfire.com",
         "cached": "2001-08-22",
-        "content": "~*~ FOOTHILLS TABS ~*~\n(catawba county and surrounding areas)\nmaintained by drew\n\nTHERMAL LANCE — hickory smoke\ntuning: drop D (D A D G B E)\n\nthis is the slow one. they have fast songs\ntoo but this is the one everyone talks about.\n\nintro (clean, volume swell if you have a pedal):\n\ne|--x----------x----------|--x----------x----------|\nB|--10---------8----------|--7----------5----------|\nG|--9----------7----------|--7----------5----------|\nD|--0----------0----------|--0----------0----------|\nA|--x----------x----------|--x----------x----------|\nD|--0----------0----------|--0----------0----------|\n\nlet the open D ring under the chords. the\nwhole point is the D drone against the\nmovement on top. alex uses a boss slow gear\nclone for the volume swells. you can also\njust use your volume knob.\n\nverse (distorted):\n\ne|--------------------------|\nB|--------------------------|\nG|--7--------5--------2-----|\nD|--7--------5--------2-----|\nA|--5--------3--------0-----|\nD|--0--------0--------0-----|\n\nplay this real open. not palm muted. let the\nstrings ring into each other. it should sound\nmessy.\n\ni've been trying to tab this song for 6 months\nand i still feel like i'm missing something.\nit's one of those songs where the tab looks\nsimple but the FEEL is the hard part. you\nhave to play it like you're half asleep."
+        "content": "~*~ FOOTHILLS TABS ~*~\n(catawba county and surrounding areas)\nmaintained by drew\n\nSoldering Iron — hickory smoke\ntuning: drop D (D A D G B E)\n\nthis is the slow one. they have fast songs\ntoo but this is the one everyone talks about.\n\nintro (clean, volume swell if you have a pedal):\n\ne|--x----------x----------|--x----------x----------|\nB|--10---------8----------|--7----------5----------|\nG|--9----------7----------|--7----------5----------|\nD|--0----------0----------|--0----------0----------|\nA|--x----------x----------|--x----------x----------|\nD|--0----------0----------|--0----------0----------|\n\nlet the open D ring under the chords. the\nwhole point is the D drone against the\nmovement on top. alex uses a boss slow gear\nclone for the volume swells. you can also\njust use your volume knob.\n\nverse (distorted):\n\ne|--------------------------|\nB|--------------------------|\nG|--7--------5--------2-----|\nD|--7--------5--------2-----|\nA|--5--------3--------0-----|\nD|--0--------0--------0-----|\n\nplay this real open. not palm muted. let the\nstrings ring into each other. it should sound\nmessy.\n\ni've been trying to tab this song for 6 months\nand i still feel like i'm missing something.\nit's one of those songs where the tab looks\nsimple but the FEEL is the hard part. you\nhave to play it like you're half asleep."
       },
       {
         "type": "email",
         "source": "foothills_tabs angelfire backup",
         "cached": "2002-03-18",
-        "content": "From: [REDACTED]@hotmail.com\nTo: foothills_tabs@[REDACTED]\nDate: Mon, 18 Mar 2002 21:07:33 -0500\nSubject: hickory smoke tab correction\n\ndrew —\n\nyour tab is close but the intro chords are\nwrong on the B string. it should be:\n\nB|--10---8---7---5---|\n\nnot\n\nB|--10---8---6---5---|\n\ni know because alex showed me at the show in\nhickory last month. the 7th fret is right. you\nhad it right actually. ignore this email. i\njust checked your page again and you have it\nright. sorry.\n\nalso: do you know if thermal lance is playing\nthe milestone anytime soon? i'm tired of\ndriving to hickory for shows.\n\n— casey"
+        "content": "From: [REDACTED]@hotmail.com\nTo: foothills_tabs@[REDACTED]\nDate: Mon, 18 Mar 2002 21:07:33 -0500\nSubject: hickory smoke tab correction\n\ndrew —\n\nyour tab is close but the intro chords are\nwrong on the B string. it should be:\n\nB|--10---8---7---5---|\n\nnot\n\nB|--10---8---6---5---|\n\ni know because alex showed me at the show in\nhickory last month. the 7th fret is right. you\nhad it right actually. ignore this email. i\njust checked your page again and you have it\nright. sorry.\n\nalso: do you know if Soldering Iron is playing\nthe milestone anytime soon? i'm tired of\ndriving to hickory for shows.\n\n— casey"
       }
     ]
   },
@@ -1774,8 +1774,8 @@ export const catalog = [
     ]
   },
   {
-    "id": "ditch-lily-frontage-road",
-    "band": "Ditch Lily",
+    "id": "culvert-lily-frontage-road",
+    "band": "Culvert Lily",
     "song": "Frontage Road",
     "scene": "pnw",
     "sceneLabel": "PNW Eugene",
@@ -1789,13 +1789,13 @@ export const catalog = [
         "type": "tab-page",
         "source": "cottage_grove_music.cjb.net",
         "cached": "2000-11-28",
-        "content": "COTTAGE GROVE BANDS\nmaintained by: reese_cg\n----\n\nDITCH LILY — \"frontage road\"\ntuning: standard (E A D G B E)\n\nthis is the only ditch lily song i know all the way\nthrough. kyle showed me at the axe & fiddle one night\nafter their set. it's easier than it sounds.\n\nverse:\ne|--0------0------0------|--3------3------3------|\nB|--0------1------0------|--3------3------3------|\nG|--0------0------0------|--0------0------0------|\nD|--2------2------2------|--0------0------0------|\nA|--2------3------2------|--2------2------2------|\nE|--0------0------0------|--3------3------3------|\n     Em     C/E    Em         G\n\nchorus:\ne|--0------3------0------3------|\nB|--1------0------1------3------|\nG|--0------0------2------0------|\nD|--2------0------2------0------|\nA|--3------2------0------2------|\nE|--x------3------x------3------|\n     C      G      Am     G\n\nplay the verse part fingerpicked. the chorus\nis strummed. the jump from C to G in the chorus\nis fast, i always miss it.\n\nkyle sings the word \"frontage\" like \"fruntage\"\nwhich is wrong but it sounds good."
+        "content": "COTTAGE GROVE BANDS\nmaintained by: reese_cg\n----\n\nCulvert Lily — \"frontage road\"\ntuning: standard (E A D G B E)\n\nthis is the only Culvert Lily song i know all the way\nthrough. kyle showed me at the axe & fiddle one night\nafter their set. it's easier than it sounds.\n\nverse:\ne|--0------0------0------|--3------3------3------|\nB|--0------1------0------|--3------3------3------|\nG|--0------0------0------|--0------0------0------|\nD|--2------2------2------|--0------0------0------|\nA|--2------3------2------|--2------2------2------|\nE|--0------0------0------|--3------3------3------|\n     Em     C/E    Em         G\n\nchorus:\ne|--0------3------0------3------|\nB|--1------0------1------3------|\nG|--0------0------2------0------|\nD|--2------0------2------0------|\nA|--3------2------0------2------|\nE|--x------3------x------3------|\n     C      G      Am     G\n\nplay the verse part fingerpicked. the chorus\nis strummed. the jump from C to G in the chorus\nis fast, i always miss it.\n\nkyle sings the word \"frontage\" like \"fruntage\"\nwhich is wrong but it sounds good."
       },
       {
         "type": "classified-ad",
         "source": "Eugene Weekly classifieds",
         "cached": "2001-03-08",
-        "content": "SHOWS:\nSat 3/10 — The Axe & Fiddle, Cottage Grove —\n  Ditch Lily / Hayfield / The Returns — $3 / AA\n  \"we promise to start on time this time\""
+        "content": "SHOWS:\nSat 3/10 — The Axe & Fiddle, Cottage Grove —\n  Culvert Lily / Hayfield / The Returns — $3 / AA\n  \"we promise to start on time this time\""
       },
       {
         "type": "guestbook",
@@ -1832,8 +1832,8 @@ export const catalog = [
     ]
   },
   {
-    "id": "thermal-wool-highway-99",
-    "band": "Thermal Wool",
+    "id": "fog-wool-highway-99",
+    "band": "Fog Wool",
     "song": "Highway 99",
     "scene": "pnw",
     "sceneLabel": "PNW Eugene",
@@ -1848,19 +1848,19 @@ export const catalog = [
         "type": "tab-page",
         "source": "ampjunkie_nw's Angelfire page",
         "cached": "2002-01-14",
-        "content": "~*~*~ PNW HEAVY TABS ~*~*~\nampjunkie_nw's page for loud bands\nfrom the willamette valley & beyond\n\npage best viewed in 800x600 // IE 5\n\n================================================\nTHERMAL WOOL — highway 99\n================================================\ntuning: drop D (D A D G B E)\ntempo: medium, kind of groovy\n\nthis is the main riff. it repeats for like the\nfirst two minutes. thermal wool songs are long.\n\nmain riff:\nD|--0--0--0---5---7--5--0--|--0--0--0---3---5--3--0--|\nA|--0--0--0---5---7--5--0--|--0--0--0---3---5--3--0--|\nD|--0--0--0---5---7--5--0--|--0--0--0---3---5--3--0--|\n\nverse (guitar 2 comes in):\ne|--------------------------|--------------------------|\nB|--------------------------|--------------------------|\nG|--7-------7-------5-------|--7-------7-------9-------|\nD|--7-------7-------5-------|--7-------7-------9-------|\nA|--5-------5-------3-------|--5-------5-------7-------|\nD|--0-------0-------0-------|--0-------0-------0-------|\n\nbridge (i think?? it only happens once):\ne|--------------------------|\nB|--10------10------8-------|\nG|--11------11------9-------|\nD|--12------12------10------|\nA|--------------------------|\nD|--0-------0-------0-------|\n\nERRORS: the bridge is probably wrong. they only\nplayed it once at the WOW Hall show and i was\nstanding behind a pillar. if you were closer\nand remember it email me.\n\nhit counter: 00204"
+        "content": "~*~*~ PNW HEAVY TABS ~*~*~\nampjunkie_nw's page for loud bands\nfrom the willamette valley & beyond\n\npage best viewed in 800x600 // IE 5\n\n================================================\nFog Wool — highway 99\n================================================\ntuning: drop D (D A D G B E)\ntempo: medium, kind of groovy\n\nthis is the main riff. it repeats for like the\nfirst two minutes. Fog Wool songs are long.\n\nmain riff:\nD|--0--0--0---5---7--5--0--|--0--0--0---3---5--3--0--|\nA|--0--0--0---5---7--5--0--|--0--0--0---3---5--3--0--|\nD|--0--0--0---5---7--5--0--|--0--0--0---3---5--3--0--|\n\nverse (guitar 2 comes in):\ne|--------------------------|--------------------------|\nB|--------------------------|--------------------------|\nG|--7-------7-------5-------|--7-------7-------9-------|\nD|--7-------7-------5-------|--7-------7-------9-------|\nA|--5-------5-------3-------|--5-------5-------7-------|\nD|--0-------0-------0-------|--0-------0-------0-------|\n\nbridge (i think?? it only happens once):\ne|--------------------------|\nB|--10------10------8-------|\nG|--11------11------9-------|\nD|--12------12------10------|\nA|--------------------------|\nD|--0-------0-------0-------|\n\nERRORS: the bridge is probably wrong. they only\nplayed it once at the WOW Hall show and i was\nstanding behind a pillar. if you were closer\nand remember it email me.\n\nhit counter: 00204"
       },
       {
         "type": "forum-thread",
         "source": "Eugene Music Board",
-        "thread": "THERMAL WOOL / BROKEN CALENDAR at WOW Hall recap",
+        "thread": "Fog Wool / BROKEN CALENDAR at WOW Hall recap",
         "cached": "2002-02-03",
         "board": "shows",
         "posts": [
           {
             "user": "ampjunkie_nw",
             "date": "01/27/02 11:44 PM",
-            "text": "thermal wool tonight was unreal. highway 99 went on for like 8 minutes and at the end the bassist just kept the riff going while the guitar player did some feedback thing and then it all came back in. the wow hall sound guy actually smiled which i've never seen before."
+            "text": "Fog Wool tonight was unreal. highway 99 went on for like 8 minutes and at the end the bassist just kept the riff going while the guitar player did some feedback thing and then it all came back in. the wow hall sound guy actually smiled which i've never seen before."
           },
           {
             "user": "gutterpunk_sue",
@@ -1870,7 +1870,7 @@ export const catalog = [
           {
             "user": "ampjunkie_nw",
             "date": "01/28/02 10:02 AM",
-            "text": "i'm not gonna fight you because broken calendar was also great but thermal wool is a different thing. it's like driving 99 from eugene to junction city at 11 pm in the fog. that's the song. that's literally what the song is."
+            "text": "i'm not gonna fight you because broken calendar was also great but Fog Wool is a different thing. it's like driving 99 from eugene to junction city at 11 pm in the fog. that's the song. that's literally what the song is."
           },
           {
             "user": "mossfern",
@@ -1894,7 +1894,7 @@ export const catalog = [
         "type": "email",
         "cached": "2002-04-22",
         "source": "eugene band mailing list archive",
-        "content": "From: [REDACTED]@yahoo.com\nTo: [REDACTED]@hotmail.com\nDate: Mon, 22 Apr 2002 19:31:07 -0700\nSubject: re: thermal wool tape\n\nyeah i have the tape from the wow hall show. the\nquality is actually ok because i put the minidisc\nrecorder on the merch table. highway 99 is on\nthere and the full bridge part. you can hear it.\n\ni'll dub it and mail it to you. send me your\naddress. also paul said they might be done? he got\na job in portland and doesn't want to drive back\ndown to eugene for practice. that's like the third\nband this year that died because someone moved to\nportland.\n\n— k"
+        "content": "From: [REDACTED]@yahoo.com\nTo: [REDACTED]@hotmail.com\nDate: Mon, 22 Apr 2002 19:31:07 -0700\nSubject: re: Fog Wool tape\n\nyeah i have the tape from the wow hall show. the\nquality is actually ok because i put the minidisc\nrecorder on the merch table. highway 99 is on\nthere and the full bridge part. you can hear it.\n\ni'll dub it and mail it to you. send me your\naddress. also paul said they might be done? he got\na job in portland and doesn't want to drive back\ndown to eugene for practice. that's like the third\nband this year that died because someone moved to\nportland.\n\n— k"
       },
       {
         "type": "flyer",
@@ -1906,7 +1906,7 @@ export const catalog = [
         "type": "dead-link",
         "source": "pacificnwtabs archive",
         "cached": "unknown",
-        "content": "THERMAL WOOL — highway 99\n[page not found — content recovered from cache]\n\nCHORDS ONLY:\nDrop D tuning\nD5 - G5 - A5 - G5 (x8)\nD5 - G5 - A5 - Bb5 (x4)\nbridge: A5 - C5 - D5\nback to main riff\n\n\"this is a driving song. play it like you're driving.\""
+        "content": "Fog Wool — highway 99\n[page not found — content recovered from cache]\n\nCHORDS ONLY:\nDrop D tuning\nD5 - G5 - A5 - G5 (x8)\nD5 - G5 - A5 - Bb5 (x4)\nbridge: A5 - C5 - D5\nback to main riff\n\n\"this is a driving song. play it like you're driving.\""
       }
     ]
   },
@@ -2041,7 +2041,7 @@ export const catalog = [
         "type": "flyer",
         "source": "Eugene Weekly back page scan",
         "cached": "~2001",
-        "content": "╔══════════════════════════════════════════╗\n║  SAT JULY 28 — VENETA GRANGE HALL      ║\n║                                         ║\n║  H A Y F I E L D                        ║\n║  ditch lily (cottage grove)             ║\n║  the morning afters                     ║\n║                                         ║\n║  $2 DONATION / ALL AGES / 7PM           ║\n║  potluck starts at 5.                   ║\n║  \"bring a dish or $2 extra\"             ║\n╚══════════════════════════════════════════╝"
+        "content": "╔══════════════════════════════════════════╗\n║  SAT JULY 28 — VENETA GRANGE HALL      ║\n║                                         ║\n║  H A Y F I E L D                        ║\n║  Culvert Lily (cottage grove)             ║\n║  the morning afters                     ║\n║                                         ║\n║  $2 DONATION / ALL AGES / 7PM           ║\n║  potluck starts at 5.                   ║\n║  \"bring a dish or $2 extra\"             ║\n╚══════════════════════════════════════════╝"
       },
       {
         "type": "forum-thread",
@@ -2075,9 +2075,9 @@ export const catalog = [
     ]
   },
   {
-    "id": "gasket-parking-structure",
+    "id": "gasket-concrete-deck",
     "band": "Gasket",
-    "song": "Parking Structure",
+    "song": "Concrete Deck",
     "scene": "pnw",
     "sceneLabel": "PNW Springfield",
     "tags": [
@@ -2091,7 +2091,7 @@ export const catalog = [
         "type": "tab-page",
         "source": "stolenwahpedal's Angelfire — \"SPRINGFIELD BANDS PAGE\"",
         "cached": "2001-10-02",
-        "content": "~~ SPRINGFIELD BANDS ~~\n(NOT EUGENE. SPRINGFIELD.)\nlast updated 10/02/01\n\nGASKET\n\"parking structure\"\ntuning: drop D\n\nverse (palm mute):\nD|--0-0-0-0-0--5-5-5-5-5--|--3-3-3-3-3--7-7-7-7-7--|\nA|--0-0-0-0-0--5-5-5-5-5--|--3-3-3-3-3--7-7-7-7-7--|\nD|--0-0-0-0-0--5-5-5-5-5--|--3-3-3-3-3--7-7-7-7-7--|\n\nchorus (open, let ring):\nD|--5-----3-----0--------|\nA|--5-----3-----0--------|\nD|--5-----3-----0--------|\n\noutro (this part is sick):\ne|--------------------------|\nB|--------------------------|\nG|--7--7--5--5--3--3--2--2--|\nD|--7--7--5--5--3--3--2--2--|\nA|--5--5--3--3--1--1--0--0--|\nD|--0--0--0--0--0--0--0--0--|\n\nthe outro is played clean. no distortion. it's the\nsame riff as the verse but up an octave and clean.\njake said he stole it from a failure song but i\ncan't find which one.\n\nNOTE: gasket is from springfield. they practice\nbehind the plywood mill. jake's dad owns the building.\nthe name \"gasket\" is from a gasket he found on the\nfloor of the practice space. not deep."
+        "content": "~~ SPRINGFIELD BANDS ~~\n(NOT EUGENE. SPRINGFIELD.)\nlast updated 10/02/01\n\nGASKET\n\"Concrete Deck\"\ntuning: drop D\n\nverse (palm mute):\nD|--0-0-0-0-0--5-5-5-5-5--|--3-3-3-3-3--7-7-7-7-7--|\nA|--0-0-0-0-0--5-5-5-5-5--|--3-3-3-3-3--7-7-7-7-7--|\nD|--0-0-0-0-0--5-5-5-5-5--|--3-3-3-3-3--7-7-7-7-7--|\n\nchorus (open, let ring):\nD|--5-----3-----0--------|\nA|--5-----3-----0--------|\nD|--5-----3-----0--------|\n\noutro (this part is sick):\ne|--------------------------|\nB|--------------------------|\nG|--7--7--5--5--3--3--2--2--|\nD|--7--7--5--5--3--3--2--2--|\nA|--5--5--3--3--1--1--0--0--|\nD|--0--0--0--0--0--0--0--0--|\n\nthe outro is played clean. no distortion. it's the\nsame riff as the verse but up an octave and clean.\njake said he stole it from a failure song but i\ncan't find which one.\n\nNOTE: gasket is from springfield. they practice\nbehind the plywood mill. jake's dad owns the building.\nthe name \"gasket\" is from a gasket he found on the\nfloor of the practice space. not deep."
       },
       {
         "type": "forum-thread",
@@ -2103,7 +2103,7 @@ export const catalog = [
           {
             "user": "stolenwahpedal",
             "date": "07/18/02 05:44 PM",
-            "text": "the outro to parking structure by gasket. clean tone, drop D, the chord thing that walks down chromatically. it's stolen from failure apparently but i don't care. it sounds better when jake plays it in a room that smells like sawdust."
+            "text": "the outro to Concrete Deck by gasket. clean tone, drop D, the chord thing that walks down chromatically. it's stolen from failure apparently but i don't care. it sounds better when jake plays it in a room that smells like sawdust."
           },
           {
             "user": "chris1999",
@@ -2126,7 +2126,7 @@ export const catalog = [
         "type": "dead-link",
         "source": "springfield music archive",
         "cached": "unknown",
-        "content": "GASKET — parking structure\n[original page gone — cached notes only]\n\nD G A Bb (verse, palm muted, fast)\nG F D (chorus, open)\noutro: same notes, clean, high voicing, walk down\n\n\"jake from gasket works at the les schwab now.\n he still plays but not in a band. i think\n the gasket stuff was the best thing he'll ever do\n and he was 19 when he did it.\""
+        "content": "GASKET — Concrete Deck\n[original page gone — cached notes only]\n\nD G A Bb (verse, palm muted, fast)\nG F D (chorus, open)\noutro: same notes, clean, high voicing, walk down\n\n\"jake from gasket works at the les schwab now.\n he still plays but not in a band. i think\n the gasket stuff was the best thing he'll ever do\n and he was 19 when he did it.\""
       }
     ]
   },
@@ -2301,8 +2301,8 @@ export const catalog = [
     ]
   },
   {
-    "id": "copier-jam-halogen-flicker",
-    "band": "Copier Jam",
+    "id": "dropout-wage-halogen-flicker",
+    "band": "Dropout Wage",
     "song": "Halogen Flicker",
     "scene": "pnw",
     "sceneLabel": "PNW Portland",
@@ -2316,7 +2316,7 @@ export const catalog = [
         "type": "tab-page",
         "source": "nw_tabs_2000's Angelfire page",
         "cached": "2001-09-03",
-        "content": "** NW TABS 2000 **\n( portland tabs for portland bands )\nlast updated 9/3/01\n\nemail corrections: [EMAIL REMOVED]\n-----------------------------------------------\nCOPIER JAM — halogen flicker\n-----------------------------------------------\ntuning: drop D (D A D G B E)\n\ntabbed from the la luna show 8/18/01.\ni was pretty close to the stage so i'm\nmostly sure about this. the verse part\nat least. the chorus is anyone's guess\nbecause casey turns away from the crowd\nevery time for some reason.\n\nVERSE (play clean, volume knob rolled back):\ne|----------------------|----------------------|\nB|--3-------3-------3---|--3-------3-------3---|\nG|--2---2---2---2---2---|--4---4---4---4---4---|\nD|--0---0---0---0---0---|--4---4---4---4---4---|\nA|--0---0---0---0---0---|--2---2---2---2---2---|\nD|--0---0---0---0---0---|--0---0---0---0---0---|\n\nCHORUS (kick the rat on, hit it hard):\ne|----------------------|----------------------|\nB|----------------------|----------------------|\nG|--7---7---7---7-------|--9---9---5---5-------|\nD|--7---7---7---7-------|--9---9---5---5-------|\nA|--5---5---5---5-------|--7---7---3---3-------|\nD|--0---0---0---0-------|--0---0---0---0-------|\n\nrepeat verse/chorus x2 then it just ends.\nno solo. no outro. casey puts down the guitar\nand walks off while the drums are still going.\nthat's the song. deal with it.\n\nlinks:\n- copier jam on mp3.com [DEAD]\n- casey's other page (it's about his cat) [DEAD]\n- la luna show calendar [DEAD]"
+        "content": "** NW TABS 2000 **\n( portland tabs for portland bands )\nlast updated 9/3/01\n\nemail corrections: [EMAIL REMOVED]\n-----------------------------------------------\nDropout Wage — halogen flicker\n-----------------------------------------------\ntuning: drop D (D A D G B E)\n\ntabbed from the la luna show 8/18/01.\ni was pretty close to the stage so i'm\nmostly sure about this. the verse part\nat least. the chorus is anyone's guess\nbecause casey turns away from the crowd\nevery time for some reason.\n\nVERSE (play clean, volume knob rolled back):\ne|----------------------|----------------------|\nB|--3-------3-------3---|--3-------3-------3---|\nG|--2---2---2---2---2---|--4---4---4---4---4---|\nD|--0---0---0---0---0---|--4---4---4---4---4---|\nA|--0---0---0---0---0---|--2---2---2---2---2---|\nD|--0---0---0---0---0---|--0---0---0---0---0---|\n\nCHORUS (kick the rat on, hit it hard):\ne|----------------------|----------------------|\nB|----------------------|----------------------|\nG|--7---7---7---7-------|--9---9---5---5-------|\nD|--7---7---7---7-------|--9---9---5---5-------|\nA|--5---5---5---5-------|--7---7---3---3-------|\nD|--0---0---0---0-------|--0---0---0---0-------|\n\nrepeat verse/chorus x2 then it just ends.\nno solo. no outro. casey puts down the guitar\nand walks off while the drums are still going.\nthat's the song. deal with it.\n\nlinks:\n- Dropout Wage on mp3.com [DEAD]\n- casey's other page (it's about his cat) [DEAD]\n- la luna show calendar [DEAD]"
       },
       {
         "type": "forum-thread",
@@ -2328,7 +2328,7 @@ export const catalog = [
           {
             "user": "fuzzlord503",
             "date": "08/19/01 11:22 AM",
-            "text": "copier jam played second and honestly stole the show. the new song (halogen flicker?) was heavy. casey's amp was way too loud for that room but i mean that as a compliment."
+            "text": "Dropout Wage played second and honestly stole the show. the new song (halogen flicker?) was heavy. casey's amp was way too loud for that room but i mean that as a compliment."
           },
           {
             "user": "dregs_pdx",
@@ -2397,8 +2397,8 @@ export const catalog = [
     ]
   },
   {
-    "id": "gorge-static-pine-line",
-    "band": "Gorge Static",
+    "id": "gorge-hum-pine-line",
+    "band": "Gorge Hum",
     "song": "Pine Line",
     "scene": "pnw",
     "sceneLabel": "PNW Portland",
@@ -2412,7 +2412,7 @@ export const catalog = [
         "type": "tab-page",
         "source": "hoodrivertabs.cjb.net",
         "cached": "2000-11-14",
-        "content": "* HOOD RIVER TABS *\n[this page best viewed in 800x600]\n\nGORGE STATIC — pine line\ntabbed by: windsurf_chad\ndate: 10/29/00\n\ntuning: standard (E A D G B E)\ncapo: 2nd fret\n\nnote: this is from a tape jen gave me so it might\nbe a half step off. if it sounds wrong try capo 3.\n\nINTRO/VERSE (fingerpick, let ring):\ne|--0-------0----------|--3-------3----------|\nB|--1---1---1---1------|--3---3---3---3------|\nG|--0---0---0---0------|--0---0---0---0------|\nD|--2---2---2---2------|--0---0---0---0------|\nA|--3---3---3----------|--2---2---2----------|\nE|--0---0---0----------|--3---3---3----------|\n\n(Am shape → G shape, but with capo = Bm → A)\n\nCHORUS:\ne|--0-------3----------|--0-------0----------|\nB|--1-------0----------|--0-------1----------|\nG|--0-------0----------|--1-------0----------|\nD|--2-------0----------|--2-------2----------|\nA|--3-------2----------|--2-------3----------|\nE|----------3----------|--0-------0----------|\n\n(Am → G → E → Am with capo)\n\njen plays it real slow. like impossibly slow.\nslower than you're playing it right now. even\nslower than that.\n\nBRIDGE: i couldn't figure this out. there's\na chord that might be a sus2? it's the part\nwhere the train noise happens. if you were at\nthe andrew's pizza show in october you know\nthe part.\n\n[visitor counter: 00078]\n[hood river bands webring] [DEAD]"
+        "content": "* HOOD RIVER TABS *\n[this page best viewed in 800x600]\n\nGorge Hum — pine line\ntabbed by: windsurf_chad\ndate: 10/29/00\n\ntuning: standard (E A D G B E)\ncapo: 2nd fret\n\nnote: this is from a tape jen gave me so it might\nbe a half step off. if it sounds wrong try capo 3.\n\nINTRO/VERSE (fingerpick, let ring):\ne|--0-------0----------|--3-------3----------|\nB|--1---1---1---1------|--3---3---3---3------|\nG|--0---0---0---0------|--0---0---0---0------|\nD|--2---2---2---2------|--0---0---0---0------|\nA|--3---3---3----------|--2---2---2----------|\nE|--0---0---0----------|--3---3---3----------|\n\n(Am shape → G shape, but with capo = Bm → A)\n\nCHORUS:\ne|--0-------3----------|--0-------0----------|\nB|--1-------0----------|--0-------1----------|\nG|--0-------0----------|--1-------0----------|\nD|--2-------0----------|--2-------2----------|\nA|--3-------2----------|--2-------3----------|\nE|----------3----------|--0-------0----------|\n\n(Am → G → E → Am with capo)\n\njen plays it real slow. like impossibly slow.\nslower than you're playing it right now. even\nslower than that.\n\nBRIDGE: i couldn't figure this out. there's\na chord that might be a sus2? it's the part\nwhere the train noise happens. if you were at\nthe andrew's pizza show in october you know\nthe part.\n\n[visitor counter: 00078]\n[hood river bands webring] [DEAD]"
       },
       {
         "type": "guestbook",
@@ -2432,12 +2432,12 @@ export const catalog = [
           {
             "name": "gorge_rat",
             "date": "03/08/01",
-            "text": "i drove from portland to see gorge static at the coffee shop and they weren't playing. the show was the week before. does anyone in hood river have email."
+            "text": "i drove from portland to see Gorge Hum at the coffee shop and they weren't playing. the show was the week before. does anyone in hood river have email."
           },
           {
             "name": "anonymous",
             "date": "02/14/01",
-            "text": "is gorge static emo? my friend said they're emo."
+            "text": "is Gorge Hum emo? my friend said they're emo."
           },
           {
             "name": "windsurf_chad",
@@ -2450,20 +2450,20 @@ export const catalog = [
         "type": "classified-ad",
         "source": "Hood River News classifieds",
         "cached": "2001-05-02",
-        "content": "LIVE MUSIC — Sat 5/5, 8pm\n  River City Saloon, The Dalles\n  GORGE STATIC (hood river)\n  PINE CREST (the dalles)\n  $3 cover / 21+\n  \"acoustic. bring earplugs anyway.\""
+        "content": "LIVE MUSIC — Sat 5/5, 8pm\n  River City Saloon, The Dalles\n  Gorge Hum (hood river)\n  PINE CREST (the dalles)\n  $3 cover / 21+\n  \"acoustic. bring earplugs anyway.\""
       },
       {
         "type": "dead-link",
         "source": "pnw-indie-archive.org mirror",
         "cached": "unknown",
-        "content": "gorge static — pine line\n\npage recovered from hoodrivertabs.cjb.net\n(site went offline ~2002)\n\nnotes from archiver: \"this is one of maybe three\nband pages that ever existed for hood river. the\ntab seems accurate based on a cassette copy i\nfound at a record swap in portland in 2004. the\nband was jen [last name unknown] and possibly\none or two other people. the train noise mentioned\nin the bridge section was apparently a field\nrecording from the BNSF line along the gorge\nthat she played from a boombox onstage.\""
+        "content": "Gorge Hum — pine line\n\npage recovered from hoodrivertabs.cjb.net\n(site went offline ~2002)\n\nnotes from archiver: \"this is one of maybe three\nband pages that ever existed for hood river. the\ntab seems accurate based on a cassette copy i\nfound at a record swap in portland in 2004. the\nband was jen [last name unknown] and possibly\none or two other people. the train noise mentioned\nin the bridge section was apparently a field\nrecording from the BNSF line along the gorge\nthat she played from a boombox onstage.\""
       }
     ]
   },
   {
-    "id": "wet-drywall-rent-check",
+    "id": "wet-drywall-first-and-last",
     "band": "Wet Drywall",
-    "song": "Rent Check",
+    "song": "First and Last",
     "scene": "pnw",
     "sceneLabel": "PNW Portland",
     "tags": [
@@ -2476,7 +2476,7 @@ export const catalog = [
         "type": "tab-page",
         "source": "grunge_remains's Geocities page",
         "cached": "2001-12-30",
-        "content": "**GRUNGE REMAINS — TABS FOR BANDS NOBODY ASKED ABOUT**\n\nWET DRYWALL — rent check\ntuning: drop D\ntempo: fast. like really fast.\n\nthis band is from gresham and they sound like it.\nthat's not an insult. ok maybe it's a little bit\nof an insult.\n\nMAIN RIFF:\ne|----------------------------|\nB|----------------------------|\nG|----------------------------|\nD|--5-5-x-5-7-5-0-0-0--------|\nA|--5-5-x-5-7-5-0-0-0--------|\nD|--5-5-x-5-7-5-0-0-0--------|\n\nthat's it. that's the riff. it doesn't change. the\nwhole song is this riff for like two and a half\nminutes and then the drummer throws a stick and\nthey stop. the vocalist screams through the whole\nthing. there might be words. i don't know what\nthey are.\n\ni saw them open for some metal band at EJ's and\nlike nine people were there and five of them were\nin the other bands. classic gresham."
+        "content": "**GRUNGE REMAINS — TABS FOR BANDS NOBODY ASKED ABOUT**\n\nWET DRYWALL — First and Last\ntuning: drop D\ntempo: fast. like really fast.\n\nthis band is from gresham and they sound like it.\nthat's not an insult. ok maybe it's a little bit\nof an insult.\n\nMAIN RIFF:\ne|----------------------------|\nB|----------------------------|\nG|----------------------------|\nD|--5-5-x-5-7-5-0-0-0--------|\nA|--5-5-x-5-7-5-0-0-0--------|\nD|--5-5-x-5-7-5-0-0-0--------|\n\nthat's it. that's the riff. it doesn't change. the\nwhole song is this riff for like two and a half\nminutes and then the drummer throws a stick and\nthey stop. the vocalist screams through the whole\nthing. there might be words. i don't know what\nthey are.\n\ni saw them open for some metal band at EJ's and\nlike nine people were there and five of them were\nin the other bands. classic gresham."
       },
       {
         "type": "flyer",
@@ -2553,8 +2553,8 @@ export const catalog = [
     ]
   },
   {
-    "id": "receipt-paper-clock-dust",
-    "band": "Receipt Paper",
+    "id": "carbon-paper-clock-dust",
+    "band": "Carbon Paper",
     "song": "Clock Dust",
     "scene": "pnw",
     "sceneLabel": "PNW Portland",
@@ -2568,7 +2568,7 @@ export const catalog = [
         "type": "tab-page",
         "source": "suburban_noise_pdx Angelfire",
         "cached": "2001-06-22",
-        "content": "SUBURBAN NOISE PDX\n\"tabs for westside bands because nobody\nelse will bother\"\n\nRECEIPT PAPER — clock dust\ntuning: standard\ncapo: none\n\ne|--0---0-------0---0------|--0---0-------0---0--|\nB|--0---0-------0---0------|--0---0-------0---0--|\nG|--9---9---7---7---6------|--4---4---2---2---0--|\nD|--9---9---7---7---6------|--4---4---2---2---0--|\nA|--7---7---5---5---4------|--2---2---0---0------|\nE|--0---0---0---0---0------|--0---0-------0---0--|\n\nit's a descending thing. the open E and B strings\nring over everything. just walk the power chords\ndown the neck while the top strings drone.\n\nthey're from beaverton which i know isn't cool\nbut this song doesn't care about being cool.\nit's about time or something. the singer mumbles.\n\ni've only seen them once, at a coffee shop in\ntigard. there were folding chairs."
+        "content": "SUBURBAN NOISE PDX\n\"tabs for westside bands because nobody\nelse will bother\"\n\nCarbon Paper — clock dust\ntuning: standard\ncapo: none\n\ne|--0---0-------0---0------|--0---0-------0---0--|\nB|--0---0-------0---0------|--0---0-------0---0--|\nG|--9---9---7---7---6------|--4---4---2---2---0--|\nD|--9---9---7---7---6------|--4---4---2---2---0--|\nA|--7---7---5---5---4------|--2---2---0---0------|\nE|--0---0---0---0---0------|--0---0-------0---0--|\n\nit's a descending thing. the open E and B strings\nring over everything. just walk the power chords\ndown the neck while the top strings drone.\n\nthey're from beaverton which i know isn't cool\nbut this song doesn't care about being cool.\nit's about time or something. the singer mumbles.\n\ni've only seen them once, at a coffee shop in\ntigard. there were folding chairs."
       },
       {
         "type": "guestbook",
@@ -2588,7 +2588,7 @@ export const catalog = [
           {
             "name": "foghorn_pdx",
             "date": "07/15/01",
-            "text": "receipt paper rules. people sleep on westside bands because it's not SE but whatever. good songs don't care what zip code you're in."
+            "text": "Carbon Paper rules. people sleep on westside bands because it's not SE but whatever. good songs don't care what zip code you're in."
           },
           {
             "name": "anonymous",
@@ -2846,9 +2846,9 @@ export const catalog = [
     ]
   },
   {
-    "id": "meter-maid-parking-structure-d",
+    "id": "meter-maid-level-d",
     "band": "Meter Maid",
-    "song": "Parking Structure D",
+    "song": "Level D",
     "scene": "pnw",
     "sceneLabel": "PNW Portland",
     "tags": [
@@ -2862,7 +2862,7 @@ export const catalog = [
         "type": "tab-page",
         "source": "ampjunkie's Angelfire — \"TABS I FELT LIKE DOING\"",
         "cached": "2002-02-14",
-        "content": "TABS I FELT LIKE DOING\nby ampjunkie\ni tab whatever i want. don't email me requests.\n\n======================================\nMETER MAID — parking structure d\n======================================\ntuning: standard\ntempo: pretty fast. punk fast.\n\ne|--0-0-0-0--3-3-3-3--5-5-5-5--3-3-3-3--|\nB|--0-0-0-0--3-3-3-3--5-5-5-5--3-3-3-3--|\nG|--1-1-1-1--4-4-4-4--6-6-6-6--4-4-4-4--|\nD|--2-2-2-2--5-5-5-5--7-7-7-7--5-5-5-5--|\nA|--2-2-2-2--5-5-5-5--7-7-7-7--5-5-5-5--|\nE|--0-0-0-0--3-3-3-3--5-5-5-5--3-3-3-3--|\n\nVERSE 2 adds a walkdown:\ne|--0-0-0-0--3-3-3-3--1-1-1-1--0-0-0-0--|\nB|--0-0-0-0--3-3-3-3--1-1-1-1--0-0-0-0--|\nG|--1-1-1-1--4-4-4-4--2-2-2-2--1-1-1-1--|\nD|--2-2-2-2--5-5-5-5--3-3-3-3--2-2-2-2--|\nA|--2-2-2-2--5-5-5-5--3-3-3-3--2-2-2-2--|\nE|--0-0-0-0--3-3-3-3--1-1-1-1--0-0-0-0--|\n   E        G        F        E\n\nBRIDGE: just the E chord. strum it. strum it\nharder. keep strumming. that's the bridge.\n\nthis band is two people from milwaukie who\nare somehow also a full band. i've seen them\nthree times and every time the lineup is\ndifferent except the singer (nate) and the\nbassist (also nate — different nate).\n\nthe name is dumb. the song is about a parking\ngarage at PCC. it shouldn't work. it does."
+        "content": "TABS I FELT LIKE DOING\nby ampjunkie\ni tab whatever i want. don't email me requests.\n\n======================================\nMETER MAID — Level D\n======================================\ntuning: standard\ntempo: pretty fast. punk fast.\n\ne|--0-0-0-0--3-3-3-3--5-5-5-5--3-3-3-3--|\nB|--0-0-0-0--3-3-3-3--5-5-5-5--3-3-3-3--|\nG|--1-1-1-1--4-4-4-4--6-6-6-6--4-4-4-4--|\nD|--2-2-2-2--5-5-5-5--7-7-7-7--5-5-5-5--|\nA|--2-2-2-2--5-5-5-5--7-7-7-7--5-5-5-5--|\nE|--0-0-0-0--3-3-3-3--5-5-5-5--3-3-3-3--|\n\nVERSE 2 adds a walkdown:\ne|--0-0-0-0--3-3-3-3--1-1-1-1--0-0-0-0--|\nB|--0-0-0-0--3-3-3-3--1-1-1-1--0-0-0-0--|\nG|--1-1-1-1--4-4-4-4--2-2-2-2--1-1-1-1--|\nD|--2-2-2-2--5-5-5-5--3-3-3-3--2-2-2-2--|\nA|--2-2-2-2--5-5-5-5--3-3-3-3--2-2-2-2--|\nE|--0-0-0-0--3-3-3-3--1-1-1-1--0-0-0-0--|\n   E        G        F        E\n\nBRIDGE: just the E chord. strum it. strum it\nharder. keep strumming. that's the bridge.\n\nthis band is two people from milwaukie who\nare somehow also a full band. i've seen them\nthree times and every time the lineup is\ndifferent except the singer (nate) and the\nbassist (also nate — different nate).\n\nthe name is dumb. the song is about a parking\ngarage at PCC. it shouldn't work. it does."
       },
       {
         "type": "forum-thread",
@@ -2874,7 +2874,7 @@ export const catalog = [
           {
             "user": "ampjunkie",
             "date": "05/18/02 11:52 PM",
-            "text": "meter maid played satyricon tonight and it was chaos. they had a different drummer than last time. again. parking structure d into some new song i don't know into parking structure d AGAIN. they played it twice. the crowd didn't care. everyone was moving."
+            "text": "meter maid played satyricon tonight and it was chaos. they had a different drummer than last time. again. Level D into some new song i don't know into Level D AGAIN. they played it twice. the crowd didn't care. everyone was moving."
           },
           {
             "user": "spool_head",
@@ -2889,7 +2889,7 @@ export const catalog = [
           {
             "user": "nate_mm",
             "date": "05/19/02 03:22 PM",
-            "text": "we played it twice because the drummer didn't know the other songs. parking structure d is the one everyone knows after one practice. it's like four chords. this isn't a mystery."
+            "text": "we played it twice because the drummer didn't know the other songs. Level D is the one everyone knows after one practice. it's like four chords. this isn't a mystery."
           },
           {
             "user": "spool_head",
@@ -2944,9 +2944,9 @@ export const catalog = [
     ]
   },
   {
-    "id": "pillowphone-thermal-blanket",
+    "id": "pillowphone-wool-blanket",
     "band": "Pillowphone",
-    "song": "Thermal Blanket",
+    "song": "Wool Blanket",
     "scene": "pnw",
     "sceneLabel": "PNW",
     "tags": [
@@ -2959,7 +2959,7 @@ export const catalog = [
         "type": "tab-page",
         "source": "quiet_oly_tabs — geocities.com/quiet_oly_tabs",
         "cached": "2001-06-14",
-        "content": "~~ quiet oly tabs ~~\ntabs for the quiet bands that play after midnight\nmaintained by sleepdebt\nlast updated 6/14/01\n\nPILLOWPHONE — thermal blanket\ntranscribed from tape recording 4/20/01 at a\nhouse show on division st. near evergreen.\n\ni'm sorry if this isn't perfect. the tape has a\nlot of room noise and someone was doing dishes\nin the kitchen during the second verse. but i\nthink the shapes are right.\n\ntuning: open D (D A D F# A D)\n\nD|--0-----------0------------|--0-----------0------------|\nA|--0-----------0------------|--0-----------0------------|\nF#|--0---0---4---4------------|--0---0---7---7------------|\nD|--0---0---4---4------------|--0---0---7---7------------|\nA|--0---0---4---4------------|--0---0---7---7------------|\nD|--0---0---0---0------------|--0---0---0---0------------|\n\nthen the second part is just:\n\nD|--5-----------5------------|--0-----------0------------|\nA|--5-----------5------------|--0-----------0------------|\nF#|--5---5---7---7------------|--0---0---0---0------------|\nD|--5---5---7---7------------|--0---0---0---0------------|\nA|--5---5---7---7------------|--0---0---0---0------------|\nD|--5---5---5---5------------|--0---0---0---0------------|\n\nplay everything very slow. like half as slow as you\nthink. kai barely moves her hand. there's a lot of\nsilence between the notes that matters.\n\ni'm sorry if this is wrong. i think the 7th fret\npart might be a 9 but i can't tell from the tape.\n\nLINKS:\n- pillowphone on mp3.com [DEAD]\n- KAOS radio playlists [DEAD]\n- evergreen music collective page [DEAD]"
+        "content": "~~ quiet oly tabs ~~\ntabs for the quiet bands that play after midnight\nmaintained by sleepdebt\nlast updated 6/14/01\n\nPILLOWPHONE — Wool Blanket\ntranscribed from tape recording 4/20/01 at a\nhouse show on division st. near evergreen.\n\ni'm sorry if this isn't perfect. the tape has a\nlot of room noise and someone was doing dishes\nin the kitchen during the second verse. but i\nthink the shapes are right.\n\ntuning: open D (D A D F# A D)\n\nD|--0-----------0------------|--0-----------0------------|\nA|--0-----------0------------|--0-----------0------------|\nF#|--0---0---4---4------------|--0---0---7---7------------|\nD|--0---0---4---4------------|--0---0---7---7------------|\nA|--0---0---4---4------------|--0---0---7---7------------|\nD|--0---0---0---0------------|--0---0---0---0------------|\n\nthen the second part is just:\n\nD|--5-----------5------------|--0-----------0------------|\nA|--5-----------5------------|--0-----------0------------|\nF#|--5---5---7---7------------|--0---0---0---0------------|\nD|--5---5---7---7------------|--0---0---0---0------------|\nA|--5---5---7---7------------|--0---0---0---0------------|\nD|--5---5---5---5------------|--0---0---0---0------------|\n\nplay everything very slow. like half as slow as you\nthink. kai barely moves her hand. there's a lot of\nsilence between the notes that matters.\n\ni'm sorry if this is wrong. i think the 7th fret\npart might be a 9 but i can't tell from the tape.\n\nLINKS:\n- pillowphone on mp3.com [DEAD]\n- KAOS radio playlists [DEAD]\n- evergreen music collective page [DEAD]"
       },
       {
         "type": "guestbook",
@@ -3170,9 +3170,9 @@ export const catalog = [
     ]
   },
   {
-    "id": "soft-clay-parking-lot-song",
-    "band": "Soft Clay",
-    "song": "Parking Lot Song",
+    "id": "kiln-dust-green-jacket-song",
+    "band": "Kiln Dust",
+    "song": "Green Jacket Song",
     "scene": "pnw",
     "sceneLabel": "PNW",
     "tags": [
@@ -3185,7 +3185,7 @@ export const catalog = [
         "type": "tab-page",
         "source": "pacific-nw-tabs.cjb.net",
         "cached": "2001-12-05",
-        "content": "*** PACIFIC NW TABS ***\n[ home | submit a tab | links | guestbook ]\n----------------------------------------------\n\nSOFT CLAY — parking lot song\nsubmitted by: gravel_road\ndate: 12/01/01\n\ntuning: standard (E A D G B E)\n\nthis is from a tape that was circulating at\nevergreen. i think soft clay is from shelton?\ni honestly don't know anything about them\nexcept this song is really good and really sad.\n\ne|--0-------0-------0-------0-------|\nB|--1-------1-------0-------0-------|\nG|--0-------0-------0-------0-------|\nD|--2-------2-------2-------2-------|\nA|--3-------3-------2-------2-------|\nE|--0-------0-------0-------0-------|\n\nthat's basically it. C to Em. back and forth.\nthere's a vocal melody over it that does all the\nwork. the guitar part is just two chords.\n\ni know that sounds boring but i promise it isn't.\n\nlater there's a part where the guitar goes up:\n\ne|--3-------3-------0-------0-------|\nB|--3-------3-------1-------1-------|\nG|--0-------0-------0-------0-------|\nD|--0-------0-------2-------2-------|\nA|--2-------2-------3-------3-------|\nE|--3-------3-------0-------0-------|\n\nG to C. then back to the C-Em thing.\n\nthat's the whole song. i don't think they\nplay anymore."
+        "content": "*** PACIFIC NW TABS ***\n[ home | submit a tab | links | guestbook ]\n----------------------------------------------\n\nKiln Dust — parking lot song\nsubmitted by: gravel_road\ndate: 12/01/01\n\ntuning: standard (E A D G B E)\n\nthis is from a tape that was circulating at\nevergreen. i think Kiln Dust is from shelton?\ni honestly don't know anything about them\nexcept this song is really good and really sad.\n\ne|--0-------0-------0-------0-------|\nB|--1-------1-------0-------0-------|\nG|--0-------0-------0-------0-------|\nD|--2-------2-------2-------2-------|\nA|--3-------3-------2-------2-------|\nE|--0-------0-------0-------0-------|\n\nthat's basically it. C to Em. back and forth.\nthere's a vocal melody over it that does all the\nwork. the guitar part is just two chords.\n\ni know that sounds boring but i promise it isn't.\n\nlater there's a part where the guitar goes up:\n\ne|--3-------3-------0-------0-------|\nB|--3-------3-------1-------1-------|\nG|--0-------0-------0-------0-------|\nD|--0-------0-------2-------2-------|\nA|--2-------2-------3-------3-------|\nE|--3-------3-------0-------0-------|\n\nG to C. then back to the C-Em thing.\n\nthat's the whole song. i don't think they\nplay anymore."
       },
       {
         "type": "guestbook",
@@ -3195,7 +3195,7 @@ export const catalog = [
           {
             "name": "gravel_road",
             "date": "02/14/02",
-            "text": "if anyone knows who is in soft clay please email me. i want to know if they have other songs. the tape only has this one."
+            "text": "if anyone knows who is in Kiln Dust please email me. i want to know if they have other songs. the tape only has this one."
           },
           {
             "name": "tim",
@@ -3563,7 +3563,22 @@ export const catalog = [
 ];
 
 export const demoPresets = [
-  { id: 'cursed', label: '⚡ cursed mall demo', note: 'Dusty low riff with a fake tape-click pulse.', entryId: 'landlord-duplex-hymn' },
-  { id: 'dream', label: '🌙 shimmer heartbreak demo', note: 'A chorused, late-night lead line.', entryId: 'gravel-sermons-waffle-house' },
-  { id: 'garage', label: '🔥 garage tantrum demo', note: 'Short, rude, distorted eighth-note chugger.', entryId: 'buttermilk-practice-space-key' },
+  {
+    "id": "cursed",
+    "label": "⚡ cursed mall demo",
+    "note": "Dusty low riff with a fake tape-click pulse.",
+    "entryId": "landlord-duplex-hymn"
+  },
+  {
+    "id": "dream",
+    "label": "🌙 shimmer heartbreak demo",
+    "note": "A chorused, late-night lead line.",
+    "entryId": "gravel-sermons-waffle-house"
+  },
+  {
+    "id": "garage",
+    "label": "🔥 garage tantrum demo",
+    "note": "Short, rude, distorted eighth-note chugger.",
+    "entryId": "buttermilk-practice-space-key"
+  }
 ];
