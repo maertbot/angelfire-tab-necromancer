@@ -439,8 +439,8 @@ body::after {
   color: #338833;
 }
 .frag-tab-page .tab-content {
-  white-space: pre-wrap;
-  word-break: break-word;
+  white-space: pre;
+  overflow-x: auto;
   position: relative;
   z-index: 1;
 }
