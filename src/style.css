@@ -451,8 +451,7 @@ body::after {
 }
 .frag-tab-page .tab-hr {
   color: #227722;
-  display: block;
-  margin: 8px 0;
+  display: inline;
   user-select: none;
 }
 .frag-tab-page .visitor-counter {

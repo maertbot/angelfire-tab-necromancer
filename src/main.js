@@ -93,7 +93,7 @@ function renderTabPage(fragment, entryId) {
   const content = escapeHtml(fragment.content)
     .replace(/\[DEAD\]/g, '<span class="dead-link">[DEAD]</span>')
     .replace(/\[EMAIL REMOVED\]/g, '<span class="tab-email">[EMAIL REMOVED]</span>')
-    .replace(/-----+/g, '<span class="tab-hr">════════════════════════════════════════════</span>')
+    .replace(/^-{5,}$/gm, '<span class="tab-hr">────────────────────────────────</span>')
 
   return `<div class="fragment frag-tab-page" style="color: ${scheme.text}; background: ${scheme.bg}; text-shadow: 0 0 6px ${scheme.shadow};">
     <div class="fragment-source" style="color: ${scheme.text}88;">[RECOVERED: ${escapeHtml(fragment.source)} — last cached ${escapeHtml(fragment.cached)}]</div>
