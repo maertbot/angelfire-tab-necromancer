@@ -721,14 +721,14 @@ hit counter: 00198`},{type:`guestbook`,source:`catscradleburner's guestbook`,cac
 │  $3 / ALL AGES / DOORS 7:30           │
 │  "laura says bring tissues. tom says   │
 │  bring earplugs. they're both right."  │
-└────────────────────────────────────────┘`}]},{id:`copier-jam-salisbury-bypass`,band:`Copier Jam`,song:`Salisbury Bypass`,scene:`nc`,sceneLabel:`NC Charlotte`,tags:[`drop-d`,`fast`,`salisbury`],fragments:[{type:`tab-page`,source:`clutchfan98's Geocities page`,cached:`2001-07-03`,content:`** PIEDMONT PUNK TABS **
+└────────────────────────────────────────┘`}]},{id:`breakroom-salisbury-bypass`,band:`Breakroom`,song:`Salisbury Bypass`,scene:`nc`,sceneLabel:`NC Charlotte`,tags:[`drop-d`,`fast`,`salisbury`],fragments:[{type:`tab-page`,source:`clutchfan98's Geocities page`,cached:`2001-07-03`,content:`** PIEDMONT PUNK TABS **
 maintained by clutchfan98
 "tabs for bands your friends haven't heard of"
 
 visitor count: 00187
 
 ---------------------------------------------
-COPIER JAM — salisbury bypass
+Breakroom — salisbury bypass
 ---------------------------------------------
 tuning: drop D (D A D G B E)
 
@@ -759,14 +759,14 @@ at the end. it sounds like he's just hitting
 random harmonics?? if you know email me.
 
 LINKS:
-- copier jam on mp3.com [DEAD]
+- Breakroom on mp3.com [DEAD]
 - salisbury shows page [DEAD]
-- milestone club listings [DEAD]`},{type:`forum-thread`,source:`CLT Underground Board`,thread:`salisbury bands worth seeing?`,cached:`2001-09`,board:`local bands`,posts:[{user:`truckbed_phil`,date:`09/04/01 07:18 PM`,text:`copier jam. they drive down to charlotte all the time. saw them at the milestone like 3 times this year. salisbury bypass is the one.`},{user:`buzzclipper`,date:`09/05/01 11:33 AM`,text:`they're fine. kind of generic.`},{user:`truckbed_phil`,date:`09/05/01 01:09 PM`,text:`i didn't say they were reinventing music. i said they're worth seeing. the riff is good. dustin plays hard.`},{user:`nikki_nc`,date:`09/06/01 09:47 AM`,text:`i think dustin works at the guitar center in concord? he sold me strings once and i didn't realize it was him until later.`},{user:`buzzclipper`,date:`09/06/01 04:20 PM`,text:`that explains the generic part lol`},{user:`truckbed_phil`,date:`09/06/01 06:55 PM`,text:`you are the worst person on this board`}]},{type:`flyer`,source:`Milestone Club door photo`,cached:`~2001`,content:`╔═══════════════════════════════════════════╗
+- milestone club listings [DEAD]`},{type:`forum-thread`,source:`CLT Underground Board`,thread:`salisbury bands worth seeing?`,cached:`2001-09`,board:`local bands`,posts:[{user:`truckbed_phil`,date:`09/04/01 07:18 PM`,text:`Breakroom. they drive down to charlotte all the time. saw them at the milestone like 3 times this year. salisbury bypass is the one.`},{user:`buzzclipper`,date:`09/05/01 11:33 AM`,text:`they're fine. kind of generic.`},{user:`truckbed_phil`,date:`09/05/01 01:09 PM`,text:`i didn't say they were reinventing music. i said they're worth seeing. the riff is good. dustin plays hard.`},{user:`nikki_nc`,date:`09/06/01 09:47 AM`,text:`i think dustin works at the guitar center in concord? he sold me strings once and i didn't realize it was him until later.`},{user:`buzzclipper`,date:`09/06/01 04:20 PM`,text:`that explains the generic part lol`},{user:`truckbed_phil`,date:`09/06/01 06:55 PM`,text:`you are the worst person on this board`}]},{type:`flyer`,source:`Milestone Club door photo`,cached:`~2001`,content:`╔═══════════════════════════════════════════╗
 ║  SAT MAY 19 2001 — MILESTONE CLUB        ║
 ║  1313 CEDAR ST                            ║
 ║                                           ║
-║  COPIER JAM (salisbury)                   ║
-║  THERMAL LANCE                            ║
+║  Breakroom (salisbury)                   ║
+║  Soldering Iron                            ║
 ║  PARKING LOT SAINT                        ║
 ║                                           ║
 ║  $4 / 18+ / DOORS 9 PM                   ║
@@ -817,12 +817,12 @@ Thurs 5/24 — Tremont Music Hall — Trainyard
   Ghost / Ditch Flowers / Some Other Band
   (name TBD at press time) — $5 / 18+
   "independence blvd played live is something
-  else. just trust us." — CL Staff Pick`}]},{id:`parking-deck-sunrise-gastonia-mile`,band:`Parking Deck Sunrise`,song:`Gastonia Mile`,scene:`nc`,sceneLabel:`NC Charlotte`,tags:[`drop-d`,`mid`,`gastonia`],fragments:[{type:`tab-page`,source:`vfwhardcore's Angelfire page`,cached:`2000-11-28`,content:`*** VFW HARDCORE / PUNK / WHATEVER ***
+  else. just trust us." — CL Staff Pick`}]},{id:`rooftop-sunrise-gastonia-mile`,band:`Rooftop Sunrise`,song:`Gastonia Mile`,scene:`nc`,sceneLabel:`NC Charlotte`,tags:[`drop-d`,`mid`,`gastonia`],fragments:[{type:`tab-page`,source:`vfwhardcore's Angelfire page`,cached:`2000-11-28`,content:`*** VFW HARDCORE / PUNK / WHATEVER ***
 tabs for bands that play gaston county
 
 updated 11/28/00
 
-PARKING DECK SUNRISE — gastonia mile
+Rooftop Sunrise — gastonia mile
 tuning: drop D
 
 this is the clean intro. played fingerpicked
@@ -859,9 +859,9 @@ and i think the guitar just plays feedback??
 ║  FRI OCT 13 2000                      ║
 ║  VFW POST 3108 — GASTONIA             ║
 ║                                        ║
-║  PARKING DECK SUNRISE                  ║
+║  Rooftop Sunrise                  ║
 ║  WINDOW UNIT                           ║
-║  STATIC PROPHET                        ║
+║  Signal Prophet                        ║
 ║                                        ║
 ║  $3 / ALL AGES                         ║
 ║  DOORS 7 PM                            ║
@@ -964,13 +964,13 @@ it.
 424. Some wear. This is the machine Window
 Unit recorded their demo on. $120 OBO.
 Marcus says he's done recording at home.
-Call [NUMBER REMOVED] / leave message.`}]},{id:`static-prophet-i85-at-night`,band:`Static Prophet`,song:`I-85 at Night`,scene:`nc`,sceneLabel:`NC Charlotte`,tags:[`drop-d`,`mid`,`greensboro`,`charlotte`],fragments:[{type:`tab-page`,source:`ampjunkie_nc's Angelfire page`,cached:`2001-10-14`,content:`~*~ AMPJUNKIE'S NC TAB PAGE ~*~
+Call [NUMBER REMOVED] / leave message.`}]},{id:`signal-prophet-i85-at-night`,band:`Signal Prophet`,song:`I-85 at Night`,scene:`nc`,sceneLabel:`NC Charlotte`,tags:[`drop-d`,`mid`,`greensboro`,`charlotte`],fragments:[{type:`tab-page`,source:`ampjunkie_nc's Angelfire page`,cached:`2001-10-14`,content:`~*~ AMPJUNKIE'S NC TAB PAGE ~*~
 "tabs from the I-85 corridor"
 
 hit counter: 00441
 
 ---------------------------------------------
-STATIC PROPHET — i-85 at night
+Signal Prophet — i-85 at night
 ---------------------------------------------
 tuning: drop D
 transcribed by ampjunkie from the 7" (yes
@@ -1019,21 +1019,21 @@ to the 7" again and it's wrong. if anyone
 has it please for the love of god email me.
 
 -- ampjunkie
-[EMAIL REMOVED]`},{type:`forum-thread`,source:`CLT Underground Board`,thread:`static prophet 7 inch — who has it`,cached:`2002-04`,board:`wanted / trade`,posts:[{user:`ampjunkie_nc`,date:`04/02/02 09:12 PM`,text:`looking for a copy of the static prophet 7". i-85 at night / cold open. 200 pressed. white sleeve with a sharpie drawing of a highway. i'll pay whatever. mine got warped because i left it in my car like an idiot.`},{user:`pete_gso`,date:`04/03/02 11:44 AM`,text:`i have one. i'm not selling it.`},{user:`ampjunkie_nc`,date:`04/03/02 12:08 PM`,text:`cool thanks for that helpful response pete`},{user:`caitlin_sp`,date:`04/05/02 03:30 PM`,text:`we still have like 80 copies in kevin's closet. come to the show at camel city café in winston on the 12th and i'll give you one. seriously. please take them.`},{user:`ampjunkie_nc`,date:`04/05/02 04:15 PM`,text:`CAITLIN. i will drive from charlotte to winston-salem for this. also the bridge in i-85 at night. what are the chords. please.`},{user:`caitlin_sp`,date:`04/05/02 07:22 PM`,text:`it's just Em to C to G but i play it in a weird voicing up on the 7th fret. i'll show you at the show.`}]},{type:`flyer`,source:`Camel City Café bulletin board photo`,cached:`~2002`,content:`╔════════════════════════════════════════════╗
+[EMAIL REMOVED]`},{type:`forum-thread`,source:`CLT Underground Board`,thread:`Signal Prophet 7 inch — who has it`,cached:`2002-04`,board:`wanted / trade`,posts:[{user:`ampjunkie_nc`,date:`04/02/02 09:12 PM`,text:`looking for a copy of the Signal Prophet 7". i-85 at night / cold open. 200 pressed. white sleeve with a sharpie drawing of a highway. i'll pay whatever. mine got warped because i left it in my car like an idiot.`},{user:`pete_gso`,date:`04/03/02 11:44 AM`,text:`i have one. i'm not selling it.`},{user:`ampjunkie_nc`,date:`04/03/02 12:08 PM`,text:`cool thanks for that helpful response pete`},{user:`caitlin_sp`,date:`04/05/02 03:30 PM`,text:`we still have like 80 copies in kevin's closet. come to the show at camel city café in winston on the 12th and i'll give you one. seriously. please take them.`},{user:`ampjunkie_nc`,date:`04/05/02 04:15 PM`,text:`CAITLIN. i will drive from charlotte to winston-salem for this. also the bridge in i-85 at night. what are the chords. please.`},{user:`caitlin_sp`,date:`04/05/02 07:22 PM`,text:`it's just Em to C to G but i play it in a weird voicing up on the 7th fret. i'll show you at the show.`}]},{type:`flyer`,source:`Camel City Café bulletin board photo`,cached:`~2002`,content:`╔════════════════════════════════════════════╗
 ║  FRI APR 12 2002                          ║
 ║  CAMEL CITY CAFÉ — WINSTON-SALEM          ║
 ║                                            ║
-║  STATIC PROPHET (greensboro)               ║
+║  Signal Prophet (greensboro)               ║
 ║  BOTTLECAP SERMON                          ║
 ║  DEAD LAWNS (w-s)                          ║
 ║                                            ║
 ║  $5 / ALL AGES / 8 PM                      ║
-║  static prophet has 7"s for FREE           ║
+║  Signal Prophet has 7"s for FREE           ║
 ║  (please take them — caitlin)              ║
-╚════════════════════════════════════════════╝`}]},{id:`ditch-flowers-parking-lot-hymn`,band:`Ditch Flowers`,song:`Parking Lot Hymn`,scene:`nc`,sceneLabel:`NC Charlotte`,tags:[`standard`,`slow`,`mooresville`],fragments:[{type:`tab-page`,source:`lake_norman_music.homestead.com`,cached:`2001-03-15`,content:`LAKE NORMAN AREA MUSIC PAGE
+╚════════════════════════════════════════════╝`}]},{id:`ditch-flowers-lot-hymn`,band:`Ditch Flowers`,song:`Lot Hymn`,scene:`nc`,sceneLabel:`NC Charlotte`,tags:[`standard`,`slow`,`mooresville`],fragments:[{type:`tab-page`,source:`lake_norman_music.homestead.com`,cached:`2001-03-15`,content:`LAKE NORMAN AREA MUSIC PAGE
 "yes there are bands north of charlotte"
 
-DITCH FLOWERS — parking lot hymn
+DITCH FLOWERS — Lot Hymn
 tabbed by me (brian). from memory.
 i've seen them play this like 8 times so
 i'm pretty confident.
@@ -1066,7 +1066,7 @@ the last G she holds for like 8 beats.
 the song breathes really slow.
 
 this is one of those songs that sounds like
-nothing on paper and everything in a room.`},{type:`dead-link`,source:`lake_norman_music mirror attempt`,cached:`unknown`,content:`DITCH FLOWERS — parking lot hymn
+nothing on paper and everything in a room.`},{type:`dead-link`,source:`lake_norman_music mirror attempt`,cached:`unknown`,content:`DITCH FLOWERS — Lot Hymn
 
 page by brian. original URL dead.
 cached chord chart only:
@@ -1116,11 +1116,11 @@ but honestly it might not be about anything.`},{type:`forum-thread`,source:`CLT 
 *                               *
 *  FREE / STARTS AT DARK        *
 *  BRING YOUR OWN EVERYTHING    *
-* * * * * * * * * * * * * * * * *`}]},{id:`thermal-lance-hickory-smoke`,band:`Thermal Lance`,song:`Hickory Smoke`,scene:`nc`,sceneLabel:`NC Charlotte`,tags:[`drop-d`,`slow`,`hickory`],fragments:[{type:`tab-page`,source:`foothills_tabs.angelfire.com`,cached:`2001-08-22`,content:`~*~ FOOTHILLS TABS ~*~
+* * * * * * * * * * * * * * * * *`}]},{id:`soldering-iron-hickory-smoke`,band:`Soldering Iron`,song:`Hickory Smoke`,scene:`nc`,sceneLabel:`NC Charlotte`,tags:[`drop-d`,`slow`,`hickory`],fragments:[{type:`tab-page`,source:`foothills_tabs.angelfire.com`,cached:`2001-08-22`,content:`~*~ FOOTHILLS TABS ~*~
 (catawba county and surrounding areas)
 maintained by drew
 
-THERMAL LANCE — hickory smoke
+Soldering Iron — hickory smoke
 tuning: drop D (D A D G B E)
 
 this is the slow one. they have fast songs
@@ -1180,7 +1180,7 @@ had it right actually. ignore this email. i
 just checked your page again and you have it
 right. sorry.
 
-also: do you know if thermal lance is playing
+also: do you know if Soldering Iron is playing
 the milestone anytime soon? i'm tired of
 driving to hickory for shows.
 
@@ -1305,14 +1305,14 @@ links:
 ║  $4 / 21+ / 9PM                      ║
 ║  "bring earplugs or don't.           ║
 ║   we're not turning down."           ║
-╚══════════════════════════════════════╝`}]},{id:`ditch-lily-frontage-road`,band:`Ditch Lily`,song:`Frontage Road`,scene:`pnw`,sceneLabel:`PNW Eugene`,tags:[`standard`,`mid`,`cottage-grove`],fragments:[{type:`tab-page`,source:`cottage_grove_music.cjb.net`,cached:`2000-11-28`,content:`COTTAGE GROVE BANDS
+╚══════════════════════════════════════╝`}]},{id:`culvert-lily-frontage-road`,band:`Culvert Lily`,song:`Frontage Road`,scene:`pnw`,sceneLabel:`PNW Eugene`,tags:[`standard`,`mid`,`cottage-grove`],fragments:[{type:`tab-page`,source:`cottage_grove_music.cjb.net`,cached:`2000-11-28`,content:`COTTAGE GROVE BANDS
 maintained by: reese_cg
 ----
 
-DITCH LILY — "frontage road"
+Culvert Lily — "frontage road"
 tuning: standard (E A D G B E)
 
-this is the only ditch lily song i know all the way
+this is the only Culvert Lily song i know all the way
 through. kyle showed me at the axe & fiddle one night
 after their set. it's easier than it sounds.
 
@@ -1341,21 +1341,21 @@ is fast, i always miss it.
 kyle sings the word "frontage" like "fruntage"
 which is wrong but it sounds good.`},{type:`classified-ad`,source:`Eugene Weekly classifieds`,cached:`2001-03-08`,content:`SHOWS:
 Sat 3/10 — The Axe & Fiddle, Cottage Grove —
-  Ditch Lily / Hayfield / The Returns — $3 / AA
-  "we promise to start on time this time"`},{type:`guestbook`,source:`cottage_grove_music guestbook`,cached:`2001-05-14`,entries:[{name:`kyle_cgOR`,date:`05/10/01`,text:`hey reese thanks for putting this up. the verse is right. the chorus should have a Cadd9 instead of just C but honestly nobody will hear the difference`},{name:`reese_cg`,date:`05/11/01`,text:`you're welcome. when are you guys playing again. the axe & fiddle guy keeps asking me`},{name:`haystack77`,date:`04/22/01`,text:`drove down from eugene for the last show. row river road in the rain at night was sketchy but the set was great. that frontage road song is really something.`},{name:`anonymous`,date:`04/01/01`,text:`is cottage grove a real place`},{name:`reese_cg`,date:`04/02/01`,text:`yes. it's on I-5 south of eugene. we have a covered bridge.`}]}]},{id:`thermal-wool-highway-99`,band:`Thermal Wool`,song:`Highway 99`,scene:`pnw`,sceneLabel:`PNW Eugene`,tags:[`drop-d`,`mid`,`eugene`,`stoner`],fragments:[{type:`tab-page`,source:`ampjunkie_nw's Angelfire page`,cached:`2002-01-14`,content:`~*~*~ PNW HEAVY TABS ~*~*~
+  Culvert Lily / Hayfield / The Returns — $3 / AA
+  "we promise to start on time this time"`},{type:`guestbook`,source:`cottage_grove_music guestbook`,cached:`2001-05-14`,entries:[{name:`kyle_cgOR`,date:`05/10/01`,text:`hey reese thanks for putting this up. the verse is right. the chorus should have a Cadd9 instead of just C but honestly nobody will hear the difference`},{name:`reese_cg`,date:`05/11/01`,text:`you're welcome. when are you guys playing again. the axe & fiddle guy keeps asking me`},{name:`haystack77`,date:`04/22/01`,text:`drove down from eugene for the last show. row river road in the rain at night was sketchy but the set was great. that frontage road song is really something.`},{name:`anonymous`,date:`04/01/01`,text:`is cottage grove a real place`},{name:`reese_cg`,date:`04/02/01`,text:`yes. it's on I-5 south of eugene. we have a covered bridge.`}]}]},{id:`fog-wool-highway-99`,band:`Fog Wool`,song:`Highway 99`,scene:`pnw`,sceneLabel:`PNW Eugene`,tags:[`drop-d`,`mid`,`eugene`,`stoner`],fragments:[{type:`tab-page`,source:`ampjunkie_nw's Angelfire page`,cached:`2002-01-14`,content:`~*~*~ PNW HEAVY TABS ~*~*~
 ampjunkie_nw's page for loud bands
 from the willamette valley & beyond
 
 page best viewed in 800x600 // IE 5
 
 ================================================
-THERMAL WOOL — highway 99
+Fog Wool — highway 99
 ================================================
 tuning: drop D (D A D G B E)
 tempo: medium, kind of groovy
 
 this is the main riff. it repeats for like the
-first two minutes. thermal wool songs are long.
+first two minutes. Fog Wool songs are long.
 
 main riff:
 D|--0--0--0---5---7--5--0--|--0--0--0---3---5--3--0--|
@@ -1383,10 +1383,10 @@ played it once at the WOW Hall show and i was
 standing behind a pillar. if you were closer
 and remember it email me.
 
-hit counter: 00204`},{type:`forum-thread`,source:`Eugene Music Board`,thread:`THERMAL WOOL / BROKEN CALENDAR at WOW Hall recap`,cached:`2002-02-03`,board:`shows`,posts:[{user:`ampjunkie_nw`,date:`01/27/02 11:44 PM`,text:`thermal wool tonight was unreal. highway 99 went on for like 8 minutes and at the end the bassist just kept the riff going while the guitar player did some feedback thing and then it all came back in. the wow hall sound guy actually smiled which i've never seen before.`},{user:`gutterpunk_sue`,date:`01/28/02 09:17 AM`,text:`i was there. agreed. but broken calendar was better. fight me.`},{user:`ampjunkie_nw`,date:`01/28/02 10:02 AM`,text:`i'm not gonna fight you because broken calendar was also great but thermal wool is a different thing. it's like driving 99 from eugene to junction city at 11 pm in the fog. that's the song. that's literally what the song is.`},{user:`mossfern`,date:`01/28/02 02:15 PM`,text:`the bridge part is in A if that helps. i was pretty close.`},{user:`ampjunkie_nw`,date:`01/29/02 08:33 AM`,text:`i'll fix the tab. thanks.`},{user:`deleted_user`,date:``,text:`[user account deleted]`,isSystem:!0}]},{type:`email`,cached:`2002-04-22`,source:`eugene band mailing list archive`,content:`From: [REDACTED]@yahoo.com
+hit counter: 00204`},{type:`forum-thread`,source:`Eugene Music Board`,thread:`Fog Wool / BROKEN CALENDAR at WOW Hall recap`,cached:`2002-02-03`,board:`shows`,posts:[{user:`ampjunkie_nw`,date:`01/27/02 11:44 PM`,text:`Fog Wool tonight was unreal. highway 99 went on for like 8 minutes and at the end the bassist just kept the riff going while the guitar player did some feedback thing and then it all came back in. the wow hall sound guy actually smiled which i've never seen before.`},{user:`gutterpunk_sue`,date:`01/28/02 09:17 AM`,text:`i was there. agreed. but broken calendar was better. fight me.`},{user:`ampjunkie_nw`,date:`01/28/02 10:02 AM`,text:`i'm not gonna fight you because broken calendar was also great but Fog Wool is a different thing. it's like driving 99 from eugene to junction city at 11 pm in the fog. that's the song. that's literally what the song is.`},{user:`mossfern`,date:`01/28/02 02:15 PM`,text:`the bridge part is in A if that helps. i was pretty close.`},{user:`ampjunkie_nw`,date:`01/29/02 08:33 AM`,text:`i'll fix the tab. thanks.`},{user:`deleted_user`,date:``,text:`[user account deleted]`,isSystem:!0}]},{type:`email`,cached:`2002-04-22`,source:`eugene band mailing list archive`,content:`From: [REDACTED]@yahoo.com
 To: [REDACTED]@hotmail.com
 Date: Mon, 22 Apr 2002 19:31:07 -0700
-Subject: re: thermal wool tape
+Subject: re: Fog Wool tape
 
 yeah i have the tape from the wow hall show. the
 quality is actually ok because i put the minidisc
@@ -1411,7 +1411,7 @@ portland.
 ║  $5 / ALL AGES / DOORS 8PM            ║
 ║                                        ║
 ║  "loud. bring earplugs."              ║
-╚══════════════════════════════════════════╝`},{type:`dead-link`,source:`pacificnwtabs archive`,cached:`unknown`,content:`THERMAL WOOL — highway 99
+╚══════════════════════════════════════════╝`},{type:`dead-link`,source:`pacificnwtabs archive`,cached:`unknown`,content:`Fog Wool — highway 99
 [page not found — content recovered from cache]
 
 CHORDS ONLY:
@@ -1514,18 +1514,18 @@ somehow. i need to see it again.`},{type:`flyer`,source:`Eugene Weekly back page
 ║  SAT JULY 28 — VENETA GRANGE HALL      ║
 ║                                         ║
 ║  H A Y F I E L D                        ║
-║  ditch lily (cottage grove)             ║
+║  Culvert Lily (cottage grove)             ║
 ║  the morning afters                     ║
 ║                                         ║
 ║  $2 DONATION / ALL AGES / 7PM           ║
 ║  potluck starts at 5.                   ║
 ║  "bring a dish or $2 extra"             ║
-╚══════════════════════════════════════════╝`},{type:`forum-thread`,source:`Eugene Music Board`,thread:`bands from outside town worth seeing`,cached:`2001-10-04`,board:`discussion`,posts:[{user:`dustyvan`,date:`09/28/01 06:33 PM`,text:`hayfield. they're from veneta. or maybe between veneta and junction city. somewhere out past fern ridge. meg's voice is crazy good and the songs are like alt-country but she gets mad at me when i say that.`},{user:`lunchbox541`,date:`09/29/01 10:55 AM`,text:`i saw them at the grange hall thing this summer. it was me and like 20 hippies and hayfield played in front of a potluck table. county line made someone cry. literally. an old guy in overalls was crying.`},{user:`rainfog23`,date:`09/30/01 04:14 PM`,text:`that grange hall show was one of the best shows of the year and nobody from eugene came because it's a 30 minute drive. this is why good bands quit.`},{user:`dustyvan`,date:`10/01/01 09:12 AM`,text:`meg said they'd play in town if someone booked them. she doesn't have internet so you have to call.`}]}]},{id:`gasket-parking-structure`,band:`Gasket`,song:`Parking Structure`,scene:`pnw`,sceneLabel:`PNW Springfield`,tags:[`drop-d`,`fast`,`springfield`,`punk`],fragments:[{type:`tab-page`,source:`stolenwahpedal's Angelfire — "SPRINGFIELD BANDS PAGE"`,cached:`2001-10-02`,content:`~~ SPRINGFIELD BANDS ~~
+╚══════════════════════════════════════════╝`},{type:`forum-thread`,source:`Eugene Music Board`,thread:`bands from outside town worth seeing`,cached:`2001-10-04`,board:`discussion`,posts:[{user:`dustyvan`,date:`09/28/01 06:33 PM`,text:`hayfield. they're from veneta. or maybe between veneta and junction city. somewhere out past fern ridge. meg's voice is crazy good and the songs are like alt-country but she gets mad at me when i say that.`},{user:`lunchbox541`,date:`09/29/01 10:55 AM`,text:`i saw them at the grange hall thing this summer. it was me and like 20 hippies and hayfield played in front of a potluck table. county line made someone cry. literally. an old guy in overalls was crying.`},{user:`rainfog23`,date:`09/30/01 04:14 PM`,text:`that grange hall show was one of the best shows of the year and nobody from eugene came because it's a 30 minute drive. this is why good bands quit.`},{user:`dustyvan`,date:`10/01/01 09:12 AM`,text:`meg said they'd play in town if someone booked them. she doesn't have internet so you have to call.`}]}]},{id:`gasket-concrete-deck`,band:`Gasket`,song:`Concrete Deck`,scene:`pnw`,sceneLabel:`PNW Springfield`,tags:[`drop-d`,`fast`,`springfield`,`punk`],fragments:[{type:`tab-page`,source:`stolenwahpedal's Angelfire — "SPRINGFIELD BANDS PAGE"`,cached:`2001-10-02`,content:`~~ SPRINGFIELD BANDS ~~
 (NOT EUGENE. SPRINGFIELD.)
 last updated 10/02/01
 
 GASKET
-"parking structure"
+"Concrete Deck"
 tuning: drop D
 
 verse (palm mute):
@@ -1554,7 +1554,7 @@ can't find which one.
 NOTE: gasket is from springfield. they practice
 behind the plywood mill. jake's dad owns the building.
 the name "gasket" is from a gasket he found on the
-floor of the practice space. not deep.`},{type:`forum-thread`,source:`Eugene Music Board`,thread:`best riff from a local band`,cached:`2002-07-22`,board:`discussion`,posts:[{user:`stolenwahpedal`,date:`07/18/02 05:44 PM`,text:`the outro to parking structure by gasket. clean tone, drop D, the chord thing that walks down chromatically. it's stolen from failure apparently but i don't care. it sounds better when jake plays it in a room that smells like sawdust.`},{user:`chris1999`,date:`07/19/02 08:30 AM`,text:`that IS a failure riff. it's from stuck on you.`},{user:`stolenwahpedal`,date:`07/19/02 09:15 AM`,text:`i said i don't care`},{user:`metalfrog`,date:`07/20/02 11:14 AM`,text:`gasket opened for faucet at john henry's and they were honestly better. don't tell faucet i said that.`}]},{type:`dead-link`,source:`springfield music archive`,cached:`unknown`,content:`GASKET — parking structure
+floor of the practice space. not deep.`},{type:`forum-thread`,source:`Eugene Music Board`,thread:`best riff from a local band`,cached:`2002-07-22`,board:`discussion`,posts:[{user:`stolenwahpedal`,date:`07/18/02 05:44 PM`,text:`the outro to Concrete Deck by gasket. clean tone, drop D, the chord thing that walks down chromatically. it's stolen from failure apparently but i don't care. it sounds better when jake plays it in a room that smells like sawdust.`},{user:`chris1999`,date:`07/19/02 08:30 AM`,text:`that IS a failure riff. it's from stuck on you.`},{user:`stolenwahpedal`,date:`07/19/02 09:15 AM`,text:`i said i don't care`},{user:`metalfrog`,date:`07/20/02 11:14 AM`,text:`gasket opened for faucet at john henry's and they were honestly better. don't tell faucet i said that.`}]},{type:`dead-link`,source:`springfield music archive`,cached:`unknown`,content:`GASKET — Concrete Deck
 [original page gone — cached notes only]
 
 D G A Bb (verse, palm muted, fast)
@@ -1707,13 +1707,13 @@ SOME COPS (corvallis)
 $1 or whatever / ALL AGES
 no fighting. no nazi shit.
 BYOB but be cool about it.
-================================`},{type:`forum-thread`,source:`Eugene Music Board`,thread:`whiteaker house shows — who's going sat`,cached:`2001-05-03`,board:`shows`,posts:[{user:`gutterpunk_sue`,date:`05/01/01 04:18 PM`,text:`park bench arson is playing the house on 4th & tyler saturday. gasket is coming up from springfield. there's also a corvallis band. last time was fun until someone broke the bathroom door. please don't break anything this time.`},{user:`stolenwahpedal`,date:`05/02/01 09:33 AM`,text:`gasket is driving up for this so it must be good. jake doesn't drive to eugene for nothing.`},{user:`lunchbox541`,date:`05/02/01 11:07 AM`,text:`which house is it. 4th and tyler has like three houses.`},{user:`gutterpunk_sue`,date:`05/02/01 12:15 PM`,text:`the one with the van in the yard. you'll hear it.`},{user:`rainfog23`,date:`05/03/01 02:44 PM`,text:`coming from south eugene. is there parking or should i bike.`},{user:`gutterpunk_sue`,date:`05/03/01 03:30 PM`,text:`bike. always bike in the whit.`}]}]},{id:`copier-jam-halogen-flicker`,band:`Copier Jam`,song:`Halogen Flicker`,scene:`pnw`,sceneLabel:`PNW Portland`,tags:[`drop-d`,`mid`,`portland`],fragments:[{type:`tab-page`,source:`nw_tabs_2000's Angelfire page`,cached:`2001-09-03`,content:`** NW TABS 2000 **
+================================`},{type:`forum-thread`,source:`Eugene Music Board`,thread:`whiteaker house shows — who's going sat`,cached:`2001-05-03`,board:`shows`,posts:[{user:`gutterpunk_sue`,date:`05/01/01 04:18 PM`,text:`park bench arson is playing the house on 4th & tyler saturday. gasket is coming up from springfield. there's also a corvallis band. last time was fun until someone broke the bathroom door. please don't break anything this time.`},{user:`stolenwahpedal`,date:`05/02/01 09:33 AM`,text:`gasket is driving up for this so it must be good. jake doesn't drive to eugene for nothing.`},{user:`lunchbox541`,date:`05/02/01 11:07 AM`,text:`which house is it. 4th and tyler has like three houses.`},{user:`gutterpunk_sue`,date:`05/02/01 12:15 PM`,text:`the one with the van in the yard. you'll hear it.`},{user:`rainfog23`,date:`05/03/01 02:44 PM`,text:`coming from south eugene. is there parking or should i bike.`},{user:`gutterpunk_sue`,date:`05/03/01 03:30 PM`,text:`bike. always bike in the whit.`}]}]},{id:`dropout-wage-halogen-flicker`,band:`Dropout Wage`,song:`Halogen Flicker`,scene:`pnw`,sceneLabel:`PNW Portland`,tags:[`drop-d`,`mid`,`portland`],fragments:[{type:`tab-page`,source:`nw_tabs_2000's Angelfire page`,cached:`2001-09-03`,content:`** NW TABS 2000 **
 ( portland tabs for portland bands )
 last updated 9/3/01
 
 email corrections: [EMAIL REMOVED]
 -----------------------------------------------
-COPIER JAM — halogen flicker
+Dropout Wage — halogen flicker
 -----------------------------------------------
 tuning: drop D (D A D G B E)
 
@@ -1746,12 +1746,12 @@ and walks off while the drums are still going.
 that's the song. deal with it.
 
 links:
-- copier jam on mp3.com [DEAD]
+- Dropout Wage on mp3.com [DEAD]
 - casey's other page (it's about his cat) [DEAD]
-- la luna show calendar [DEAD]`},{type:`forum-thread`,source:`PDX Noise Board`,thread:`la luna saturday — anyone go?`,cached:`2001-08`,board:`shows`,posts:[{user:`fuzzlord503`,date:`08/19/01 11:22 AM`,text:`copier jam played second and honestly stole the show. the new song (halogen flicker?) was heavy. casey's amp was way too loud for that room but i mean that as a compliment.`},{user:`dregs_pdx`,date:`08/19/01 02:15 PM`,text:`the sound at la luna is always bad. this isn't news.`},{user:`fuzzlord503`,date:`08/19/01 04:03 PM`,text:`i said it was a compliment`},{user:`pedal_janitor`,date:`08/20/01 09:47 AM`,text:`anybody know what kind of rat casey uses? the newer one or the vintage one. it sounded insane.`},{user:`fuzzlord503`,date:`08/20/01 12:30 PM`,text:`it's a vintage one. you can see the font on the enclosure. he also runs it into a blues driver which is psychotic but it works.`},{user:`dregs_pdx`,date:`08/21/01 10:18 AM`,text:`can we talk about how he just walked offstage while kyle was still playing drums? is that a bit? is it art? is he just rude?`},{user:`fuzzlord503`,date:`08/21/01 01:44 PM`,text:`it's the end of the song. the song ends that way. it's not deep.`}]},{type:`guestbook`,source:`nw_tabs_2000 guestbook`,cached:`2001-11-20`,entries:[{name:`anonymous`,date:`11/14/01`,text:`cool site. do you have tabs for the thermals?`},{name:`nw_tabs_2000`,date:`11/15/01`,text:`no. email me one and i'll post it.`},{name:`tapehead_pdx`,date:`10/22/01`,text:`the halogen flicker tab is close but i think the verse uses a Dsus4 not a straight D. listen to the third string.`},{name:`anonymous`,date:`09/30/01`,text:`.`},{name:`casey`,date:`09/28/01`,text:`this is close enough. the chorus is wrong but close enough. i'm not telling you the real chords because then it wouldn't sound like you.`}]}]},{id:`gorge-static-pine-line`,band:`Gorge Static`,song:`Pine Line`,scene:`pnw`,sceneLabel:`PNW Portland`,tags:[`standard`,`slow`,`hood-river`],fragments:[{type:`tab-page`,source:`hoodrivertabs.cjb.net`,cached:`2000-11-14`,content:`* HOOD RIVER TABS *
+- la luna show calendar [DEAD]`},{type:`forum-thread`,source:`PDX Noise Board`,thread:`la luna saturday — anyone go?`,cached:`2001-08`,board:`shows`,posts:[{user:`fuzzlord503`,date:`08/19/01 11:22 AM`,text:`Dropout Wage played second and honestly stole the show. the new song (halogen flicker?) was heavy. casey's amp was way too loud for that room but i mean that as a compliment.`},{user:`dregs_pdx`,date:`08/19/01 02:15 PM`,text:`the sound at la luna is always bad. this isn't news.`},{user:`fuzzlord503`,date:`08/19/01 04:03 PM`,text:`i said it was a compliment`},{user:`pedal_janitor`,date:`08/20/01 09:47 AM`,text:`anybody know what kind of rat casey uses? the newer one or the vintage one. it sounded insane.`},{user:`fuzzlord503`,date:`08/20/01 12:30 PM`,text:`it's a vintage one. you can see the font on the enclosure. he also runs it into a blues driver which is psychotic but it works.`},{user:`dregs_pdx`,date:`08/21/01 10:18 AM`,text:`can we talk about how he just walked offstage while kyle was still playing drums? is that a bit? is it art? is he just rude?`},{user:`fuzzlord503`,date:`08/21/01 01:44 PM`,text:`it's the end of the song. the song ends that way. it's not deep.`}]},{type:`guestbook`,source:`nw_tabs_2000 guestbook`,cached:`2001-11-20`,entries:[{name:`anonymous`,date:`11/14/01`,text:`cool site. do you have tabs for the thermals?`},{name:`nw_tabs_2000`,date:`11/15/01`,text:`no. email me one and i'll post it.`},{name:`tapehead_pdx`,date:`10/22/01`,text:`the halogen flicker tab is close but i think the verse uses a Dsus4 not a straight D. listen to the third string.`},{name:`anonymous`,date:`09/30/01`,text:`.`},{name:`casey`,date:`09/28/01`,text:`this is close enough. the chorus is wrong but close enough. i'm not telling you the real chords because then it wouldn't sound like you.`}]}]},{id:`gorge-hum-pine-line`,band:`Gorge Hum`,song:`Pine Line`,scene:`pnw`,sceneLabel:`PNW Portland`,tags:[`standard`,`slow`,`hood-river`],fragments:[{type:`tab-page`,source:`hoodrivertabs.cjb.net`,cached:`2000-11-14`,content:`* HOOD RIVER TABS *
 [this page best viewed in 800x600]
 
-GORGE STATIC — pine line
+Gorge Hum — pine line
 tabbed by: windsurf_chad
 date: 10/29/00
 
@@ -1792,12 +1792,12 @@ the andrew's pizza show in october you know
 the part.
 
 [visitor counter: 00078]
-[hood river bands webring] [DEAD]`},{type:`guestbook`,source:`hoodrivertabs.cjb.net guestbook`,cached:`2001-04-18`,entries:[{name:`jen_gs`,date:`04/12/01`,text:`chad this is really sweet. it's capo 2 you were right. the bridge chord is an Fsus2 shape. come to the show in the dalles next month and i'll show you.`},{name:`windsurf_chad`,date:`04/13/01`,text:`wait you saw this page?? ok cool. i'll be there. do you need a ride from HR?`},{name:`gorge_rat`,date:`03/08/01`,text:`i drove from portland to see gorge static at the coffee shop and they weren't playing. the show was the week before. does anyone in hood river have email.`},{name:`anonymous`,date:`02/14/01`,text:`is gorge static emo? my friend said they're emo.`},{name:`windsurf_chad`,date:`02/15/01`,text:`they're not emo. they're just quiet.`}]},{type:`classified-ad`,source:`Hood River News classifieds`,cached:`2001-05-02`,content:`LIVE MUSIC — Sat 5/5, 8pm
+[hood river bands webring] [DEAD]`},{type:`guestbook`,source:`hoodrivertabs.cjb.net guestbook`,cached:`2001-04-18`,entries:[{name:`jen_gs`,date:`04/12/01`,text:`chad this is really sweet. it's capo 2 you were right. the bridge chord is an Fsus2 shape. come to the show in the dalles next month and i'll show you.`},{name:`windsurf_chad`,date:`04/13/01`,text:`wait you saw this page?? ok cool. i'll be there. do you need a ride from HR?`},{name:`gorge_rat`,date:`03/08/01`,text:`i drove from portland to see Gorge Hum at the coffee shop and they weren't playing. the show was the week before. does anyone in hood river have email.`},{name:`anonymous`,date:`02/14/01`,text:`is Gorge Hum emo? my friend said they're emo.`},{name:`windsurf_chad`,date:`02/15/01`,text:`they're not emo. they're just quiet.`}]},{type:`classified-ad`,source:`Hood River News classifieds`,cached:`2001-05-02`,content:`LIVE MUSIC — Sat 5/5, 8pm
   River City Saloon, The Dalles
-  GORGE STATIC (hood river)
+  Gorge Hum (hood river)
   PINE CREST (the dalles)
   $3 cover / 21+
-  "acoustic. bring earplugs anyway."`},{type:`dead-link`,source:`pnw-indie-archive.org mirror`,cached:`unknown`,content:`gorge static — pine line
+  "acoustic. bring earplugs anyway."`},{type:`dead-link`,source:`pnw-indie-archive.org mirror`,cached:`unknown`,content:`Gorge Hum — pine line
 
 page recovered from hoodrivertabs.cjb.net
 (site went offline ~2002)
@@ -1810,9 +1810,9 @@ band was jen [last name unknown] and possibly
 one or two other people. the train noise mentioned
 in the bridge section was apparently a field
 recording from the BNSF line along the gorge
-that she played from a boombox onstage."`}]},{id:`wet-drywall-rent-check`,band:`Wet Drywall`,song:`Rent Check`,scene:`pnw`,sceneLabel:`PNW Portland`,tags:[`drop-d`,`fast`,`gresham`],fragments:[{type:`tab-page`,source:`grunge_remains's Geocities page`,cached:`2001-12-30`,content:`**GRUNGE REMAINS — TABS FOR BANDS NOBODY ASKED ABOUT**
+that she played from a boombox onstage."`}]},{id:`wet-drywall-first-and-last`,band:`Wet Drywall`,song:`First and Last`,scene:`pnw`,sceneLabel:`PNW Portland`,tags:[`drop-d`,`fast`,`gresham`],fragments:[{type:`tab-page`,source:`grunge_remains's Geocities page`,cached:`2001-12-30`,content:`**GRUNGE REMAINS — TABS FOR BANDS NOBODY ASKED ABOUT**
 
-WET DRYWALL — rent check
+WET DRYWALL — First and Last
 tuning: drop D
 tempo: fast. like really fast.
 
@@ -1905,11 +1905,11 @@ you were close. it's not up an octave
 it's just the barre shapes make it
 sound higher.
 
-— reese`}]},{id:`receipt-paper-clock-dust`,band:`Receipt Paper`,song:`Clock Dust`,scene:`pnw`,sceneLabel:`PNW Portland`,tags:[`standard`,`slow`,`beaverton`],fragments:[{type:`tab-page`,source:`suburban_noise_pdx Angelfire`,cached:`2001-06-22`,content:`SUBURBAN NOISE PDX
+— reese`}]},{id:`carbon-paper-clock-dust`,band:`Carbon Paper`,song:`Clock Dust`,scene:`pnw`,sceneLabel:`PNW Portland`,tags:[`standard`,`slow`,`beaverton`],fragments:[{type:`tab-page`,source:`suburban_noise_pdx Angelfire`,cached:`2001-06-22`,content:`SUBURBAN NOISE PDX
 "tabs for westside bands because nobody
 else will bother"
 
-RECEIPT PAPER — clock dust
+Carbon Paper — clock dust
 tuning: standard
 capo: none
 
@@ -1929,7 +1929,7 @@ but this song doesn't care about being cool.
 it's about time or something. the singer mumbles.
 
 i've only seen them once, at a coffee shop in
-tigard. there were folding chairs.`},{type:`guestbook`,source:`suburban_noise_pdx guestbook`,cached:`2001-09-05`,entries:[{name:`tv_dinner_kid`,date:`08/28/01`,text:`i went to high school with the guitar player. he practiced in his parents' garage in beaverton and the neighbors called the cops twice. they weren't even loud.`},{name:`anonymous`,date:`08/01/01`,text:`cool site`},{name:`foghorn_pdx`,date:`07/15/01`,text:`receipt paper rules. people sleep on westside bands because it's not SE but whatever. good songs don't care what zip code you're in.`},{name:`anonymous`,date:`07/02/01`,text:`do u have any blink 182 tabs`}]}]},{id:`blackbird-casino-split-rail`,band:`Blackbird Casino`,song:`Split Rail`,scene:`pnw`,sceneLabel:`PNW Portland`,tags:[`open-g`,`mid`,`sellwood`,`portland`],fragments:[{type:`tab-page`,source:`sellwood_sound's Angelfire page`,cached:`2002-01-18`,content:`~SELLWOOD SOUND~
+tigard. there were folding chairs.`},{type:`guestbook`,source:`suburban_noise_pdx guestbook`,cached:`2001-09-05`,entries:[{name:`tv_dinner_kid`,date:`08/28/01`,text:`i went to high school with the guitar player. he practiced in his parents' garage in beaverton and the neighbors called the cops twice. they weren't even loud.`},{name:`anonymous`,date:`08/01/01`,text:`cool site`},{name:`foghorn_pdx`,date:`07/15/01`,text:`Carbon Paper rules. people sleep on westside bands because it's not SE but whatever. good songs don't care what zip code you're in.`},{name:`anonymous`,date:`07/02/01`,text:`do u have any blink 182 tabs`}]}]},{id:`blackbird-casino-split-rail`,band:`Blackbird Casino`,song:`Split Rail`,scene:`pnw`,sceneLabel:`PNW Portland`,tags:[`open-g`,`mid`,`sellwood`,`portland`],fragments:[{type:`tab-page`,source:`sellwood_sound's Angelfire page`,cached:`2002-01-18`,content:`~SELLWOOD SOUND~
 local tabs and show reviews from SE portland
 page by sellwood_sound
 
@@ -2146,12 +2146,12 @@ because nobody saw them play after 2001.
 the homestead page went down and that was it.
 
 band status: unknown. marcus might still be
-in the dalles.`}]},{id:`meter-maid-parking-structure-d`,band:`Meter Maid`,song:`Parking Structure D`,scene:`pnw`,sceneLabel:`PNW Portland`,tags:[`standard`,`fast`,`portland`,`milwaukie`],fragments:[{type:`tab-page`,source:`ampjunkie's Angelfire — "TABS I FELT LIKE DOING"`,cached:`2002-02-14`,content:`TABS I FELT LIKE DOING
+in the dalles.`}]},{id:`meter-maid-level-d`,band:`Meter Maid`,song:`Level D`,scene:`pnw`,sceneLabel:`PNW Portland`,tags:[`standard`,`fast`,`portland`,`milwaukie`],fragments:[{type:`tab-page`,source:`ampjunkie's Angelfire — "TABS I FELT LIKE DOING"`,cached:`2002-02-14`,content:`TABS I FELT LIKE DOING
 by ampjunkie
 i tab whatever i want. don't email me requests.
 
 ======================================
-METER MAID — parking structure d
+METER MAID — Level D
 ======================================
 tuning: standard
 tempo: pretty fast. punk fast.
@@ -2182,7 +2182,7 @@ different except the singer (nate) and the
 bassist (also nate — different nate).
 
 the name is dumb. the song is about a parking
-garage at PCC. it shouldn't work. it does.`},{type:`forum-thread`,source:`PDX Noise Board`,thread:`meter maid at satyricon`,cached:`2002-05`,board:`shows`,posts:[{user:`ampjunkie`,date:`05/18/02 11:52 PM`,text:`meter maid played satyricon tonight and it was chaos. they had a different drummer than last time. again. parking structure d into some new song i don't know into parking structure d AGAIN. they played it twice. the crowd didn't care. everyone was moving.`},{user:`spool_head`,date:`05/19/02 10:15 AM`,text:`they played it twice? like the same song twice in one set?`},{user:`ampjunkie`,date:`05/19/02 11:44 AM`,text:`yes. nobody complained.`},{user:`nate_mm`,date:`05/19/02 03:22 PM`,text:`we played it twice because the drummer didn't know the other songs. parking structure d is the one everyone knows after one practice. it's like four chords. this isn't a mystery.`},{user:`spool_head`,date:`05/19/02 05:01 PM`,text:`wait is this the band nate or the bass nate`},{user:`nate_mm`,date:`05/19/02 06:33 PM`,text:`band nate. bass nate doesn't have internet.`}]},{type:`flyer`,source:`Satyricon wall photo set, NW 6th Ave`,cached:`~2002`,content:`╔══════════════════════════════════════════╗
+garage at PCC. it shouldn't work. it does.`},{type:`forum-thread`,source:`PDX Noise Board`,thread:`meter maid at satyricon`,cached:`2002-05`,board:`shows`,posts:[{user:`ampjunkie`,date:`05/18/02 11:52 PM`,text:`meter maid played satyricon tonight and it was chaos. they had a different drummer than last time. again. Level D into some new song i don't know into Level D AGAIN. they played it twice. the crowd didn't care. everyone was moving.`},{user:`spool_head`,date:`05/19/02 10:15 AM`,text:`they played it twice? like the same song twice in one set?`},{user:`ampjunkie`,date:`05/19/02 11:44 AM`,text:`yes. nobody complained.`},{user:`nate_mm`,date:`05/19/02 03:22 PM`,text:`we played it twice because the drummer didn't know the other songs. Level D is the one everyone knows after one practice. it's like four chords. this isn't a mystery.`},{user:`spool_head`,date:`05/19/02 05:01 PM`,text:`wait is this the band nate or the bass nate`},{user:`nate_mm`,date:`05/19/02 06:33 PM`,text:`band nate. bass nate doesn't have internet.`}]},{type:`flyer`,source:`Satyricon wall photo set, NW 6th Ave`,cached:`~2002`,content:`╔══════════════════════════════════════════╗
 ║  SATURDAY MAY 18 2002                   ║
 ║  SATYRICON — NW 6TH                     ║
 ║                                          ║
@@ -2193,12 +2193,12 @@ garage at PCC. it shouldn't work. it does.`},{type:`forum-thread`,source:`PDX No
 ║  $5 / 21+ / DOORS 9                     ║
 ║  "three bands. one of them has two       ║
 ║   nates. figure it out."                 ║
-╚══════════════════════════════════════════╝`},{type:`guestbook`,source:`ampjunkie's Angelfire guestbook`,cached:`2002-08-30`,entries:[{name:`pinto_bean_kid`,date:`08/22/02`,text:`is the meter maid tab right? i learned it and it sounds too easy.`},{name:`ampjunkie`,date:`08/23/02`,text:`it IS easy. it's punk. the whole point is that it's easy and it still rules.`},{name:`nate_mm`,date:`07/15/02`,text:`this tab is correct. we're breaking up btw. or maybe not. bass nate moved to tigard which is basically breaking up.`},{name:`anonymous`,date:`06/01/02`,text:`what's a meter maid`},{name:`ampjunkie`,date:`06/02/02`,text:`the people who give you parking tickets. come on.`}]}]},{id:`pillowphone-thermal-blanket`,band:`Pillowphone`,song:`Thermal Blanket`,scene:`pnw`,sceneLabel:`PNW`,tags:[`open-d`,`slow`,`olympia`],fragments:[{type:`tab-page`,source:`quiet_oly_tabs — geocities.com/quiet_oly_tabs`,cached:`2001-06-14`,content:`~~ quiet oly tabs ~~
+╚══════════════════════════════════════════╝`},{type:`guestbook`,source:`ampjunkie's Angelfire guestbook`,cached:`2002-08-30`,entries:[{name:`pinto_bean_kid`,date:`08/22/02`,text:`is the meter maid tab right? i learned it and it sounds too easy.`},{name:`ampjunkie`,date:`08/23/02`,text:`it IS easy. it's punk. the whole point is that it's easy and it still rules.`},{name:`nate_mm`,date:`07/15/02`,text:`this tab is correct. we're breaking up btw. or maybe not. bass nate moved to tigard which is basically breaking up.`},{name:`anonymous`,date:`06/01/02`,text:`what's a meter maid`},{name:`ampjunkie`,date:`06/02/02`,text:`the people who give you parking tickets. come on.`}]}]},{id:`pillowphone-wool-blanket`,band:`Pillowphone`,song:`Wool Blanket`,scene:`pnw`,sceneLabel:`PNW`,tags:[`open-d`,`slow`,`olympia`],fragments:[{type:`tab-page`,source:`quiet_oly_tabs — geocities.com/quiet_oly_tabs`,cached:`2001-06-14`,content:`~~ quiet oly tabs ~~
 tabs for the quiet bands that play after midnight
 maintained by sleepdebt
 last updated 6/14/01
 
-PILLOWPHONE — thermal blanket
+PILLOWPHONE — Wool Blanket
 transcribed from tape recording 4/20/01 at a
 house show on division st. near evergreen.
 
@@ -2391,18 +2391,18 @@ and i'm not sorry about it." — robin, at a show
 once
 
 [page content recovered from partial cache.
-images not available. audio links dead.]`}]},{id:`soft-clay-parking-lot-song`,band:`Soft Clay`,song:`Parking Lot Song`,scene:`pnw`,sceneLabel:`PNW`,tags:[`standard`,`slow`,`shelton`],fragments:[{type:`tab-page`,source:`pacific-nw-tabs.cjb.net`,cached:`2001-12-05`,content:`*** PACIFIC NW TABS ***
+images not available. audio links dead.]`}]},{id:`kiln-dust-green-jacket-song`,band:`Kiln Dust`,song:`Green Jacket Song`,scene:`pnw`,sceneLabel:`PNW`,tags:[`standard`,`slow`,`shelton`],fragments:[{type:`tab-page`,source:`pacific-nw-tabs.cjb.net`,cached:`2001-12-05`,content:`*** PACIFIC NW TABS ***
 [ home | submit a tab | links | guestbook ]
 ----------------------------------------------
 
-SOFT CLAY — parking lot song
+Kiln Dust — parking lot song
 submitted by: gravel_road
 date: 12/01/01
 
 tuning: standard (E A D G B E)
 
 this is from a tape that was circulating at
-evergreen. i think soft clay is from shelton?
+evergreen. i think Kiln Dust is from shelton?
 i honestly don't know anything about them
 except this song is really good and really sad.
 
@@ -2431,7 +2431,7 @@ E|--3-------3-------0-------0-------|
 G to C. then back to the C-Em thing.
 
 that's the whole song. i don't think they
-play anymore.`},{type:`guestbook`,source:`pacific-nw-tabs.cjb.net guestbook`,cached:`2002-03-18`,entries:[{name:`gravel_road`,date:`02/14/02`,text:`if anyone knows who is in soft clay please email me. i want to know if they have other songs. the tape only has this one.`},{name:`tim`,date:`03/01/02`,text:`i think it's just one guy. he played at the makeshift cafe in olympia once. he was sitting on the floor.`},{name:`gravel_road`,date:`03/02/02`,text:`do you remember his name?`},{name:`tim`,date:`03/10/02`,text:`no. sorry. he had a green jacket.`},{name:`anonymous`,date:`03/15/02`,text:`this is the dragonball z page right`}]}]},{id:`glass-acre-survey-stakes`,band:`Glass Acre`,song:`Survey Stakes`,scene:`pnw`,sceneLabel:`PNW`,tags:[`drop-d`,`mid`,`bellingham`],fragments:[{type:`tab-page`,source:`soupline's Tripod page`,cached:`2002-04-11`,content:`BELLINGHAM PUNK TABS (and some other stuff)
+play anymore.`},{type:`guestbook`,source:`pacific-nw-tabs.cjb.net guestbook`,cached:`2002-03-18`,entries:[{name:`gravel_road`,date:`02/14/02`,text:`if anyone knows who is in Kiln Dust please email me. i want to know if they have other songs. the tape only has this one.`},{name:`tim`,date:`03/01/02`,text:`i think it's just one guy. he played at the makeshift cafe in olympia once. he was sitting on the floor.`},{name:`gravel_road`,date:`03/02/02`,text:`do you remember his name?`},{name:`tim`,date:`03/10/02`,text:`no. sorry. he had a green jacket.`},{name:`anonymous`,date:`03/15/02`,text:`this is the dragonball z page right`}]}]},{id:`glass-acre-survey-stakes`,band:`Glass Acre`,song:`Survey Stakes`,scene:`pnw`,sceneLabel:`PNW`,tags:[`drop-d`,`mid`,`bellingham`],fragments:[{type:`tab-page`,source:`soupline's Tripod page`,cached:`2002-04-11`,content:`BELLINGHAM PUNK TABS (and some other stuff)
 by soupline
 
 GLASS ACRE — survey stakes
