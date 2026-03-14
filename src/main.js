@@ -102,25 +102,43 @@ function renderTabPage(fragment, entryId) {
   </div>`
 }
 
-function renderGuestbook(fragment) {
+// Guestbook visual variants
+const gbVariants = [
+  { cls: 'gb-v-pink', header: '✧ Sign My Guestbook!!! ✧', hr: '·411·✿·.·´¯`·.·✿·411·✿·.·´¯`·.·✿·411·', footer: 'guestbook powered by FreeGuestbooks.net™ — © 2001' },
+  { cls: 'gb-v-teal', header: '~ GUESTBOOK ~', hr: '• — • — • — • — • — • — •', footer: 'Lpage GuestBook v2.4 — free guestbooks at lpage.com' },
+  { cls: 'gb-v-yellow', header: 'SIGN THE BOOK', hr: '═══════════════════════', footer: 'Dreambook — Free Guestbooks' },
+  { cls: 'gb-v-gray', header: 'leave a message:', hr: '------', footer: 'bravenet.com guestbook — © 2002' },
+]
+
+function renderGuestbook(fragment, entryId) {
   const entries = fragment.entries || []
-  return `<div class="fragment frag-guestbook">
+  const v = gbVariants[hashCode(entryId || fragment.source || '') % gbVariants.length]
+  return `<div class="fragment frag-guestbook ${v.cls}">
     <div class="fragment-source">[RECOVERED: ${escapeHtml(fragment.source)} — cached ${escapeHtml(fragment.cached)}]</div>
-    <div class="gb-header">✧ Sign My Guestbook!!! ✧</div>
-    <div class="gb-header-hr">·411·✿·.·´¯\`·.·✿·411·✿·.·´¯\`·.·✿·411·</div>
+    <div class="gb-header">${v.header}</div>
+    <div class="gb-header-hr">${v.hr}</div>
     ${entries.map(e => `<div class="gb-entry">
       <div class="gb-meta">${escapeHtml(e.name)} <span class="gb-date">— ${escapeHtml(e.date)}</span></div>
       <div class="gb-text">${escapeHtml(e.text)}</div>
     </div>`).join('')}
-    <div class="gb-footer">guestbook powered by FreeGuestbooks.net™ — © 2001</div>
+    <div class="gb-footer">${v.footer}</div>
   </div>`
 }
 
-function renderForumThread(fragment) {
+// Forum visual variants
+const forumVariants = [
+  { cls: 'forum-v-vbulletin', footer: 'Powered by vBulletin® · All times are GMT-5' },
+  { cls: 'forum-v-phpbb', footer: 'Powered by phpBB © 2001 phpBB Group' },
+  { cls: 'forum-v-ezboard', footer: 'ezboard™ — Free Message Boards' },
+  { cls: 'forum-v-invision', footer: 'Invision Power Board v1.3 Final © 2003 IPS, Inc.' },
+]
+
+function renderForumThread(fragment, entryId) {
   const posts = fragment.posts || []
   const rand = mulberry32(hashCode(fragment.thread || ''))
+  const v = forumVariants[hashCode(entryId || fragment.thread || '') % forumVariants.length]
 
-  return `<div class="fragment frag-forum-thread">
+  return `<div class="fragment frag-forum-thread ${v.cls}">
     <div class="fragment-source">[RECOVERED: cached ${escapeHtml(fragment.cached)}]</div>
     <div class="forum-header">${escapeHtml(fragment.source)} &raquo; ${escapeHtml(fragment.board || 'general')} &raquo; ${escapeHtml(fragment.thread)}</div>
     ${posts.map(p => {
@@ -137,12 +155,16 @@ function renderForumThread(fragment) {
         <div class="${textClass}">${escapeHtml(p.text)}</div>
       </div>`
     }).join('')}
-    <div class="thread-footer">Powered by vBulletin® · All times are GMT-5</div>
+    <div class="thread-footer">${v.footer}</div>
   </div>`
 }
 
-function renderFlyer(fragment) {
-  return `<div class="fragment frag-flyer">
+// Flyer visual variants
+const flyerVariants = ['flyer-v-xerox', 'flyer-v-risograph', 'flyer-v-sharpie']
+
+function renderFlyer(fragment, entryId) {
+  const v = flyerVariants[hashCode(entryId || fragment.content || '') % flyerVariants.length]
+  return `<div class="fragment frag-flyer ${v}">
     <div class="fragment-source">[RECOVERED: ${escapeHtml(fragment.source || 'flyer scan')} — cached ${escapeHtml(fragment.cached || 'unknown')}]</div>
     <div class="flyer-inner">
       <div class="flyer-content">${escapeHtml(fragment.content)}</div>
@@ -150,7 +172,10 @@ function renderFlyer(fragment) {
   </div>`
 }
 
-function renderEmail(fragment) {
+// Email visual variants
+const emailVariants = ['email-v-outlook', 'email-v-pine', 'email-v-hotmail']
+
+function renderEmail(fragment, entryId) {
   // Try to parse the email content for header fields
   const raw = fragment.content || ''
   const lines = raw.split('\n')
@@ -178,7 +203,8 @@ function renderEmail(fragment) {
 
   const bodyContent = bodyLines.length > 0 ? bodyLines.join('\n') : raw
 
-  return `<div class="fragment frag-email">
+  const ev = emailVariants[hashCode(entryId || fragment.source || '') % emailVariants.length]
+  return `<div class="fragment frag-email ${ev}">
     <div class="fragment-source">[RECOVERED: cached email fragment — ${escapeHtml(fragment.source || 'source unknown')}]</div>
     ${headerHtml}
     <div class="email-body">${escapeHtml(bodyContent)}</div>
@@ -204,10 +230,10 @@ function renderDeadLink(fragment) {
 function renderFragment(fragment, entryId) {
   switch (fragment.type) {
     case 'tab-page': return renderTabPage(fragment, entryId)
-    case 'guestbook': return renderGuestbook(fragment)
-    case 'forum-thread': return renderForumThread(fragment)
-    case 'flyer': return renderFlyer(fragment)
-    case 'email': return renderEmail(fragment)
+    case 'guestbook': return renderGuestbook(fragment, entryId)
+    case 'forum-thread': return renderForumThread(fragment, entryId)
+    case 'flyer': return renderFlyer(fragment, entryId)
+    case 'email': return renderEmail(fragment, entryId)
     case 'classified-ad': return renderClassifiedAd(fragment)
     case 'dead-link': return renderDeadLink(fragment)
     default: return `<div class="fragment frag-dead-link"><div class="dead-content">[unrecognized fragment type: ${escapeHtml(fragment.type)}]</div></div>`
