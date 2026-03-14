@@ -224,6 +224,120 @@ function renderEntry(entry) {
   </div>`
 }
 
+// ─── WAVEFORM VISUALIZER ───────────────────────
+function drawWaveform(canvasEl, audioBuffer) {
+  const ctx = canvasEl.getContext('2d')
+  const w = canvasEl.width = canvasEl.offsetWidth * 2
+  const h = canvasEl.height = canvasEl.offsetHeight * 2
+  ctx.scale(2, 2)
+  const dw = w / 2, dh = h / 2
+  const data = audioBuffer.getChannelData(0)
+  const step = Math.max(1, Math.floor(data.length / dw))
+
+  // phosphor green CRT look
+  const green = getComputedStyle(document.documentElement).getPropertyValue('--ambient-accent').trim() || '#33cc66'
+
+  let frame = 0
+  const totalFrames = 90 // ~1.5s at 60fps
+  let rafId = null
+
+  function render() {
+    const progress = Math.min(frame / totalFrames, 1)
+    const samplesVisible = Math.floor(progress * data.length)
+
+    ctx.fillStyle = 'rgba(10, 8, 6, 0.35)'
+    ctx.fillRect(0, 0, dw, dh)
+
+    // grid lines
+    ctx.strokeStyle = 'rgba(51, 204, 102, 0.06)'
+    ctx.lineWidth = 0.5
+    for (let y = 0; y < dh; y += dh / 6) {
+      ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(dw, y); ctx.stroke()
+    }
+    for (let x = 0; x < dw; x += dw / 10) {
+      ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, dh); ctx.stroke()
+    }
+
+    // waveform
+    ctx.strokeStyle = green
+    ctx.lineWidth = 1.2
+    ctx.shadowColor = green
+    ctx.shadowBlur = 6
+    ctx.beginPath()
+    const pixelsVisible = Math.floor((samplesVisible / data.length) * dw)
+    for (let x = 0; x < pixelsVisible; x++) {
+      const idx = Math.floor((x / dw) * data.length)
+      // average a chunk for smoother line
+      let sum = 0
+      for (let j = 0; j < step; j++) sum += Math.abs(data[idx + j] || 0)
+      const avg = sum / step
+      const y = (dh / 2) + (data[idx] || 0) * (dh / 2) * 0.85
+      if (x === 0) ctx.moveTo(x, y)
+      else ctx.lineTo(x, y)
+    }
+    ctx.stroke()
+    ctx.shadowBlur = 0
+
+    // scanline overlay
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.03)'
+    for (let y = 0; y < dh; y += 2) {
+      ctx.fillRect(0, y, dw, 1)
+    }
+
+    frame++
+    if (frame <= totalFrames + 30) {
+      rafId = requestAnimationFrame(render)
+    }
+  }
+
+  // clear any previous animation
+  if (canvasEl._rafId) cancelAnimationFrame(canvasEl._rafId)
+  ctx.fillStyle = '#0a0806'
+  ctx.fillRect(0, 0, dw, dh)
+  render()
+  canvasEl._rafId = rafId
+}
+
+// ─── TIME-OF-DAY AMBIENT SHIFT ─────────────────
+function applyAmbientShift() {
+  const hour = new Date().getHours()
+  const root = document.documentElement
+
+  // night: 20-05, twilight: 05-08 & 18-20, day: 08-18
+  let warmth, grain, accentHue
+  if (hour >= 21 || hour < 5) {
+    // deep night — warmest, most grain
+    warmth = 1.0; grain = 0.055; accentHue = '#cc9944'
+  } else if (hour >= 5 && hour < 8) {
+    // early morning — cool blue tint
+    warmth = 0.3; grain = 0.035; accentHue = '#8899bb'
+  } else if (hour >= 8 && hour < 12) {
+    // morning — neutral
+    warmth = 0.5; grain = 0.03; accentHue = '#aa9977'
+  } else if (hour >= 12 && hour < 17) {
+    // afternoon — slightly warm
+    warmth = 0.6; grain = 0.03; accentHue = '#bb9966'
+  } else if (hour >= 17 && hour < 20) {
+    // evening — warming up
+    warmth = 0.8; grain = 0.04; accentHue = '#cc8855'
+  } else {
+    // 20-21 transition
+    warmth = 0.9; grain = 0.045; accentHue = '#cc9944'
+  }
+
+  // Apply CSS custom properties
+  const bgR = Math.round(26 + warmth * 6)   // base 26 (#1a)
+  const bgG = Math.round(23 + warmth * 2)   // base 23
+  const bgB = Math.round(20 - warmth * 4)   // base 20, cools slightly
+  root.style.setProperty('--ambient-bg', `#${bgR.toString(16).padStart(2,'0')}${bgG.toString(16).padStart(2,'0')}${bgB.toString(16).padStart(2,'0')}`)
+  root.style.setProperty('--ambient-grain', String(grain))
+  root.style.setProperty('--ambient-accent', accentHue)
+
+  // Subtle radial gradient shift
+  const gradWarm = warmth * 0.12
+  root.style.setProperty('--ambient-grad-warm', String(gradWarm))
+}
+
 // ─── APP SHELL ─────────────────────────────────
 
 const app = document.querySelector('#app')
@@ -253,6 +367,10 @@ app.innerHTML = `
     <div class="riff-controls">
       <button class="riff-btn" id="micBtn">🎙️ Hum into mic</button>
       <label class="riff-btn" style="cursor:pointer;">📼 Upload riff<input id="fileInput" type="file" accept="audio/*" hidden /></label>
+    </div>
+    <div class="waveform-container" id="waveformContainer">
+      <canvas id="waveformCanvas"></canvas>
+      <div class="waveform-label">signal analysis</div>
     </div>
     <p class="riff-status" id="riffStatus">Hum a riff or pick a demo preset to search the archive.</p>
     <div class="demo-select-row" id="demoRow">
@@ -290,6 +408,8 @@ const el = {
   fileInput: document.getElementById('fileInput'),
   riffStatus: document.getElementById('riffStatus'),
   demoRow: document.getElementById('demoRow'),
+  waveformCanvas: document.getElementById('waveformCanvas'),
+  waveformContainer: document.getElementById('waveformContainer'),
 }
 
 // ─── CATALOG RENDERING ─────────────────────────
@@ -365,6 +485,9 @@ async function getAudioContext() {
 
 async function analyzeAndLoad(audioBuffer, label) {
   el.riffStatus.textContent = `Analyzing ${label}...`
+  // Show waveform visualization
+  el.waveformContainer.classList.add('active')
+  drawWaveform(el.waveformCanvas, audioBuffer)
   const features = sampleFeatures(audioBuffer)
   const entry = pickEntryFromAudio(features)
   el.riffStatus.textContent = `Match found: ${entry.band} — "${entry.song}"`
@@ -377,6 +500,13 @@ async function handleDemoClick(demoId) {
 
   const entry = catalog.find(e => e.id === preset.entryId)
   if (entry) {
+    // Still generate a synth buffer for the waveform even on direct match
+    const config = demoBuildConfigs[demoId]
+    if (config) {
+      const vizBuffer = createSyntheticBuffer(config)
+      el.waveformContainer.classList.add('active')
+      drawWaveform(el.waveformCanvas, vizBuffer)
+    }
     el.riffStatus.textContent = `Demo matched: ${entry.band} — "${entry.song}"`
     loadEntry(entry)
     return
@@ -472,5 +602,7 @@ function hydrateFromHash() {
 window.addEventListener('hashchange', hydrateFromHash)
 
 // ─── INIT ──────────────────────────────────────
+applyAmbientShift()
+setInterval(applyAmbientShift, 5 * 60 * 1000) // re-check every 5 min
 renderCatalog()
 hydrateFromHash()
