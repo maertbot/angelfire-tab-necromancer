@@ -1,6 +1,5 @@
 // Local Tab Archive — Catalog of recovered entries
-// Hand-crafted collages of old-web fragments
-// 5 original + 50 authored by parallel subagents, QA-deduped
+// 55 original + 62 new = 117 hand-crafted entries
 
 export const catalog = [
   {
@@ -3557,6 +3556,3650 @@ export const catalog = [
         "source": "bellingham bands webring",
         "cached": "unknown",
         "content": "WATER TABLE\nbellingham WA (originally sequim)\nmembers: danny, neal, sara (?)\nactive: 2001-2002\ngenre: sad\n\nknown songs: sequim song, overflow, basin depth\n\n\"they were a good band and now they're not a\nband anymore. the sequim song was the one everyone\nknew. it was about leaving a small town. danny\nmoved back to the small town. i don't know what\nelse to say about it.\"\n  — fog_machine55, in a post somewhere"
+      }
+    ]
+  },
+  {
+    "id": "auction-warehouse-floor",
+    "band": "Auction",
+    "song": "Warehouse Floor",
+    "scene": "nc",
+    "sceneLabel": "NC Triangle",
+    "tags": [
+      "standard",
+      "mid",
+      "sanford"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "leafcounty99's Geocities page",
+        "cached": "2001-09-11",
+        "content": "AUCTION tabs\ntabbed by leafcounty99\n\nthis band is from sanford NC, not the sanford in florida\nor wherever. they practiced in an actual tobacco warehouse\noff route 1. i saw them three times and this is the song\nthey always opened with.\n\nWAREHOUSE FLOOR\ntuning: standard E A D G B E\n\nverse (clean, play it kind of loose):\ne|---0---0---0---0---|---3---3---3---3---|\nB|---1---1---0---0---|---0---0---0---0---|\nG|---0---0---0---0---|---0---0---0---0---|\nD|---2---2---2---2---|---0---0---0---0---|\nA|---3---3---2---2---|---2---2---2---2---|\nE|---x---x---0---0---|---3---3---3---3---|\n   C       Em        G\n\nrepeat that four times then the chorus is:\ne|---x---x---0---0---|\nB|---1---1---1---1---|\nG|---2---2---0---0---|\nD|---2---2---2---2---|\nA|---0---0---2---2---|\nE|---x---x---0---0---|\n   Am      Em\n\nthen back to verse. the bridge i still don't\nhave figured out. greg does something with\nharmonics around fret 12 but i can't tell\nif it's natural harmonics or just regular notes\nplayed quiet.\n\nif anyone has a recording of the march show at\nthe warehouse email me: [EMAIL REMOVED]\n\nhit counter: 00087"
+      },
+      {
+        "type": "forum-thread",
+        "source": "Triangle Scenester Board",
+        "thread": "bands south of durham worth seeing",
+        "cached": "2001-11",
+        "board": "local bands",
+        "posts": [
+          {
+            "user": "amphead_phil",
+            "date": "11/02/01 04:22 PM",
+            "text": "auction from sanford is playing the roadhouse in pittsboro this saturday. they're worth the drive. kind of sounds like early modest mouse but slower and sadder. the singer greg works at the food lion in sanford and writes songs about it which sounds corny but it isn't"
+          },
+          {
+            "user": "wendy",
+            "date": "11/03/01 09:15 AM",
+            "text": "i saw them at the tobacco warehouse show. is that a real venue or did they just break in"
+          },
+          {
+            "user": "amphead_phil",
+            "date": "11/03/01 11:48 AM",
+            "text": "greg's uncle owns the warehouse. it's not really a venue it's just a warehouse that they cleared out. you have to know someone to know about it. there's no sign or anything"
+          },
+          {
+            "user": "tapetrader_nc",
+            "date": "11/05/01 02:17 PM",
+            "text": "bump. anyone have a tape of this band?"
+          }
+        ]
+      },
+      {
+        "type": "classified-ad",
+        "source": "The Independent classifieds",
+        "cached": "2001-10-18",
+        "content": "AUCTION (Sanford NC) — looking for\nsecond guitarist. must have own amp.\nwe practice thursdays in sanford, yes\nit's a drive, sorry. influences:\nslint, karate, codeine. we are not\na jam band. call Greg [REDACTED] or\nemail [REDACTED]@aol.com"
+      }
+    ]
+  },
+  {
+    "id": "gravel-lot-tobacco-road-south",
+    "band": "Gravel Lot",
+    "song": "Tobacco Road South",
+    "scene": "nc",
+    "sceneLabel": "NC Triangle",
+    "tags": [
+      "drop-d",
+      "slow",
+      "pittsboro"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "chatham_county_tabs on Angelfire",
+        "cached": "2002-03-08",
+        "content": "GRAVEL LOT - Tobacco Road South\n\ntabbed from a cassette recording made at the\npittsboro roadhouse, january 2001. the tape\nis not great but i'm pretty confident about\nthe main riff. the second guitar part is a\nmystery to me.\n\ntuning: D A D G B E (drop D)\n\nmain riff (repeated, bass follows root):\ne|--------------------------|----------------------------|\nB|--------------------------|----------------------------|\nG|---7---7---7---5---5------|---7---7---7---9---9--------|\nD|---7---7---7---5---5------|---7---7---7---9---9--------|\nA|---5---5---5---3---3------|---5---5---5---7---7--------|\nD|---0---0---0---0---0------|---0---0---0---0---0--------|\n\nthe riff just sits there for like two minutes.\nthen the vocals come in and it gets quieter,\njust open D droning:\ne|----------------------------|\nB|----------------------------|\nG|----------------------------|\nD|---0------------------------|\nA|---0------------------------|\nD|---0------------------------|\n\nlet that ring. sean sings over it about driving\nthe back way from pittsboro to sanford. i think.\nthe words are hard to make out on the tape.\n\nif this is wrong blame my tape deck not me\n\nLINKS:\nchatham county music scene [DEAD]\npittsboro bands webring [DEAD]"
+      },
+      {
+        "type": "guestbook",
+        "source": "chatham_county_tabs guestbook",
+        "cached": "2002-05-19",
+        "entries": [
+          {
+            "name": "sean_gl",
+            "date": "04/12/02",
+            "text": "hey this is sean from gravel lot. the tab is close but the second chord in the main riff is actually at the 3rd fret not the 5th. also we broke up in february so"
+          },
+          {
+            "name": "chatham_county_tabs",
+            "date": "04/13/02",
+            "text": "sean sorry to hear that. i'll fix the tab when i get a chance. you guys were good"
+          },
+          {
+            "name": "riff_ghost",
+            "date": "03/28/02",
+            "text": "i was at that roadhouse show. the drummer knocked over a mic stand into someone's beer. great show"
+          },
+          {
+            "name": "anonymous",
+            "date": "02/01/02",
+            "text": "cool page. check out my site www.[DEAD LINK]"
+          }
+        ]
+      },
+      {
+        "type": "flyer",
+        "cached": "~2001",
+        "source": "Pittsboro Roadhouse bulletin board photo",
+        "content": "╔═══════════════════════════════════════╗\n║  SATURDAY JAN 20 2001                 ║\n║  THE PITTSBORO ROADHOUSE              ║\n║  Hwy 64 Business — Pittsboro NC      ║\n║                                       ║\n║  GRAVEL LOT                           ║\n║  DEER CAMERA                          ║\n║  (solo set from eli)                  ║\n║                                       ║\n║  $2 at the door / 21+                 ║\n║  starts at 9                          ║\n║  \"parking in the gravel lot out back\" ║\n╚═══════════════════════════════════════╝"
+      },
+      {
+        "type": "email",
+        "cached": "2001-08-14",
+        "source": "chatham_county_tabs site backup",
+        "content": "From: [REDACTED]@earthlink.net\nTo: chatham_county_tabs@[REDACTED]\nDate: Tue, 14 Aug 2001 19:37:11 -0400\nSubject: gravel lot recording\n\nhey i have a 4-track recording of gravel lot\nfrom the roadhouse in january, it's not great\nbut you can hear the guitar parts pretty clear.\nsean told me you were working on tabs. i can\nmail you a copy if you want, or i could put it\non a CD. it's like 6 songs. tobacco road south\nis the second track.\n\nlet me know. i'm in siler city so i could also\njust drop it off at the roadhouse next time\ni'm over there.\n\n— dale"
+      }
+    ]
+  },
+  {
+    "id": "kudzu-motel-haw-river-bridge",
+    "band": "Kudzu Motel",
+    "song": "Haw River Bridge",
+    "scene": "nc",
+    "sceneLabel": "NC Triangle",
+    "tags": [
+      "open-g",
+      "slow",
+      "saxapahaw"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "hawriver_matt's Tripod page",
+        "cached": "2000-11-22",
+        "content": "KUDZU MOTEL\nhaw river bridge\n\ntuning: open G (D G D G B D)\n\nthis is the only kudzu motel song i know how to play.\nthey were from near saxapahaw, not actually saxapahaw.\nlike outside of it on that road that goes toward\nsnow camp. they played the general store twice i think\nand then a barn party at someone's farm on the river.\n\nthe whole song is basically two chords in open G.\njust barre at 5 and then open. that's it.\n\ne(D)|---5---5---5---0---0---0---|\nB   |---5---5---5---0---0---0---|\nG   |---5---5---5---0---0---0---|\nD   |---5---5---5---0---0---0---|\nG   |---5---5---5---0---0---0---|\nD   |---5---5---5---0---0---0---|\n\nthe singer (i think her name was leigh) just\nfingerpicks over the barre chord part. i can't\nfigure out the picking pattern. it's not\nstraight arpeggios, it's more random.\n\nthe bridge part leigh plays harmonics at 12\nwhile the bass just holds the root. it's\nbeautiful. i don't know how to tab that.\n\nthis band is why i started going to shows\nin saxapahaw.\n\nhit counter: 00041"
+      },
+      {
+        "type": "dead-link",
+        "source": "Haw River music archive mirror",
+        "cached": "unknown",
+        "content": "[page not found]\n\nthe original kudzu motel page was at\nhttp://www.angelfire.com/nc/kudzumotel/\n\nit had lyrics, some photos from the barn show,\nand a chord chart for \"haw river bridge\" and\n\"copperhead summer.\" the page was maintained by\nleigh herself. it went down sometime in 2002\nand nobody saved it as far as i know.\n\nif anyone has a cache or printout please email\nthe haw river music archive: [REDACTED]"
+      }
+    ]
+  },
+  {
+    "id": "padlock-unit-seven",
+    "band": "Padlock",
+    "song": "Unit Seven",
+    "scene": "nc",
+    "sceneLabel": "NC Triangle",
+    "tags": [
+      "drop-d",
+      "loud",
+      "burlington"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "distortionpedal22's Angelfire page",
+        "cached": "2001-07-04",
+        "content": "PADLOCK - Unit Seven\n\npadlock practiced in a storage unit off\nI-85 near burlington. unit 7. that's where\nthe name comes from i think. they were loud\nas hell and the storage place guy threatened\nto kick them out like every other week\n\ntuning: drop D (D A D G B E)\n\nintro/verse (palm muted, fast):\ne|--------------------------|\nB|--------------------------|\nG|--------------------------|\nD|---0-0-0-0-5-5-5-5-7-7---|\nA|---0-0-0-0-5-5-5-5-7-7---|\nD|---0-0-0-0-5-5-5-5-7-7---|\n\nchorus (let ring, sloppy is fine):\ne|---------------------------|\nB|---------------------------|\nG|---7-------5-------9-------|\nD|---7-------5-------9-------|\nA|---5-------3-------7-------|\nD|---0-------0-------0-------|\n\nthe breakdown at the end is just\nopen D hit over and over. jeff\nscreams something. i don't know\nwhat. nobody does."
+      },
+      {
+        "type": "flyer",
+        "cached": "~2001",
+        "source": "scanned from Burlington Elks Lodge cork board",
+        "content": "╔══════════════════════════════════════╗\n║  FRIDAY JULY 13 2001                 ║\n║  BURLINGTON ELKS LODGE               ║\n║  Webb Ave — Burlington NC            ║\n║                                      ║\n║  PADLOCK                             ║\n║  AUCTION                             ║\n║  SOME BAND FROM GREENSBORO (TBA)     ║\n║                                      ║\n║  $4 / ALL AGES                       ║\n║  show starts at 8                    ║\n║  BYOB but be cool about it           ║\n╚══════════════════════════════════════╝"
+      },
+      {
+        "type": "forum-thread",
+        "source": "Triangle Scenester Board",
+        "thread": "burlington bands??",
+        "cached": "2001-08",
+        "board": "local bands",
+        "posts": [
+          {
+            "user": "webbed_feet",
+            "date": "08/11/01 03:33 PM",
+            "text": "does anyone actually go to shows in burlington. i feel like everyone there just drives to chapel hill"
+          },
+          {
+            "user": "jeff_padlock",
+            "date": "08/12/01 11:20 AM",
+            "text": "we play in burlington. padlock. we played the elks lodge last month. like 15 people came but whatever"
+          },
+          {
+            "user": "webbed_feet",
+            "date": "08/12/01 04:55 PM",
+            "text": "was one of those 15 people you"
+          },
+          {
+            "user": "jeff_padlock",
+            "date": "08/12/01 07:01 PM",
+            "text": "dude we were playing. that's the opposite of being in the audience. come to a show sometime and see for yourself"
+          },
+          {
+            "user": "tapetrader_nc",
+            "date": "08/14/01 09:30 AM",
+            "text": "i was at that show. padlock was good. they blew a fuse during their last song and the whole lodge went dark. kind of ruled actually"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deer-camera-november-fence",
+    "band": "Deer Camera",
+    "song": "November Fence",
+    "scene": "nc",
+    "sceneLabel": "NC Triangle",
+    "tags": [
+      "standard",
+      "slow",
+      "mebane"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "mebane_eli's Angelfire page",
+        "cached": "2002-01-15",
+        "content": "~~ deer camera tabs ~~\nby eli\nlast updated 1/12/02\n\ni've been working on these for a while.\ndeer camera only played like maybe ten shows\ntotal and most of them were in mebane or\nhillsborough. they were two guys, both named\nchris, one played guitar and sang and the\nother played bass through a guitar amp. no\ndrummer. they didn't need one.\n\nNOVEMBER FENCE\ntuning: standard (E A D G B E)\n\nthe whole song is fingerpicked. use your\nthumb on the bass notes.\n\ne|---0-------0-------3-------3-------|\nB|-----1-------0-------0-------0-----|\nG|-------0-------0-------0-------0---|\nD|---2-------2-------0-------0-------|\nA|---3-------2-------x-------x-------|\nE|---x-------0-------3-------3-------|\n   C       Em       G\n\nplay that four times.\n\nthen the bridge:\ne|---1-------1-------0-------0-------|\nB|-----1-------1-------1-------1-----|\nG|-------2-------2-------0-------0---|\nD|---3-------3-------2-------2-------|\nA|---x-------x-------2-------2-------|\nE|---1-------1-------0-------0-------|\n   F               Em\n\nthe bass plays a descending line under\nthe bridge that i can't figure out.\nbass chris does this thing where he slides\nbetween notes really slow.\n\nthe song is about a fence on someone's\nproperty near the railroad tracks in mebane.\nor maybe it's not about that at all. i don't\nknow. the lyrics are quiet.\n\nvisitor count: 00156\n\nLINKS:\ndeer camera mp3 (real audio format) [DEAD]\nmebane shows page [DEAD]\neli's ska page (different thing) [DEAD]"
+      },
+      {
+        "type": "guestbook",
+        "source": "mebane_eli's guestbook",
+        "cached": "2002-04-10",
+        "entries": [
+          {
+            "name": "bass_chris",
+            "date": "03/22/02",
+            "text": "hey eli this is chris (bass chris). the tab is right except the bridge is F to Fmaj7 not just F. i do that descending thing on the A string, starts at fret 8 and walks down to 3. thanks for doing this nobody else would have"
+          },
+          {
+            "name": "mebane_eli",
+            "date": "03/23/02",
+            "text": "chris!! i'll fix it. are you guys playing again or what"
+          },
+          {
+            "name": "bass_chris",
+            "date": "03/30/02",
+            "text": "guitar chris moved to asheville so probably not. it was fun though"
+          },
+          {
+            "name": "riff_ghost",
+            "date": "02/14/02",
+            "text": "this band opened for gravel lot at the roadhouse once. they were so quiet you could hear the kitchen. it was perfect"
+          },
+          {
+            "name": "anonymous",
+            "date": "01/20/02",
+            "text": "FIRST POST. cool tabs"
+          }
+        ]
+      },
+      {
+        "type": "flyer",
+        "cached": "~2001",
+        "source": "Pittsboro Roadhouse bulletin board photo",
+        "content": "╔═══════════════════════════════════════╗\n║  SATURDAY JAN 20 2001                 ║\n║  THE PITTSBORO ROADHOUSE              ║\n║  Hwy 64 Business — Pittsboro NC      ║\n║                                       ║\n║  GRAVEL LOT                           ║\n║  DEER CAMERA                          ║\n║  (solo set from eli)                  ║\n║                                       ║\n║  $2 at the door / 21+                 ║\n║  starts at 9                          ║\n║  \"parking in the gravel lot out back\" ║\n╚═══════════════════════════════════════╝"
+      },
+      {
+        "type": "email",
+        "cached": "2001-12-03",
+        "source": "mebane_eli inbox backup",
+        "content": "From: [REDACTED]@hotmail.com\nTo: mebane_eli@[REDACTED]\nDate: Mon, 3 Dec 2001 21:05:44 -0500\nSubject: deer camera show\n\neli —\n\nare deer camera playing the mebane community\ncenter thing in january? i'm trying to put\ntogether a bill for the 19th. i have one band\nfrom graham and i need one more. it's all ages,\nno pay, but i'll buy everyone dinner at\nhursey's after.\n\nlet me know.\n— travis"
+      },
+      {
+        "type": "forum-thread",
+        "source": "Triangle Scenester Board",
+        "thread": "quietest band in NC?",
+        "cached": "2002-06",
+        "board": "local bands",
+        "posts": [
+          {
+            "user": "reese",
+            "date": "06/01/02 07:12 PM",
+            "text": "deer camera from mebane. two guys both named chris. no drums. they played so quiet at the community center that someone's cell phone ringing was louder than the music. i mean that as a compliment."
+          },
+          {
+            "user": "burritokid",
+            "date": "06/02/02 10:04 AM",
+            "text": "i thought they were from hillsborough"
+          },
+          {
+            "user": "mebane_eli",
+            "date": "06/02/02 12:30 PM",
+            "text": "mebane. guitar chris lived on third street. bass chris lived out toward haw river on the old road. they are definitely from mebane"
+          },
+          {
+            "user": "burritokid",
+            "date": "06/02/02 01:15 PM",
+            "text": "ok my bad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "copperhead-mill-town-drag",
+    "band": "Copperhead",
+    "song": "Mill Town Drag",
+    "scene": "nc",
+    "sceneLabel": "NC Triangle",
+    "tags": [
+      "open-d",
+      "mid",
+      "graham"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "slideguitar_billy's Geocities page",
+        "cached": "2001-03-17",
+        "content": "COPPERHEAD\nmill town drag\n\ncopperhead is from graham NC. they play this\nkind of swampy blues-punk thing with slide guitar.\nthe singer billy (that's me) plays slide in open D\nand the other guitar player tina plays in standard\nand it shouldn't work but it does\n\ntuning: open D (D A D F# A D)\n\nslide part (use a glass slide, not metal):\ne(D)|---12\\---5-------0-------|\nA   |---12\\---5-------0-------|\nF#  |---12\\---5-------0-------|\nD   |---12\\---5-------0-------|\nA   |---12\\---5-------0-------|\nD   |---12\\---5-------0-------|\n\nthat's the whole verse. just sliding down\nfrom 12 to 5 to open. the rhythm is swung\nnot straight.\n\nchorus — barre at 7 then 5 then open:\ne(D)|---7---7---5---5---0---0---|\nA   |---7---7---5---5---0---0---|\nF#  |---7---7---5---5---0---0---|\nD   |---7---7---5---5---0---0---|\nA   |---7---7---5---5---0---0---|\nD   |---7---7---5---5---0---0---|\n\ntina's part in the chorus is like a\nC5 to G5 to D power chord in standard\ntuning but i don't have that tabbed.\nshe can do what she wants.\n\nwe play the graham VFW mostly. sometimes\nthe elks lodge in burlington if we know\nsomeone. we played saxapahaw general store\nonce and the sound guy told us we were\ntoo loud which, fair.\n\nhit counter: 00203"
+      },
+      {
+        "type": "flyer",
+        "cached": "~2000",
+        "source": "Graham VFW wall scan",
+        "content": "╔══════════════════════════════════════╗\n║  SAT NOV 11 2000                     ║\n║  GRAHAM VFW — MAIN ST                ║\n║                                      ║\n║  * COPPERHEAD *                      ║\n║  * PADLOCK *                         ║\n║  * BLIND CARBON (raleigh) *          ║\n║                                      ║\n║  $3 / ALL AGES                       ║\n║  DOORS AT 7:30                       ║\n║  no moshing (they will kick us out)  ║\n╚══════════════════════════════════════╝"
+      },
+      {
+        "type": "dead-link",
+        "source": "NC bands directory mirror",
+        "cached": "unknown",
+        "content": "[404 — page removed or never archived]\n\ncopperhead had a second page with lyrics\nand photos from the graham VFW shows.\nit was linked from the NC bands webring.\nslideguitar_billy maintained it until\napproximately mid-2002.\n\nrelated search results (all dead):\n- copperhead NC band mp3.com page\n- copperhead live at saxapahaw (real audio)\n- graham NC music scene links page"
+      }
+    ]
+  },
+  {
+    "id": "bug-zapper-screen-porch",
+    "band": "Bug Zapper",
+    "song": "Screen Porch",
+    "scene": "nc",
+    "sceneLabel": "NC Triangle",
+    "tags": [
+      "standard",
+      "fast",
+      "siler-city"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "fabordie's Tripod page",
+        "cached": "2001-05-03",
+        "content": "BUG ZAPPER - screen porch\n\nbug zapper is from siler city. or one of them\nis from siler city and the other two are from\nbear creek which is even further out. they\ndrove 45 minutes to play the moose lodge\nin siler city to like 8 people once and then\ndrove 45 minutes home. respect.\n\ntuning: standard\n\nit's a fast punk song, pretty simple:\ne|--------------------------------|\nB|--------------------------------|\nG|---5-5-5-5---9-9-9-9---7-7-7-7-|\nD|---5-5-5-5---9-9-9-9---7-7-7-7-|\nA|---3-3-3-3---7-7-7-7---5-5-5-5-|\nE|--------------------------------|\n   C5         E5        D5\n\nplay that as fast as you can. the verse\nis just those three chords over and over.\nthe chorus is the same chords but slower\nand the singer yells instead of singing.\n\nthere might be a bridge. i honestly\ndon't remember. i was kind of drunk\nat the moose lodge.\n\nBUG ZAPPER LINKS:\n- none. they don't have a website.\n  they don't have email. the drummer\n  doesn't own a computer. i respect that."
+      },
+      {
+        "type": "classified-ad",
+        "source": "The Independent classifieds",
+        "cached": "2001-06-28",
+        "content": "BUG ZAPPER plays the Siler City Moose\nLodge, Sat July 7. With DEAD CENTURY\n(Raleigh). $2. Starts whenever. Punk\nrock and cheap beer. Call [REDACTED]\nfor directions. It's off 64 west past\nthe Bojangles."
+      }
+    ]
+  },
+  {
+    "id": "the-fence-riders-vance-county-line",
+    "band": "The Fence Riders",
+    "song": "Vance County Line",
+    "scene": "nc",
+    "sceneLabel": "NC Triangle",
+    "tags": [
+      "drop-d",
+      "mid",
+      "henderson"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "truckstop_jen's Angelfire page",
+        "cached": "2001-12-09",
+        "content": "** THE FENCE RIDERS **\n** vance county line **\n\ntabbed by jen in henderson NC\n\nthe fence riders are from henderson. they play\nthis country-ish post-punk thing. the guitarist\nrob tunes to drop D and plays these big open\nchords and the bassist plays way up high on\nthe neck. they sound like nothing else around here.\n\neveryone in henderson thinks they're weird.\nthey are weird. that's the point.\n\ntuning: drop D (D A D G B E)\n\nverse:\ne|---3---3---3-------0---0---0-------|\nB|---3---3---3-------1---1---1-------|\nG|---0---0---0-------0---0---0-------|\nD|---0---0---0-------2---2---2-------|\nA|---x---x---x-------3---3---3-------|\nD|---5---5---5-------x---x---x-------|\n\ni know that first chord looks weird in drop D.\nrob stretches for it. his hands are enormous.\n\nchorus:\ne|-------------------------------|\nB|-------------------------------|\nG|---7---7---5---5---2---2-------|\nD|---7---7---5---5---2---2-------|\nA|---5---5---3---3---0---0-------|\nD|---0---0---0---0---0---0-------|\n\nplay the chorus twice then back to verse.\n\nthe song is about driving route 39 from henderson\nto the county line at night. or about leaving.\nor both.\n\nlinks:\nrob's other page (fishing stuff) [DEAD]\nhenderson NC bands [DEAD]"
+      },
+      {
+        "type": "guestbook",
+        "source": "truckstop_jen's guestbook",
+        "cached": "2002-02-05",
+        "entries": [
+          {
+            "name": "rob_fr",
+            "date": "01/15/02",
+            "text": "jen the tab is pretty close. the verse is right. in the chorus the last chord should be on the 3rd fret not the 2nd. thanks for doing this. nobody from henderson has ever tabbed one of our songs before"
+          },
+          {
+            "name": "truckstop_jen",
+            "date": "01/16/02",
+            "text": "fixed! thanks rob. when are you guys playing next"
+          },
+          {
+            "name": "rob_fr",
+            "date": "01/28/02",
+            "text": "probably never. our drummer got a job in roanoke rapids. we'll see"
+          },
+          {
+            "name": "sk8erdude317",
+            "date": "12/18/01",
+            "text": "never heard of this band but the tab looks cool"
+          }
+        ]
+      },
+      {
+        "type": "email",
+        "cached": "2001-11-20",
+        "source": "truckstop_jen inbox backup",
+        "content": "From: [REDACTED]@yahoo.com\nTo: truckstop_jen@[REDACTED]\nDate: Tue, 20 Nov 2001 18:42:33 -0500\nSubject: fence riders\n\nhey jen,\n\ni found your page through the NC bands webring.\ndo the fence riders ever play outside of henderson?\nme and some friends are in oxford and we've been\ntrying to find bands that aren't just cover bands\nplaying at the elks lodge. we have a PA and a\nbasement if they want to play a house show.\n\n— michael"
+      }
+    ]
+  },
+  {
+    "id": "dial-tone-oxford-backroad",
+    "band": "Dial Tone",
+    "song": "Oxford Backroad",
+    "scene": "nc",
+    "sceneLabel": "NC Triangle",
+    "tags": [
+      "standard",
+      "slow",
+      "oxford"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "oxfordbasement's Geocities page",
+        "cached": "2002-05-30",
+        "content": "DIAL TONE - oxford backroad\ntabbed by michael\n\ndial tone was a band from oxford NC.\nthey played in my basement four times and\nat the back room of a BBQ restaurant on\ncollege street once. that's their complete\nshow history as far as i know.\n\nthe guitarist amanda wrote songs that sounded\nlike they should be on the radio but nobody\noutside of granville county ever heard them.\nthat's just how it goes out here.\n\ntuning: standard\n\nverse (clean, let everything ring):\ne|---0---0---0---0---3---3---3---3---|\nB|---0---0---1---1---3---3---3---3---|\nG|---1---1---0---0---0---0---0---0---|\nD|---2---2---2---2---0---0---0---0---|\nA|---2---2---3---3---2---2---2---2---|\nE|---0---0---x---x---3---3---3---3---|\n   E     C         G\n\nchorus (strum harder):\ne|---0---0---2---2---0---0---|\nB|---0---0---3---3---1---1---|\nG|---1---1---2---2---0---0---|\nD|---2---2---0---0---2---2---|\nA|---2---2---x---x---3---3---|\nE|---0---0---x---x---x---x---|\n   E     D         C\n\nthe bridge is just E to Am, slow,\nwith amanda singing the melody\nunaccompanied. the bass drops out.\nit sounds like the room is holding\nits breath.\n\nerror note: i think the verse might\nactually go E - Cadd9 - G not E - C - G.\nmy ear isn't good enough to tell.\n\nhit counter: 00028"
+      },
+      {
+        "type": "forum-thread",
+        "source": "Triangle Scenester Board",
+        "thread": "house shows outside the triangle",
+        "cached": "2002-07",
+        "board": "shows + touring",
+        "posts": [
+          {
+            "user": "oxfordbasement",
+            "date": "07/03/02 11:17 AM",
+            "text": "i've been doing shows in my basement in oxford for about a year. mostly local bands. we had dial tone play four times and deer camera once. if anyone wants to play oxford it's a real drive from durham (like 45 min) but we have a PA and i'll feed you"
+          },
+          {
+            "user": "distortionpedal22",
+            "date": "07/03/02 03:44 PM",
+            "text": "oxford NC? that's basically virginia"
+          },
+          {
+            "user": "oxfordbasement",
+            "date": "07/03/02 05:20 PM",
+            "text": "it's 30 miles from durham. it's north carolina. there are bands here"
+          },
+          {
+            "user": "truckstop_jen",
+            "date": "07/05/02 09:03 AM",
+            "text": "michael! the fence riders might want to play. rob's band. they're from henderson which is right up 85 from you. email me"
+          },
+          {
+            "user": "oxfordbasement",
+            "date": "07/05/02 12:15 PM",
+            "text": "jen yes. email me. let's do it"
+          }
+        ]
+      },
+      {
+        "type": "flyer",
+        "cached": "~2002",
+        "source": "oxford basement show photo set",
+        "content": "╔══════════════════════════════════════════╗\n║                                          ║\n║  SATURDAY MARCH 9 2002                   ║\n║  MICHAEL'S BASEMENT                      ║\n║  (ask for directions, oxford NC)         ║\n║                                          ║\n║  DIAL TONE                               ║\n║  THE FENCE RIDERS (henderson)            ║\n║  A GUY NAMED PAUL WITH A BANJO           ║\n║                                          ║\n║  FREE / BYOB / starts at 8ish           ║\n║  please don't park on the grass          ║\n║  my landlord already hates me            ║\n║                                          ║\n╚══════════════════════════════════════════╝"
+      },
+      {
+        "type": "dead-link",
+        "source": "Granville County music page mirror",
+        "cached": "unknown",
+        "content": "[page not found — last known URL:\nhttp://www.geocities.com/oxfordbasement/dialtone.html]\n\nthis page reportedly had:\n- full lyrics to \"oxford backroad\" and \"granville dark\"\n- a photo of dial tone playing the BBQ restaurant show\n- a real audio file of \"oxford backroad\" recorded\n  on a boombox in michael's basement\n- links to other granville county bands (there were\n  apparently two others, names unknown)\n\nno cached version exists. if you have a printout\nor saved copy, contact the archive."
+      }
+    ]
+  },
+  {
+    "id": "kettle-black-churton-street-hill",
+    "band": "Kettle Black",
+    "song": "Churton Street Hill",
+    "scene": "nc",
+    "sceneLabel": "NC Triangle",
+    "tags": [
+      "standard",
+      "mid",
+      "hillsborough"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "orangecountymusic's Angelfire page",
+        "cached": "2001-08-20",
+        "content": "KETTLE BLACK - churton street hill\ntabbed by drew\n\nkettle black is from hillsborough. three piece.\nthey play this angular post-punk stuff. the\nguitarist nate works at the cup-a-joe on\nchurton street. or he did. i don't know if\nhe still does. the bassist works at the\nweaver street co-op in carrboro but she\nlives in hillsborough and gets defensive\nabout it. rightfully so.\n\ntuning: standard\n\nverse (staccato, mute between hits):\ne|---x---x---x---x---x---x---|\nB|---5---x---3---x---1---x---|\nG|---5---x---3---x---0---x---|\nD|---5---x---3---x---2---x---|\nA|---3---x---1---x---3---x---|\nE|---x---x---x---x---x---x---|\n\nchorus (louder, let ring):\ne|---0-------0-------3-------|\nB|---0-------1-------3-------|\nG|---1-------0-------0-------|\nD|---2-------2-------0-------|\nA|---2-------3-------2-------|\nE|---0-------x-------3-------|\n   Em      C       G\n\nbridge is just the verse chords but nate\narpegggiates them really slow and the\nbassist plays this high melodic line.\ni think she's playing chords on bass\nactually. i've never seen anyone do that.\n\nNOTE: nate told me the verse is slightly\nwrong but wouldn't tell me how. he said\n\"figure it out.\" thanks nate."
+      },
+      {
+        "type": "guestbook",
+        "source": "orangecountymusic guestbook",
+        "cached": "2002-01-12",
+        "entries": [
+          {
+            "name": "nate_kb",
+            "date": "12/03/01",
+            "text": "drew the chorus is right. the verse is close. i'm not going to tell you what's wrong because that's not how you learn"
+          },
+          {
+            "name": "orangecountymusic",
+            "date": "12/04/01",
+            "text": "nate you are impossible. just tell me the chord"
+          },
+          {
+            "name": "jenny_bass",
+            "date": "12/10/01",
+            "text": "i'm not playing chords on bass. i'm playing thirds. it's different. but thanks"
+          },
+          {
+            "name": "mike2284",
+            "date": "11/15/01",
+            "text": "kettle black rules. the independent should write about them. someone send david menconi an email"
+          },
+          {
+            "name": "anonymous",
+            "date": "09/01/01",
+            "text": "cool site dude"
+          }
+        ]
+      },
+      {
+        "type": "classified-ad",
+        "source": "The Independent classifieds",
+        "cached": "2001-11-08",
+        "content": "KETTLE BLACK (Hillsborough) plays\nback room at Hillsborough BBQ Co,\nSat Nov 17. With COPPERHEAD (Graham).\nAll ages, no cover but buy some food.\n8pm. They are not a metal band despite\nthe name."
+      }
+    ]
+  },
+  {
+    "id": "crossties-old-sixty-four",
+    "band": "Crossties",
+    "song": "Old Sixty-Four",
+    "scene": "nc",
+    "sceneLabel": "NC Triangle",
+    "tags": [
+      "drop-d",
+      "mid",
+      "saxapahaw",
+      "pittsboro"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "hawriver_matt's Tripod page",
+        "cached": "2001-06-14",
+        "content": "CROSSTIES - old sixty-four\n\ncrossties are from saxapahaw. actually saxapahaw.\nnot near saxapahaw. the guitar player rachel\nlives in one of the old mill houses right there\nby the river. they named the band after the\nrailroad crossties on the tracks that run\nthrough town\n\ntuning: drop D (D A D G B E)\n\nthe song is about driving 64 from pittsboro\nto saxapahaw which if you've done it you know\nit's this winding two lane road through nothing.\npastures and old tobacco barns and that's it.\n\nverse (clean):\ne|---3---3-------0---0-------|\nB|---3---3-------0---0-------|\nG|---0---0-------0---0-------|\nD|---0---0-------2---2-------|\nA|---x---x-------2---2-------|\nD|---5---5-------0---0-------|\n\nchorus (drive the strumming):\ne|-------------------------------|\nB|-------------------------------|\nG|---7---7---5---5---2---2-------|\nD|---7---7---5---5---2---2-------|\nA|---5---5---3---3---0---0-------|\nD|---0---0---0---0---0---0-------|\n\nthen the outro rachel just plays open D\nwith the volume knob swelling. it goes\non for a while. nobody complains.\n\nlinks:\nsaxapahaw music page [DEAD]\nhaw river bands [DEAD]\nrachel's photography page [DEAD]"
+      },
+      {
+        "type": "guestbook",
+        "source": "hawriver_matt's guestbook",
+        "cached": "2001-09-20",
+        "entries": [
+          {
+            "name": "rachel_ct",
+            "date": "08/17/01",
+            "text": "matt the tab is right. thanks. we're playing the general store again in october if you want to come. it's the last show of the year, maybe the last show ever, we'll see"
+          },
+          {
+            "name": "hawriver_matt",
+            "date": "08/18/01",
+            "text": "i'll be there. is it the same night as the potluck"
+          },
+          {
+            "name": "rachel_ct",
+            "date": "08/25/01",
+            "text": "yes. bring something"
+          },
+          {
+            "name": "chatham_county_tabs",
+            "date": "07/10/01",
+            "text": "good page matt. your crossties tab is better than anything i could have done and i was at the same shows"
+          }
+        ]
+      },
+      {
+        "type": "flyer",
+        "cached": "~2001",
+        "source": "Saxapahaw General Store window photo",
+        "content": "╔══════════════════════════════════════════╗\n║  SATURDAY OCTOBER 13 2001                ║\n║  SAXAPAHAW GENERAL STORE                 ║\n║  Saxapahaw NC                            ║\n║                                          ║\n║  CROSSTIES                               ║\n║  KUDZU MOTEL                             ║\n║                                          ║\n║  potluck at 6 / music at 8              ║\n║  free / all ages / bring a dish          ║\n║                                          ║\n║  last show of the year. maybe ever.      ║\n║  come say goodbye to the river.          ║\n╚══════════════════════════════════════════╝"
+      },
+      {
+        "type": "email",
+        "cached": "2002-01-10",
+        "source": "hawriver_matt inbox backup",
+        "content": "From: rachel_ct@[REDACTED]\nTo: hawriver_matt@[REDACTED]\nDate: Thu, 10 Jan 2002 14:22:08 -0500\nSubject: re: crossties page\n\nmatt,\n\nyou can leave the page up. i don't mind.\nwe're not playing anymore but the songs\nstill exist. somebody should be able to\nfind them.\n\nthe october show was perfect by the way.\ni know i said that already but i keep\nthinking about it. the river was so loud\nthat night you could hear it between songs.\nthat's the best sound check i ever had.\n\nthanks for everything.\n\n— rachel"
+      }
+    ]
+  },
+  {
+    "id": "salt-mosquito-paper-mill-drive",
+    "band": "Salt Mosquito",
+    "song": "Paper Mill Drive",
+    "scene": "nc",
+    "sceneLabel": "NC Coast & Eastern NC",
+    "tags": [
+      "standard",
+      "mid-tempo",
+      "greenville"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "crawdaddy_ecu's Geocities page",
+        "cached": "2001-09-18",
+        "content": "~~ SALT MOSQUITO TABS ~~\nby crawdaddy_ecu\nlast updated whenever i feel like it\n\nok so i finally got the intro to paper mill drive\nfigured out. i think. i learned this from watching\nreed play it at peasant's like three times and then\ntrying to remember on the drive back to wilmington\nwhich is two hours of nothing so i had time to think\n\nthe smell of the paper mill in new bern is in this\nsong somehow. like the chord progression smells bad.\ni mean that as a compliment.\n\ni might have the bridge wrong. reese if you read this\nplease email me the real chords.\n\n---------------------------------------------\nPAPER MILL DRIVE\n---------------------------------------------\ntuning: E A D G B E (standard)\n\nintro/verse:\ne|--0-------0-------3-------3-------|\nB|--1-------1-------0-------0-------|\nG|--0-------0-------0-------0-------|\nD|--2-------2-------0-------0-------|\nA|--3-------3-------2-------2-------|\nE|--x-------x-------3-------3-------|\n\n  C               G\n\nprechorus:\ne|--1-------0-------0-------|\nB|--1-------1-------1-------|\nG|--2-------0-------2-------|\nD|--3-------2-------2-------|\nA|--3-------3-------0-------|\nE|--1-------x-------x-------|\n\n  F        C       Am\n\nchorus (strum hard, like really hard):\ne|--3-------1-------0-------0-------|\nB|--0-------1-------1-------1-------|\nG|--0-------2-------0-------2-------|\nD|--0-------3-------2-------2-------|\nA|--2-------3-------3-------0-------|\nE|--3-------1-------x-------x-------|\n\n  G        F       C       Am\n\nbridge: honestly i don't know. it's some kind of\nwalk-down thing. reed does barre chords up the neck.\ni think it starts on a D shape at the 7th fret?\nif anyone has this please email.\n\nLINKS:\n- salt mosquito on mp3.com [DEAD]\n- ECU band list webring [DEAD]\n- reed's other band (the ocean one?) [DEAD]"
+      },
+      {
+        "type": "guestbook",
+        "source": "crawdaddy_ecu's guestbook",
+        "cached": "2002-01-14",
+        "entries": [
+          {
+            "name": "reese",
+            "date": "12/08/01",
+            "text": "hey man the bridge is Bm - A - G - F#m. you were close. the D shape at 7 is basically the Bm. anyway we broke up so it doesn't matter i guess"
+          },
+          {
+            "name": "crawdaddy_ecu",
+            "date": "12/09/01",
+            "text": "wait what?? you broke up?? since when"
+          },
+          {
+            "name": "reese",
+            "date": "12/11/01",
+            "text": "since derek got orders to go to lejeune. not camp lejeune the other one. japan."
+          },
+          {
+            "name": "sk8punk252",
+            "date": "11/15/01",
+            "text": "yo is the peasant's show still happening friday"
+          },
+          {
+            "name": "anonymous",
+            "date": "10/22/01",
+            "text": "cool site"
+          },
+          {
+            "name": "fretbuzz_kid",
+            "date": "10/01/01",
+            "text": "the Am in the chorus is actually an Am7 if you listen close. he lets the high E ring open."
+          }
+        ]
+      },
+      {
+        "type": "forum-thread",
+        "source": "EasternNCmusic.com Board",
+        "thread": "best greenville bands??",
+        "cached": "2002-03-10",
+        "board": "local bands",
+        "posts": [
+          {
+            "user": "pirategirl99",
+            "date": "03/02/02 07:22 PM",
+            "text": "salt mosquito was the best band in greenville and nobody will change my mind. reed couldn't really sing but the songs were SO GOOD. paper mill drive made me cry at the attic that one time and i don't even know why"
+          },
+          {
+            "user": "bassmangreg",
+            "date": "03/03/02 11:45 AM",
+            "text": "they were ok. the drummer was stationed at lejeune and drove up for practice which is insane. like an hour and a half each way."
+          },
+          {
+            "user": "pirategirl99",
+            "date": "03/03/02 04:18 PM",
+            "text": "that's called dedication greg"
+          },
+          {
+            "user": "tonewreck",
+            "date": "03/05/02 09:01 AM",
+            "text": "the last show at peasant's was genuinely one of the best shows i've seen in this town. and then two weeks later they're done because of PCS orders. military bands man."
+          },
+          {
+            "user": "bassmangreg",
+            "date": "03/06/02 01:22 PM",
+            "text": "that's what happens when half your band is DOD property lol"
+          }
+        ]
+      },
+      {
+        "type": "classified-ad",
+        "source": "Encore Magazine classifieds",
+        "cached": "2001-05-24",
+        "content": "SALT MOSQUITO\nw/ Porch Screen, Jetty Rot\nPeasant's Café — Greenville\nFri 6/1, doors 9pm, $4\n21+ (sorry)\n\"last show before summer\""
+      }
+    ]
+  },
+  {
+    "id": "jetty-rot-carolina-beach-road",
+    "band": "Jetty Rot",
+    "song": "Carolina Beach Road",
+    "scene": "nc",
+    "sceneLabel": "NC Coast & Eastern NC",
+    "tags": [
+      "drop-d",
+      "fast",
+      "wilmington"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "punkfish910's Angelfire page",
+        "cached": "2001-07-04",
+        "content": "JETTY ROT TABS\n~~~~~~~~~~~~~~~\nmaintained by punkfish910\nwilmington nc represent\n\nthis is the only jetty rot song i know how to play\nand i might be playing it wrong but it sounds right\nwhen i play along to the tape so whatever\n\nthey're from wrightsville technically but they\nplay wilmington so i'm claiming them\n\n---------------------------------------------\nCAROLINA BEACH ROAD\n---------------------------------------------\ntuning: D A D G B E (drop D)\ntempo: fast. like really fast. like you're late\nfor work and you're doing 60 on carolina beach road\nand you hit every light green\n\nverse (palm mute):\ne|------------------------|\nB|------------------------|\nG|--7-7-7-7--5-5-5-5------|\nD|--7-7-7-7--5-5-5-5--0-0-|\nA|--5-5-5-5--3-3-3-3--0-0-|\nD|--0-0-0-0--0-0-0-0--0-0-|\n\nchorus (let ring):\ne|------------------------|\nB|--3-------3-------3-----|\nG|--2-------2-------0-----|\nD|--0-------4-------0-----|\nA|--x-------5-------x-----|\nD|--0-------0-------5-----|\n\nlast chorus add:\ne|-------------------------|\nB|--3-------3-------3------|\nG|--2-------2-------0------|\nD|--0-------4-------0------|\nA|--x-------5-------x------|\nD|--0-------0-------5------|\nthen just hit that open D and let it ring\nuntil everyone stops playing\nwhich at the soapbox took like 45 seconds\nbecause corey never knows when to stop\n\nLINKS:\n- jetty rot shows page [DEAD]\n- soapbox laundro-lounge calendar [DEAD]\n- my other tabs (blink 182 etc) [page removed by me, don't ask]"
+      },
+      {
+        "type": "flyer",
+        "source": "Soapbox Laundro-Lounge bulletin board photo",
+        "cached": "~2001",
+        "content": "╔═══════════════════════════════════════════╗\n║   SATURDAY JULY 7 2001                    ║\n║   SOAPBOX LAUNDRO-LOUNGE — WILMINGTON     ║\n║                                           ║\n║   JETTY ROT                               ║\n║   THE SANDFLEAS                           ║\n║   SOME BAND FROM JACKSONVILLE             ║\n║   (we forgot their name sorry)            ║\n║                                           ║\n║   $3 / ALL AGES / doors 8                 ║\n║   \"do your laundry while you watch\"       ║\n╚═══════════════════════════════════════════╝"
+      },
+      {
+        "type": "guestbook",
+        "source": "punkfish910's guestbook",
+        "cached": "2001-09-20",
+        "entries": [
+          {
+            "name": "corey_jttyrt",
+            "date": "09/14/01",
+            "text": "dude the chorus is wrong. the second chord is not on the 5th fret of the A string. it's the 3rd fret. come to practice tuesday and i'll show you"
+          },
+          {
+            "name": "punkfish910",
+            "date": "09/14/01",
+            "text": "you sure?? it sounds right to me"
+          },
+          {
+            "name": "corey_jttyrt",
+            "date": "09/15/01",
+            "text": "i literally wrote the song"
+          },
+          {
+            "name": "punkfish910",
+            "date": "09/15/01",
+            "text": "...ok i'll fix it after work"
+          },
+          {
+            "name": "beachbumz42",
+            "date": "08/30/01",
+            "text": "jetty rot rules. saw you guys at the surf shop show. the back room was like 110 degrees"
+          },
+          {
+            "name": "anonymous",
+            "date": "08/02/01",
+            "text": "how do you do laundry and watch bands. like actually how does that work. do you put quarters in between songs"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "base-housing-pcs-season",
+    "band": "Base Housing",
+    "song": "PCS Season",
+    "scene": "nc",
+    "sceneLabel": "NC Coast & Eastern NC",
+    "tags": [
+      "drop-d",
+      "slow",
+      "jacksonville"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "devildog_guitar's Tripod page",
+        "cached": "2002-02-11",
+        "content": "BASE HOUSING TABS\n=================\n\ni was in base housing from 2000-2001 before PCSing\nto pendleton. i'm putting these up before i forget\neverything because nobody else is going to.\n\nif you were at any of the american legion shows in\njacksonville you know what this band was. marcus wrote\nevery song about leaving or about to leave or about\nsomeone who already left. which i get now.\n\nthe guitar tone was a jc-120 with a rat pedal that was\nalways turned up too loud. just picture that.\n\n---------------------------------------------\nPCS SEASON\n---------------------------------------------\ntuning: D A D G B E (drop D)\n\nthis song is slow. don't rush it.\n\nintro (clean, no pedal):\ne|--0----------0----------|\nB|--0----------0----------|\nG|--0----------0----------|\nD|--0----------4----------|\nA|--0----------5----------|\nD|--0----------5----------|\n\nverse (still clean):\ne|--0-------0-------0-------|\nB|--3-------1-------0-------|\nG|--2-------0-------0-------|\nD|--0-------2-------2-------|\nA|--x-------3-------2-------|\nD|--5-------x-------0-------|\n\nchorus (rat pedal ON, strum slow):\ne|--x-------x-------x-------|\nB|--x-------x-------x-------|\nG|--7-------5-------2-------|\nD|--7-------5-------2-------|\nA|--5-------3-------0-------|\nD|--0-------0-------0-------|\n\noutro: just the intro again but marcus\nstarts talking over it about his dad being\nstationed in okinawa when he was 12.\nhe never sang this part the same way twice.\n\ni'm not gonna tab the bridge because i\nhonestly think i had it wrong the whole time\nand marcus isn't answering emails from pendleton.\n\nLINKS:\n- camp lejeune unofficial bands page [DEAD]\n- marcus's poetry page [DEAD]\n- jacksonville nc music scene (lol) [DEAD]"
+      },
+      {
+        "type": "forum-thread",
+        "source": "EasternNCmusic.com Board",
+        "thread": "bands from jville that didn't suck",
+        "cached": "2002-06-20",
+        "board": "local bands",
+        "posts": [
+          {
+            "user": "sgtfuzz",
+            "date": "06/12/02 03:44 PM",
+            "text": "base housing. next question."
+          },
+          {
+            "user": "pirategirl99",
+            "date": "06/12/02 05:11 PM",
+            "text": "they drove up to greenville once and played peasant's. it was a wednesday and there were like 12 people there. marcus played like he was at madison square garden. absolute psycho energy for a wednesday in greenville."
+          },
+          {
+            "user": "jarhead_strings",
+            "date": "06/13/02 08:30 AM",
+            "text": "every single member was active duty or dependent. the bassist was 17. her dad was a master sergeant. she was better than all of them and she knew it."
+          },
+          {
+            "user": "tonewreck",
+            "date": "06/14/02 11:15 AM",
+            "text": "pcs season hit different if you actually grew up military. the part where he talks about his dad. man."
+          },
+          {
+            "user": "sgtfuzz",
+            "date": "06/15/02 09:47 PM",
+            "text": "the whole band pcs'd out within six months of each other. marcus is at pendleton. bassist's family went to germany i think. drummer re-enlisted and went to bragg which is only like 2 hours away but might as well be the moon"
+          },
+          {
+            "user": "admin_dave",
+            "date": "06/16/02 10:00 AM",
+            "text": "this thread is good. pinning it.",
+            "isAdmin": true
+          }
+        ]
+      },
+      {
+        "type": "email",
+        "source": "devildog_guitar's Tripod backup",
+        "cached": "2001-11-02",
+        "content": "From: [REDACTED]@aol.com\nTo: [REDACTED]@hotmail.com\nDate: Fri, 2 Nov 2001 19:33:47 -0500\nSubject: re: re: base housing tapes\n\nhey man — yeah i have the tape from the\namerican legion show in august. it sounds\nlike garbage but you can hear the songs.\nthe boombox was behind the PA so it's mostly\njust kick drum and marcus yelling.\n\ni'll mail you a copy before i leave. my\nreport date is dec 15 so i gotta get my\nstuff together.\n\nthanks for putting the tabs up. seriously.\nnobody else was going to do it and these\nsongs deserve to exist somewhere even if\nit's just a tripod page.\n\n— marcus\n\nps: the bridge to pcs season is Em - C - G - D.\nyou had it as Em - C - G - A which is close\nbut not right. the D makes it sadder i think."
+      },
+      {
+        "type": "flyer",
+        "source": "Jacksonville American Legion Post bulletin board",
+        "cached": "~2001",
+        "content": "╔════════════════════════════════════════╗\n║  AMERICAN LEGION POST 265             ║\n║  JACKSONVILLE NC                      ║\n║                                       ║\n║  SAT AUG 18 2001                      ║\n║                                       ║\n║  BASE HOUSING                         ║\n║  OFF-BASE                             ║\n║  SWAMP COOLER                         ║\n║                                       ║\n║  $2 / ALL AGES / 7pm                  ║\n║  no moshing (they mean it this time)  ║\n╚════════════════════════════════════════╝"
+      },
+      {
+        "type": "dead-link",
+        "source": "camp lejeune unofficial bands archive",
+        "cached": "unknown",
+        "content": "BASE HOUSING — Jacksonville, NC (2000-2001)\nMembers: Marcus [last name unknown], SGT something on guitar,\n[name unknown] on bass (minor, master sgt's kid), Cpl. Davis on drums\n\nSongs: PCS Season, Dependent ID, Base Exchange, Liberty Weekend,\nThe Gate (unreleased?)\n\nAll mp3 links 404. If anyone has the mp3.com files please email\nthe webmaster. These songs shouldn't disappear just because\neveryone got stationed somewhere else."
+      }
+    ]
+  },
+  {
+    "id": "the-sandfleas-kure-beach",
+    "band": "The Sandfleas",
+    "song": "Kure Beach",
+    "scene": "nc",
+    "sceneLabel": "NC Coast & Eastern NC",
+    "tags": [
+      "standard",
+      "fast",
+      "wilmington",
+      "wrightsville-beach"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "boardwax_chris's Angelfire page",
+        "cached": "2000-11-08",
+        "content": "THE SANDFLEAS - tabs and stuff\nupdated sometimes\n\nwe practice in the back room of half moon surf shop\nwhich means everything sounds like it's underwater\nwhich honestly fits\n\ni'm in the band so these tabs are 100% right\nunless matt changed something at practice and didn't\ntell me again. matt if you're reading this TELL ME\nWHEN YOU CHANGE PARTS\n\n---------------------------------------------\nKURE BEACH\n---------------------------------------------\ntuning: E A D G B E (standard)\ntempo: fast. beach punk. you know what this is.\n\nverse:\ne|--0-0-0-0--3-3-3-3--0-0-0-0------|\nB|--1-1-1-1--3-3-3-3--1-1-1-1------|\nG|--0-0-0-0--0-0-0-0--2-2-2-2------|\nD|--2-2-2-2--0-0-0-0--2-2-2-2------|\nA|--3-3-3-3--2-2-2-2--0-0-0-0------|\nE|--x-x-x-x--3-3-3-3--x-x-x-x------|\n   C         G         Am\n\nchorus:\ne|--1-1-1-1--0-0-0-0--3-3-3-3--0-0-|\nB|--1-1-1-1--1-1-1-1--0-0-0-0--1-1-|\nG|--2-2-2-2--0-0-0-0--0-0-0-0--0-0-|\nD|--3-3-3-3--2-2-2-2--0-0-0-0--2-2-|\nA|--3-3-3-3--3-3-3-3--2-2-2-2--3-3-|\nE|--1-1-1-1--x-x-x-x--3-3-3-3--x-x-|\n   F         C         G         C\n\nbridge: everyone stops and matt hits\nthe open low E string once and lets it\nfeedback for like 8 bars. then drums come\nback in. then verse again but LOUDER.\n\nLINKS:\n- sandfleas show pics [DEAD]\n- wilmington beach punk webring [DEAD]\n- half moon surf shop (they have a website now!) [DEAD]"
+      },
+      {
+        "type": "guestbook",
+        "source": "boardwax_chris's guestbook",
+        "cached": "2001-03-22",
+        "entries": [
+          {
+            "name": "sunkissed_kate",
+            "date": "03/18/01",
+            "text": "saw you guys at the soapbox last saturday!! the part where the feedback happened and then it got quiet and then it got LOUD again. i lost my shoe somehow"
+          },
+          {
+            "name": "mattsandfleas",
+            "date": "03/15/01",
+            "text": "chris i changed the bridge because the old bridge sucked. i told you at practice. you were in the bathroom."
+          },
+          {
+            "name": "boardwax_chris",
+            "date": "03/15/01",
+            "text": "you told the bathroom door. that is not telling me."
+          },
+          {
+            "name": "anonymous",
+            "date": "02/28/01",
+            "text": "play my birthday party?? i'll pay you in beer"
+          },
+          {
+            "name": "surfsup_danny",
+            "date": "02/10/01",
+            "text": "kure beach is the best song about kure beach. which, granted, there aren't a lot of songs about kure beach. but still."
+          }
+        ]
+      },
+      {
+        "type": "classified-ad",
+        "source": "Encore Magazine classifieds",
+        "cached": "2001-06-14",
+        "content": "DRUMMER WANTED\nThe Sandfleas need a new drummer.\nOur old one moved to Raleigh which\nis basically another country.\nMust have own kit. Must be able to\npractice Tues/Thurs at the surf shop.\nWe play fast. Influences: Ramones,\nDescent, local stuff. No jazz.\nCall Chris at [REDACTED] or come to\nHalf Moon Surf on Market St and ask."
+      },
+      {
+        "type": "forum-thread",
+        "source": "WilmingtonPunk.net Board",
+        "thread": "soapbox shows this month",
+        "cached": "2001-04-11",
+        "board": "shows",
+        "posts": [
+          {
+            "user": "punkfish910",
+            "date": "04/01/01 06:15 PM",
+            "text": "sandfleas are playing the soapbox april 14 with jetty rot and some raleigh band. $4 all ages."
+          },
+          {
+            "user": "soapbox_mike",
+            "date": "04/02/01 10:22 AM",
+            "text": "raleigh band cancelled. so it's just sandfleas and jetty rot. honestly that's better. less setup time, more actual music."
+          },
+          {
+            "user": "beachbumz42",
+            "date": "04/03/01 03:44 PM",
+            "text": "are the washers gonna be running during the show again. last time my clothes got stolen while i was watching the band"
+          },
+          {
+            "user": "soapbox_mike",
+            "date": "04/04/01 09:30 AM",
+            "text": "do your laundry before the show starts. or after. i'm not your mom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "swamp-cooler-neuse-bend",
+    "band": "Swamp Cooler",
+    "song": "Neuse Bend",
+    "scene": "nc",
+    "sceneLabel": "NC Coast & Eastern NC",
+    "tags": [
+      "drop-d",
+      "slow",
+      "kinston"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "slowhand_252's Geocities page",
+        "cached": "2002-04-05",
+        "content": "SWAMP COOLER\n~~~~~~~~~~~~\nkinston nc's loudest (only?) band\n\ni saw these guys at a VFW in goldsboro\nonce and at a house show near ECU twice.\nthat's it. that's all the shows i know about.\nbut neuse bend is one of those songs that\njust stays in your head. it's slow and heavy\nand it sounds like august in eastern nc.\nlike you can HEAR the humidity.\n\ni learned this off a tape brandon gave me\nin the food lion parking lot. the tape also\nhad a recording of someone's scanner picking\nup police calls which i don't think was\nintentional.\n\n---------------------------------------------\nNEUSE BEND\n---------------------------------------------\ntuning: D A D G B E (drop D)\ntempo: slow. sludgy. take your time.\n\nmain riff:\ne|----------------------------|\nB|----------------------------|\nG|--5h7---5---4------0--------|\nD|--5h7---5---4------0--------|\nA|--3-----3---2------0--------|\nD|--0---------0------0--------|\n\nverse (same as riff but gentler):\njust play the riff quieter. that's it.\nthat's the verse. the vocals go over it.\n\nchorus:\ne|----------------------------|\nB|----------------------------|\nG|--7----5----2----0----------|\nD|--7----5----2----0----------|\nA|--5----3----0----0----------|\nD|--0----0----0----0----------|\n\nlet that last open D just ring out.\nthe bassist does something cool during\nthe chorus but i don't play bass so\nyou're on your own.\n\nLINKS:\n- eastern nc bands list [DEAD]\n- brandon's page (he might have more songs) [DEAD]"
+      },
+      {
+        "type": "email",
+        "source": "slowhand_252 mailbox backup",
+        "cached": "2002-05-19",
+        "content": "From: [REDACTED]@yahoo.com\nTo: slowhand_252@[REDACTED]\nDate: Sun, 19 May 2002 14:22:11 -0400\nSubject: swamp cooler tab\n\nhey — i'm in swamp cooler (or was, we're\nnot really doing anything right now). found\nyour tab page.\n\nthe main riff is actually right which is\nsurprising since that tape sounded like\ngarbage. the chorus is close but the second\nchord should be at the 7th fret not the 5th.\nso it goes:\n\n7 - 7 - 2 - 0 (on the D and G strings)\n\nit's a bigger jump. that's the whole point\nof the chorus. it's supposed to feel like\nfalling.\n\nalso we played six shows not three. there\nwas one at a tattoo parlor in jacksonville\nthat does shows on fridays. and two at\nVFWs. and the house show. people always\nforget the tattoo parlor shows.\n\nthanks for putting it up. nobody else\ncared enough to tab our stuff.\n\n— brandon"
+      },
+      {
+        "type": "dead-link",
+        "source": "eastern nc bands webring archive",
+        "cached": "unknown",
+        "content": "SWAMP COOLER — Kinston, NC\n\nSlow, heavy, loud. Two-piece sometimes,\nthree-piece when they can find a bassist.\nOne demo tape exists. It circulated mostly\nin Kinston/Goldsboro/Greenville.\n\nmp3: neuse_bend.mp3 [404 NOT FOUND]\nmp3: swamp_gas.mp3 [404 NOT FOUND]\nmp3: levee_hymn.mp3 [404 NOT FOUND]\n\n\"they sounded like the swamp itself\nlearned how to play guitar\" — some kid\non the eastncmusic board, 2002"
+      }
+    ]
+  },
+  {
+    "id": "porch-screen-august-humidity",
+    "band": "Porch Screen",
+    "song": "August Humidity",
+    "scene": "nc",
+    "sceneLabel": "NC Coast & Eastern NC",
+    "tags": [
+      "open-g",
+      "mid-tempo",
+      "wilmington"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "ampjunkie's Angelfire page",
+        "cached": "2001-12-03",
+        "content": "PORCH SCREEN tabs\n~~~~~~~~~~~~~~~~~~\nampjunkie's tab page (wilmington nc bands ONLY)\n\nporch screen is jenny and cal from wilmington.\nthey play open tunings and they play quiet\nand they play on actual porches sometimes.\ni saw them play on jenny's porch on wrightsville\nave with the bugs hitting the light and the\nneighbors not complaining for once.\n\nthat's the kind of band this is.\n\n---------------------------------------------\nAUGUST HUMIDITY\n---------------------------------------------\ntuning: D G D G B D (open G)\n\nYES it's open G. just tune down. it's worth it.\n\nmain part (fingerpick):\ne|--0-------0-------0---------|\nB|--0-------0-------3---------|\nG|--0-------2-------0---------|\nD|--0-------0-------2---------|\nA|--0-------0-------0---------|\nD|--0-------2-------0---------|\n\nthe second part (cal plays slide here):\ne|--5/7-----7\\5-----0---------|\nB|--5/7-----7\\5-----0---------|\nG|--5/7-----7\\5-----0---------|\nD|--0-------0-------0---------|\nA|--0-------0-------0---------|\nD|--0-------0-------0---------|\n\njenny sings over this and it sounds like\nsummer ending. cal's slide is just a socket\nwrench. it works.\n\ni don't have the ending because they\nnever play it the same way twice.\n\nLINKS:\n- jenny's art page [DEAD]\n- ampjunkie's other tabs [DEAD]"
+      },
+      {
+        "type": "guestbook",
+        "source": "ampjunkie's guestbook",
+        "cached": "2002-03-15",
+        "entries": [
+          {
+            "name": "jennycal_ps",
+            "date": "02/14/02",
+            "text": "hey this is jenny. these tabs are perfect actually. which is weird because you learned them by ear. we don't even have a tape. how did you do this."
+          },
+          {
+            "name": "ampjunkie",
+            "date": "02/15/02",
+            "text": "i have a good memory for songs that make me sad"
+          },
+          {
+            "name": "tonewreck",
+            "date": "01/22/02",
+            "text": "drove down from greenville to see them at the soapbox. two hour drive for a 25 minute set. completely worth it."
+          },
+          {
+            "name": "tuningfork99",
+            "date": "12/28/01",
+            "text": "open G tuning is underrated. this song proves it."
+          },
+          {
+            "name": "anonymous",
+            "date": "12/10/01",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "flyer",
+        "source": "Wilmington telephone pole photo",
+        "cached": "~2001",
+        "content": "╔═══════════════════════════════════════╗\n║  FRIDAY AUG 10 2001                   ║\n║  JENNY'S PORCH                        ║\n║  [address redacted] WRIGHTSVILLE AVE  ║\n║                                       ║\n║  PORCH SCREEN                         ║\n║  (just them, that's it)               ║\n║                                       ║\n║  FREE / starts at dusk                ║\n║  BYOB / bring bug spray               ║\n║  \"if it rains we'll play inside        ║\n║   but it won't be the same\"           ║\n╚═══════════════════════════════════════╝"
+      }
+    ]
+  },
+  {
+    "id": "off-base-bragg-blvd",
+    "band": "Off-Base",
+    "song": "Bragg Blvd",
+    "scene": "nc",
+    "sceneLabel": "NC Coast & Eastern NC",
+    "tags": [
+      "standard",
+      "fast",
+      "fayetteville"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "paratrooper_punk's Tripod page",
+        "cached": "2001-10-15",
+        "content": "OFF-BASE TABS\n*************\n\nfayetteville nc. yes THAT fayetteville.\nyes there are bands here. no we don't\nall play country.\n\noff-base is three guys from bragg and\na girl from fayetteville who works at\nthe waffle house on bragg blvd. hence\nthe name. of the song i mean. the band\nname is because we practice off-base\nsince you can't really have a punk band\nin the barracks.\n\n---------------------------------------------\nBRAGG BLVD\n---------------------------------------------\ntuning: E A D G B E (standard)\ntempo: fast. hardcore-ish but not hardcore.\n\nverse:\ne|--------------------------------|\nB|--------------------------------|\nG|--5-5-5-5--7-7-7-7--9-9-9-9----|\nD|--5-5-5-5--7-7-7-7--9-9-9-9----|\nA|--3-3-3-3--5-5-5-5--7-7-7-7----|\nE|--------------------------------|\n\nchorus:\ne|--------------------------------|\nB|--------------------------------|\nG|--9---9---5---5---2---2---------|\nD|--9---9---5---5---2---2---------|\nA|--7---7---3---3---0---0---------|\nE|--0---0---0---0---0---0---------|\n\nbridge (half time, joey does the\nsnare thing here):\ne|--0---------0---------0---------|\nB|--0---------0---------1---------|\nG|--1---------1---------0---------|\nD|--2---------2---------2---------|\nA|--2---------2---------3---------|\nE|--0---------0---------x---------|\n   E                    C\n\nthen back to verse. then chorus twice.\nthen joey hits everything as hard as\nhe can for four bars and we stop.\n\nLINKS:\n- fayetteville punk [DEAD]\n- bragg area shows [DEAD]"
+      },
+      {
+        "type": "classified-ad",
+        "source": "Encore Magazine classifieds",
+        "cached": "2001-09-06",
+        "content": "OFF-BASE\nw/ Base Housing, TBA\nAmerican Legion Post — Jacksonville\nSat 9/15, doors 7pm, $3\nAll ages\n\"military ID not required but it helps\nwith the door guy\""
+      },
+      {
+        "type": "forum-thread",
+        "source": "EasternNCmusic.com Board",
+        "thread": "fayetteville scene report",
+        "cached": "2002-04-08",
+        "board": "scene reports",
+        "posts": [
+          {
+            "user": "paratrooper_punk",
+            "date": "04/01/02 02:15 PM",
+            "text": "ok so there IS a fayetteville scene. it's small. it's mostly military. we play VFWs and american legions and sometimes a bar on bragg blvd that doesn't check IDs too hard. off-base played maybe 15 shows total. that's more than most fayetteville bands get."
+          },
+          {
+            "user": "crawdaddy_ecu",
+            "date": "04/02/02 11:33 AM",
+            "text": "you guys should come play greenville. it's only like 3 hours. peasant's books out of town bands."
+          },
+          {
+            "user": "paratrooper_punk",
+            "date": "04/03/02 08:44 PM",
+            "text": "3 hours from fayetteville is like going to another state. raleigh is 1 hour and that already feels like a foreign country. everything east of I-95 is its own world."
+          },
+          {
+            "user": "bassmangreg",
+            "date": "04/05/02 10:11 AM",
+            "text": "bragg blvd is a good song. the bridge where it gets slow. that's the part."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stucco-dining-hall",
+    "band": "Stucco",
+    "song": "Dining Hall",
+    "scene": "nc",
+    "sceneLabel": "NC Coast & Eastern NC",
+    "tags": [
+      "standard",
+      "mid-tempo",
+      "greenville"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "ecupunkhouse's Angelfire page",
+        "cached": "2001-04-20",
+        "content": "STUCCO tab\n----------\n\nthis band was two roommates in the dorms at ECU\nwho played their first show at a house party on\n5th street and their last show at the attic and\nin between they played maybe eight shows total\n\nDINING HALL\ntuning: standard\n\nverse:\ne|--3-------3-------0-------0------|\nB|--0-------0-------1-------1------|\nG|--0-------0-------0-------0------|\nD|--0-------0-------2-------2------|\nA|--2-------2-------3-------3------|\nE|--3-------3-------x-------x------|\n   G               C\n\nchorus:\ne|--0-------3-------1-------0------|\nB|--0-------0-------1-------1------|\nG|--0-------0-------2-------0------|\nD|--2-------0-------3-------2------|\nA|--2-------2-------3-------3------|\nE|--0-------3-------1-------x------|\n   Em      G       F       C\n\nthat's it. that's the whole song.\nit's two parts. they repeat.\nsometimes marcus (different marcus\nthan the base housing marcus) would\nplay the G as a G/B with the B in\nthe bass. sounded better honestly.\n\nno links because they never had\na website or an mp3 or anything.\nthey just existed and then they\ndidn't."
+      },
+      {
+        "type": "guestbook",
+        "source": "ecupunkhouse's guestbook",
+        "cached": "2001-08-04",
+        "entries": [
+          {
+            "name": "pirategirl99",
+            "date": "07/30/01",
+            "text": "stucco was real. like genuinely real. the attic show was maybe 30 people and everyone was singing dining hall by the end even though nobody knew the words. we were just singing the melody."
+          },
+          {
+            "name": "waffleking",
+            "date": "07/15/01",
+            "text": "did they break up or did they just stop"
+          },
+          {
+            "name": "ecupunkhouse",
+            "date": "07/15/01",
+            "text": "one of them graduated and one of them didn't. you do the math."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cigarette-boat-channel-marker",
+    "band": "Cigarette Boat",
+    "song": "Channel Marker",
+    "scene": "nc",
+    "sceneLabel": "NC Coast & Eastern NC",
+    "tags": [
+      "standard",
+      "slow",
+      "morehead-city"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "fishkill_nc's Geocities page",
+        "cached": "2002-07-22",
+        "content": "CIGARETTE BOAT\n~~~~~~~~~~~~~~\nmorehead city nc\n\nok so nobody knows this band and nobody\nis going to find this page but i'm putting\nit up anyway because channel marker is one\nof the best songs i've ever heard and it\nwas played exactly four times in a town\nof 8,000 people on the crystal coast and\nthen never again.\n\ntwo of those times were at a bar on the\nwaterfront that doesn't exist anymore.\none was at a fish fry. ONE WAS AT A FISH FRY.\n\ni learned this by ear from standing next\nto the amp at the fish fry.\n\n---------------------------------------------\nCHANNEL MARKER\n---------------------------------------------\ntuning: E A D G B E (standard)\n\nthe whole song:\ne|--0-------0---------0-------|\nB|--1-------3---------1-------|\nG|--0-------0---------2-------|\nD|--2-------0---------2-------|\nA|--3-------2---------0-------|\nE|--x-------3---------x-------|\n   C       G/B       Am\n\nthat's it. three chords. over and over.\nthe guy fingerpicks it and sings about\nthe waterway. it's barely even a song.\nit's more like a feeling that happens\nto have chords.\n\nthe last time through he plays the Am\nas an Am9 (leave the B string open)\nand it rings out and that's the end.\n\nno links. no mp3. no tape. no nothing.\njust me remembering it on my geocities page\nin 2002 while the humidity fogs up my\nmonitor."
+      },
+      {
+        "type": "guestbook",
+        "source": "fishkill_nc's guestbook",
+        "cached": "2002-11-09",
+        "entries": [
+          {
+            "name": "topsail_kid",
+            "date": "10/30/02",
+            "text": "wait i think i was at the fish fry. was this at the VFW in beaufort? the guy with the telecaster?"
+          },
+          {
+            "name": "fishkill_nc",
+            "date": "10/31/02",
+            "text": "YES. that was him. you remember the song?"
+          },
+          {
+            "name": "topsail_kid",
+            "date": "11/01/02",
+            "text": "i remember it. i think about it sometimes when i'm driving over the bridge to atlantic beach. it sounded like that bridge looks."
+          },
+          {
+            "name": "anonymous",
+            "date": "09/15/02",
+            "text": "this is a good page"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pelican-arrest-trent-river-blues",
+    "band": "Pelican Arrest",
+    "song": "Trent River Blues",
+    "scene": "nc",
+    "sceneLabel": "NC Coast & Eastern NC",
+    "tags": [
+      "drop-d",
+      "mid-tempo",
+      "new-bern"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "swampthing_nb's Angelfire page",
+        "cached": "2001-08-28",
+        "content": "PELICAN ARREST TABS\n====================\nswampthing_nb's page\nnew bern nc babyyy\n\npelican arrest is the weirdest band in\nnew bern which is not a competitive category\nbut they would also be the weirdest band in\ngreenville or wilmington probably. the singer\nworks at the pepsi plant (yes pepsi was invented\nhere, yes we all know, yes it's our whole identity).\nthe guitarist teaches art at the community college.\n\ntrent river blues is their most normal song\nwhich is why i tabbed it. the other songs have\ntime signature changes that i can't figure out.\n\n---------------------------------------------\nTRENT RIVER BLUES\n---------------------------------------------\ntuning: D A D G B E (drop D)\n\nverse:\ne|--3-------3-------0---------|\nB|--3-------3-------0---------|\nG|--0-------0-------0---------|\nD|--0-------2-------2---------|\nA|--2-------0-------2---------|\nD|--3-------x-------0---------|\n\nchorus:\ne|--x-------x-------x-------x------|\nB|--x-------x-------x-------x------|\nG|--7-------5-------7-------9------|\nD|--7-------5-------7-------9------|\nA|--5-------3-------5-------7------|\nD|--0-------0-------0-------0------|\n\nthe bridge is in 7/4 or 7/8 or something.\ni don't know time signatures honestly.\nit's the part where everything gets\nweird and the singer starts talking about\npelicans. you'll know it when you hear it.\njust count to 7 and hope for the best.\n\nLINKS:\n- new bern music (this is my page too) [DEAD]\n- pelican arrest tape order form [DEAD]\n- pepsi history page (not related but interesting) [DEAD]"
+      },
+      {
+        "type": "forum-thread",
+        "source": "EasternNCmusic.com Board",
+        "thread": "weirdest eastern nc band?",
+        "cached": "2002-08-14",
+        "board": "general",
+        "posts": [
+          {
+            "user": "crawdaddy_ecu",
+            "date": "08/08/02 05:33 PM",
+            "text": "pelican arrest from new bern. not even close. the singer does this thing where he talks about pelicans for like 2 minutes in the middle of every song. and it somehow works??"
+          },
+          {
+            "user": "pirategirl99",
+            "date": "08/09/02 09:15 AM",
+            "text": "i saw them at a house show in greenville and the art teacher guitarist played with a bow. like a violin bow. on a stratocaster. it was the most beautiful horrible sound i've ever heard."
+          },
+          {
+            "user": "swampthing_nb",
+            "date": "08/10/02 11:47 AM",
+            "text": "they drove to wilmington once and played the soapbox to like 6 people and the sound guy and the sound guy said it was the best set he'd heard all year. the 6 people were confused."
+          },
+          {
+            "user": "bassmangreg",
+            "date": "08/11/02 04:20 PM",
+            "text": "is the tape still available? the order form link is dead"
+          },
+          {
+            "user": "swampthing_nb",
+            "date": "08/12/02 10:05 AM",
+            "text": "i think the singer still has copies. he sells them at the pepsi plant gift shop. i'm not kidding."
+          }
+        ]
+      },
+      {
+        "type": "classified-ad",
+        "source": "Encore Magazine classifieds",
+        "cached": "2002-01-10",
+        "content": "PELICAN ARREST\nw/ Swamp Cooler\nVFW Post — New Bern\nFri 1/18, doors 8pm, $2\nAll ages\n\"bring earplugs or don't. your call.\""
+      }
+    ]
+  },
+  {
+    "id": "woodsmoke-bearwallow",
+    "band": "Woodsmoke",
+    "song": "Bearwallow",
+    "scene": "nc",
+    "sceneLabel": "NC Mountains",
+    "tags": [
+      "open-d",
+      "fingerpick",
+      "asheville"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "porchlight_kid's Geocities page",
+        "cached": "2001-09-03",
+        "content": "~~ WOODSMOKE TABS ~~\ntabbed by porchlight_kid\nlast update: august 2001\n\ni saw these guys at jack of the wood maybe six times.\ncorey plays in open D and does this fingerpicking thing\nthat sounds like a banjo if you close your eyes. i'm\npretty sure this is right except the part after the\nsecond verse where he switches to strumming. that\npart i'm guessing on.\n\nBEARWALLOW\ntuning: D A D F# A D (open D)\n\nfingerpicked, let everything ring:\n\nD|---0-------0-------0-------0-------|\nA|-----0-------0-------0-------0-----|\nF#|-------2-------2-------0-------0---|\nD|---0-------0-------0-------0-------|\nA|---------0-------0-------0-------0-|\nD|---0---------------0---------------|\n\nverse (strum lightly, thumb on bass strings):\n\nD|---0-------0-------5-------5-------|\nA|---0-------0-------5-------5-------|\nF#|---0-------0-------4-------4-------|\nD|---0-------0-------5-------5-------|\nA|---0-------0-------5-------5-------|\nD|---0-------0-------5-------5-------|\n\nthen there's a part where he hammers on 2 on the\nF# string and it does this droning thing against\nthe open strings. it's basically the whole song.\nhe plays it for like 4 minutes and jen comes in\nwith the fiddle. if you don't have a fiddle player\njust let the guitar ring.\n\nthe loud part at the end is just D5 power chords:\n\nD|---0---0---7---5---|\nA|---0---0---7---5---|\nF#|---0---0---7---5---|\nD|---0---0---7---5---|\nA|---0---0---7---5---|\nD|---0---0---7---5---|\n\ni think they're broken up now. corey moved to\nportland or something.\n\n[LINKS]\nwoodsmoke mp3s [DEAD LINK]\ncorey's other page about hiking [DEAD LINK]\nash scene page [DEAD LINK]"
+      },
+      {
+        "type": "guestbook",
+        "source": "porchlight_kid's guestbook",
+        "cached": "2001-11-19",
+        "entries": [
+          {
+            "name": "jentheviolinist",
+            "date": "11/14/01",
+            "text": "hey this is jen from woodsmoke. this tab is mostly right! the only thing is the verse part he actually barres at 5 and lifts his pinky on and off the 7th fret of the high D string. it's subtle. thanks for doing this we never wrote anything down lol"
+          },
+          {
+            "name": "gravel_breath",
+            "date": "10/30/01",
+            "text": "corey didn't move to portland. he's in brevard working at a summer camp or something. i saw him at the ingles in october"
+          },
+          {
+            "name": "sk8punk828",
+            "date": "10/22/01",
+            "text": "COOL SITE!! do u have any godsmack tabs"
+          },
+          {
+            "name": "anonymous",
+            "date": "09/15/01",
+            "text": "."
+          },
+          {
+            "name": "dulcimer_sean",
+            "date": "09/08/01",
+            "text": "i played dulcimer on the recording of this if there even is a recording anymore. we did it at corey's cabin in leicester on a 4-track. there were dogs barking on it. that was not intentional but we kept it"
+          }
+        ]
+      },
+      {
+        "type": "forum-thread",
+        "source": "WNC Music Board",
+        "thread": "whatever happened to woodsmoke?",
+        "cached": "2002-06-11",
+        "board": "local bands",
+        "posts": [
+          {
+            "user": "patchouli_skeptic",
+            "date": "06/02/02 11:32 AM",
+            "text": "anyone know if woodsmoke is still a band? they haven't played in months. corey's cabin got sold or something."
+          },
+          {
+            "user": "gravel_breath",
+            "date": "06/03/02 09:17 AM",
+            "text": "they're done. jen is playing with some bluegrass people now. corey is in brevard like i said. the drummer (did they have a drummer? i honestly can't remember) moved to asheville proper but i don't think he's playing."
+          },
+          {
+            "user": "babordie",
+            "date": "06/04/02 02:44 PM",
+            "text": "they had a drummer for like two shows. the cabin shows were just corey and jen. which was better honestly."
+          },
+          {
+            "user": "patchouli_skeptic",
+            "date": "06/05/02 08:22 PM",
+            "text": "the cabin shows were something else. you'd drive up this dirt road in leicester in the dark and there'd be like 15 cars parked in a field and you'd walk into this cabin and corey would just be playing already. no stage. no PA. just open D tuning ringing off the wood walls. jen standing in the corner with the fiddle. i think about those shows more than any show i've seen at a real venue."
+          }
+        ]
+      },
+      {
+        "type": "flyer",
+        "cached": "~2001",
+        "source": "Jack of the Wood bulletin board photo",
+        "content": "╔════════════════════════════════════════╗\n║                                        ║\n║  FRIDAY MARCH 9 2001                   ║\n║  JACK OF THE WOOD — PATTON AVE         ║\n║                                        ║\n║  WOODSMOKE                             ║\n║  DULCIMER SEAN (solo)                  ║\n║  SOME KIDS FROM BREVARD (tbd)          ║\n║                                        ║\n║  $2 / ALL AGES / 9pm                   ║\n║  \"if you drove the parkway to          ║\n║   get here you understand\"             ║\n║                                        ║\n╚════════════════════════════════════════╝"
+      }
+    ]
+  },
+  {
+    "id": "silt-french-broad-at-flood-stage",
+    "band": "Silt",
+    "song": "French Broad at Flood Stage",
+    "scene": "nc",
+    "sceneLabel": "NC Mountains",
+    "tags": [
+      "standard",
+      "loud",
+      "marshall"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "rivermud_ax's Angelfire page",
+        "cached": "2002-02-14",
+        "content": "SILT — FRENCH BROAD AT FLOOD STAGE\ntabbed by rivermud_ax\n\nthis is the marshall band not the silt from florida\n(if there is one). these guys played in a barn outside\nmarshall like every other weekend in 2001. super loud\nfor an acoustic band. two guitars, upright bass, and\na snare drum. that's it.\n\ntuning: standard (E A D G B E)\n\nintro/verse — strum hard, palm mute bass strings:\n\ne|---0---0---0---0---3---3---3---3---|\nB|---1---1---1---1---0---0---0---0---|\nG|---0---0---0---0---0---0---0---0---|\nD|---2---2---2---2---0---0---0---0---|\nA|---3---3---3---3---2---2---2---2---|\nE|---x---x---x---x---3---3---3---3---|\n    C               G\n\nthen:\ne|---1---1---1---1---0---0---0---0---|\nB|---1---1---1---1---0---0---0---0---|\nG|---2---2---2---2---1---1---1---1---|\nD|---3---3---3---3---2---2---2---2---|\nA|---3---3---3---3---2---2---2---2---|\nE|---1---1---1---1---0---0---0---0---|\n    F               E\n\nchorus — this is where it gets loud. both guitars\njust bash these open chords:\n\nAm - F - C - G\n\ni know that's boring to look at written down but\nwhen the upright bass is going and the snare is\npounding quarter notes it sounds enormous. like\na flood. which i think is the point.\n\nthere's an outro part where the first guitar picks:\n\ne|---0---1---0---0---|\nB|---1---1---1---0---|\nG|---0---2---0---0---|\nD|---2---3---2---0---|\nA|---3---3---3---2---|\nE|---x---1---x---3---|\n    C   F   C   G\n\nand the second guitar just lets an open E chord ring\nforever. like a full minute."
+      },
+      {
+        "type": "classified-ad",
+        "source": "Mountain Xpress classifieds",
+        "cached": "2001-10-18",
+        "content": "SILT — barn show. sat oct 20. off 25/70 past\nmarshall toward hot springs. turn at the red\nmailbox. if you hit the river you went too far.\n8pm. no cover but bring something for the fire.\nwe'll play until we get cold or the upright bass\nstrings snap again (whichever comes first).\nelectric people welcome but there's no outlet\nin the barn so bring batteries."
+      },
+      {
+        "type": "email",
+        "cached": "2002-04-19",
+        "source": "recovered Hotmail backup",
+        "content": "From: [REDACTED]@hotmail.com\nTo: [REDACTED]@yahoo.com\nDate: Fri, 19 Apr 2002 14:33:08 -0400\nSubject: silt tab\n\nhey — saw your page. the C to G in the verse\nis right but he doesn't play a full F. he plays\nit with the thumb over the top on the low E.\nlike a hendrix F. and the E at the end is\ndefinitely Em not E major. listen again. that\nminor third changes everything.\n\nalso the barn shows are done. the guy who\nowned the barn sold the property. there was\na thing in the mountain xpress about it.\nmarshall is getting weird.\n\n— reese"
+      }
+    ]
+  },
+  {
+    "id": "porch-sag-cold-holler",
+    "band": "Porch Sag",
+    "song": "Cold Holler",
+    "scene": "nc",
+    "sceneLabel": "NC Mountains",
+    "tags": [
+      "drop-d",
+      "fast",
+      "boone"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "crankbait55's Angelfire page",
+        "cached": "2001-12-01",
+        "content": "Porch Sag tabs\nby crankbait55\n\nthese dudes are from boone. folk punk before\npeople called it folk punk. the singer plays\nacoustic guitar with a pickup duct-taped to\nit through a big muff. it shouldn't work but\nit does.\n\nCOLD HOLLER\ntuning: drop D\n\nfast — downstroke everything:\n\nD|---0-0-0-0---5-5-5-5---3-3-3-3---5-5-5-5---|\nA|---0-0-0-0---5-5-5-5---3-3-3-3---5-5-5-5---|\nD|---0-0-0-0---5-5-5-5---3-3-3-3---5-5-5-5---|\nG|---0-0-0-0---5-5-5-5---3-3-3-3---5-5-5-5---|\nB|---x-x-x-x---x-x-x-x---x-x-x-x---x-x-x-x---|\ne|---x-x-x-x---x-x-x-x---x-x-x-x---x-x-x-x---|\n\ni only know the verse. the chorus is faster\nand i can't keep up. sorry. if someone else\nwants to figure it out be my guest. they play\nthe boone saloon pretty regularly so go see\nthem live and figure it out yourself i guess.\n\ncool band. the bassist has a banjo he plays\non one song but i don't know which one."
+      },
+      {
+        "type": "flyer",
+        "cached": "~2001",
+        "source": "Boone Saloon bathroom wall photo",
+        "content": "╔══════════════════════════════════╗\n║  Porch Sag                       ║\n║  + GUESTS                        ║\n║                                  ║\n║  BOONE SALOON                    ║\n║  SATURDAY DEC 8                  ║\n║  $1 PBR / 21+                    ║\n║                                  ║\n║  \"come down off the              ║\n║   mountain or freeze\"            ║\n╚══════════════════════════════════╝"
+      }
+    ]
+  },
+  {
+    "id": "root-cellar-sourwood",
+    "band": "Root Cellar",
+    "song": "Sourwood",
+    "scene": "nc",
+    "sceneLabel": "NC Mountains",
+    "tags": [
+      "open-g",
+      "fingerpick",
+      "black-mountain"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "clawhammer_ghost's homepage",
+        "cached": "2002-03-27",
+        "content": "ROOT CELLAR — sourwood\ntabbed by clawhammer_ghost\n\nok so these guys played the back room of the\nthrift store in black mountain exactly twice and\nboth times it was transcendent. the guitar player\nused to play banjo and you can hear it in\neverything he does. this is in open G and he\ndoes this clawhammer-style thing on guitar\nthat i've been trying to figure out for months.\n\ntuning: D G D G B D (open G)\n\nthe main riff — think of it like a banjo roll:\n\nD|---0-----------0-----------0-----------|\nB|-------0-----------0-----------0-------|\nG|---0-------0---0-------0---0-------0---|\nD|-----------0-----------0-----------0---|\nG|---0-----------0-----------0-----------|\nD|---0-----------0-----------0-----------|\n\nverse — same pattern but move up:\n\nD|---5-----------5-----------0-----------|\nB|-------5-----------5-----------0-------|\nG|---5-------5---5-------5---0-------0---|\nD|-----------5-----------5-----------0---|\nG|---5-----------5-----------0-----------|\nD|---5-----------5-----------0-----------|\n\nthe bridge is where i lose it. there's something\nhappening at the 7th fret that i can't replicate.\nif you know clawhammer banjo you'll probably\nget it faster than i did (i still haven't gotten it).\n\nthis band has no recordings as far as i know.\nno website. no email. just two shows in a\nthrift store and then nothing."
+      },
+      {
+        "type": "guestbook",
+        "source": "clawhammer_ghost's guestbook",
+        "cached": "2002-05-11",
+        "entries": [
+          {
+            "name": "marla_m",
+            "date": "05/01/02",
+            "text": "i was at the second thrift store show!! the guitar player's name is dale. he works at the montessori school. i don't think the band has a name honestly. 'root cellar' is what someone wrote on the flyer but dale said they never agreed on a name"
+          },
+          {
+            "name": "banjo_circuit",
+            "date": "04/22/02",
+            "text": "that bridge part is a drop thumb pattern. on banjo you'd brush the 5th string with your thumb between the rolls. on guitar he's using his thumb on the low D string to get the same effect. once you hear it you can't unhear it"
+          },
+          {
+            "name": "anonymous",
+            "date": "04/10/02",
+            "text": "black mountain has a scene??"
+          }
+        ]
+      },
+      {
+        "type": "dead-link",
+        "source": "WNC bands webring archive",
+        "cached": "unknown",
+        "content": "ROOT CELLAR — Black Mountain NC\n[page not found]\n\nthis URL was part of the WNC bands webring\n(ring ID #4471) from approximately 2001-2002.\nno cached version exists. the only recovered\ntext from the ring listing:\n\n\"root cellar — black mtn — open tuning mountain\nmusic for people who hate mountain music\"\n\nlinked pages (all dead):\n- rootcellar.tripod.com [NOT FOUND]\n- geocities.com/root_cellar_bm [NOT FOUND]"
+      }
+    ]
+  },
+  {
+    "id": "the-shut-ins-max-patch",
+    "band": "The Shut-Ins",
+    "song": "Max Patch",
+    "scene": "nc",
+    "sceneLabel": "NC Mountains",
+    "tags": [
+      "dadgad",
+      "slow",
+      "asheville",
+      "west-asheville"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "fogbreather's Angelfire page",
+        "cached": "2001-07-22",
+        "content": "THE SHUT-INS tab page\nmaintained by fogbreather\nvisitor count: 00847\n\ni've been working on these since the grey eagle\nshow in may. the shut-ins are the best band in\nasheville right now and i will die on this hill.\nyes i know the orange peel exists. the shut-ins\nare too good for the orange peel. they belong in\nsmall rooms.\n\nMAX PATCH\ntuning: D A D G A D (DADGAD)\n\nthis song is about driving to max patch bald\nand watching the sun come up. or maybe it's\nabout a breakup. it's definitely about something.\n\nintro — let every note ring into the next:\n\nD|---0---------0---------0---------|\nA|-------0---------0---------0-----|\nG|---0-------0---0-------0---0-----|\nD|-----------0-----------0---------|\nA|---0-----------0-----------0-----|\nD|---0-----------0-----------0-----|\n\nverse — move the shape up. DON'T lift your\nfingers off the open strings:\n\nD|---5---------5---------0---------|\nA|-------5---------5---------0-----|\nG|---4-------4---4-------4---0-----|\nD|---5-------5---5-------5---0-----|\nA|---0-----------0-----------0-----|\nD|---0-----------0-----------0-----|\n\nchorus — this is the part where cal starts\nsinging and everything opens up:\n\nD|---7---7---5---5---0---0---0---0---|\nA|---7---7---5---5---0---0---0---0---|\nG|---7---7---4---4---0---0---0---0---|\nD|---7---7---5---5---0---0---0---0---|\nA|---0---0---0---0---0---0---0---0---|\nD|---0---0---0---0---0---0---0---0---|\n\nthere's a whole section at the end that's just\nthe open DADGAD ringing while the mandolin\ndoes something. i don't play mandolin. sorry.\n\nKNOWN ERRORS: cal told me the chorus is\nwrong but wouldn't tell me how. typical."
+      },
+      {
+        "type": "guestbook",
+        "source": "fogbreather's guestbook",
+        "cached": "2001-12-08",
+        "entries": [
+          {
+            "name": "cal_shutins",
+            "date": "12/01/01",
+            "text": "the chorus is wrong but i appreciate the effort. seriously. also we have a show dec 14 at the grey eagle if anyone reads this. we're opening for some charlotte band i've never heard of. it'll be fine."
+          },
+          {
+            "name": "jampedal666",
+            "date": "11/18/01",
+            "text": "biltmore forest kids discover DADGAD, more at 11"
+          },
+          {
+            "name": "fogbreather",
+            "date": "11/19/01",
+            "text": "cal is from candler actually but ok. and i'm from west asheville which is not biltmore forest at all. nice try"
+          },
+          {
+            "name": "chrisH",
+            "date": "10/15/01",
+            "text": "can you do their other song? the one about the parkway? they played it at the isis and i can't stop thinking about it"
+          },
+          {
+            "name": "traildog",
+            "date": "09/30/01",
+            "text": "i hiked max patch last weekend and listened to this song in my head the whole way up. then i got to the top and it was foggy and i couldn't see anything. felt appropriate"
+          },
+          {
+            "name": "anonymous",
+            "date": "09/02/01",
+            "text": "what is DADGAD"
+          }
+        ]
+      },
+      {
+        "type": "forum-thread",
+        "source": "WNC Music Board",
+        "thread": "best asheville bands right now?",
+        "cached": "2002-01-22",
+        "board": "general",
+        "posts": [
+          {
+            "user": "fogbreather",
+            "date": "01/15/02 04:12 PM",
+            "text": "the shut-ins. not even close. if you disagree you haven't seen them."
+          },
+          {
+            "user": "jampedal666",
+            "date": "01/15/02 06:44 PM",
+            "text": "here we go again"
+          },
+          {
+            "user": "mtn_time",
+            "date": "01/16/02 10:01 AM",
+            "text": "the shut-ins are good but they're kind of a vibe band? like the songs are all the same vibe. open tuning drone thing. it's beautiful but it's one thing."
+          },
+          {
+            "user": "fogbreather",
+            "date": "01/16/02 02:33 PM",
+            "text": "it's one thing done perfectly. how many things does a band need to do."
+          },
+          {
+            "user": "cal_shutins",
+            "date": "01/18/02 11:19 AM",
+            "text": "guys please. this is embarrassing. we just play songs. thank you fogbreather but please stop arguing with people on our behalf. also: we are playing a house show in west asheville feb 2 if anyone wants to come. byob. dm me."
+          },
+          {
+            "user": "admin",
+            "date": "01/20/02",
+            "text": "keeping this open but play nice",
+            "isAdmin": true
+          }
+        ]
+      },
+      {
+        "type": "flyer",
+        "cached": "~2001",
+        "source": "Grey Eagle poster archive",
+        "content": "╔══════════════════════════════════════════╗\n║     THE GREY EAGLE PRESENTS              ║\n║                                          ║\n║     THE SHUT-INS                         ║\n║     w/ LAUREL GHOST                      ║\n║     & DALE (solo, from Black Mtn)        ║\n║                                          ║\n║     FRIDAY MAY 18 2001                   ║\n║     DOORS 8PM / $4 / 18+                 ║\n║                                          ║\n║     \"DADGAD til the walls hum\"           ║\n║                                          ║\n╚══════════════════════════════════════════╝"
+      },
+      {
+        "type": "email",
+        "cached": "2002-03-14",
+        "source": "fogbreather's email archive",
+        "content": "From: [REDACTED]@hotmail.com\nTo: fogbreather@[REDACTED]\nDate: Thu, 14 Mar 2002 21:07:44 -0500\nSubject: shut-ins tab correction\n\nhey — cal gave me the chords for the chorus\nfinally. he was being weird about it at the\nshow but i got him to show me after.\n\nthe chorus is:\nD5 (x-0-0-7-7-5) to A5 (x-0-0-5-5-0)\nto this weird voicing he won't name:\nx-0-0-4-5-0\n\nhe says it's not a real chord, he just found it.\nthat last voicing is what makes the chorus\nsound different from everything else. it's the\nnote that doesn't belong.\n\nalso they're recording at echo mountain next\nmonth. cal sold his truck to pay for it.\n\n— hannah"
+      }
+    ]
+  },
+  {
+    "id": "creosote-weaverville",
+    "band": "Creosote",
+    "song": "Weaverville",
+    "scene": "nc",
+    "sceneLabel": "NC Mountains",
+    "tags": [
+      "standard",
+      "mid-tempo",
+      "weaverville",
+      "asheville"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "tapetrader19's Tripod page",
+        "cached": "2001-05-16",
+        "content": "CREOSOTE - weaverville\nby tapetrader19\n\ncreosote is two guys from weaverville who\ndrive down to asheville to play shows because\nnobody in weaverville cares. standard tuning.\nthey sound like archers of loaf if archers of\nloaf grew up on a christmas tree farm.\n\ntuning: standard\n\nverse:\ne|---3---3---0---0---|\nB|---3---3---1---1---|\nG|---0---0---0---0---|\nD|---0---0---2---2---|\nA|---2---2---3---3---|\nE|---3---3---x---x---|\n    G       C\n\npre-chorus — palm muted:\ne|---x---x---x---x---|\nB|---x---x---x---x---|\nG|---0---0---2---2---|\nD|---0---0---2---2---|\nA|---2---2---0---0---|\nE|---3---3---x---x---|\n    G5      A5\n\nchorus — let it ring, full strum:\ne|---0---0---3---3---1---1---0---0---|\nB|---0---0---3---3---1---1---0---0---|\nG|---1---1---0---0---2---2---2---2---|\nD|---2---2---0---0---3---3---2---2---|\nA|---2---2---2---2---3---3---0---0---|\nE|---0---0---3---3---1---1---x---x---|\n    Em      G       F       Am\n\nthe song just goes verse chorus verse chorus\nand then they both hit their distortion pedals\nand play the chorus again. that's it. it's a\ngood song. not everything has to be complicated."
+      },
+      {
+        "type": "forum-thread",
+        "source": "WNC Music Board",
+        "thread": "creosote at be here now?",
+        "cached": "2001-08-30",
+        "board": "shows",
+        "posts": [
+          {
+            "user": "tapetrader19",
+            "date": "08/24/01 03:35 PM",
+            "text": "anyone going to creosote at be here now on saturday? i think it's like $3."
+          },
+          {
+            "user": "loudpedal",
+            "date": "08/25/01 11:44 AM",
+            "text": "is that the band from weaverville? my roommate knows one of them. said they practice in a garage with no heat."
+          },
+          {
+            "user": "tapetrader19",
+            "date": "08/26/01 01:17 PM",
+            "text": "yeah that sounds right. they have this song about weaverville that's genuinely great. like it makes you feel something about a place where the main attraction is a gas station."
+          },
+          {
+            "user": "mtn_time",
+            "date": "08/28/01 09:52 PM",
+            "text": "went to the show. it was like 12 people. both guys looked cold even inside. the weaverville song was great. they also covered 'wrong' by archers and it was not bad."
+          }
+        ]
+      },
+      {
+        "type": "classified-ad",
+        "source": "Mountain Xpress classifieds",
+        "cached": "2001-04-12",
+        "content": "DRUMMER WANTED — Weaverville-based rock band\nseeks drummer willing to drive. We play originals.\nInfluences: Archers of Loaf, Superchunk, old R.E.M.,\nour dads' Neil Young records. Must have own kit.\nMust be ok with practicing in a garage that is\ntechnically unheated but we have a space heater.\nCall [REDACTED] or email [REDACTED]@yahoo.com\nNo jazz guys. Sorry. Last time was a disaster."
+      }
+    ]
+  },
+  {
+    "id": "barn-coat-balsam-gap",
+    "band": "Barn Coat",
+    "song": "Balsam Gap",
+    "scene": "nc",
+    "sceneLabel": "NC Mountains",
+    "tags": [
+      "open-d",
+      "slow",
+      "waynesville"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "highcountry_ax's homepage",
+        "cached": "2002-01-08",
+        "content": "BARN COAT — balsam gap\nby highcountry_ax\n\nthis is a waynesville band. if you've never been\nto waynesville it's about 30 min west of asheville\nand it's even colder. barn coat played a church\nbasement there and at isis once. the guitar player\nfingerpicks in open D and sings so quiet you can\nbarely hear her over the guitar.\n\ntuning: D A D F# A D (open D)\n\nthe whole song:\n\nD|---0-----------0-----------|\nA|-------0-----------0-------|\nF#|---2-------2---0-------0---|\nD|---0---0---0---0---0---0---|\nA|-----------0-----------0---|\nD|---0-----------0-----------|\n\nthen slide up:\n\nD|---5-----------5-----------|\nA|-------5-----------5-------|\nF#|---7-------7---5-------5---|\nD|---5---5---5---5---5---5---|\nA|-----------5-----------5---|\nD|---5-----------5-----------|\n\nand that's it. she plays those two positions\nfor about six minutes. it never changes. it's\nthe most beautiful thing i've heard this year.\n\ni don't know if barn coat is a real band name\nor just what someone wrote on the flyer. i\ndon't know her name. i don't know if she'll\never play again. i'm putting this here so\nsomeone remembers."
+      },
+      {
+        "type": "dead-link",
+        "source": "Wayback Machine fragment",
+        "cached": "unknown",
+        "content": "BARN COAT — Waynesville NC\n[geocities.com/barncoatwnc — page expired]\n\nrecovered meta description:\n\"songs from the gap. open D. shows when it's\nnot too cold to drive.\"\n\nrecovered link text from referring pages:\n\"barn coat played the church basement again.\nsix people. all of us crying. not joking.\"\n\nno other cached content found."
+      }
+    ]
+  },
+  {
+    "id": "tow-strap-november-on-226",
+    "band": "Tow Strap",
+    "song": "November on 226",
+    "scene": "nc",
+    "sceneLabel": "NC Mountains",
+    "tags": [
+      "drop-d",
+      "mid-tempo",
+      "marion"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "gearshift_73's Geocities page",
+        "cached": "2001-10-30",
+        "content": "TOW STRAP — november on 226\ntabbed by gearshift_73\n\ntow strap is from marion which is basically the\nlast town before you're in the real mountains.\nthey play this kind of noisy country thing. the\nsinger worked at the furniture plant. they\npracticed at the VFW.\n\ntuning: drop D\n\nverse (clean, let it ring):\ne|---3---3---3---3---0---0---0---0---|\nB|---3---3---3---3---1---1---1---1---|\nG|---0---0---0---0---0---0---0---0---|\nD|---0---0---0---0---2---2---2---2---|\nA|---x---x---x---x---3---3---3---3---|\nD|---5---5---5---5---x---x---x---x---|\n    G/D             C\n\nchorus (kick on the distortion):\ne|---x---x---x---x---x---x---|\nB|---x---x---x---x---x---x---|\nG|---7---7---5---5---0---0---|\nD|---7---7---5---5---0---0---|\nA|---5---5---3---3---0---0---|\nD|---5---5---3---3---0---0---|\n\nbridge — just bass note and open strings:\ne|---0-----------0-----------|\nB|---0-----------0-----------|\nG|---0-----------0-----------|\nD|---0-----------0-----------|\nA|---0-----------0-----------|\nD|---0---3---5---7-----------|\n\nthe song is about driving 226 from marion up\nto the parkway in november. which if you've\ndone it you know. the leaves are gone and\nit's just grey and the road goes up and up."
+      },
+      {
+        "type": "flyer",
+        "cached": "~2001",
+        "source": "Marion VFW bulletin board photo",
+        "content": "╔══════════════════════════════════════╗\n║  VFW POST 2732 — MARION NC          ║\n║                                      ║\n║  SAT NOVEMBER 10 2001                ║\n║                                      ║\n║  TOW STRAP                           ║\n║  CREOSOTE (from Weaverville)         ║\n║  HATCHET LIMB (Morganton)            ║\n║                                      ║\n║  $2 / ALL AGES                       ║\n║  DOORS 7:30 / BYOB                   ║\n║                                      ║\n║  2 hr drive from charlotte.          ║\n║  worth it.                           ║\n╚══════════════════════════════════════╝"
+      },
+      {
+        "type": "guestbook",
+        "source": "gearshift_73's guestbook",
+        "cached": "2002-01-22",
+        "entries": [
+          {
+            "name": "furniturekid",
+            "date": "01/15/02",
+            "text": "hey this is scott from tow strap. the G/D voicing is right, that's exactly what i play. good ear. the bridge is close but i actually slide up to 9 not 7 at the end. it's supposed to sound like the road disappearing into the clouds. or whatever. thanks for doing this"
+          },
+          {
+            "name": "gearshift_73",
+            "date": "01/16/02",
+            "text": "scott!! i fixed the bridge. 9 makes way more sense actually. it resolves different. you guys playing again soon?"
+          },
+          {
+            "name": "furniturekid",
+            "date": "01/18/02",
+            "text": "probably not til spring. it's too cold to load the van and the VFW furnace is broken again. maybe february if we can get on a bill in asheville. the drive down and back is brutal in winter though"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "frost-heave-banner-elk-hymn",
+    "band": "Frost Heave",
+    "song": "Banner Elk Hymn",
+    "scene": "nc",
+    "sceneLabel": "NC Mountains",
+    "tags": [
+      "dadgad",
+      "fingerpick",
+      "banner-elk",
+      "boone"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "winterkill_tab's Angelfire page",
+        "cached": "2002-05-09",
+        "content": "FROST HEAVE tab page\nupdated may 2002\nmaintained by winterkill_tab\n\nfrost heave is from banner elk. for those of you\nnot from here, banner elk is above boone. it's\nthe top. it's where the ski resorts are and where\nrich people from charlotte have second homes and\nwhere about nine of us live year-round and play\nmusic in kitchens.\n\nthe band is three people: liz (guitar/voice),\nher brother david (mandolin), and tom who plays\nbass and lives in blowing rock and drives up.\n\nBANNER ELK HYMN\ntuning: D A D G A D\n\nmain part — liz plays this with her thumb and\ntwo fingers. the low D drones the whole time:\n\nD|---0-----0-----0-----0-----0-----0-----|\nA|-----0-----0-----0-----0-----0-----0---|\nG|---0---0---0---0---2---2---2---2---0---0|\nD|---0-------0-------0-------0-------0---|\nA|---0-------0-------0-------0-------0---|\nD|---0-------0-------0-------0-------0---|\n\nverse — same thumb pattern, move the melody:\n\nD|---5-----5-----7-----7-----5-----5-----|\nA|-----5-----5-----7-----7-----5-----5---|\nG|---4---4---4---4---7---7---7---7---4---4|\nD|---5-------5-------7-------7-------5---|\nA|---0-------0-------0-------0-------0---|\nD|---0-------0-------0-------0-------0---|\n\nbridge — david plays the mandolin part here\nand liz just holds this chord:\n\nD|---12--|\nA|---12--|\nG|---11--|\nD|---12--|\nA|---0---|\nD|---0---|\n\nfor like 16 bars. just that chord ringing with\nthe open strings underneath. it sounds like\na church organ in a room with four people in it.\n\nthe song ends with everyone stopping except\nthe low D string ringing out. at the kitchen\nshow i went to you could hear the wind outside\nwhen the string finally stopped."
+      },
+      {
+        "type": "forum-thread",
+        "source": "High Country Music Forum",
+        "thread": "frost heave kitchen show",
+        "cached": "2002-06-03",
+        "board": "shows",
+        "posts": [
+          {
+            "user": "winterkill_tab",
+            "date": "05/18/02 07:32 PM",
+            "text": "went to the frost heave kitchen show in banner elk last night. seven people in the room. liz played banner elk hymn and the new one about grandfather mountain. david's mandolin was so quiet you had to hold your breath to hear it. when they finished no one clapped for a second because we all forgot we were supposed to."
+          },
+          {
+            "user": "boonesaloonreg",
+            "date": "05/19/02 10:15 AM",
+            "text": "they should play boone. we'd come."
+          },
+          {
+            "user": "winterkill_tab",
+            "date": "05/19/02 02:48 PM",
+            "text": "i've asked liz about playing boone or asheville and she said 'why would we drive somewhere when we can play here.' which is the most banner elk thing i've ever heard."
+          },
+          {
+            "user": "parkway_kid",
+            "date": "05/22/02 06:11 PM",
+            "text": "this is what i mean when i say the mountain music scene is different from the asheville scene. asheville is trying to be something. up here people are just playing because what else are you going to do in winter."
+          },
+          {
+            "user": "jampedal666",
+            "date": "05/24/02 01:03 AM",
+            "text": "ok but you could also just play somewhere people can actually hear you? just a thought. not everything has to be precious and small."
+          },
+          {
+            "user": "winterkill_tab",
+            "date": "05/25/02 09:44 AM",
+            "text": "you are missing the point so completely i'm almost impressed"
+          }
+        ]
+      },
+      {
+        "type": "email",
+        "cached": "2002-07-01",
+        "source": "recovered Yahoo Mail archive",
+        "content": "From: [REDACTED]@yahoo.com\nTo: winterkill_tab@[REDACTED]\nDate: Mon, 1 Jul 2002 10:14:22 -0400\nSubject: re: frost heave tabs\n\nhey — this is liz. someone sent me your\npage. the tab is almost perfect which is\nkind of scary because i've never written\nthis down for anyone.\n\nthe bridge chord is right. i found that\nvoicing by accident tuning up one day and\nbuilt the whole song around it. it's just\nan open D chord shape at the 12th fret\nwith the two bass strings open underneath.\n\nthe song is about our grandmother's church\nin banner elk that closed. david and i used\nto go there as kids. the hymn part isn't\nmetaphorical. it's supposed to sound like\nthe hymns she sang.\n\nwe're not going to play asheville or boone\nor anywhere. we play here. people who want\nto hear it can come up the mountain.\n\nthanks for listening.\n— liz"
+      },
+      {
+        "type": "classified-ad",
+        "source": "Mountain Xpress classifieds",
+        "cached": "2002-08-01",
+        "content": "HIGH COUNTRY KITCHEN SHOWS — ongoing series\nin Banner Elk / Blowing Rock area. Acoustic\nonly. Small rooms. Frost Heave, Tom Lacey\n(solo bass), others tbd. Quarterly schedule.\nEmail [REDACTED]@yahoo.com for directions.\nNo cover. Bring food if you want.\nSeriously it's a kitchen. There are like\neight chairs."
+      }
+    ]
+  },
+  {
+    "id": "switchback-parkway-closure",
+    "band": "Switchback",
+    "song": "Parkway Closure",
+    "scene": "nc",
+    "sceneLabel": "NC Mountains",
+    "tags": [
+      "standard",
+      "fast",
+      "asheville",
+      "hendersonville"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "pedalboard_kid's Angelfire page",
+        "cached": "2001-08-19",
+        "content": "SWITCHBACK — parkway closure\ntabbed by pedalboard_kid\n\nswitchback is the loudest band in asheville.\nthey're from hendersonville originally but they\nmoved up. three guitars, bass, drums. they have\nno business being this loud.\n\nthis song is fast. standard tuning.\n\ntuning: standard\n\nintro — all three guitars play this in unison:\n\ne|---0-0-0-0-3-3-0-0---|\nB|---1-1-1-1-3-3-1-1---|\nG|---0-0-0-0-0-0-0-0---|\nD|---2-2-2-2-0-0-2-2---|\nA|---3-3-3-3-2-2-3-3---|\nE|---x-x-x-x-3-3-x-x---|\n    C       G   C\n\nverse — guitar 1 plays the riff above.\nguitar 2 plays barre chords:\n\ne|---x---x---x---x---|\nB|---5---5---3---3---|\nG|---5---5---4---4---|\nD|---5---5---5---5---|\nA|---3---3---3---3---|\nE|---x---x---x---x---|\n    C5      C5/Bb\n\nguitar 3 does something high up the neck\nthat i can't figure out. some kind of\nlead line. sorry.\n\nchorus:\ne|---0---0---1---1---0---0---3---3---|\nB|---1---1---1---1---0---0---3---3---|\nG|---0---0---2---2---1---1---0---0---|\nD|---2---2---3---3---2---2---0---0---|\nA|---3---3---3---3---2---2---2---2---|\nE|---x---x---1---1---0---0---3---3---|\n    C       F       E       G\n\nthen they all hit the chorus together and\nit's this wall of sound. i saw them at\nbe here now and the bartender unplugged\nthem. the bass player plugged back in.\nthey finished the set.\n\ni think the song is about the parkway\nbeing closed in winter and being stuck."
+      },
+      {
+        "type": "forum-thread",
+        "source": "WNC Music Board",
+        "thread": "switchback got banned from be here now",
+        "cached": "2002-02-18",
+        "board": "shows",
+        "posts": [
+          {
+            "user": "pedalboard_kid",
+            "date": "02/10/02 09:17 PM",
+            "text": "so apparently switchback is banned from be here now after the volume thing in december. the bartender unplugged them mid-set and the bass player plugged back in and they finished the song. management was not amused."
+          },
+          {
+            "user": "loudpedal",
+            "date": "02/11/02 11:03 AM",
+            "text": "legendary behavior honestly"
+          },
+          {
+            "user": "mtn_time",
+            "date": "02/11/02 04:44 PM",
+            "text": "three guitars is too many guitars for be here now. that room is tiny. they should play the orange peel."
+          },
+          {
+            "user": "pedalboard_kid",
+            "date": "02/12/02 01:22 PM",
+            "text": "lol the orange peel would never book switchback. they book like... galactic. and widespread. switchback is five people from hendersonville who own too many amps."
+          },
+          {
+            "user": "hendo_exile",
+            "date": "02/14/02 07:30 PM",
+            "text": "as someone from hendersonville i just want everyone to know that switchback practiced in a storage unit off four seasons blvd and got kicked out of there too. volume is kind of their whole thing."
+          }
+        ]
+      },
+      {
+        "type": "classified-ad",
+        "source": "Mountain Xpress classifieds",
+        "cached": "2001-06-28",
+        "content": "SWITCHBACK — seeks practice space in Asheville\nor Hendersonville. Must allow LOUD volumes.\nPrevious spaces: storage unit (evicted), garage\nin Hendo (noise complaint), church basement in\nFlat Rock (asked to leave after one practice).\nWe have five members and too many amps. We will\npay reasonable rent. Must have electricity.\nCall [REDACTED]. Serious inquiries only."
+      },
+      {
+        "type": "flyer",
+        "cached": "~2001",
+        "source": "Be Here Now poster wall photo",
+        "content": "╔══════════════════════════════════════╗\n║  BE HERE NOW                         ║\n║  SATURDAY DECEMBER 1 2001            ║\n║                                      ║\n║  SWITCHBACK (Hendersonville)         ║\n║  SILT (Marshall)                     ║\n║                                      ║\n║  $3 / 21+ / DOORS 9                  ║\n║                                      ║\n║  \"bring earplugs.                    ║\n║   we're not kidding.\"                ║\n╚══════════════════════════════════════╝"
+      },
+      {
+        "type": "email",
+        "cached": "2002-03-22",
+        "source": "recovered Hotmail backup",
+        "content": "From: [REDACTED]@hotmail.com\nTo: [REDACTED]@yahoo.com\nDate: Fri, 22 Mar 2002 19:42:11 -0500\nSubject: re: switchback practice space\n\nhey — the guy in arden with the warehouse\nsaid no after he heard us. we weren't even\nthat loud. it was a WAREHOUSE.\n\ni think we're done looking in hendersonville.\nmaybe we just drive to asheville every time.\nthe 2-hour round trip sucks but at least\nthere are venues there that understand\nvolume is part of the art.\n\nalternatively we could play quieter.\njust kidding.\n\n— kevin"
+      }
+    ]
+  },
+  {
+    "id": "slash-pile-galena-road",
+    "band": "Slash Pile",
+    "song": "Galena Road",
+    "scene": "pnw",
+    "sceneLabel": "PNW Rural OR",
+    "tags": [
+      "drop-d",
+      "slow",
+      "bend"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "desertrat541's Angelfire page",
+        "cached": "2001-09-11",
+        "content": "~~ SLASH PILE TABS ~~\nby desertrat541\nlast updated sept 2001\n\nif you want more tabs email me but be patient\ni work at the mill 6 days a week\n\ni learned this from watching kyle at the shop show\nin july. i was like 3 feet away. the tuning is weird\nbut once you get it it makes sense. the whole song\nis basically two parts. the second part is louder.\n\nKNOWN ISSUES: the transition to the chorus might\nhave a hammer-on i'm missing. the tape from jason's\ncamcorder is basically just distortion.\n\n---------------------------------------------\nGALENA ROAD\n---------------------------------------------\ntuning: D A D G B E (drop D)\n\nverse (play quiet, let it ring):\ne|----------------------|----------------------|\nB|----------------------|----------------------|\nG|---7----7----9----9----|---7----7----5---------|\nD|---7----7----9----9----|---7----7----5----0----|\nA|---5----5----7----7----|---5----5----3----0----|\nD|---0----0----0----0----|---0----0----0----0----|\n\nchorus (strum hard):\ne|----------------------|----------------------|\nB|---3----3----3----3----|---3----3----3---------|\nG|---2----2----4----4----|---2----2----2----2----|\nD|---0----0----4----4----|---0----0----2----2----|\nA|---0----0----2----2----|---0----0----0----0----|\nD|---0----0----0----0----|---0----0---------0----|\n\nthe ending is just the verse part but kyle plays\nit higher up on the neck. i can't figure out where\nexactly. i'll update if i ever see them again.\n\nLINKS:\n- slash pile on mp3.com [DEAD]\n- bend shows mailing list [DEAD]\n- desertrat541's other tabs (third eye blind) [DEAD]"
+      },
+      {
+        "type": "guestbook",
+        "source": "desertrat541's guestbook",
+        "cached": "2001-12-04",
+        "entries": [
+          {
+            "name": "juniperkreep",
+            "date": "11/28/01",
+            "text": "dude the show at kevin's shop was so sick. they played this one twice because the power went out the first time and they just started over when it came back"
+          },
+          {
+            "name": "snowboardchris",
+            "date": "11/15/01",
+            "text": "is kyle the tall one or the one with the beard"
+          },
+          {
+            "name": "desertrat541",
+            "date": "11/15/01",
+            "text": "tall one. beard is marcus (bass)"
+          },
+          {
+            "name": "anonymous",
+            "date": "10/30/01",
+            "text": "cool site. do you have any sublime tabs?"
+          },
+          {
+            "name": "lavarock_bend",
+            "date": "10/22/01",
+            "text": "the hammer on you're missing is at the end of the verse, 5h7 on the G string going into the chorus. i was there too"
+          },
+          {
+            "name": "juniperkreep",
+            "date": "09/18/01",
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "flyer",
+        "cached": "~2001",
+        "source": "scanned from The Source (Bend) classifieds section",
+        "content": "╔════════════════════════════════════════╗\n║  SAT JULY 14 2001                      ║\n║  KEVIN'S MACHINE SHOP                  ║\n║  off 27th st behind the propane place  ║\n║                                        ║\n║  SLASH PILE                            ║\n║  CINDER CONE                           ║\n║  some band from redmond (tba)          ║\n║                                        ║\n║  $2 / BYOB / starts when it gets dark  ║\n║  don't park on the highway             ║\n╚════════════════════════════════════════╝"
+      },
+      {
+        "type": "forum-thread",
+        "source": "PNW Underground Board",
+        "thread": "central oregon bands??",
+        "cached": "2002-03",
+        "board": "local scenes",
+        "posts": [
+          {
+            "user": "pdxfoghorn",
+            "date": "02/14/02 03:22 PM",
+            "text": "are there even bands in bend? i thought it was just skiing and old people"
+          },
+          {
+            "user": "desertrat541",
+            "date": "02/14/02 07:45 PM",
+            "text": "there's a scene here you just have to know people. slash pile, cinder cone, there's a band from prineville whose name i can't remember. we play in kevin's machine shop because there's literally nowhere else. it rules actually."
+          },
+          {
+            "user": "pdxfoghorn",
+            "date": "02/15/02 10:03 AM",
+            "text": "a machine shop lol"
+          },
+          {
+            "user": "desertrat541",
+            "date": "02/15/02 06:30 PM",
+            "text": "it's better than half the portland venues i've been to. at least we don't have a sound guy who hates bands. and the acoustics off the concrete are actually insane. you should come out sometime but you won't because you think oregon ends at salem."
+          },
+          {
+            "user": "juniperkreep",
+            "date": "02/16/02 11:18 AM",
+            "text": "the machine shop shows are legit. last time there were like 40 people which is basically a sold out arena for bend"
+          },
+          {
+            "user": "pdxfoghorn",
+            "date": "02/17/02 01:08 PM",
+            "text": "ok i'll actually try to come to the next one. when is it"
+          },
+          {
+            "user": "desertrat541",
+            "date": "02/17/02 09:44 PM",
+            "text": "no one knows until like 3 days before. i'll post here when it happens"
+          }
+        ]
+      },
+      {
+        "type": "email",
+        "cached": "2001-08-02",
+        "source": "recovered from desertrat541's hotmail backup",
+        "content": "From: [REDACTED]@hotmail.com\nTo: [REDACTED]@yahoo.com\nDate: Thu, 2 Aug 2001 19:22:11 -0700\nSubject: re: tab correction\n\nhey yeah you're right about the hammer-on.\ni went back and listened to the tape again and\nyou can hear it. i'll fix the page this weekend.\n\nalso kyle said they might not play the sept show\nbecause marcus is moving to eugene for school.\nwhich sucks because galena road live is the best\nthing happening in this town right now and this\ntown doesn't have a lot happening.\n\nif they break up i'm going to be so mad.\nwe drove 3 hours to see built to spill last\nmonth and slash pile was better. i'm not even\nkidding.\n\n— d"
+      }
+    ]
+  },
+  {
+    "id": "rim-rock-basin-prayer",
+    "band": "Rim Rock",
+    "song": "Basin Prayer",
+    "scene": "pnw",
+    "sceneLabel": "PNW Rural OR",
+    "tags": [
+      "standard",
+      "mid-tempo",
+      "klamath-falls"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "pelican_pete's Geocities page",
+        "cached": "2000-11-19",
+        "content": "RIM ROCK TABS\nby pelican_pete\n\ni don't know if anyone besides me even looks at this\npage. there's like maybe 6 people in klamath falls who\nwould care. but here it is anyway.\n\nthis is from the vfw show in october. i'm pretty sure\nabout the verse but the chorus might be in a different\nposition. derek plays barre chords for everything which\nmakes it hard to see from the audience.\n\n---------------------------------------------\nBASIN HYMN\n---------------------------------------------\ntuning: standard (E A D G B E)\n\nverse:\ne|--0----0----|--3----3----|--0----0----|--2----2----|\nB|--1----1----|--0----0----|--1----1----|--3----3----|\nG|--0----0----|--0----0----|--0----0----|--2----2----|\nD|--2----2----|--0----0----|--2----2----|--0----0----|\nA|--3----3----|--2----2----|--3----3----|----------|\nE|-----------|--3----3----|-----------|----------|\n\nchorus (louder, strum full chords):\ne|--3----3----|--0----0----|--1----1----|\nB|--0----0----|--1----1----|--1----1----|\nG|--0----0----|--0----0----|--2----2----|\nD|--0----0----|--2----2----|--3----3----|\nA|--2----2----|--3----3----|--3----3----|\nE|--3----3----|-----------|--1----1----|\n\nthen it goes back to the verse. that's basically\nthe whole song. it's only like 2 and a half minutes.\n\nHIT COUNTER: 0047"
+      },
+      {
+        "type": "classified-ad",
+        "source": "The Source (Bend) classifieds",
+        "cached": "2001-02-08",
+        "content": "SHOWS / EVENTS\n\nRIM ROCK w/ guests — VFW Post 1383, Klamath Falls.\nFri Feb 16, 8pm. $2 suggested donation.\nAll ages. Derek says bring earplugs this time.\nNo moshing (we got in trouble last time)."
+      },
+      {
+        "type": "guestbook",
+        "source": "pelican_pete's guestbook",
+        "cached": "2001-05-22",
+        "entries": [
+          {
+            "name": "dirtbike_jake",
+            "date": "05/11/01",
+            "text": "rim rock is the only good thing about living here. everything else is just wind and sadness"
+          },
+          {
+            "name": "anonymous",
+            "date": "04/03/01",
+            "text": "is derek still dating that girl from OIT"
+          },
+          {
+            "name": "pelican_pete",
+            "date": "04/04/01",
+            "text": "dude this is a tab page not a gossip page"
+          },
+          {
+            "name": "crashburn",
+            "date": "03/15/01",
+            "text": "the chorus is definitely G - Am - F not G - C - F. you're playing the wrong second chord"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brake-fade-summer-road-crew",
+    "band": "Brake Fade",
+    "song": "Summer Road Crew",
+    "scene": "pnw",
+    "sceneLabel": "PNW Rural OR",
+    "tags": [
+      "drop-d",
+      "fast",
+      "ashland"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "lithiumgarage's Tripod page",
+        "cached": "2001-06-30",
+        "content": "BRAKE FADE — Summer Road Crew\ntabbed by lithiumgarage 6/2001\n\nthis song goes fast. like really fast. i saw them\nat the armory and the whole thing was over in\nmaybe 90 seconds. ashland bands are weird because\nhalf of them are theater kids who decided to\nplay punk instead.\n\ntuning: D A D G B E (drop D)\n\n(palm muted, fast downstrokes)\ne|--------------------------------|\nB|--------------------------------|\nG|--------------------------------|\nD|--5-5-5-5--7-7-7-7--3-3-3-3----|\nA|--5-5-5-5--7-7-7-7--3-3-3-3----|\nD|--5-5-5-5--7-7-7-7--3-3-3-3----|\n\n(open up for chorus)\ne|--------------------------------|\nB|---3---3---3---3---1---1--------|\nG|---2---2---4---4---0---0--------|\nD|---0---0---4---4---0---0---2----|\nA|---0---0---2---2---3---3---2----|\nD|---0---0---0---0---3---3---2----|\n\nthat's it. there might be a bridge but i only\nsaw them once and i was trying not to get hit\nby the guy doing karate moves in the pit.\n\nif anyone from medford or GP has seen them\nplay this let me know what i'm missing"
+      },
+      {
+        "type": "flyer",
+        "cached": "~2001",
+        "source": "scanned from Ashland Food Co-op bulletin board",
+        "content": "╔══════════════════════════════════════════╗\n║     THE ASHLAND ARMORY PRESENTS          ║\n║     FRIDAY JUNE 8 2001                   ║\n║                                          ║\n║     BRAKE FADE                           ║\n║     HORSE TRAILER (grants pass)          ║\n║     THE PUMP JACKETS                     ║\n║                                          ║\n║     7pm / $4 / ALL AGES                  ║\n║     no stage diving. we mean it.         ║\n║     jenny said if one more person        ║\n║     breaks a folding chair we're done    ║\n╚══════════════════════════════════════════╝"
+      }
+    ]
+  },
+  {
+    "id": "chip-truck-green-chain",
+    "band": "Chip Truck",
+    "song": "Green Chain",
+    "scene": "pnw",
+    "sceneLabel": "PNW Rural OR",
+    "tags": [
+      "standard",
+      "slow",
+      "roseburg"
+    ],
+    "fragments": [
+      {
+        "type": "dead-link",
+        "source": "PNW Tab Archive mirror",
+        "cached": "unknown",
+        "content": "CHIP TRUCK — Green Chain\n\noriginal page: http://www.angelfire.com/or3/umpquatabs/\nstatus: domain expired / no cache found\n\nnotes from mirror index:\n\"chip truck was from roseburg. they played maybe\n10 shows total, all in the south umpqua valley.\nthe guitarist worked at the plywood plant and\nwrote songs about it. green chain was their\nbest one. it was about pulling lumber off the\nline and how the rhythm of the work gets into\nyour body. someone had a tab but the page is gone.\"\n\npartial chord chart recovered from linked page:\nverse: Em - C - G - D\nchorus: Am - C - G (let ring)\n\nif anyone has the full tab email the archive."
+      },
+      {
+        "type": "forum-thread",
+        "source": "PNW Underground Board",
+        "thread": "roseburg bands",
+        "cached": "2002-06",
+        "board": "local scenes",
+        "posts": [
+          {
+            "user": "umpquadrift",
+            "date": "06/02/02 04:11 PM",
+            "text": "does anyone remember chip truck? they played at the back of that feed store on garden valley road a couple times in 2000. the singer worked at roseburg forest products or maybe the plywood plant. they had this one song green chain that was genuinely beautiful and no one heard it because we live in roseburg."
+          },
+          {
+            "user": "toaster99",
+            "date": "06/03/02 09:55 AM",
+            "text": "never heard of them"
+          },
+          {
+            "user": "umpquadrift",
+            "date": "06/03/02 05:27 PM",
+            "text": "yeah that's my point"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scab-flat-cattle-gate",
+    "band": "Scab Flat",
+    "song": "Cattle Gate",
+    "scene": "pnw",
+    "sceneLabel": "PNW Rural OR",
+    "tags": [
+      "open-g",
+      "slow",
+      "burns"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "highdesert_chris's Angelfire page",
+        "cached": "2001-03-14",
+        "content": "SCAB FLAT tabs\nby chris // burns, oregon\n\nyes there are bands in burns. well, there was one.\nwe practiced in my dad's shop and played two shows\nin my cousin's barn and one at the grange hall in\nhines. that's our complete touring history.\n\ni play guitar and sing. tanner plays bass through\na pawn shop amp. we don't have a drummer because\nthere are no drummers in harney county.\n\nthis is the only song i'm putting up because the\nothers aren't finished.\n\n---------------------------------------------\nCATTLE GATE\n---------------------------------------------\ntuning: open G (D G D G B D)\n\n(fingerpick this part. it should sound empty.)\nD|---0------0------0------0------|\nB|------0------0------3------3---|\nG|---0------0------0------0------|\nD|------0------2------0------0---|\nG|--0------0------2------0-------|\nD|--0------0------0------0-------|\n\n(strum this part. still quiet.)\nD|---0----0----|---0----0----|\nB|---0----0----|---3----3----|\nG|---0----0----|---0----0----|\nD|---0----0----|---2----2----|\nG|---0----0----|---2----2----|\nD|---0----0----|---0----0----|\n\nthat's pretty much it. the lyrics are about\ndriving the back road to frenchglen and not\nseeing another car for an hour. i'm not going\nto write them out because they're kind of\npersonal.\n\nvisitors: 0019"
+      },
+      {
+        "type": "email",
+        "cached": "2001-07-22",
+        "source": "recovered mail archive",
+        "content": "From: [REDACTED]@hotmail.com\nTo: [REDACTED]@hotmail.com\nDate: Sun, 22 Jul 2001 14:08:33 -0700\nSubject: your band page\n\nhey chris its tanner\n\ni saw you put up the tab for cattle gate.\nit sounds right i think. weird seeing it written\nout like that. feels like math or something.\n\ni'm moving to la grande in september for school\nso i guess scab flat is done. sorry man. there's\nnot exactly a replacement bassist situation\nin burns.\n\nwe should play one more barn show before i go.\naugust maybe. i'll bring the PA from my uncle's\nchurch if he'll let me.\n\nlater\nt"
+      },
+      {
+        "type": "guestbook",
+        "source": "highdesert_chris's guestbook",
+        "cached": "2001-11-09",
+        "entries": [
+          {
+            "name": "fencepost_dan",
+            "date": "10/30/01",
+            "text": "chris i didn't know you had a band. this is dan from work. the tab looks cool but i don't play guitar. do you have an mp3 or anything"
+          },
+          {
+            "name": "highdesert_chris",
+            "date": "10/31/01",
+            "text": "we never recorded anything. i have a tape from the barn show but it's mostly wind noise and cows. sorry dan"
+          },
+          {
+            "name": "anonymous",
+            "date": "08/14/01",
+            "text": "this is actually really good. the open G tuning is perfect for this kind of thing. reminds me of a slower sonic youth in a weird way. — someone from boise who found this randomly"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "the-snowgates-grade-school-parking-lot",
+    "band": "The Snowgates",
+    "song": "Grade School Parking Lot",
+    "scene": "pnw",
+    "sceneLabel": "PNW Rural OR",
+    "tags": [
+      "drop-d",
+      "mid-tempo",
+      "la-grande"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "eou_mike's Geocities page",
+        "cached": "2002-01-08",
+        "content": "THE SNOWGATES tab page\nmaintained by mike // la grande OR\n\ni go to eastern oregon university and these guys\nare the only reason to stay on weekends instead\nof driving home to pendleton. they play in a\nwarehouse on adams ave that someone's dad owns.\nit's freezing in winter but that kind of adds\nto it.\n\nthis is their best song. the guitar player\n(brendan) showed me the chords after a show\nso this is actually right for once.\n\n---------------------------------------------\nGRADE SCHOOL PARKING LOT\n---------------------------------------------\ntuning: D A D G B E (drop D)\n\nintro/verse (clean, slow):\ne|---0------0---------|---0------0---------|\nB|------3------3------|------1------1------|\nG|---2------2---------|---0------0---------|\nD|------0------0------|------2------2------|\nA|---0------0---------|---3------3---------|\nD|-------------------|-------------------|\n\nchorus (distortion, full strum):\ne|-------------------|-------------------|\nB|---3---3---1---1---|---3---3---3--------|\nG|---2---2---0---0---|---2---2---2--------|\nD|---0---0---2---2---|---0---0---0---5----|\nA|---0---0---3---3---|---0---0---0---5----|\nD|---0---0---0---0---|---0---0---0---5----|\n\nbridge (brendan said this is the important part):\ne|---0------0---------|---0---------|\nB|------3------3------|------3------|\nG|---4------4---------|---2---------|\nD|------4------4------|------2------|\nA|---2------2---------|---0---------|\nD|---0------0---------|---0---------|\n\nthe song is about coming back to your hometown\nand sitting in your car in the grade school\nparking lot because you don't know where else\nto go. brendan wrote it after thanksgiving.\nit's sadder than it sounds."
+      },
+      {
+        "type": "guestbook",
+        "source": "eou_mike's guestbook",
+        "cached": "2002-04-17",
+        "entries": [
+          {
+            "name": "brendan_g",
+            "date": "04/12/02",
+            "text": "hey mike thanks for putting this up. the bridge is right. we're done btw. i'm transferring to u of o in the fall. sorry"
+          },
+          {
+            "name": "eou_mike",
+            "date": "04/13/02",
+            "text": "are you serious. you can't just say that in a guestbook entry"
+          },
+          {
+            "name": "warehousekid",
+            "date": "03/08/02",
+            "text": "anyone know when the next warehouse show is. the last one in february was freezing but amazing"
+          },
+          {
+            "name": "reese",
+            "date": "02/20/02",
+            "text": "i drove from baker city for the feb show and it was worth it. 2 hours in the snow"
+          },
+          {
+            "name": "anonymous",
+            "date": "01/15/02",
+            "text": "this page has a sick background. how do you do the tiled stars thing"
+          }
+        ]
+      },
+      {
+        "type": "email",
+        "cached": "2002-05-01",
+        "source": "eou_mike's recovered mail",
+        "content": "From: [REDACTED]@eou.edu\nTo: [REDACTED]@hotmail.com\nDate: Wed, 1 May 2002 11:34:22 -0700\nSubject: re: the snowgates\n\nbrendan —\n\ni get that you're leaving but can we at least\nrecord grade school parking lot before you go?\neven just on a boombox or something. i don't\nwant the only record of it to be my tab page\nand a guestbook entry.\n\nthat song meant something to people here.\nnot a lot of people but the right ones.\n\nmike"
+      }
+    ]
+  },
+  {
+    "id": "horse-trailer-frontage-psalm",
+    "band": "Horse Trailer",
+    "song": "Frontage Psalm",
+    "scene": "pnw",
+    "sceneLabel": "PNW Rural OR",
+    "tags": [
+      "standard",
+      "slow",
+      "grants-pass"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "roguekid's Angelfire page",
+        "cached": "2001-04-18",
+        "content": "HORSE TRAILER tabs\nby roguekid // grants pass, or\n\nhorse trailer is me (guitar/vox) and my sister\nkatie (bass) and whoever we can find to play\ndrums. we practice in our garage. the neighbors\nhate us which is funny because the nearest\nneighbor is a quarter mile away.\n\nfrontage hymn is the one people ask about.\ni wrote it on the porch watching trucks go\nby on the highway.\n\n---------------------------------------------\nFRONTAGE HYMN\n---------------------------------------------\ntuning: standard (E A D G B E)\n\nverse (arpeggiate, clean tone):\ne|---0------0---------|---3------3---------|\nB|------1------1------|------0------0------|\nG|---0------0---------|---0------0---------|\nD|------2------2------|------0------0------|\nA|---3------3---------|---2------2---------|\nE|-------------------|---3------3---------|\n\npre-chorus:\ne|---1----1----|---0----0----|---3----3----|\nB|---1----1----|---1----1----|---0----0----|\nG|---2----2----|---0----0----|---0----0----|\nD|---3----3----|---2----2----|---0----0----|\nA|---3----3----|---3----3----|---2----2----|\nE|---1----1----|-----------|---3----3----|\n\nchorus (strum, let it ring between changes):\ne|---3----|---0----|---1----|---0----|\nB|---0----|---1----|---1----|---1----|\nG|---0----|---0----|---2----|---0----|\nD|---0----|---2----|---3----|---2----|\nA|---2----|---3----|---3----|---3----|\nE|---3----|--------|---1----|--------|\n\nthe outro is just the verse chords slowing\ndown until it stops.\n\nthis song works better outside for some reason.\nwe played it at a house show in cave junction\nand everyone just sat on the lawn and it was\none of those things where the music and the\nplace and the time all lined up.\n\nbut mostly we play to katie's dogs."
+      },
+      {
+        "type": "guestbook",
+        "source": "roguekid's guestbook",
+        "cached": "2001-09-14",
+        "entries": [
+          {
+            "name": "cavejunction_al",
+            "date": "09/01/01",
+            "text": "the house show was incredible. your sister is a really good bass player. is she in any other bands"
+          },
+          {
+            "name": "roguekid",
+            "date": "09/02/01",
+            "text": "she's 16 so no"
+          },
+          {
+            "name": "ampjunkie",
+            "date": "08/15/01",
+            "text": "i think the pre-chorus F should ring longer. you're rushing it. sounds better if you let the bass note sustain"
+          },
+          {
+            "name": "tonedeaf_tyler",
+            "date": "07/22/01",
+            "text": "cool site. do you guys want to play a show in medford? my friend has a coffee shop"
+          },
+          {
+            "name": "roguekid",
+            "date": "07/23/01",
+            "text": "sure email me"
+          }
+        ]
+      },
+      {
+        "type": "classified-ad",
+        "source": "Grants Pass Daily Courier classifieds",
+        "cached": "2001-07-26",
+        "content": "MUSICIAN WANTED\n\nDRUMMER NEEDED for house show band.\nWe play slow-ish rock songs about\nhighways and dogs. Grants Pass area.\nMust have own kit and own truck to\nhaul it. We can't pay you but our\nmom makes really good enchiladas.\nCall [REDACTED] after 6pm."
+      },
+      {
+        "type": "forum-thread",
+        "source": "PNW Underground Board",
+        "thread": "best songs nobody's heard",
+        "cached": "2002-09",
+        "board": "general",
+        "posts": [
+          {
+            "user": "cavejunction_al",
+            "date": "09/14/02 11:30 PM",
+            "text": "horse trailer from grants pass. frontage hymn. it's a brother-sister band and they play to like 12 people in backyards and it's better than most things you'll see at a real venue. the song is just open chords and truth."
+          },
+          {
+            "user": "gutterball",
+            "date": "09/15/02 01:02 AM",
+            "text": "solid rec. i looked up the tab on some angelfire page. it's real simple but it works"
+          },
+          {
+            "user": "pdxfoghorn",
+            "date": "09/15/02 10:18 AM",
+            "text": "grants pass?? you guys are really reaching now"
+          },
+          {
+            "user": "desertrat541",
+            "date": "09/15/02 03:47 PM",
+            "text": "you know what man some of us live out here and make music anyway. not everything good happens in portland. in fact most of the good stuff doesn't"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "permit-burn-backing-fire",
+    "band": "Permit Burn",
+    "song": "Backing Fire",
+    "scene": "pnw",
+    "sceneLabel": "PNW Rural OR",
+    "tags": [
+      "drop-d",
+      "mid-tempo",
+      "medford"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "craterlake_tabs Angelfire page",
+        "cached": "2001-08-04",
+        "content": "PERMIT BURN — Backing Fire\ntabbed by craterlake_tabs\n\npermit burn is from medford. three guys who\nall went to north medford high. they play\nat the daily grind coffee shop on main street\nwhen the owner lets them which is not always.\n\nbacking fire is about actual fire. like\ncontrolled burns in the forest. the guitarist\n(tony) worked on a fire crew one summer and\nwrote the whole album about it. i think it's\nthe best thing to come out of the rogue valley\nmusic-wise.\n\n---------------------------------------------\nBACKING FIRE\n---------------------------------------------\ntuning: D A D G B E (drop D)\n\nverse (let everything ring, play slow):\ne|--------------------------|\nB|---3------3------1--------|\nG|---2------2------0--------|\nD|---0------0------2---0----|\nA|---0------0------3---0----|\nD|---0------0------0---0----|\n\nchorus (build up, strum harder each time):\ne|--------------------------|\nB|---3---3---1---1---3------|\nG|---2---2---0---0---2------|\nD|---0---0---0---0---0---7--|\nA|---0---0---3---3---0---7--|\nD|---0---0---3---3---0---7--|\n\nbridge (this is the part that gets loud):\ne|---------------------------|\nB|---------------------------|\nG|---7---7---5---5---9---9---|\nD|---7---7---5---5---9---9---|\nA|---5---5---3---3---7---7---|\nD|---0---0---0---0---0---0---|\n\ntony does this thing where he slowly turns\nup the gain through the verse so by the\nchorus it's almost distorted but not quite.\ni don't know how to tab that.\n\nLINKS:\n- permit burn demo tape track listing [DEAD]\n- rogue valley shows page [DEAD]\n- tony's fire crew photos [DEAD]"
+      },
+      {
+        "type": "flyer",
+        "cached": "~2001",
+        "source": "scanned from Daily Grind Coffee bulletin board, Medford",
+        "content": "╔═══════════════════════════════════════╗\n║  THE DAILY GRIND PRESENTS             ║\n║  FRIDAY AUG 10 2001                   ║\n║                                       ║\n║  PERMIT BURN                          ║\n║  +                                    ║\n║  BRAKE FADE (ashland)                 ║\n║                                       ║\n║  8pm / free / all ages                ║\n║  coffee is not free                   ║\n║  please don't break anything this     ║\n║  time or rob will stop letting us     ║\n║  do this                              ║\n╚═══════════════════════════════════════╝"
+      },
+      {
+        "type": "email",
+        "cached": "2002-01-15",
+        "source": "recovered mail archive",
+        "content": "From: [REDACTED]@yahoo.com\nTo: [REDACTED]@hotmail.com\nDate: Tue, 15 Jan 2002 20:41:09 -0800\nSubject: demo tape\n\nhey — tony asked me to send this to whoever\nruns that tab page. the demo is done. 5 songs.\nwe dubbed 25 copies and left them at the\ncoffee shop. if you want one come get it\nbefore they're gone which honestly might\ntake a while because medford.\n\nbacking fire sounds way better recorded than\nlive because you can actually hear the quiet\nparts without some dude ordering a latte in\nthe background.\n\n— matt (permit burn bass)"
+      },
+      {
+        "type": "forum-thread",
+        "source": "PNW Underground Board",
+        "thread": "rogue valley bands",
+        "cached": "2002-05",
+        "board": "local scenes",
+        "posts": [
+          {
+            "user": "craterlake_tabs",
+            "date": "05/08/02 09:14 PM",
+            "text": "i know everyone on here only talks about portland and olympia but permit burn from medford is putting out some of the best stuff in the state right now. backing fire is a perfect song. tony's guitar tone on the demo tape is unreal. he uses like a $200 setup and it sounds better than half the bands playing at the crystal ballroom."
+          },
+          {
+            "user": "lithiumgarage",
+            "date": "05/09/02 01:30 AM",
+            "text": "seconded. saw them at the daily grind with brake fade. two rogue valley bands in a coffee shop on a friday and it was better than anything i saw in portland all year. and i go to portland a lot."
+          },
+          {
+            "user": "gutterball",
+            "date": "05/10/02 06:45 PM",
+            "text": "where can i get the demo tape"
+          },
+          {
+            "user": "craterlake_tabs",
+            "date": "05/10/02 10:33 PM",
+            "text": "they left copies at the daily grind in medford. you'd have to go there in person. which means you'd have to go to medford. which i realize is asking a lot."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tideline-jetty-song",
+    "band": "Tideline",
+    "song": "Jetty Song",
+    "scene": "pnw",
+    "sceneLabel": "PNW Rural OR",
+    "tags": [
+      "standard",
+      "slow",
+      "coos-bay",
+      "newport"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "coastkid_tabs Geocities page",
+        "cached": "2002-03-22",
+        "content": "TIDELINE tabs\nby coastkid_tabs\n\ntideline is from coos bay but they play up and\ndown the coast. i've seen them in newport and\nastoria too. they're the only band i know that\ntours highway 101.\n\njetty song is the one everyone knows. they\nclose every show with it. the guitarist\n(megan) plays it on an old harmony acoustic\nthat's held together with duct tape.\n\nthe last time i saw them at the egyptian\ntheatre she played this song and the fog\nwas rolling in through the doors they left\nopen and it was the kind of thing you\ndon't forget.\n\n---------------------------------------------\nJETTY SONG\n---------------------------------------------\ntuning: standard (E A D G B E)\n\n(this is fingerpicked. the pattern is\nthumb on bass note then index-middle\non the high strings. it takes a minute\nto get the feel right.)\n\ne|---0--------0------|---3--------3------|\nB|------0--------0---|------0--------0---|\nG|---0-----0---------|---0-----0---------|\nD|------2--------2---|------0--------0---|\nA|---3--------3------|---2--------2------|\nE|-------------------|---3--------3------|\n\ne|---0--------0------|---2--------2------|\nB|------1--------1---|------3--------3---|\nG|---0-----0---------|---2-----2---------|\nD|------2--------2---|------0--------0---|\nA|---3--------3------|------------------|\nE|-------------------|------------------|\n\nchorus (strum gently):\ne|---0----|---3----|---0----|---2----|\nB|---1----|---0----|---0----|---3----|\nG|---0----|---0----|---0----|---2----|\nD|---2----|---0----|---2----|---0----|\nA|---3----|---2----|---3----|--------|\nE|--------|---3----|--------|--------|\n\nmegan plays the verse on the harmony and\nswitches to electric for the chorus. but\nhonestly it sounds better all acoustic.\n\nthe song is about the north jetty at\ncoos bay and watching the water come in.\nit's not really about anything else."
+      },
+      {
+        "type": "guestbook",
+        "source": "coastkid_tabs guestbook",
+        "cached": "2002-06-30",
+        "entries": [
+          {
+            "name": "foghorn_astoria",
+            "date": "06/22/02",
+            "text": "they played the wet dog cafe in astoria last weekend and it was perfect. megan's voice in that tiny room. come on"
+          },
+          {
+            "name": "coastkid_tabs",
+            "date": "06/23/02",
+            "text": "i drove 3 hours from coos bay to see that show. worth it. this is what we do out here."
+          },
+          {
+            "name": "crabpot_steve",
+            "date": "05/14/02",
+            "text": "the fingerpicking pattern in the verse is right but you should note that she skips the bass note on the D chord sometimes. it's intentional, she told me"
+          },
+          {
+            "name": "anonymous",
+            "date": "04/09/02",
+            "text": "."
+          },
+          {
+            "name": "tillamook_jen",
+            "date": "03/28/02",
+            "text": "please come play in tillamook. we have nothing here. literally nothing. i will host a house show."
+          }
+        ]
+      },
+      {
+        "type": "flyer",
+        "cached": "~2002",
+        "source": "scanned from telephone pole, Coos Bay",
+        "content": "╔══════════════════════════════════════════╗\n║  THE EGYPTIAN THEATRE                    ║\n║  COOS BAY, OREGON                        ║\n║                                          ║\n║  SATURDAY MARCH 16 2002                  ║\n║                                          ║\n║  TIDELINE                                ║\n║  + guests                                ║\n║                                          ║\n║  $3 / ALL AGES / 8pm                     ║\n║  \"leave the doors open if it's warm\"     ║\n║                                          ║\n║  this might be the last egyptian show     ║\n║  for a while. long story. just come.     ║\n╚══════════════════════════════════════════╝"
+      },
+      {
+        "type": "dead-link",
+        "source": "101 Coast Music webring",
+        "cached": "unknown",
+        "content": "TIDELINE — Jetty Song (acoustic version)\n\noriginal page: http://www.geocities.com/tideline_coos/\nstatus: page removed by host\n\nwebring note: \"megan took the page down after\nthe band stopped playing in 2003. she moved\ninland, i think to bend or somewhere. the\nacoustic version of jetty song was on the\npage and it was different from the one\ncoastkid has tabbed — simpler, just the\nfingerpicking part with no chorus. she\nrecorded it on a four-track in her apartment\nand you could hear the ocean through the\nwindow. that mp3 is gone now.\""
+      }
+    ]
+  },
+  {
+    "id": "cinder-cone-pumice-dust",
+    "band": "Cinder Cone",
+    "song": "Pumice Dust",
+    "scene": "pnw",
+    "sceneLabel": "PNW Rural OR",
+    "tags": [
+      "drop-d",
+      "fast",
+      "bend",
+      "redmond"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "desertrat541's Angelfire page",
+        "cached": "2001-10-30",
+        "content": "CINDER CONE — Pumice Dust\ntabbed by desertrat541\n\ncinder cone is the other bend band. they're\nloud. louder than slash pile. they play fast\nand the singer screams a lot. i like them\nbut they're not my favorite. this is the song\npeople request though so here it is.\n\nERROR NOTE: the verse riff might be a half\nstep off. i tabbed this from memory after\nthe sept machine shop show and i had been\ndrinking.\n\n---------------------------------------------\nPUMICE DUST\n---------------------------------------------\ntuning: D A D G B E (drop D)\n\nverse (fast, palm muted):\ne|------------------------------|\nB|------------------------------|\nG|------------------------------|\nD|--5-5-5-5-5-5--3-3-3-3--7-7--|\nA|--5-5-5-5-5-5--3-3-3-3--7-7--|\nD|--5-5-5-5-5-5--3-3-3-3--7-7--|\n\nchorus (open, let ring):\ne|------------------------------|\nB|---3---3---1---1--------------|\nG|---2---2---0---0---4---4------|\nD|---0---0---0---0---4---4---0--|\nA|---0---0---3---3---2---2---0--|\nD|---0---0---3---3---0---0---0--|\n\nthat's pretty much the whole song. it's\nlike a minute forty-five. if you want a\nlonger song listen to slash pile.\n\nLINKS:\n- cinder cone mp3 (geocities) [DEAD]\n- desertrat's main page [LINK]\n- slash pile tabs [LINK]"
+      },
+      {
+        "type": "forum-thread",
+        "source": "PNW Underground Board",
+        "thread": "machine shop shows bend",
+        "cached": "2002-04",
+        "board": "show reviews",
+        "posts": [
+          {
+            "user": "lavarock_bend",
+            "date": "04/02/02 07:19 PM",
+            "text": "cinder cone at the machine shop last saturday was probably the loudest show i've ever been to and i've seen unwound twice. the concrete walls just bounce everything back at you. my ears rang for two days."
+          },
+          {
+            "user": "desertrat541",
+            "date": "04/03/02 10:41 AM",
+            "text": "it was too loud honestly. slash pile opened and you could actually hear the songs. by the time cinder cone went on it was just a wall of noise. which is fine if you're into that but some of us want to hear the actual notes"
+          },
+          {
+            "user": "lavarock_bend",
+            "date": "04/03/02 02:08 PM",
+            "text": "we get it you like slash pile more lol"
+          },
+          {
+            "user": "juniperkreep",
+            "date": "04/04/02 11:55 AM",
+            "text": "both bands are good. we're lucky to have two bands. most towns out here have zero"
+          }
+        ]
+      },
+      {
+        "type": "flyer",
+        "cached": "~2002",
+        "source": "recovered from Kevin's Machine Shop wall photo",
+        "content": "╔══════════════════════════════════════╗\n║  MARCH 30 2002                       ║\n║  KEVIN'S MACHINE SHOP                ║\n║  bend, or // off 27th                ║\n║                                      ║\n║  CINDER CONE                         ║\n║  SLASH PILE                          ║\n║  + a band from redmond               ║\n║    (they finally told us their name  ║\n║     but i can't read the email)      ║\n║                                      ║\n║  $2 / BYOB / starts at dark          ║\n║  WEAR EAR PROTECTION SERIOUSLY       ║\n╚══════════════════════════════════════╝"
+      }
+    ]
+  },
+  {
+    "id": "the-pump-jackets-ontario-mile",
+    "band": "The Pump Jackets",
+    "song": "Ontario Mile",
+    "scene": "pnw",
+    "sceneLabel": "PNW Rural OR",
+    "tags": [
+      "standard",
+      "mid-tempo",
+      "ontario"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "snakeriver_ross's Angelfire page",
+        "cached": "2001-05-17",
+        "content": "THE PUMP JACKETS — Ontario Mile\ntabbed by ross\n\nwe're from ontario oregon which is basically\nidaho but technically not. the pump jackets\nare me and carlos and danny. we played our\nfirst show in danny's garage and our second\nshow at a house in boise because there's\nmore people there.\n\nontario mile is about driving the same mile\nof main street over and over because there's\nnothing else to do on a friday night in\nontario. if you've been here you know.\n\n---------------------------------------------\nONTARIO MILE\n---------------------------------------------\ntuning: standard (E A D G B E)\n\nverse (clean, slight chorus effect if you have it):\ne|---0----0----|---2----2----|---0----0----|---3----3----|\nB|---0----0----|---3----3----|---1----1----|---0----0----|\nG|---0----0----|---2----2----|---0----0----|---0----0----|\nD|---2----2----|---0----0----|---2----2----|---0----0----|\nA|---2----2----|-----------|---3----3----|---2----2----|\nE|---0----0----|-----------|-----------|---3----3----|\n\nchorus:\ne|---3----3----|---0----0----|---2----2----|\nB|---0----0----|---1----1----|---3----3----|\nG|---0----0----|---0----0----|---2----2----|\nD|---0----0----|---2----2----|---0----0----|\nA|---2----2----|---3----3----|------------|\nE|---3----3----|-----------|------------|\n\nit's simple. everything we play is simple.\nwe're not trying to be anything. we just\nwanted to make a song about our town and\nthis is what came out.\n\nvisitors: 0033"
+      },
+      {
+        "type": "guestbook",
+        "source": "snakeriver_ross's guestbook",
+        "cached": "2001-10-08",
+        "entries": [
+          {
+            "name": "boise_kyle",
+            "date": "10/01/01",
+            "text": "you guys should play boise again. the house show in august was really good. better crowd than you'd get in ontario no offense"
+          },
+          {
+            "name": "snakeriver_ross",
+            "date": "10/02/01",
+            "text": "no offense taken. there's like 8 people in ontario who listen to anything besides country"
+          },
+          {
+            "name": "carlos_pj",
+            "date": "09/15/01",
+            "text": "ross the D chord in the chorus is wrong you're playing it as a Dsus4. it's just a regular D. i should know i wrote it"
+          },
+          {
+            "name": "snakeriver_ross",
+            "date": "09/16/01",
+            "text": "ok i'll fix it. you could also just call me instead of posting on my guestbook carlos"
+          }
+        ]
+      },
+      {
+        "type": "classified-ad",
+        "source": "Argus Observer (Ontario) classifieds",
+        "cached": "2001-06-14",
+        "content": "FOR SALE\n\nFENDER SQUIRE STRAT — sunburst, works fine,\nthe input jack is loose but it's not a big\ndeal. $80 OBO. Selling because i got a real\nfender from my uncle. Call [REDACTED].\nOntario area only, i'm not driving to Boise\nfor 80 bucks."
+      }
+    ]
+  },
+  {
+    "id": "carpet-sample-the-walk-through",
+    "band": "Carpet Sample",
+    "song": "The Walk-Through",
+    "scene": "pnw",
+    "sceneLabel": "PNW Suburbs",
+    "tags": [
+      "standard",
+      "mid-tempo",
+      "renton"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "grunge_remnants' Geocities page",
+        "cached": "2001-09-18",
+        "content": "=-= CARPET SAMPLE TABS =-=\nmaintained by grunge_remnants\nlast updated 9/2001\n\ni saw these guys three times in renton. twice at a house\nshow on rainier ave and once at some pizza place that\ndoesnt exist anymore. they were four dudes who all\nworked at the boeing factory in renton and played\nmusic that was way too sad for guys in steel-toed boots.\n\nNOTE: this tab is 95% right. the rhythm guitar does\nsomething different in the second verse but i can never\nhear it on the tape because somebody's truck alarm\ngoes off outside during that part.\n\n---------------------------------------------\nTHE WALK-THROUGH\n---------------------------------------------\ntuning: E A D G B E (standard)\n\nverse:\ne|--0---0---0---0---|--3---3---3---3---|\nB|--1---1---0---0---|--0---0---0---0---|\nG|--0---0---0---0---|--0---0---0---0---|\nD|--2---2---2---2---|--0---0---0---0---|\nA|--3---3---3---3---|--2---2---2---2---|\nE|--x---x---x---x---|--3---3---3---3---|\n  C               Am    G\n\ne|--0---0---0---0---|--1---1---1---1---|\nB|--1---1---1---1---|--1---1---1---1---|\nG|--0---0---0---0---|--2---2---2---2---|\nD|--2---2---2---2---|--3---3---3---3---|\nA|--3---3---3---3---|--3---3---3---3---|\nE|--x---x---x---x---|--1---1---1---1---|\n  C                    F\n\nchorus is just G - F - C - C, palm muted, faster.\nhe hits the open low E between chord changes.\nyou'll hear it.\n\nLINKS:\n- carpet sample mp3s [DEAD]\n- renton house show photo page [DEAD]\n- boeing employee band showcase thing?? [DEAD]"
+      },
+      {
+        "type": "guestbook",
+        "source": "grunge_remnants' guestbook",
+        "cached": "2002-01-14",
+        "entries": [
+          {
+            "name": "bolthead42",
+            "date": "01/02/02",
+            "text": "dude the walk-through is the only good song they wrote. their other stuff was just generic grunge. but this one song had something."
+          },
+          {
+            "name": "rentonkid99",
+            "date": "12/15/01",
+            "text": "mike quit the band and moved to portland. carpet sample is done. heard it from his sister at fred meyer"
+          },
+          {
+            "name": "anonymous",
+            "date": "11/30/01",
+            "text": "cool site"
+          },
+          {
+            "name": "grunge_remnants",
+            "date": "11/22/01",
+            "text": "if anyone has a better recording of this song email me. my tape is dying"
+          },
+          {
+            "name": "punkdad253",
+            "date": "10/05/01",
+            "text": "i worked with the bass player at the renton plant. nice guy. terrible driver."
+          }
+        ]
+      },
+      {
+        "type": "forum-thread",
+        "source": "PNW Underground Board",
+        "thread": "whatever happened to carpet sample?",
+        "cached": "2002-06-11",
+        "board": "local bands",
+        "posts": [
+          {
+            "user": "turbojeff",
+            "date": "05/28/02 09:12 PM",
+            "text": "just found an old tape of carpet sample playing at that house on rainier. anyone remember the address? it was across from that teriyaki place"
+          },
+          {
+            "user": "grunge_remnants",
+            "date": "05/29/02 11:40 AM",
+            "text": "it was on s 3rd st i think. they set up in the garage and the neighbors called the cops by the third song every single time"
+          },
+          {
+            "user": "seattlemike",
+            "date": "05/30/02 03:15 PM",
+            "text": "never heard of them. were they a seattle band?"
+          },
+          {
+            "user": "grunge_remnants",
+            "date": "05/30/02 06:44 PM",
+            "text": "renton. not everything good happened in seattle mike."
+          },
+          {
+            "user": "turbojeff",
+            "date": "06/01/02 12:01 AM",
+            "text": "lol the stranger never reviewed a single renton band in their entire existence. shocking"
+          }
+        ]
+      },
+      {
+        "type": "email",
+        "cached": "2001-07-22",
+        "source": "renton scene archive backup",
+        "content": "From: [REDACTED]@hotmail.com\nTo: grunge_remnants@[REDACTED]\nDate: Sun, 22 Jul 2001 19:08:11 -0700\nSubject: re: carpet sample tab\n\nhey the second verse the rhythm guitar plays\nan Em instead of the Am. i know because i stood\nnext to the amp the whole time and my ear was\nringing for two days after.\n\nalso the chorus is way faster than you wrote it.\nlike almost double time. they speed up live.\n\n— dave"
+      }
+    ]
+  },
+  {
+    "id": "the-offramps-south-320th",
+    "band": "The Offramps",
+    "song": "South 320th",
+    "scene": "pnw",
+    "sceneLabel": "PNW Suburbs",
+    "tags": [
+      "drop-d",
+      "fast",
+      "federal-way"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "fwpunx's Angelfire page",
+        "cached": "2000-11-04",
+        "content": "THE OFFRAMPS — federal way WA\ntabs by fwpunx\n\nif you're from federal way and you play punk\nyou already know these guys. they played at\nsal's pizza on 320th like every other friday\nuntil sal got tired of kids breaking stuff.\n\nthis is their fastest song. under two minutes.\npure federal way energy — like driving too fast\ndown 320th past the target and the taco bell\nand you miss your turn and you don't care.\n\n---------------------------------------------\nSOUTH 320TH\n---------------------------------------------\ntuning: D A D G B E (drop D)\n\nall downstrokes. do not try to alternate pick this.\n\nverse:\nD|--0-0-0-0-0-0---5-5-5-5---3-3-3-3--|\nA|--0-0-0-0-0-0---5-5-5-5---3-3-3-3--|\nD|--0-0-0-0-0-0---5-5-5-5---3-3-3-3--|\n\nchorus:\nD|--7-7-7---5-5-5---3-3-3---0--------|\nA|--7-7-7---5-5-5---3-3-3---0--------|\nD|--7-7-7---5-5-5---3-3-3---0--------|\n\nthats it. thats the whole song. repeat verse\ntwice, chorus, verse, chorus, then hold the\nopen D until the feedback takes over.\n\n[counter: 00087]\n\nLINKS:\n- the offramps on mp3.com [DEAD]\n- sals pizza federal way [DEAD]\n- federal way all ages shows page [DEAD]"
+      },
+      {
+        "type": "flyer",
+        "cached": "~2000",
+        "source": "scanned from Sal's Pizza bulletin board photo",
+        "content": "╔═══════════════════════════════════════════╗\n║  FRIDAY OCT 13 2000                       ║\n║  SAL'S PIZZA — S 320TH ST, FEDERAL WAY    ║\n║                                           ║\n║  THE OFFRAMPS                             ║\n║  CARPET SAMPLE                            ║\n║  some band from auburn (TBD)              ║\n║                                           ║\n║  $2 / ALL AGES / 7PM                      ║\n║  \"don't break anything this time\"         ║\n╚═══════════════════════════════════════════╝"
+      }
+    ]
+  },
+  {
+    "id": "ashtray-paper-mill-morning",
+    "band": "Ashtray",
+    "song": "Paper Mill Morning",
+    "scene": "pnw",
+    "sceneLabel": "PNW Suburbs",
+    "tags": [
+      "drop-d",
+      "slow",
+      "tacoma"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "tdubscene's Angelfire page",
+        "cached": "2001-03-29",
+        "content": "** ASHTRAY TABS **\nby tdubscene - tacoma WA represent\n\nashtray was the best band in tacoma from 1999-2001\nand i will die on that hill. they smelled like the\ntideflats and played like they meant it. this song\nis about working graveyard at the paper mill on\nport of tacoma road and watching the sun come up\nover the pulp digesters. at least thats what\ncorey said it was about. he was pretty drunk.\n\ni think the guitar player was tuned wrong on purpose.\nit sounds out on the recording but live it worked\nsomehow. like the room fixed it.\n\n---------------------------------------------\nPAPER MILL MORNING\n---------------------------------------------\ntuning: D A D G B E (drop D)\ntempo: slow. like really slow. count to 4 between\neach chord change.\n\nverse:\ne|------------------------|\nB|--3---3---1---1---------|\nG|--2---2---0---0---------|\nD|--0---0---0---0---2---2-|\nA|--0---0---x---x---2---2-|\nD|--0---0---3---3---0---0-|\n\nlet everything ring. don't mute anything.\n\nchorus (such as it is):\ne|------------------------|\nB|--1---1---3---3---------|\nG|--0---0---2---2---------|\nD|--0---0---0---0---------|\nA|--x---x---0---0---------|\nD|--3---3---0---0---------|\n\nthen it just goes back to the verse. the whole\nsong is basically two parts. it doesn't need more.\n\ncorey does this thing where he hits harmonics\nat the 12th fret during the last verse but i\ncan't figure out the pattern. it might be random.\n\nLINKS:\n- ashtray live at community world theater [DEAD]\n- tacoma music scene page [DEAD]"
+      },
+      {
+        "type": "guestbook",
+        "source": "tdubscene's guestbook",
+        "cached": "2001-08-19",
+        "entries": [
+          {
+            "name": "hilltop_chris",
+            "date": "08/12/01",
+            "text": "this tab is close but the verse is in 6/8 not 4/4. listen again"
+          },
+          {
+            "name": "tdubscene",
+            "date": "08/13/01",
+            "text": "its definitely 4/4 chris. we've been over this."
+          },
+          {
+            "name": "smokestack_girl",
+            "date": "07/28/01",
+            "text": "corey moved to olympia. ashtray is basically done. this sucks."
+          },
+          {
+            "name": "anonymous",
+            "date": "07/01/01",
+            "text": "tacoma aroma forever"
+          },
+          {
+            "name": "cementshoes",
+            "date": "06/14/01",
+            "text": "saw them at the community world theater opening for some seattle band nobody cared about. ashtray was better. the seattle band had matching t-shirts."
+          }
+        ]
+      },
+      {
+        "type": "classified-ad",
+        "source": "The Weekly Volcano classifieds",
+        "cached": "2001-02-08",
+        "content": "MUSICIANS WANTED\n\nASHTRAY seeks second guitarist. Must own\namp. Must be able to practice in Tacoma\n(hilltop area, near 11th & MLK). We play\nslow. Influences: Codeine, Melvins,\nEarth, the sound of the port at 5am.\nCall Corey [REDACTED] or just show up\nto our next show at the Swiss, Feb 22."
+      }
+    ]
+  },
+  {
+    "id": "backfire-daffodil-drive",
+    "band": "Backfire",
+    "song": "Daffodil Drive",
+    "scene": "pnw",
+    "sceneLabel": "PNW Suburbs",
+    "tags": [
+      "standard",
+      "mid-tempo",
+      "puyallup"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "puya_punk's Tripod page",
+        "cached": "2001-06-12",
+        "content": ">>>BACKFIRE TABS<<<\nby puya_punk\npuyallup WA — the town nobody can pronounce\n\nbackfire played the elks lodge in puyallup maybe\nfive times total. they drove a ford aerostar van\nthat literally backfired every time they parked it.\nthats how they got the name. not complicated.\n\ndaffodil drive is the best thing they ever did.\nits named after the daffodil parade route which\ngoes right through downtown puyallup every april\nand makes it impossible to get anywhere.\n\nthe guitar player jenny was 16 when they started\nand already better than most of the dudes in\nseattle bands. nobody from the stranger ever\ndrove to puyallup to find that out though.\n\n---------------------------------------------\nDAFFODIL DRIVE\n---------------------------------------------\ntuning: E A D G B E (standard)\n\nintro (clean, let it ring):\ne|--0---0-------0---0-------|\nB|--1---1---3---3---1-------|\nG|--0---0---2---2---0-------|\nD|--2---2---0---0---2---0h2-|\nA|--3-------x-------3-------|\nE|----------3---------------|\n  C       G       C\n\nverse (still clean):\ne|--0-------3-------0-------1-------|\nB|--1-------0-------1-------1-------|\nG|--0-------0-------0-------2-------|\nD|--2-------0-------2-------3-------|\nA|--3-------2-------3-------3-------|\nE|--x-------3-------x-------1-------|\n  C       G       C       F\n\nchorus (distortion kicks in here):\ne|--x---x---x---x---x---x---x---x---|\nB|--x---x---x---x---x---x---x---x---|\nG|--5---5---9---9---7---7---5---5----|\nD|--5---5---9---9---7---7---5---5----|\nA|--3---3---7---7---5---5---3---3----|\nE|--x---x---x---x---x---x---x---x---|\n  C       E       D       C\n\nthe chorus has this weird timing where jenny\nholds the E chord an extra beat. i think it's\non purpose. it makes you lean forward.\n\nbridge: just F and G, back and forth, getting\nlouder. she does this pick slide thing into\nthe last chorus that sounds like a car starting.\n\nLINKS:\n- backfire on mp3.com [DEAD]\n- puyallup music scene (lol) [DEAD]\n- jenny's guitar gear page [DEAD]\n- elks lodge show calendar [DEAD]"
+      },
+      {
+        "type": "forum-thread",
+        "source": "PNW Underground Board",
+        "thread": "best band south of seattle?",
+        "cached": "2002-03-08",
+        "board": "local bands",
+        "posts": [
+          {
+            "user": "puya_punk",
+            "date": "02/22/02 07:32 PM",
+            "text": "backfire from puyallup. not even close. jenny could play circles around half the capitol hill scene"
+          },
+          {
+            "user": "meltdown_kid",
+            "date": "02/23/02 09:18 AM",
+            "text": "lmao puyallup"
+          },
+          {
+            "user": "puya_punk",
+            "date": "02/23/02 11:45 AM",
+            "text": "you've never been south of the tacoma dome in your life have you"
+          },
+          {
+            "user": "tdubscene",
+            "date": "02/24/02 06:09 PM",
+            "text": "backfire was good but ashtray was better. tacoma > puyallup. sorry."
+          },
+          {
+            "user": "puya_punk",
+            "date": "02/25/02 08:30 AM",
+            "text": "ashtray played one tempo. ONE tempo. backfire had range"
+          },
+          {
+            "user": "tdubscene",
+            "date": "02/25/02 02:14 PM",
+            "text": "yeah and that tempo was perfect"
+          },
+          {
+            "user": "meltdown_kid",
+            "date": "02/26/02 10:00 AM",
+            "text": "you're both wrong. the best band south of seattle was from federal way and they broke up"
+          }
+        ]
+      },
+      {
+        "type": "flyer",
+        "cached": "~2001",
+        "source": "scanned from Puyallup Elks Lodge bulletin board",
+        "content": "╔═══════════════════════════════════════╗\n║  SAT APRIL 7 2001                     ║\n║  ELKS LODGE — PUYALLUP               ║\n║                                       ║\n║  BACKFIRE                             ║\n║  ASHTRAY                              ║\n║  THE OFFRAMPS                         ║\n║                                       ║\n║  $3 / ALL AGES / DOORS AT 6           ║\n║  parking in back — DO NOT park        ║\n║  in the prior lumber lot              ║\n╚═══════════════════════════════════════╝"
+      },
+      {
+        "type": "email",
+        "cached": "2001-10-30",
+        "source": "puya_punk's inbox backup",
+        "content": "From: [REDACTED]@yahoo.com\nTo: puya_punk@[REDACTED]\nDate: Tue, 30 Oct 2001 16:42:07 -0800\nSubject: backfire show?\n\nhey is backfire playing again or what. jenny\ntold me at school she was thinking about\nquitting to focus on college apps. if she\nleaves theres no band. shes the whole thing.\n\nalso: the tab on your page for daffodil drive\nis mostly right but the bridge is F to G to\nAm, not just F to G. listen to the tape again.\nshe definitely hits an Am before the pick slide.\n\n— rachel"
+      },
+      {
+        "type": "dead-link",
+        "source": "pnw-tabs.com mirror index",
+        "cached": "unknown",
+        "content": "BACKFIRE — full discography tabs\n[PAGE NOT FOUND]\n\nthis page previously contained tabs for:\n- Daffodil Drive\n- Meridian & 176th\n- Van Won't Start\n- Easter Traffic\n\ncached note from mirror: \"jenny's guitar\nparts were too complicated for me to tab\naccurately. if she ever sees these she'll\nbe mad at how wrong they are. sorry jenny.\""
+      }
+    ]
+  },
+  {
+    "id": "dryer-sheet-warehouse-job",
+    "band": "Dryer Sheet",
+    "song": "Warehouse Job",
+    "scene": "pnw",
+    "sceneLabel": "PNW Suburbs",
+    "tags": [
+      "drop-d",
+      "fast",
+      "kent"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "warehouserat's Angelfire page",
+        "cached": "2001-12-02",
+        "content": "DRYER SHEET tabs\nkent WA — the warehouse district of the soul\n\ndryer sheet was three guys from kent who worked\nwarehouse jobs during the day and played fast\npunk at night. this is not a metaphor. they\nliterally loaded trucks at a warehouse on\nwest valley highway.\n\nwarehouse job is two chords for 90 seconds and\nthen it's over. i think the singer is screaming\nabout his shift manager but honestly you can't\ntell. the recording is from a boombox in a\ngarage in kent.\n\n---------------------------------------------\nWAREHOUSE JOB\n---------------------------------------------\ntuning: D A D G B E (drop D)\n\nthe whole song:\nD|--0-0-0-0-0-0-0-0---5-5-5-5-5-5-5-5--|\nA|--0-0-0-0-0-0-0-0---5-5-5-5-5-5-5-5--|\nD|--0-0-0-0-0-0-0-0---5-5-5-5-5-5-5-5--|\n\nthat's it. D5 to G5. over and over. fast as\nyou can. the drummer does something interesting\nbut i'm not a drummer so i can't help you.\n\nat the end the bass player hits a low D and\nholds it while the guitar feeds back.\nit's not good exactly but it's honest.\n\nLINKS:\n- dryer sheet tape trading page [DEAD]"
+      },
+      {
+        "type": "guestbook",
+        "source": "warehouserat's guestbook",
+        "cached": "2002-03-17",
+        "entries": [
+          {
+            "name": "fabordie",
+            "date": "03/01/02",
+            "text": "dryer sheet rules. saw them in a garage in kent. the ceiling was so low the guitar player kept hitting it"
+          },
+          {
+            "name": "warehouserat",
+            "date": "02/19/02",
+            "text": "they played their last show. tony got a day shift finally so no more late practices. band is over"
+          },
+          {
+            "name": "anonymous",
+            "date": "01/15/02",
+            "text": "."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "crosswalk-auburn-supermail",
+    "band": "Crosswalk",
+    "song": "Auburn Supermall",
+    "scene": "pnw",
+    "sceneLabel": "PNW Suburbs",
+    "tags": [
+      "standard",
+      "mid-tempo",
+      "auburn"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "spudgun77's Geocities page",
+        "cached": "2001-04-09",
+        "content": "CROSSWALK tabs — auburn WA\nby spudgun77\n\ncrosswalk was an emo band from auburn. i know\ni know. but they were actually good. not the\ncrying kind of emo, the kind where the guitars\ndo that twinkly thing and the singer talks\ninstead of singing half the time.\n\nthis song is about the auburn supermall which\nis the saddest place on earth on a tuesday\nafternoon. the singer worked at the hot dog\non a stick in the food court. you can hear it\nin the lyrics. desperation.\n\n---------------------------------------------\nAUBURN SUPERMALL\n---------------------------------------------\ntuning: E A D G B E (standard)\ncapo on 2nd fret (all numbers relative to capo)\n\nverse:\ne|--0---0---3---3---0---0---0---0---|\nB|--0---0---3---3---1---1---0---0---|\nG|--0---0---0---0---0---0---0---0---|\nD|--2---2---0---0---2---2---2---2---|\nA|--2---2---x---x---3---3---0---0---|\nE|--0---0---3---3---x---x---x---x---|\n  Em      G       C       Am(no3)\n\nchorus:\ne|--3---3---0---0---0---0---3---3---|\nB|--3---3---0---0---1---1---3---3---|\nG|--0---0---0---0---0---0---0---0---|\nD|--0---0---2---2---2---2---0---0---|\nA|--2---2---2---2---3---3---2---2---|\nE|--3---3---0---0---x---x---3---3---|\n  G       Em      C       G\n\nthe talking part is over the verse chords.\nhe says something about fluorescent lights\nand corn dogs but i can never make out\nthe exact words. the tape is bad.\n\nLINKS:\n- crosswalk demo tape order form [DEAD]\n- auburn music scene webring [DEAD]"
+      },
+      {
+        "type": "forum-thread",
+        "source": "PNW Underground Board",
+        "thread": "auburn has bands?",
+        "cached": "2001-09-22",
+        "board": "local bands",
+        "posts": [
+          {
+            "user": "capitolhillkid",
+            "date": "09/14/01 05:30 PM",
+            "text": "serious question: does auburn have a music scene?"
+          },
+          {
+            "user": "spudgun77",
+            "date": "09/15/01 08:12 AM",
+            "text": "crosswalk is from auburn. they play house shows in the valley. yes it counts."
+          },
+          {
+            "user": "capitolhillkid",
+            "date": "09/15/01 11:45 AM",
+            "text": "house shows in auburn. ok."
+          },
+          {
+            "user": "tdubscene",
+            "date": "09/16/01 07:08 PM",
+            "text": "i drove down from tacoma to see crosswalk in some dude's basement off west main. there were maybe 8 people there and the ceiling was like 6 feet high. it was one of the best shows i've ever been to. the singer was literally sitting on the floor. you could reach out and touch the amp. capitol hill kid you have no idea what you're missing"
+          },
+          {
+            "user": "capitolhillkid",
+            "date": "09/17/01 09:30 AM",
+            "text": "ok fair enough"
+          }
+        ]
+      },
+      {
+        "type": "classified-ad",
+        "source": "The Stranger classifieds",
+        "cached": "2001-05-03",
+        "content": "MUSICIANS\n\nEMO/INDIE band in Auburn seeks drummer\nwho can drive to Auburn. This is the main\nrequirement. Must have car. Must not\nmind parking at the Supermall and walking.\nInfluences: American Football, Cap'n Jazz,\nthe promise ring. We practice in a basement.\nCall [REDACTED] after 6pm."
+      }
+    ]
+  },
+  {
+    "id": "dipswitch-mall-hours",
+    "band": "Dipswitch",
+    "song": "Mall Hours",
+    "scene": "pnw",
+    "sceneLabel": "PNW Suburbs",
+    "tags": [
+      "standard",
+      "fast",
+      "lynnwood"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "nw_punkchord's Angelfire page",
+        "cached": "2002-02-18",
+        "content": "~DIPSWITCH~\nlynnwood WA\ntabs by nw_punkchord\n\ndipswitch played the skate shop on 196th\nin lynnwood until the landlord shut it down.\nthree shows total. this was the second one.\ni taped it on a microcassette recorder i\nborrowed from my mom's office.\n\nthey were sloppy as hell. the bass player\nkept unplugging himself by stepping on\nhis own cable. but mall hours is a great\nsong. it's about working at alderwood mall\nand wanting to burn it down (not literally)\n(i think)\n\n---------------------------------------------\nMALL HOURS\n---------------------------------------------\ntuning: E A D G B E (standard)\n\nverse (palm muted):\ne|--x---x---x---x---x---x---x---x---|\nB|--x---x---x---x---x---x---x---x---|\nG|--x---x---x---x---x---x---x---x---|\nD|--2---2---5---5---7---7---5---5----|\nA|--2---2---5---5---7---7---5---5----|\nE|--0---0---3---3---5---5---3---3----|\n  E       G       A       G\n\nchorus (open, loud):\ne|--0-------0-------0-------3-------|\nB|--0-------1-------1-------3-------|\nG|--1-------2-------0-------0-------|\nD|--2-------2-------2-------0-------|\nA|--2-------0-------3-------2-------|\nE|--0-------x-------x-------3-------|\n  E       A/E     C       G\n\nthe chorus melody is actually really good.\nlike unexpectedly catchy for a band from\na skate shop in lynnwood. the singer had\nthis nasal thing going on like early weezer\nbut meaner.\n\nit just goes verse chorus verse chorus\nand then the guitar player does a solo\nthat's basically just the verse riff\nplayed higher up the neck.\n\nLINKS:\n- dipswitch demo [DEAD]\n- lynnwood skate shop page [DEAD]"
+      },
+      {
+        "type": "flyer",
+        "cached": "~2001",
+        "source": "scanned from lynnwood skate shop wall",
+        "content": "╔══════════════════════════════════════╗\n║  SAT JAN 20 2001                     ║\n║  NORTHGATE SKATE SHOP                ║\n║  196TH & HWY 99 — LYNNWOOD          ║\n║                                      ║\n║  DIPSWITCH                           ║\n║  BOLT CUTTER (everett)               ║\n║  some other band (ask derek)         ║\n║                                      ║\n║  FREE / ALL AGES                     ║\n║  \"bring your own water\"              ║\n║  show starts when derek gets here    ║\n╚══════════════════════════════════════╝"
+      },
+      {
+        "type": "dead-link",
+        "source": "lynnwood-scene.tripod.com mirror",
+        "cached": "unknown",
+        "content": "DIPSWITCH — tabs & info\n[SERVER NOT FOUND]\n\nthis page previously hosted:\n- Mall Hours (guitar + bass tab)\n- Parking Structure C (guitar tab, incomplete)\n- Food Court Funeral (chords only)\n\nnote from archivist: the bass tab for mall\nhours was actually really detailed. whoever\nwrote it cared way more about the bass\nparts than the guitar parts. the bass\nplayer was the best musician in the band\nbut you'd never know it from listening\nbecause he was always unplugged."
+      }
+    ]
+  },
+  {
+    "id": "bolt-cutter-hewitt-avenue",
+    "band": "Bolt Cutter",
+    "song": "Hewitt Avenue",
+    "scene": "pnw",
+    "sceneLabel": "PNW Suburbs",
+    "tags": [
+      "drop-d",
+      "mid-tempo",
+      "everett"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "evrt_hardcore's Angelfire page",
+        "cached": "2001-08-03",
+        "content": "BOLT CUTTER\neverett washington\ntabbed by evrt_hardcore — 8/2001\n\nbolt cutter was the heaviest band in snohomish\ncounty and i don't think that's even debatable.\nthey practiced in a storage unit off evergreen way\nand you could hear them from the burger king\nparking lot.\n\nhewitt avenue is their slow one. it's about\ndriving down hewitt from broadway to the water\nand seeing all the closed storefronts. everett\nwas rough in 2001. still is probably.\n\nthe guitar player ray used a pawn shop les paul\nthrough a solid state crate amp and somehow\nmade it sound like the world was ending.\n\n---------------------------------------------\nHEWITT AVENUE\n---------------------------------------------\ntuning: D A D G B E (drop D)\n\nverse:\ne|------------------------|\nB|--3---3---1---1---------|\nG|--2---2---2---2---------|\nD|--0---0---0---0---------|\nA|--x---x---x---x---------|\nD|--0---0---3---3---------|\n\nhold each chord for a full measure. let the\nopen D drone underneath everything.\n\npre-chorus:\ne|------------------|\nB|--1---3---3-------|\nG|--2---2---0-------|\nD|--2---0---0-------|\nA|--0---x---2-------|\nD|--x---0---0-------|\n\nchorus:\ne|--x---x---x---x---|\nB|--x---x---x---x---|\nG|--7---7---5---5---|\nD|--7---7---5---5---|\nA|--5---5---3---3---|\nD|--0---0---0---0---|\n\nthe trick is to keep that low D ringing\nthrough the whole chorus. ray would just\nlet his thumb hang on the D string while\nbarring with his other fingers. it shouldn't\nwork but it does.\n\nLINKS:\n- bolt cutter on mp3.com [DEAD]\n- everett scene page (geocities) [DEAD]\n- ray's gear list [DEAD]"
+      },
+      {
+        "type": "guestbook",
+        "source": "evrt_hardcore's guestbook",
+        "cached": "2002-05-10",
+        "entries": [
+          {
+            "name": "ray_bc",
+            "date": "04/30/02",
+            "text": "hey this is ray from bolt cutter. this tab is actually really close. the pre-chorus is wrong though, the second chord is a Gsus4 not a G. but honestly close enough."
+          },
+          {
+            "name": "evrt_hardcore",
+            "date": "05/01/02",
+            "text": "RAY!! dude update your mp3.com page. people keep asking me for your songs and i don't have them"
+          },
+          {
+            "name": "storage_unit_steve",
+            "date": "03/22/02",
+            "text": "i manage the storage place on evergreen way. you guys owe me $340 in back rent. this is not a joke. call me."
+          },
+          {
+            "name": "toaster99",
+            "date": "03/15/02",
+            "text": "bolt cutter opened for us in lynnwood once. they were better than us and we all knew it. nobody said anything on the drive home"
+          },
+          {
+            "name": "anonymous",
+            "date": "02/28/02",
+            "text": "everett has bands??"
+          },
+          {
+            "name": "evrt_hardcore",
+            "date": "03/01/02",
+            "text": "everett has bands. next question."
+          }
+        ]
+      },
+      {
+        "type": "email",
+        "cached": "2001-11-14",
+        "source": "evrt_hardcore email backup",
+        "content": "From: [REDACTED]@hotmail.com\nTo: evrt_hardcore@[REDACTED]\nDate: Wed, 14 Nov 2001 20:31:44 -0800\nSubject: bolt cutter show\n\nhey man —\n\nwe're trying to book a show at the vfw in\neverett for december. can bolt cutter play?\nwe need a heavy band to go on second.\nthe vfw guy said no moshing but i don't\nthink he'll actually enforce it.\n\nalso ray left his distortion pedal at our\npractice space last week. it's a boss ds-1\nwith duct tape on it. tell him it's here.\n\n— derek (dipswitch)"
+      },
+      {
+        "type": "flyer",
+        "cached": "~2001",
+        "source": "scanned from Everett VFW hallway",
+        "content": "╔══════════════════════════════════════╗\n║  FRI DEC 7 2001                      ║\n║  VFW POST 2100 — EVERETT             ║\n║                                      ║\n║  BOLT CUTTER                         ║\n║  DIPSWITCH                           ║\n║  SNOWPLOW (enumclaw!!)               ║\n║                                      ║\n║  $4 / ALL AGES / DOORS 7PM           ║\n║  NO MOSHING (haha)                   ║\n║  I-5 exit 192, left on broadway,     ║\n║  right on lombard. we're behind      ║\n║  the furniture store.                ║\n╚══════════════════════════════════════╝"
+      }
+    ]
+  },
+  {
+    "id": "snowplow-plateau-song",
+    "band": "Snowplow",
+    "song": "Plateau Song",
+    "scene": "pnw",
+    "sceneLabel": "PNW Suburbs",
+    "tags": [
+      "standard",
+      "slow",
+      "enumclaw"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "enumclaw_exile's Tripod page",
+        "cached": "2002-04-16",
+        "content": "SNOWPLOW — enumclaw WA\ntabbed by enumclaw_exile\n\nsnowplow was from enumclaw which is basically\nthe last town before mount rainier. there's\nnothing to do there except look at the mountain\nand get in trouble. they were two guys and a\ndrum machine. the drum machine was a casio\nfrom goodwill.\n\nplateau song is about the enumclaw plateau which\nis this big flat farmland thing surrounded by\nmountains on all sides. it sounds like what that\nlooks like if that makes sense.\n\nthey drove 45 minutes up 169 and then took 18\nto I-5 to play shows in everett and tacoma.\nnobody ever came to enumclaw for a show.\nnobody goes to enumclaw for anything.\n\n---------------------------------------------\nPLATEAU SONG\n---------------------------------------------\ntuning: E A D G B E (standard)\n\nthe whole song is fingerpicked. no pick.\n\nverse:\ne|--0-------0-------3-------0-------|\nB|--1---0---1---0---0---0---0---0---|\nG|--0-------0-------0-------2-------|\nD|--2-------2-------0-------2-------|\nA|--3-------3-------2-------0-------|\nE|----------x-------3-------x-------|\n\npick each note separately. slow. like\ncounting fence posts from a car window.\n\nchorus:\ne|--3---0---0-------1---0---0-------|\nB|--0---1---1-------1---1---1-------|\nG|--0---0---0-------2---0---0-------|\nD|--0---2---2-------3---2---2-------|\nA|--2---3---3-------3---3---3-------|\nE|--3---x---x-------1---x---x-------|\n  G   C   C       F   C   C\n\nthe casio drum machine comes in during\nthe chorus. it's on the \"bossa nova\"\nsetting which doesn't really fit but\nit's all they had.\n\nthere is no bridge. it just fades out\nwith the verse pattern and the drum\nmachine keeps going for like 30 seconds\nafter the guitar stops.\n\nLINKS:\n- snowplow tape (mail order only) [DEAD]\n- enumclaw arts page (haha) [DEAD]"
+      },
+      {
+        "type": "forum-thread",
+        "source": "PNW Underground Board",
+        "thread": "most isolated band in WA?",
+        "cached": "2002-07-03",
+        "board": "random",
+        "posts": [
+          {
+            "user": "evrt_hardcore",
+            "date": "06/18/02 04:15 PM",
+            "text": "snowplow from enumclaw. they drove like an hour each way to play shows. two guys and a casio. never complained about it either."
+          },
+          {
+            "user": "olympia_dan",
+            "date": "06/19/02 09:30 AM",
+            "text": "there's a band in forks that's more isolated"
+          },
+          {
+            "user": "evrt_hardcore",
+            "date": "06/19/02 01:22 PM",
+            "text": "there's no band in forks. there's nothing in forks."
+          },
+          {
+            "user": "enumclaw_exile",
+            "date": "06/22/02 11:45 PM",
+            "text": "snowplow quit. dale got a job at the weyerhaeuser mill and can't stay up late anymore. they played maybe 12 shows total. i went to 9 of them. plateau song still makes me feel something i can't explain."
+          },
+          {
+            "user": "meltdown_kid",
+            "date": "06/23/02 08:00 AM",
+            "text": "bump"
+          }
+        ]
+      },
+      {
+        "type": "dead-link",
+        "source": "pnw-tabs.com mirror index",
+        "cached": "unknown",
+        "content": "SNOWPLOW — enumclaw WA\n[PAGE NOT FOUND]\n\nformerly hosted:\n- Plateau Song (full tab with drum machine notation)\n- Clearcut (chords only)\n- 410 to Nowhere (incomplete)\n\nnote: this page was last updated in march 2002.\nthe webmaster's email bounced starting in june 2002.\nenumclaw is a dead zone for internet and for music.\nsomebody should drive out there and check on dale."
+      }
+    ]
+  },
+  {
+    "id": "busy-signal-canyon-park",
+    "band": "Busy Signal",
+    "song": "Canyon Park",
+    "scene": "pnw",
+    "sceneLabel": "PNW Suburbs",
+    "tags": [
+      "standard",
+      "mid-tempo",
+      "bothell"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "405north's Geocities page",
+        "cached": "2001-10-25",
+        "content": "Busy Signal — bothell WA\ntabs by 405north\n\nBusy Signal were four juniors at bothell high who\nplayed indie rock in a garage off canyon park blvd.\nthey weren't punk enough for the tacoma kids and\nthey weren't cool enough for the seattle kids so\nthey just played for each other and their\ngirlfriends basically.\n\nbut canyon park is a legit good song. its about\ngrowing up in bothell which is the most boring\nplace you can grow up near seattle. nothing happens.\nyou drive to the canyon park fred meyer and you\nsit in the parking lot and thats your night.\n\ni'm not being poetic. thats literally what we did.\n\n---------------------------------------------\nCANYON PARK\n---------------------------------------------\ntuning: E A D G B E (standard)\n\nverse:\ne|--3---3---0---0---0---0---3---3---|\nB|--3---3---0---0---1---1---3---3---|\nG|--0---0---0---0---0---0---0---0---|\nD|--0---0---2---2---2---2---0---0---|\nA|--2---2---2---2---3---3---2---2---|\nE|--3---3---0---0---x---x---3---3---|\n  G       Em      C       G\n\nchorus:\ne|--0---0---0---0---3---3---1---1---|\nB|--1---1---0---0---3---3---1---1---|\nG|--0---0---0---0---0---0---2---2---|\nD|--2---2---2---2---0---0---3---3---|\nA|--3---3---2---2---2---2---3---3---|\nE|--x---x---0---0---3---3---1---1---|\n  C       Em      G       F\n\nthe chord change from G to F at the end of\nthe chorus is the whole song. that's where\nit gets you. it drops and your stomach drops.\nmarc sings \"nothing happens here\" and the F\njust hangs there.\n\nbridge: just C and G, slowly, four times.\nthen back to the chorus.\n\nLINKS:\n- Busy Signal mp3s [DEAD]\n- bothell band page [DEAD]\n- marc's xanga [DEAD]"
+      },
+      {
+        "type": "guestbook",
+        "source": "405north's guestbook",
+        "cached": "2002-08-04",
+        "entries": [
+          {
+            "name": "marc_dt",
+            "date": "07/20/02",
+            "text": "hey this is marc from Busy Signal. we broke up. everybody went to different colleges. thanks for making this page it means a lot that somebody bothered"
+          },
+          {
+            "name": "405north",
+            "date": "07/21/02",
+            "text": "marc dude. canyon park is a great song. i don't care if nobody outside bothell heard it. it was real."
+          },
+          {
+            "name": "guitardude22",
+            "date": "06/15/02",
+            "text": "the F chord in the chorus is actually an Fmaj7. listen again. he doesn't fret the high E. it rings open."
+          },
+          {
+            "name": "405north",
+            "date": "06/16/02",
+            "text": "you're right. fixed in my head but i'll update the page when i figure out how to edit it again"
+          },
+          {
+            "name": "anonymous",
+            "date": "05/30/02",
+            "text": "i went to bothell high too and i never heard of this band. were you guys real?"
+          },
+          {
+            "name": "marc_dt",
+            "date": "06/01/02",
+            "text": "we played the talent show junior year and got cut off after two songs. so yeah we were real."
+          }
+        ]
+      },
+      {
+        "type": "email",
+        "cached": "2002-01-09",
+        "source": "405north inbox backup",
+        "content": "From: marc_dt@[REDACTED]\nTo: 405north@[REDACTED]\nDate: Wed, 9 Jan 2002 23:18:52 -0800\nSubject: re: canyon park tab\n\nhey — thanks for tabbing this. a couple things:\n\n1. the Fmaj7 thing is right, i never fret\nthe high E. my hands are too small to reach\nit on an F barre so i just let it ring open\nand it sounded better anyway. happy accident.\n\n2. the bridge is actually C - G - Am - G,\nnot just C and G. the Am is quiet though.\n\n3. we recorded this on a 4-track in kyle's\ngarage in canyon park. the garage door was\nopen and you can hear a car alarm go off\nin the second verse. that's on the tape.\nit's not a mistake. well it is. but it's\npart of it now.\n\nthanks for caring about this at all. nobody\nelse did.\n\n— marc"
+      }
+    ]
+  },
+  {
+    "id": "porch-rot-82nd-and-holgate",
+    "band": "Porch Rot",
+    "song": "82nd & Holgate",
+    "scene": "pnw",
+    "sceneLabel": "PNW Portland",
+    "tags": [
+      "drop-d",
+      "slow",
+      "lents",
+      "portland"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "lents_forever's Geocities page",
+        "cached": "2001-09-18",
+        "content": "~~ PORCH ROT TABS ~~\nmaintained by lents_forever (nate)\nlast updated sept 01 i think\n\nif youve never heard porch rot thats because you\nnever came to lents which is your loss. they played\nmy basement twice and the coffee roasters back room\non foster once. thats it. thats the whole tour.\n\nmatt played a jazzmaster thru a peavey bandit and\nit sounded like a waterlogged car stereo. i mean\nthat as a compliment.\n\n---------------------------------------------\n82nd & HOLGATE\n---------------------------------------------\ntuning: D A D G B E (drop D)\ntempo: slow. like waiting for the 14 bus slow.\n\nmain riff (clean, play it slow or dont play it):\ne|----------------------|----------------------|\nB|---3---3---1---1------|---3---3---1---1------|\nG|---2---2---0---0------|---2---2---0---0------|\nD|---0---0---0---0--2---|---0---0---0---0--2---|\nA|---0---0---0---0--2---|---0---0---0---0--2---|\nD|---0---0---0---0--0---|---0---0---0---0--0---|\n\nverse (add distortion, strum slow):\ne|----------------------|----------------------|\nB|----------------------|----------------------|\nG|---7---7---5---5------|---7---7---2---2------|\nD|---7---7---5---5------|---7---7---2---2------|\nA|---5---5---3---3------|---5---5---0---0------|\nD|---0---0---0---0------|---0---0---0---0------|\n\nhe just plays those two parts the whole song.\ntowards the end the drummer starts hitting harder\nand matt turns up the gain and the whole thing\ngets thick and awful and beautiful. then it just\nstops. no ending. they just stop.\n\nNOTE: i think his guitar was slightly flat the\nwhole time. he said it was standard drop d but\nit sounded flat so maybe he just never tuned.\n\nlinks:\n- porch rot mp3 page [DEAD]\n- nates bike stuff [DEAD]\n- lents neighborhood page [DEAD]"
+      },
+      {
+        "type": "guestbook",
+        "source": "lents_forever's guestbook",
+        "cached": "2002-01-14",
+        "entries": [
+          {
+            "name": "mattfromporchrot",
+            "date": "12/03/01",
+            "text": "nate you got the verse riff wrong. its a D5 to C5 to G5 not what you have. close enough though i guess."
+          },
+          {
+            "name": "lents_forever",
+            "date": "12/04/01",
+            "text": "matt if you want it right tab it yourself. i was working off memory and the tape you gave me sounds like it was recorded inside a coat pocket"
+          },
+          {
+            "name": "bikechain411",
+            "date": "11/19/01",
+            "text": "is this band still playing? i moved to foster-powell and im looking for shows"
+          },
+          {
+            "name": "anonymous",
+            "date": "11/01/01",
+            "text": "cool site check out mine www.[DEAD LINK]"
+          },
+          {
+            "name": "raingutter_pdx",
+            "date": "10/22/01",
+            "text": "dude the show in your basement last month was insane. i biked home in the rain at 1am and it was worth it"
+          }
+        ]
+      },
+      {
+        "type": "forum-thread",
+        "source": "PDX Underground Board",
+        "thread": "bands from SE that nobody talks about",
+        "cached": "2002-04-09",
+        "board": "local music",
+        "posts": [
+          {
+            "user": "greenlinecommuter",
+            "date": "03/28/02 11:22 PM",
+            "text": "ok hear me out. porch rot. they played maybe 6 times total. every time in lents or foster-powell. they never even tried to get a show at the know or anywhere real. and they were better than half the bands that did."
+          },
+          {
+            "user": "tallbikemike",
+            "date": "03/29/02 09:17 AM",
+            "text": "porch rot was fine but they were basically just slowcore with extra steps. like half of SE was doing that in 01"
+          },
+          {
+            "user": "greenlinecommuter",
+            "date": "03/29/02 10:45 AM",
+            "text": "man whatever. 82nd & holgate was a real song. the way it just builds and then stops? name one other lents band that had a song that good."
+          },
+          {
+            "user": "tallbikemike",
+            "date": "03/29/02 02:33 PM",
+            "text": "fair. i cant."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wet-fence-chain-link-season",
+    "band": "Wet Fence",
+    "song": "Chain Link Season",
+    "scene": "pnw",
+    "sceneLabel": "PNW Portland",
+    "tags": [
+      "standard",
+      "mid-tempo",
+      "woodstock",
+      "portland"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "pdxtabs99's Angelfire page",
+        "cached": "2000-11-04",
+        "content": "WET FENCE - Chain Link Season\n\nthis is from their tape they sold at the woodstock\nrecord swap. i think they made like 30 copies.\ni have number 14. the j-card is just a xerox of\na chain link fence. very on brand.\n\ntuning: standard (E A D G B E)\n\nintro/verse:\ne|---0---0---0---0------|---0---0---0---0------|\nB|---1---1---3---3------|---1---1---0---0------|\nG|---0---0---0---0------|---0---0---0---0------|\nD|---2---2---0---0------|---2---2---2---2------|\nA|---3---3---2---2------|---3---3---2---2------|\nE|-------0---3---3------|-------0---0---0------|\n\nchorus (louder, more strummy):\ne|----------------------|----------------------|\nB|----------------------|----------------------|\nG|---5---5---5---5------|---9---9---7---7------|\nD|---5---5---5---5------|---9---9---7---7------|\nA|---3---3---3---3------|---7---7---5---5------|\nE|---3---3---3---3------|---7---7---5---5------|\n\ntheres a part after the second chorus where the\nbass does something cool but i dont play bass so\nsomeone else will have to figure that out.\n\nthey were from woodstock. the singer worked at the\nplaid pantry on 45th i think. i never talked to\nthem i just bought the tape."
+      },
+      {
+        "type": "classified-ad",
+        "source": "Portland Mercury classifieds",
+        "cached": "2001-03-22",
+        "content": "SHOWS THIS WEEK:\n\nFRI 3/23 — Wet Fence, Garage Wolves,\nDead Frequency @ house show, Woodstock\nneighborhood. email for address.\n$2 or a can of food. all ages.\n\"please don't park on Reed's street\nhe already got a note from his landlord\""
+      }
+    ]
+  },
+  {
+    "id": "sump-pump-bus-14",
+    "band": "Sump Pump",
+    "song": "Bus 14",
+    "scene": "pnw",
+    "sceneLabel": "PNW Portland",
+    "tags": [
+      "drop-d",
+      "fast",
+      "foster-powell",
+      "portland"
+    ],
+    "fragments": [
+      {
+        "type": "flyer",
+        "source": "scanned from Foster bar bulletin board",
+        "cached": "~2000",
+        "content": "╔══════════════════════════════════════════╗\n║  SAT NOVEMBER 18 2000                    ║\n║  BACK ROOM — the bar on foster           ║\n║  (you know which one)                    ║\n║                                          ║\n║  SUMP PUMP                               ║\n║  GUTTER OIL                              ║\n║  DRAIN FIELD                             ║\n║                                          ║\n║  $2 / 21+ / 9PM                          ║\n║  \"danny says no moshing this time\"       ║\n╚══════════════════════════════════════════╝"
+      },
+      {
+        "type": "tab-page",
+        "source": "drainpunk503's Tripod page",
+        "cached": "2001-06-23",
+        "content": "SUMP PUMP TABS\n\ni saw these guys like 8 times. they played the back\nroom of that bar on foster every other month basically.\nfast loud dumb in the best way. the guitarist casey\nplayed a Les Paul copy thru a solid state Crate amp\nand it sounded like a lawn mower. again compliment.\n\n---------------------------------------------\nBUS 14\n---------------------------------------------\ntuning: D A D G B E (drop D)\ntempo: fast. punk fast.\n\nmain riff:\ne|------------------------|------------------------|\nB|------------------------|------------------------|\nG|------------------------|------------------------|\nD|---5-5-5-5--7-7-7-7----|---5-5-5-5--3-3-3-3-----|\nA|---5-5-5-5--7-7-7-7----|---5-5-5-5--3-3-3-3-----|\nD|---0-0-0-0--0-0-0-0----|---0-0-0-0--0-0-0-0-----|\n\nchorus:\ne|------------------------|------------------------|\nB|------------------------|------------------------|\nG|---7-7---5-5---3-3------|---7-7---5-5---0--------|\nD|---7-7---5-5---3-3------|---7-7---5-5---0--------|\nA|---5-5---3-3---1-1------|---5-5---3-3---0--------|\nD|---0-0---0-0---0-0------|---0-0---0-0---0--------|\n\nbridge (casey just hits the open low D\nand lets it ring for like 8 bars while\nthe drummer does fills. then they crash\nback into the riff)\n\nthe song is about the 14 bus. if youve ever\nridden the 14 at 11:30pm you already know\nwhat its about. if you havent then i cant\nexplain it to you.\n\n*** VISIT MY OTHER PAGES ***\n- drainpunk503's ska page [DEAD]\n- drainpunk503's weezer tabs [DEAD]"
+      },
+      {
+        "type": "forum-thread",
+        "source": "PDX Underground Board",
+        "thread": "sump pump breakup??",
+        "cached": "2001-10-02",
+        "board": "local bands",
+        "posts": [
+          {
+            "user": "drainpunk503",
+            "date": "09/27/01 04:12 PM",
+            "text": "anyone know if sump pump is done? casey hasnt been at the foster shows and someone said he moved to milwaukie"
+          },
+          {
+            "user": "caseynotdead",
+            "date": "09/28/01 11:45 AM",
+            "text": "i moved to milwaukie. i didnt die. we're not broken up we just dont have a practice space anymore. the one under the overpass got cleared out."
+          },
+          {
+            "user": "drainpunk503",
+            "date": "09/28/01 01:10 PM",
+            "text": "oh sick. well milwaukie isnt that far. you could take the max"
+          },
+          {
+            "user": "caseynotdead",
+            "date": "09/28/01 03:33 PM",
+            "text": "i dont have a car and the max doesnt go to milwaukie yet dude. i take the 33 bus and it takes forever"
+          },
+          {
+            "user": "drainpunk503",
+            "date": "09/28/01 04:02 PM",
+            "text": "bike?"
+          },
+          {
+            "user": "caseynotdead",
+            "date": "09/29/01 09:17 AM",
+            "text": "with a les paul copy and a crate amp on my back? ok"
+          }
+        ]
+      },
+      {
+        "type": "email",
+        "source": "pdxtabs mirror backup",
+        "cached": "2001-08-14",
+        "content": "From: [REDACTED]@yahoo.com\nTo: drainpunk503@[REDACTED]\nDate: Tue, 14 Aug 2001 19:32:11 -0700\nSubject: bus 14 tab correction\n\nhey man — the chorus part is right but the\nmain riff should have the power chords on\nthe 5th and 7th fret not what you have.\nwait thats what you have. ok never mind.\n\nalso casey told me the bridge is supposed\nto be 16 bars not 8 but the drummer always\ncame in early because he couldnt count\nthat high. casey was pissed about it every\ntime.\n\nlater\n— travis"
+      }
+    ]
+  },
+  {
+    "id": "brake-dust-soaked-through",
+    "band": "Brake Dust",
+    "song": "Soaked Through",
+    "scene": "pnw",
+    "sceneLabel": "PNW Portland",
+    "tags": [
+      "open-g",
+      "slow",
+      "montavilla",
+      "portland"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "flannel_ghost's Angelfire page",
+        "cached": "2002-03-11",
+        "content": "BRAKE DUST — Soaked Through\n\nok so brake dust were from montavilla. the singer/\nguitarist karen worked at the video store on stark\nand the bassist was her roommate. they played\nthe know once. ONCE. and it was on a tuesday\nwhen nobody was there. and it was genuinely one\nof the best sets ive ever seen.\n\ntuning: Open G (D G D G B D)\nthis is important. she played in open G for\neverything. if you play this in standard it\nwill sound completely wrong.\n\nverse (just let everything ring):\ne|---0---0---0---0------|---0---0---0---0------|\nB|---0---0---3---3------|---0---0---0---0------|\nG|---0---0---0---0------|---0---0---2---2------|\nD|---0---0---0---0------|---0---0---0---0------|\nA|---0---0---0---0------|---0---0---0---0------|\nE|---0---0---0---0------|---2---2---0---0------|\n\nchorus (slide up to the 5th fret and barre):\ne|---5---5---5---7------|---5---5---0---0------|\nB|---5---5---5---7------|---5---5---0---0------|\nG|---5---5---5---7------|---5---5---0---0------|\nD|---5---5---5---7------|---5---5---0---0------|\nA|---5---5---5---7------|---5---5---0---0------|\nE|---5---5---5---7------|---5---5---0---0------|\n\nthe whole thing is just those two parts. she\nsang about rain i think. its always about rain.\nwe live in portland. it rains. what else are you\ngonna write about.\n\nthe recording i have is from a boombox on the\nfloor at the know. you can hear someone ordering\na drink in the background during the quiet part."
+      },
+      {
+        "type": "guestbook",
+        "source": "flannel_ghost's guestbook",
+        "cached": "2002-06-01",
+        "entries": [
+          {
+            "name": "karen_bd",
+            "date": "04/15/02",
+            "text": "hey this is karen from brake dust. this tab is pretty close. the verse part youre strumming the wrong strings on the second measure but its close enough. thanks for caring enough to tab it. we probably wont play again, lisa moved to olympia"
+          },
+          {
+            "name": "flannel_ghost",
+            "date": "04/16/02",
+            "text": "oh man. sorry to hear that. the know set was really good. hope you keep playing"
+          },
+          {
+            "name": "vhsdropout",
+            "date": "03/22/02",
+            "text": "was this the band at the video store lady's house show? in montavilla? with the christmas lights?"
+          },
+          {
+            "name": "flannel_ghost",
+            "date": "03/23/02",
+            "text": "yeah thats them. she had the whole porch set up with lights and a PA that was way too big for the space. you could hear it from division"
+          }
+        ]
+      },
+      {
+        "type": "dead-link",
+        "source": "PDX bands webring mirror",
+        "cached": "unknown",
+        "content": "[404 — PAGE NOT FOUND]\n\nThe page you requested at\nhttp://www.angelfire.com/or2/brakedust/\nno longer exists.\n\nThis page was part of the Portland Bands\nWebring (37 of 112 sites still active).\n\nCached description: \"brake dust. montavilla\nportland. open G slow songs about weather\nand rent. demos coming soon.\"\n\nDemos never came."
+      }
+    ]
+  },
+  {
+    "id": "the-ginko-drop-yellow-leaf",
+    "band": "The Ginko Drop",
+    "song": "Yellow Leaf",
+    "scene": "pnw",
+    "sceneLabel": "PNW Portland",
+    "tags": [
+      "standard",
+      "mid-tempo",
+      "sellwood",
+      "portland"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "sellwoodscene's Homestead page",
+        "cached": "2001-07-08",
+        "content": "THE GINKO DROP\nyellow leaf\n\nthis band was from sellwood and they spelled\nginkgo wrong on purpose. or maybe by accident.\ni asked and they said \"both\" which is not an\nanswer.\n\nthey played the record store on 13th a few\ntimes. real jangly stuff. the guitarist used\na lot of chorus pedal and the singer had a\nvoice like she just woke up.\n\ntuning: standard\n\nverse:\ne|---0---3---0---3------|---0---3---0---3------|\nB|---1---0---1---0------|---1---3---1---0------|\nG|---0---0---0---0------|---0---0---0---0------|\nD|---2---0---2---0------|---2---2---2---0------|\nA|---3---2---3---2------|---3---3---3---2------|\nE|---0---3---0---3------|---0---0---0---3------|\n\nchorus:\ne|---3---3---0---0------|---3---3---1---1------|\nB|---3---3---1---1------|---3---3---1---1------|\nG|---0---0---0---0------|---0---0---2---2------|\nD|---0---0---2---2------|---0---0---3---3------|\nA|---2---2---3---3------|---2---2---3---3------|\nE|---3---3---0---0------|---3---3---1---1------|\n\nG - C/G - Am - C - G - C/G - F\nthats the chorus chords if you dont read tab.\njust strum them.\n\nthe bridge is just Am and F back and forth.\nfeels like waiting for the bus in october."
+      },
+      {
+        "type": "classified-ad",
+        "source": "Willamette Week classifieds",
+        "cached": "2001-04-05",
+        "content": "DRUMMER WANTED — The Ginko Drop.\nSellwood-area band, jangle pop / quiet\nstuff. Practice in a garage on Tacoma\nSt. Must have own kit. Must be ok with\nquiet parts. Previous drummer was too\nloud. Influences: Galaxie 500, Yo La\nTengo, the rain. Call [REDACTED] after\n6pm or email [REDACTED]@hotmail.com"
+      }
+    ]
+  },
+  {
+    "id": "checkout-lane-sellwood-cut",
+    "band": "Checkout Lane",
+    "song": "Sellwood Cut",
+    "scene": "pnw",
+    "sceneLabel": "PNW Portland",
+    "tags": [
+      "standard",
+      "fast",
+      "sellwood",
+      "milwaukie",
+      "portland"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "thriftbin's Geocities page",
+        "cached": "2001-12-02",
+        "content": "CHECKOUT LANE - Sellwood Cut\n\nthriftbin here. checkout lane was a 3 piece from\nthe sellwood/milwaukie border. you know that weird\nzone where sellwood ends and milwaukie starts and\nnobody really knows which one theyre in? thats\nwhere these guys lived.\n\nthey played fast pop punk but not like blink fast.\nmore like superchunk fast. the guitarist ross\nworked at the goodwill on mcloughlin and the\nbassist derek was at the fred meyer in milwaukie.\nhence the name i think.\n\ntuning: standard (E A D G B E)\n\nverse (palm mute the E and A strings):\ne|--------------------------|------------------------|\nB|--------------------------|------------------------|\nG|--------------------------|------------------------|\nD|---2-2-2-2---5-5-5-5------|---2-2-2-2---7-7-7-7----|\nA|---2-2-2-2---5-5-5-5------|---2-2-2-2---7-7-7-7----|\nE|---0-0-0-0---3-3-3-3------|---0-0-0-0---5-5-5-5----|\n\nchorus (let it ring):\ne|---0-------0-------0------|---0-------0-------0----|\nB|---0-------1-------1------|---0-------0-------1----|\nG|---1-------0-------2------|---1-------0-------2----|\nD|---2-------2-------2------|---2-------2-------2----|\nA|---2-------3-------0------|---2-------2-------0----|\nE|---0-------0--------------|---0-------0------------|\n\nE5 - G5 - E5 - B5 for the verse\nE - C - Am for the chorus\n\ntheres no bridge. the song is like 90 seconds.\nthey played it twice at one show because people\nasked for an encore and they only had 4 songs."
+      },
+      {
+        "type": "guestbook",
+        "source": "thriftbin's guestbook",
+        "cached": "2002-03-19",
+        "entries": [
+          {
+            "name": "ross_cl",
+            "date": "01/08/02",
+            "text": "yo its ross. tab is right. we actually have 5 songs now so we dont have to play one twice anymore lol"
+          },
+          {
+            "name": "derek_bass",
+            "date": "01/09/02",
+            "text": "6 songs ross. you keep forgetting milwaukie express"
+          },
+          {
+            "name": "ross_cl",
+            "date": "01/09/02",
+            "text": "milwaukie express doesnt count you wrote it in 10 minutes"
+          },
+          {
+            "name": "pumicepete",
+            "date": "12/15/01",
+            "text": "saw these guys at the laundromat space on foster. they were the best band on the bill and they went first. classic."
+          },
+          {
+            "name": "anonymous",
+            "date": "12/03/01",
+            "text": "does anyone know where i can download dragonball z episodes"
+          }
+        ]
+      },
+      {
+        "type": "flyer",
+        "source": "scanned from Sellwood telephone pole",
+        "cached": "~2001",
+        "content": "╔════════════════════════════════════════════╗\n║  FRI DEC 7 2001                            ║\n║  THE LAUNDROMAT (DIY space on Foster)      ║\n║                                            ║\n║  CHECKOUT LANE                             ║\n║  RAIN DELAY                                ║\n║  PUDDLE YEAR                               ║\n║                                            ║\n║  $3 / ALL AGES / DOORS 8                   ║\n║  BYOB but be cool about it                 ║\n║  take the 14 bus to 72nd and walk south    ║\n╚════════════════════════════════════════════╝"
+      }
+    ]
+  },
+  {
+    "id": "shed-key-garage-door-opener",
+    "band": "Shed Key",
+    "song": "Garage Door Opener",
+    "scene": "pnw",
+    "sceneLabel": "PNW Portland",
+    "tags": [
+      "drop-d",
+      "mid-tempo",
+      "st-johns",
+      "portland"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "bridgetown_tabs's Angelfire page",
+        "cached": "2001-04-14",
+        "content": "SHED KEY\n\"Garage Door Opener\"\n\nok so shed key was from st johns which is way\nup north and i never went up there because i\nlive in lents and thats like an hour on the bus.\nbut my friend recorded their set at a house show\nand gave me the tape and its really good.\n\ni still think SE bands are better but credit\nwhere its due. these guys could play.\n\ntuning: D A D G B E (drop D)\n\nmain riff:\ne|----------------------------|----------------------------|\nB|---3---3--------3---3-------|---3---3--------1---1-------|\nG|---2---2--------2---2-------|---2---2--------0---0-------|\nD|---0---0---5h7--0---0-------|---0---0---5h7--0---0-------|\nA|---0---0--------0---0-------|---0---0--------0---0-------|\nD|---0---0--------0---0-------|---0---0--------0---0-------|\n\nverse (strum these):\ne|--------------------------|------------------------|\nB|--------------------------|------------------------|\nG|---7---7---7---5---5---5---|---7---7---7---2---2----|\nD|---7---7---7---5---5---5---|---7---7---7---2---2----|\nA|---5---5---5---3---3---3---|---5---5---5---0---0----|\nD|---0---0---0---0---0---0---|---0---0---0---0---0----|\n\nchorus:\ne|--------------------------|------------------------|\nB|---3---3---3---3---3---3---|---3---3---1---1---1----|\nG|---2---2---2---0---0---0---|---2---2---0---0---0----|\nD|---0---0---0---0---0---0---|---0---0---2---2---2----|\nA|---0---0---0---x---x---x---|---0---0---3---3---3----|\nD|---0---0---0---5---5---5---|---0---0---x---x---x----|\n\nbridge: just the open D string ringing while\nthe bassist plays something melodic. honestly\nthe bassist was the best musician in this band.\nthe guitarist knew like 4 things but he did\nthem well.\n\nthe song is 5 minutes which is long for them.\nmost of their stuff was around 3.\n\nNOTE: the hammer-on in the main riff (5h7) might\nactually be a slide (5/7). the tape is not clear.\ni went with hammer-on because it sounds better\nto me but i could be wrong."
+      },
+      {
+        "type": "forum-thread",
+        "source": "PDX Underground Board",
+        "thread": "north portland bands",
+        "cached": "2001-09-22",
+        "board": "local bands",
+        "posts": [
+          {
+            "user": "stjohnsdave",
+            "date": "09/15/01 07:33 PM",
+            "text": "why does nobody on this board ever talk about north portland bands? its all SE this and SE that. shed key has been playing st johns house shows for a year and theyre great and nobody south of killingsworth has heard of them"
+          },
+          {
+            "user": "lents_forever",
+            "date": "09/16/01 10:14 AM",
+            "text": "because st johns is far away. i dont have a car. the bus takes forever. its not personal its geography"
+          },
+          {
+            "user": "stjohnsdave",
+            "date": "09/16/01 11:02 AM",
+            "text": "ride a bike"
+          },
+          {
+            "user": "lents_forever",
+            "date": "09/16/01 01:45 PM",
+            "text": "i DO ride a bike. its still far. and the st johns bridge scares me at night"
+          },
+          {
+            "user": "bridgetown_tabs",
+            "date": "09/17/01 08:55 AM",
+            "text": "i just posted a shed key tab on my page. garage door opener. theyre legit"
+          },
+          {
+            "user": "stjohnsdave",
+            "date": "09/17/01 09:12 AM",
+            "text": "THANK YOU"
+          }
+        ]
+      },
+      {
+        "type": "email",
+        "source": "pdxtabs mirror backup",
+        "cached": "2001-05-30",
+        "content": "From: [REDACTED]@excite.com\nTo: bridgetown_tabs@[REDACTED]\nDate: Wed, 30 May 2001 15:21:44 -0700\nSubject: shed key tab\n\nhey i play in shed key (im the bassist tony).\nthanks for tabbing garage door opener. nobody\nhas ever tabbed one of our songs before.\n\nthe main riff is right. the verse is right.\nthe chorus is close — the second chord should\nbe a C5 not whatever youve got. but close enough.\n\nalso the bridge isnt just open D. theres a\nmelody on the D and G strings but its real quiet\nand i think the tape just didnt pick it up.\n\nanyway thanks man. feel free to come to a show\nif you can make it up to st johns. we play every\nother saturday at dave's house on lombard.\n\n— tony"
+      },
+      {
+        "type": "flyer",
+        "source": "scanned from Cathedral Park community board",
+        "cached": "~2001",
+        "content": "╔══════════════════════════════════════════╗\n║  SAT JUNE 2 2001                         ║\n║  DAVE'S HOUSE — on Lombard near the      ║\n║  bridge. you'll see the cars.            ║\n║                                          ║\n║  SHED KEY                                ║\n║  FURNACE PARTY                           ║\n║  40oz CATHEDRAL                          ║\n║                                          ║\n║  FREE / ALL AGES                         ║\n║  bring a coat it might rain (it will)    ║\n╚══════════════════════════════════════════╝"
+      },
+      {
+        "type": "dead-link",
+        "source": "angelfire webring cache",
+        "cached": "unknown",
+        "content": "[PAGE EXPIRED]\n\nhttp://www.angelfire.com/or3/shedkey\n\nPage title was: \"SHED KEY — st johns\nportlands best kept secret\"\n\nThe page had a photo of the St. Johns\nBridge at night and a setlist taped to\na wall. 7 songs. No recordings were\never linked.\n\nThe counter read 00089."
+      }
+    ]
+  },
+  {
+    "id": "puddle-year-powell-fog",
+    "band": "Puddle Year",
+    "song": "Powell Fog",
+    "scene": "pnw",
+    "sceneLabel": "PNW Portland",
+    "tags": [
+      "standard",
+      "slow",
+      "foster-powell",
+      "portland"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "raingutter_pdx's Geocities page",
+        "cached": "2002-02-18",
+        "content": "PUDDLE YEAR — Powell Fog\n\npuddle year were a foster-powell duo. just guitar\nand drums. the guitar player jesse used a ton of\nreverb and delay and played real sparse and the\ndrummer al barely hit the drums. like he was\nafraid of waking someone up.\n\nthey played the laundromat DIY space and a couple\nbasement shows. once they opened for checkout lane\nwhich was funny because checkout lane played fast\nand puddle year played like they were underwater.\n\ntuning: standard\ncapo 2nd fret (so everything sounds a whole\nstep higher than written. just put a capo on.)\n\nverse:\ne|---0-------0-------0------|---0-------0-------0----|\nB|---0-------1-------0------|---0-------1-------0----|\nG|---0-------0-------2------|---0-------0-------2----|\nD|---2-------2-------2------|---2-------2-------2----|\nA|---2-------3-------0------|---2-------3-------0----|\nE|---0-----------------------|---0--------------------|\n\nthats it. thats the whole guitar part. Em - C - Am.\nover and over. for like 6 minutes. and it never gets\nboring because jesse does these little volume swells\nwith his pinky on the volume knob and the reverb\nmakes everything sound like its happening in a\nparking garage.\n\nhe said there was a second part but they never\nplayed it live because al forgot how it went."
+      },
+      {
+        "type": "guestbook",
+        "source": "raingutter_pdx's guestbook",
+        "cached": "2002-05-11",
+        "entries": [
+          {
+            "name": "jesse_py",
+            "date": "03/08/02",
+            "text": "tab is right. and yeah al forgot the second part. we practiced it once and he just looked at me and said 'i cant remember any of that' and we never tried again"
+          },
+          {
+            "name": "pumicepete",
+            "date": "02/25/02",
+            "text": "i saw puddle year at the laundromat and i literally fell asleep. not as an insult. it was so peaceful i fell asleep on the floor. best nap of my life"
+          },
+          {
+            "name": "bikechain411",
+            "date": "02/20/02",
+            "text": "powell fog is such a good name for a song. you bike down powell at 7am in november and its exactly that"
+          }
+        ]
+      },
+      {
+        "type": "email",
+        "source": "pdxtabs mirror backup",
+        "cached": "2002-07-03",
+        "content": "From: [REDACTED]@hotmail.com\nTo: raingutter_pdx@[REDACTED]\nDate: Wed, 3 Jul 2002 10:44:18 -0700\nSubject: puddle year is done\n\nhey — this is jesse. just wanted to let you\nknow puddle year is done. al moved to bend\nfor a job and im staying in foster-powell.\ni cant afford a car and im not biking to\nbend so thats that.\n\nthanks for tabbing powell fog. nobody else\never did. we played maybe 12 shows total\nand i think you were at half of them.\n\nthe rent on our practice space went up $200\nthis month anyway so it was probably time.\n\n— jesse"
+      }
+    ]
+  },
+  {
+    "id": "foster-split-laundromat-side",
+    "band": "Foster Split",
+    "song": "Laundromat Side",
+    "scene": "pnw",
+    "sceneLabel": "PNW Portland",
+    "tags": [
+      "drop-d",
+      "mid-tempo",
+      "lents",
+      "foster-powell",
+      "portland"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "lents_forever's Geocities page",
+        "cached": "2001-10-30",
+        "content": "FOSTER SPLIT - Laundromat Side\n\nfoster split was me (nate) and my roommate eric.\ni played guitar and eric played bass thru a guitar\namp because we couldnt afford a bass amp. we\npracticed in our kitchen in lents and played the\nlaundromat space twice and a house show in\nwoodstock once.\n\nim putting this tab up because nobody else will.\nand because i wrote the song so its definitely right.\n\ntuning: D A D G B E (drop D)\n\nverse:\ne|---0---0---0---0------|---0---0---0---0------|\nB|---3---3---1---1------|---0---0---3---3------|\nG|---2---2---0---0------|---0---0---2---2------|\nD|---0---0---0---0------|---2---2---0---0------|\nA|---0---0---0---0------|---2---2---0---0------|\nD|---0---0---0---0------|---0---0---0---0------|\n\nchorus (turn up. strum hard):\ne|--------------------------|------------------------|\nB|--------------------------|------------------------|\nG|---7---7---5---5---2---2---|---7---7---5---5---7----|\nD|---7---7---5---5---2---2---|---7---7---5---5---7----|\nA|---5---5---3---3---0---0---|---5---5---3---3---5----|\nD|---0---0---0---0---0---0---|---0---0---0---0---0----|\n\nbridge: just me hitting the low D and letting it\nfeedback while eric played a bass line that was\nhonestly better than anything i wrote. he should\nhave been in a better band.\n\nthe song is about the laundromat space closing.\nwhich is ironic because we played there the\nnight before it closed and didn't know it was\nclosing. we found out the next week when we\nshowed up and there was a padlock on the door.\n\nthat was our last show.\n\n*** LINKS ***\n- nate's bike route maps [DEAD]\n- eric's record reviews [DEAD]\n- lents neighborhood association [DEAD]"
+      },
+      {
+        "type": "forum-thread",
+        "source": "PDX Underground Board",
+        "thread": "the laundromat space is closed???",
+        "cached": "2001-11-18",
+        "board": "venues",
+        "posts": [
+          {
+            "user": "drainpunk503",
+            "date": "11/10/01 02:18 PM",
+            "text": "went to the laundromat space on foster for the show tonight and its padlocked. does anyone know what happened"
+          },
+          {
+            "user": "lents_forever",
+            "date": "11/10/01 03:45 PM",
+            "text": "yeah its done. landlord (actual landlord not the band) sold the building. gonna be condos or something probably. we played there last week and had no idea"
+          },
+          {
+            "user": "bikechain411",
+            "date": "11/10/01 05:12 PM",
+            "text": "man. that was the only all ages spot on that side of foster. where are we supposed to play now"
+          },
+          {
+            "user": "lents_forever",
+            "date": "11/10/01 06:33 PM",
+            "text": "basements i guess. same as always. foster-powell has been losing spaces for like two years. my rent went up $150 this year. give it 10 years and none of us will be able to live here"
+          },
+          {
+            "user": "pumicepete",
+            "date": "11/11/01 09:07 AM",
+            "text": "can we just find another space? theres gotta be another empty storefront somewhere on foster"
+          },
+          {
+            "user": "lents_forever",
+            "date": "11/11/01 10:45 AM",
+            "text": "sure if you have first and last months rent and a deposit. which none of us do because we're in bands"
+          }
+        ]
+      },
+      {
+        "type": "dead-link",
+        "source": "PDX DIY venues archive",
+        "cached": "unknown",
+        "content": "[SITE REMOVED]\n\nThe Laundromat — DIY all-ages space\n7200 block of SE Foster Rd, Portland OR\nOperated ~1999-2001\n\nA former coin laundry converted to a\nshow space. Capacity maybe 40 people.\nNo stage. One outlet that worked.\nSmelled like detergent and mildew.\n\nKnown shows hosted: ~30-40\nBands that played there: too many to count,\nnone of them famous\n\nClosed November 2001 when the building\nwas sold. Currently a yoga studio."
+      }
+    ]
+  },
+  {
+    "id": "milk-crate-clackamas-river-road",
+    "band": "Milk Crate",
+    "song": "Clackamas River Road",
+    "scene": "pnw",
+    "sceneLabel": "PNW Portland",
+    "tags": [
+      "standard",
+      "slow",
+      "lake-oswego",
+      "clackamas",
+      "portland"
+    ],
+    "fragments": [
+      {
+        "type": "tab-page",
+        "source": "tapetrader_pdx's Homestead page",
+        "cached": "2002-01-22",
+        "content": "MILK CRATE\nClackamas River Road\n\nok so milk crate. this is a weird one. the\nguitarist dylan was from lake oswego which\nnormally means i wouldnt give them the time\nof day. lake oswego kids playing punk is like\na golden retriever trying to be a wolf.\n\nBUT. dylan moved to an apartment in clackamas\nafter graduating and started playing with two\nguys from estacada who worked at the lumber\nyard. and the songs were actually good. like\ngenuinely good. clackamas river road is about\ndriving 224 towards estacada at night which\ni guess is their version of our powell blvd.\n\ntuning: standard\n\nintro (clean, picked slow):\ne|---0---0---3---3------|---0---0---2---2------|\nB|---1---1---0---0------|---1---1---3---3------|\nG|---0---0---0---0------|---0---0---2---2------|\nD|---2---2---0---0------|---2---2---0---0------|\nA|---3---3---2---2------|---3---3---0---0------|\nE|---0---0---3---3------|---0---0---2---2------|\n\nverse (same chords, strum):\nC - G - C - D\n\nchorus (get louder):\ne|---3---3---0---0------|---2---2---0---0------|\nB|---3---3---1---1------|---3---3---1---1------|\nG|---0---0---0---0------|---2---2---0---0------|\nD|---0---0---2---2------|---0---0---2---2------|\nA|---2---2---3---3------|---0---0---3---3------|\nE|---3---3---0---0------|---2---2---0---0------|\n\nG - C - D - C\n\noutro: back to the intro riff, slow down at\nthe end until its just the open C chord ringing.\n\nthe recording i have is from a show at someones\ngarage in clackamas. you can hear the 205 in\nthe background the whole time. its kind of perfect.\n\nNOTE: dylan played a takamine acoustic thru a\nPA speaker which is not how youre supposed to\ndo it but it sounded fine. the estacada guys\nhad real gear. logging money i guess."
+      },
+      {
+        "type": "guestbook",
+        "source": "tapetrader_pdx's guestbook",
+        "cached": "2002-04-30",
+        "entries": [
+          {
+            "name": "dylan_mc",
+            "date": "03/12/02",
+            "text": "hey this is dylan. im not from lake oswego anymore ok. i moved to clackamas. that counts as earning it right"
+          },
+          {
+            "name": "tapetrader_pdx",
+            "date": "03/13/02",
+            "text": "moving to clackamas is not the same as being from clackamas but you're getting there. tab correction?"
+          },
+          {
+            "name": "dylan_mc",
+            "date": "03/14/02",
+            "text": "nah the tab is right. thanks for putting it up. my mom found the page and sent it to my aunt which is embarrassing but also kind of cool"
+          },
+          {
+            "name": "lumberyard_rick",
+            "date": "02/28/02",
+            "text": "this is rick (bass). the show in the garage was freezing. my fingers were numb by the third song. thats why the bass sounds weird at the end. not because im bad. because it was 38 degrees in a garage in clackamas in january"
+          },
+          {
+            "name": "anonymous",
+            "date": "02/15/02",
+            "text": "i was looking for a milk crate for my records and google sent me here. good songs tho"
+          }
+        ]
+      },
+      {
+        "type": "forum-thread",
+        "source": "PDX Underground Board",
+        "thread": "suburb bands that dont suck",
+        "cached": "2002-06-14",
+        "board": "local bands",
+        "posts": [
+          {
+            "user": "lents_forever",
+            "date": "06/01/02 04:22 PM",
+            "text": "ok fine. milk crate. the guitarist is from lake oswego and i have opinions about that. but the estacada guys are legit and clackamas river road is a genuinely beautiful song. i biked out to clackamas for a show and it took 45 minutes and the show was in a garage and it was freezing and it was worth it."
+          },
+          {
+            "user": "tallbikemike",
+            "date": "06/02/02 08:15 AM",
+            "text": "you biked to clackamas? on 82nd? at night? youre insane"
+          },
+          {
+            "user": "lents_forever",
+            "date": "06/02/02 09:30 AM",
+            "text": "i took the springwater corridor most of the way actually. its not bad if you have a light. which i do because i bike everywhere. this is well established."
+          },
+          {
+            "user": "greenlinecommuter",
+            "date": "06/03/02 11:12 AM",
+            "text": "wait the lake oswego kid. really. nate you hate west side people"
+          },
+          {
+            "user": "lents_forever",
+            "date": "06/03/02 01:15 PM",
+            "text": "i contain multitudes. also he lives in clackamas now. thats basically SE. its east of 205 at least."
+          }
+        ]
+      },
+      {
+        "type": "email",
+        "source": "pdxtabs mirror backup",
+        "cached": "2002-09-15",
+        "content": "From: [REDACTED]@yahoo.com\nTo: tapetrader_pdx@[REDACTED]\nDate: Sun, 15 Sep 2002 14:07:33 -0700\nSubject: milk crate update\n\nhey — dylan here. just wanted to let you know\nwe recorded 4 songs at ricks house in estacada.\nits just a boombox recording but you can hear\neverything. ill send you the tape if you want.\n\nalso were playing a house show in sandy next\nmonth which is even further out than clackamas\nso probably nobody from portland will come.\nbut the sandy kids are cool. theres like 5\nof them who come to every show.\n\nif the lents bike guy wants to come its about\n90 minutes on the springwater trail. tell him\nto bring a rain jacket.\n\n— dylan"
       }
     ]
   }

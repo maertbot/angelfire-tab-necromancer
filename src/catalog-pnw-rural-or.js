@@ -269,52 +269,6 @@ export const entries = [
     ]
   },
   {
-    "id": "stock-pond-round-up-week",
-    "band": "Stock Pond",
-    "song": "Round-Up Week",
-    "scene": "pnw",
-    "sceneLabel": "PNW Rural OR",
-    "tags": ["standard", "mid-tempo", "pendleton"],
-    "fragments": [
-      {
-        "type": "classified-ad",
-        "source": "East Oregonian classifieds",
-        "cached": "2000-09-07",
-        "content": "MUSICIANS / ENTERTAINMENT\n\nSTOCK POND — playing the back room at the\nRainbow Bar, Sat Sept 9. After the rodeo.\n9pm. 21+. Originals + covers (no country\ncovers, we promise). $1 PBRs til 10."
-      },
-      {
-        "type": "forum-thread",
-        "source": "PNW Underground Board",
-        "thread": "eastern oregon??",
-        "cached": "2001-08",
-        "board": "local scenes",
-        "posts": [
-          {
-            "user": "wheatfield_99",
-            "date": "08/04/01 06:18 PM",
-            "text": "stock pond from pendleton put out a tape last year. 4 songs. round-up week is the best one, it's about how the town goes insane for a week and then goes back to being dead. the chorus is just \"seven days and then it's over\" repeated. it's kind of perfect."
-          },
-          {
-            "user": "portlandscene",
-            "date": "08/05/01 11:42 AM",
-            "text": "pendleton has bands? genuinely asking"
-          },
-          {
-            "user": "wheatfield_99",
-            "date": "08/05/01 04:33 PM",
-            "text": "portland has manners? genuinely asking"
-          },
-          {
-            "user": "mod_sarah",
-            "date": "08/06/01 09:00 AM",
-            "text": "play nice",
-            "isAdmin": true
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "the-snowgates-grade-school-parking-lot",
     "band": "The Snowgates",
     "song": "Grade School Parking Lot",
@@ -476,6 +430,35 @@ export const entries = [
         "cached": "2002-01-15",
         "source": "recovered mail archive",
         "content": "From: [REDACTED]@yahoo.com\nTo: [REDACTED]@hotmail.com\nDate: Tue, 15 Jan 2002 20:41:09 -0800\nSubject: demo tape\n\nhey — tony asked me to send this to whoever\nruns that tab page. the demo is done. 5 songs.\nwe dubbed 25 copies and left them at the\ncoffee shop. if you want one come get it\nbefore they're gone which honestly might\ntake a while because medford.\n\nbacking fire sounds way better recorded than\nlive because you can actually hear the quiet\nparts without some dude ordering a latte in\nthe background.\n\n— matt (permit burn bass)"
+      },
+      {
+        "type": "forum-thread",
+        "source": "PNW Underground Board",
+        "thread": "rogue valley bands",
+        "cached": "2002-05",
+        "board": "local scenes",
+        "posts": [
+          {
+            "user": "craterlake_tabs",
+            "date": "05/08/02 09:14 PM",
+            "text": "i know everyone on here only talks about portland and olympia but permit burn from medford is putting out some of the best stuff in the state right now. backing fire is a perfect song. tony's guitar tone on the demo tape is unreal. he uses like a $200 setup and it sounds better than half the bands playing at the crystal ballroom."
+          },
+          {
+            "user": "lithiumgarage",
+            "date": "05/09/02 01:30 AM",
+            "text": "seconded. saw them at the daily grind with brake fade. two rogue valley bands in a coffee shop on a friday and it was better than anything i saw in portland all year. and i go to portland a lot."
+          },
+          {
+            "user": "gutterball",
+            "date": "05/10/02 06:45 PM",
+            "text": "where can i get the demo tape"
+          },
+          {
+            "user": "craterlake_tabs",
+            "date": "05/10/02 10:33 PM",
+            "text": "they left copies at the daily grind in medford. you'd have to go there in person. which means you'd have to go to medford. which i realize is asking a lot."
+          }
+        ]
       }
     ]
   },
