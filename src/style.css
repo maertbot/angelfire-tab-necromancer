@@ -89,6 +89,32 @@ body::after {
   line-height: 1.5;
 }
 
+/* Site intro */
+.site-intro {
+  margin-top: 20px;
+  max-width: 640px;
+  color: rgba(200, 185, 160, 0.7);
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+.site-intro p {
+  margin-bottom: 12px;
+}
+.site-intro p:last-child {
+  margin-bottom: 0;
+}
+.site-intro-riff {
+  color: rgba(200, 185, 160, 0.6);
+  border-left: 2px solid rgba(180, 160, 120, 0.2);
+  padding-left: 14px;
+  margin-top: 14px;
+  font-size: 0.9rem;
+}
+.site-intro-riff strong {
+  color: rgba(220, 200, 160, 0.85);
+}
+
 /* Entry ways */
 .entry-ways {
   display: flex;

@@ -371,7 +371,11 @@ app.innerHTML = `
 <div class="shell">
   <header class="site-header">
     <h1>Local Tab Archive <span>v0.1</span></h1>
-    <p class="tagline">One person's attempt to preserve every guitar tab page that died with its free hosting account. This is what survived.</p>
+    <div class="site-intro">
+      <p>Between roughly 1998 and 2004, thousands of people hand-typed guitar tabs onto free hosting pages — Angelfire, GeoCities, Tripod, cjb.net — for bands that never got signed, never got famous, and in most cases never played more than a dozen shows. When those services shut down, the tabs went with them. Most of this stuff is just gone.</p>
+      <p>I've spent the last few years pulling what I can out of the Wayback Machine, old forum archives, cached guestbooks, dead mailing lists, and a box of printed-out emails I probably should have thrown away. I don't have everything. I don't have most of it. But what's here is real — actual tabs, actual forum arguments, actual guestbook entries from people who were there. NC and Pacific Northwest scenes mostly, because that's what I know.</p>
+      <p class="site-intro-riff">There's also a thing I built — you can <strong>hum a riff</strong> into your mic or upload a recording, and the analyzer will try to match it against the archive. These songs haven't been heard in twenty years. Some of them only exist in the muscle memory of the three people who were at that show. If you've got one stuck in your head and you can hum even a few bars, it's worth a try.</p>
+    </div>
     <div class="entry-ways">
       <button class="entry-way-btn active" id="browseBtn">Browse the catalog</button>
       <button class="entry-way-btn" id="riffBtn">Hum a riff</button>
